@@ -2,7 +2,8 @@
 <otrs_package version="1.0">
     <Name>ITSMChangeManagement</Name>
     <!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
-    <Version>6.3.1</Version>
+    <Version>6.3.3</Version>
+    <ChangeLog Version="6.3.3" Date="2022-04-28 10:12:21 +0200">Release for Znuny 6.3.3.</ChangeLog>
     <ChangeLog Version="6.3.1" Date="2022-03-18 15:49:01 +0100">Ported to 6.3.</ChangeLog>
     <Framework>6.3.x</Framework>
     <PackageRequired Version="6.3.1">ITSMCore</PackageRequired>
