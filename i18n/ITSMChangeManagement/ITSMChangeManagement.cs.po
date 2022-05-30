@@ -5,23 +5,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
-"PO-Revision-Date: 2019-04-09 12:23+0000\n"
-"Last-Translator: Udo Bretz\n"
-"Language-Team: Czech (http://www.transifex.com/otrs/OTRS/language/cs/)\n"
+"PO-Revision-Date: 2022-04-27 09:09+0000\n"
+"Last-Translator: YOURWiFi <wifi@yourwifi.cz>\n"
+"Language-Team: Czech <https://translations.znuny.org/projects/znuny/"
+"itsmchangemanagement/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Category ↔ Impact ↔ Priority"
-msgstr ""
+msgstr "Kategorie ↔ Dopad ↔ Priorita"
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Manage the priority result of combinating Category ↔ Impact."
-msgstr ""
+msgstr "Spravovat prioritní výsledek kombinace Kategorie ↔ Dopad."
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Priority allocation"
@@ -37,15 +39,15 @@ msgstr "Přidat notifikační pravidlo"
 
 #. Template: AdminITSMChangeNotification
 msgid "Edit Notification Rule"
-msgstr ""
+msgstr "Upravit notifikační pravidlo"
 
 #. Template: AdminITSMChangeNotification
 msgid "A notification should have a name!"
-msgstr "Oznámení by mělo mít jméno"
+msgstr "Notifikace by měla mít název!"
 
 #. Template: AdminITSMChangeNotification
 msgid "Name is required."
-msgstr "Jméno je požadováno"
+msgstr "Název je povinný."
 
 #. Template: AdminITSMStateMachine
 msgid "Admin State Machine"
@@ -53,19 +55,19 @@ msgstr ""
 
 #. Template: AdminITSMStateMachine
 msgid "Select a catalog class!"
-msgstr "Vyberat třídu katalogu"
+msgstr "Vyber třídu katalogu!"
 
 #. Template: AdminITSMStateMachine
 msgid "A catalog class is required!"
-msgstr "Třída katalogu je požadována"
+msgstr "Třída katalogu je povinná!"
 
 #. Template: AdminITSMStateMachine
 msgid "Add a state transition"
-msgstr "Plánovaná pracnost"
+msgstr "Přidat přechod stavu"
 
 #. Template: AdminITSMStateMachine
 msgid "Catalog Class"
-msgstr "Třídy Katalogu"
+msgstr "Třída katalogu"
 
 #. Template: AdminITSMStateMachine
 msgid "Object Name"
@@ -73,23 +75,23 @@ msgstr "Název objektu"
 
 #. Template: AdminITSMStateMachine
 msgid "Overview over state transitions for"
-msgstr "Přehled"
+msgstr "Přehled přechodů stavů pro"
 
 #. Template: AdminITSMStateMachine
 msgid "Delete this state transition"
-msgstr ""
+msgstr "Odstranit tento přechod stavu"
 
 #. Template: AdminITSMStateMachine
 msgid "Add a new state transition for"
-msgstr ""
+msgstr "Přidat nový přechod stavu pro"
 
 #. Template: AdminITSMStateMachine
 msgid "Please select a state!"
-msgstr "Prosím vyberte stav"
+msgstr "Vyberte prosím stav!"
 
 #. Template: AdminITSMStateMachine
 msgid "Please select a next state!"
-msgstr "Prosím vyberte další stav"
+msgstr "Vyberte prosím další stav!"
 
 #. Template: AdminITSMStateMachine
 msgid "Edit a state transition for"

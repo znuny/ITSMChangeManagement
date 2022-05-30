@@ -14,14 +14,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
-"PO-Revision-Date: 2019-04-16 12:23+0000\n"
-"Last-Translator: Michael Reuther <michael.reuther@otrs.com>\n"
-"Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
+"PO-Revision-Date: 2022-03-18 15:10+0000\n"
+"Last-Translator: Denny Korsukéwitz <dk@znuny.com>\n"
+"Language-Team: German <https://translations.znuny.org/projects/znuny/"
+"itsmchangemanagement/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Category ↔ Impact ↔ Priority"
@@ -831,7 +833,7 @@ msgstr "Change-Historie"
 msgid "Can't show history zoom, no HistoryEntryID is given!"
 msgstr ""
 "Konnte Historien-Details nicht anzeigen, weil keine Historien-Eintrags-ID "
-"übermittelt wurde."
+"übermittelt wurde!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
 msgid "HistoryEntry \"%s\" not found in database!"
@@ -1050,7 +1052,7 @@ msgstr "Der Change \"%s\" konnte nicht serialisiert werden."
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeTemplate.pm
 msgid "Could not update the template \"%s\"."
-msgstr "Konnte Vorlage \"%s\" nicht aktualisieren!"
+msgstr "Konnte Vorlage \"%s\" nicht aktualisieren."
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeTemplate.pm
 msgid "Could not delete change \"%s\"."
@@ -1184,7 +1186,7 @@ msgstr "Konnte Arbeitsauftrag %s nicht nehmen!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderTemplate.pm
 msgid "The workorder \"%s\" could not be serialized."
-msgstr "Der Arbeitsauftrag \"%s\" konnte nicht serialisiert werden!"
+msgstr "Der Arbeitsauftrag \"%s\" konnte nicht serialisiert werden."
 
 #. Perl Module: Kernel/Output/HTML/Layout/ITSMChange.pm
 msgid "Need config option %s!"
@@ -1616,7 +1618,7 @@ msgid ""
 "name. Content is 0 or 1."
 msgstr ""
 "Eine Liste der Agenten, die Berechtigungen haben, Arbeitsaufträge zu "
-"übernehmen haben. \"Schlüssel\" ist der Anmeldename. \"Inhalt\" ist 0 oder 1"
+"übernehmen haben. \"Schlüssel\" ist der Anmeldename. \"Inhalt\" ist 0 oder 1."
 
 #. SysConfig
 msgid ""
@@ -1669,7 +1671,7 @@ msgstr "Admin der CIP-Matrix."
 
 #. SysConfig
 msgid "Admin of the state machine."
-msgstr "Admin der State Machine"
+msgstr "Admin der State Machine."
 
 #. SysConfig
 msgid ""
@@ -1709,7 +1711,7 @@ msgid ""
 "(180 minutes)."
 msgstr ""
 "Cache-Zeit in Minuten für die Change Management Werkzeugleiste. Standard: 3 "
-"Stunden (180 Minuten)"
+"Stunden (180 Minuten)."
 
 #. SysConfig
 msgid ""
@@ -1729,7 +1731,7 @@ msgstr "Change-Historie."
 
 #. SysConfig
 msgid "Change Involved Persons."
-msgstr "Change-Beteiligte Personen"
+msgstr "Change-Beteiligte Personen."
 
 #. SysConfig
 msgid "Change Overview \"Small\" Limit"
@@ -1847,7 +1849,7 @@ msgstr "Einen Change aus diesem Ticket erstellen."
 
 #. SysConfig
 msgid "Create and manage ITSM Change Management notifications."
-msgstr "ITSM Change-Benachrichtigungen erstellen und verwalten"
+msgstr "ITSM Change-Benachrichtigungen erstellen und verwalten."
 
 #. SysConfig
 msgid "Create and manage change notifications."
@@ -1870,11 +1872,11 @@ msgid ""
 "TableFilters.js and Core.Agent.LinkObject.js."
 msgstr ""
 "Definieren Sie Actions, in denen im Verknüpfte-Objekte-Widget ein "
-"Einstellungen-Knopf verfügbar sein soll (LinkObject::ViewMode = \"complex"
-"\"). Bitte beachten Sie, dass für diese Actions die folgenden JS- und CSS-"
-"Dateien registriert sein müssen:  Core.AllocationList.css, Core.UI."
-"AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js und "
-"Core.Agent.LinkObject.js."
+"Einstellungen-Knopf verfügbar sein soll (LinkObject::ViewMode = \"complex\")"
+". Bitte beachten Sie, dass für diese Actions die folgenden JS- und CSS-"
+"Dateien registriert sein müssen: Core.AllocationList.css, "
+"Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js "
+"und Core.Agent.LinkObject.js."
 
 #. SysConfig
 msgid "Define the signals for each workorder state."
@@ -2740,7 +2742,7 @@ msgstr "Historiendetails"
 
 #. SysConfig
 msgid "ITSM Change CAB Templates."
-msgstr "ITSM Change-CAB Vorlagen"
+msgstr "ITSM Change-CAB Vorlagen."
 
 #. SysConfig
 msgid "ITSM Change Condition Edit."
@@ -2748,11 +2750,11 @@ msgstr "ITSM Change-Bedingungen bearbeiten."
 
 #. SysConfig
 msgid "ITSM Change Condition Overview."
-msgstr "ITSM Change-Bedingungs-Übersicht"
+msgstr "ITSM Change-Bedingungs-Übersicht."
 
 #. SysConfig
 msgid "ITSM Change Manager Overview."
-msgstr "ITSM Change-Manager-Übersicht"
+msgstr "ITSM Change-Manager-Übersicht."
 
 #. SysConfig
 msgid "ITSM Change Notifications"
@@ -2760,7 +2762,7 @@ msgstr "ITSM Change-Benachrichtigungen"
 
 #. SysConfig
 msgid "ITSM Change PIR Overview."
-msgstr "ITSM Change PIR-Übersicht"
+msgstr "ITSM Change PIR-Übersicht."
 
 #. SysConfig
 msgid "ITSM Change notification rules"
@@ -2772,15 +2774,15 @@ msgstr "ITSM Changes"
 
 #. SysConfig
 msgid "ITSM MyCAB Overview."
-msgstr "ITSM Meine CABs-Übersicht"
+msgstr "ITSM Meine CABs-Übersicht."
 
 #. SysConfig
 msgid "ITSM MyChanges Overview."
-msgstr "ITSM \"Meine Changes\"-Übersicht"
+msgstr "ITSM \"Meine Changes\"-Übersicht."
 
 #. SysConfig
 msgid "ITSM MyWorkorders Overview."
-msgstr "ITSM \"Meine Arbeitsaufträge\"-Übersicht"
+msgstr "ITSM \"Meine Arbeitsaufträge\"-Übersicht."
 
 #. SysConfig
 msgid "ITSM Template Delete."
@@ -2800,7 +2802,7 @@ msgstr "ITSM Vorlage bearbeiten."
 
 #. SysConfig
 msgid "ITSM Template Overview."
-msgstr "ITSM Vorlagen-Übersicht"
+msgstr "ITSM Vorlagen-Übersicht."
 
 #. SysConfig
 msgid "ITSM event module that cleans up conditions."
@@ -2894,7 +2896,7 @@ msgstr "Nachschlagen von Agenten zur automatischen Vervollständigung."
 
 #. SysConfig
 msgid "Manage ITSM Change Management state machine."
-msgstr "ITSM Change Management State Machine"
+msgstr "ITSM Change Management State Machine."
 
 #. SysConfig
 msgid "Manage the category ↔ impact ↔ priority matrix."
@@ -3486,7 +3488,7 @@ msgid ""
 "Shows a link in the menu to print a change in the its zoom view of the agent "
 "interface."
 msgstr ""
-"Zeigt in der \"Change Zoom\" Ansicht der Agenten-Oberfläche einen  Menu Link "
+"Zeigt in der \"Change Zoom\" Ansicht der Agenten-Oberfläche einen Menu Link "
 "der es erlaubt den Change auszudrucken."
 
 #. SysConfig
@@ -3581,7 +3583,7 @@ msgstr ""
 "sind, zu den Nutzern der Gruppen aus \"ITSMChange::RestrictTicketTypes::"
 "Groups\". Weil diese ACL mit anderen ACLs, welche gebunden an den "
 "Tickettypen sind, kollidieren könnte, ist diese Option standardmäßig "
-"deaktiviert und sollte nur nach Bedarf aktiviert werden. "
+"deaktiviert und sollte nur nach Bedarf aktiviert werden."
 
 #. SysConfig
 msgid "Time Slot"
