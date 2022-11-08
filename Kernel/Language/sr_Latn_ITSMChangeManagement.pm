@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,20 +15,20 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AdminITSMChangeCIPAllocate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
     $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Kategorija ↔ uticaj ↔ prioritet';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'Upravljanje rezultatom prioriteta kombinacijom kategorija ↔ uticaj.';
     $Self->{Translation}->{'Priority allocation'} = 'Raspodela prioriteta';
 
-    # Template: AdminITSMChangeNotification
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Upravljanje obaveštenjima u ITSM upravljanju promenama';
     $Self->{Translation}->{'Add Notification Rule'} = 'Dodaj pravilo obaveštavanja';
     $Self->{Translation}->{'Edit Notification Rule'} = 'Uredi pravilo obaveštavanja';
     $Self->{Translation}->{'A notification should have a name!'} = 'Obaveštenje treba da ima ime!';
     $Self->{Translation}->{'Name is required.'} = 'Ime je obavezno.';
 
-    # Template: AdminITSMStateMachine
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
     $Self->{Translation}->{'Admin State Machine'} = 'Administarcija mašine stanja';
     $Self->{Translation}->{'Select a catalog class!'} = 'Izbor klase kataloga!';
     $Self->{Translation}->{'A catalog class is required!'} = 'Klasa kataloga je obavezna!';
@@ -44,7 +43,7 @@ sub Data {
     $Self->{Translation}->{'Edit a state transition for'} = 'Uredi tranziciju statusa za';
     $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Da li zaista želite da obrišete ovu tranziciju statusa?';
 
-    # Template: AgentITSMChangeAdd
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Dodaj promenu';
     $Self->{Translation}->{'ITSM Change'} = 'ITSM promena';
     $Self->{Translation}->{'Justification'} = 'Opravdanje';
@@ -52,23 +51,23 @@ sub Data {
     $Self->{Translation}->{'Impact'} = 'Uticaj';
     $Self->{Translation}->{'Requested Date'} = 'Traženi datum';
 
-    # Template: AgentITSMChangeAddFromTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
     $Self->{Translation}->{'Select Change Template'} = 'Izaberi šablon promene';
     $Self->{Translation}->{'Time type'} = 'Tip vremena';
     $Self->{Translation}->{'Invalid time type.'} = 'Neispravan tip vremena.';
     $Self->{Translation}->{'New time'} = 'Novo vreme';
 
-    # Template: AgentITSMChangeCABTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
     $Self->{Translation}->{'Save Change CAB as template'} = 'Sačuvaj promenu CAB kao šablon';
     $Self->{Translation}->{'go to involved persons screen'} = 'idi na ekran uključenih osoba';
     $Self->{Translation}->{'Invalid Name'} = 'Pogrešno ime';
 
-    # Template: AgentITSMChangeCondition
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
     $Self->{Translation}->{'Conditions and Actions'} = 'Uslovi i akcije';
     $Self->{Translation}->{'Delete Condition'} = 'Uslov brisanja';
     $Self->{Translation}->{'Add new condition'} = 'Dodaj novi uslov';
 
-    # Template: AgentITSMChangeConditionEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
     $Self->{Translation}->{'Edit Condition'} = 'Uredi uslov';
     $Self->{Translation}->{'Need a valid name.'} = 'Potrebno je ispravno ime.';
     $Self->{Translation}->{'A valid name is needed.'} = 'Neophodno je važeće ime.';
@@ -87,13 +86,13 @@ sub Data {
     $Self->{Translation}->{'No Actions found.'} = 'Nije pronađena nijedna akcija.';
     $Self->{Translation}->{'Add new action'} = 'Dodaj novu akciju';
 
-    # Template: AgentITSMChangeDelete
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeDelete.tt
     $Self->{Translation}->{'Do you really want to delete this change?'} = 'Da li zaista želite da izbrišete ovu promenu?';
 
-    # Template: AgentITSMChangeEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeEdit.tt
     $Self->{Translation}->{'Edit %s%s'} = 'Uredi %s%s';
 
-    # Template: AgentITSMChangeHistory
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = 'Istorijat od %s%s';
     $Self->{Translation}->{'History Content'} = 'Sadržaj istorijata';
     $Self->{Translation}->{'Workorder'} = 'Radni nalog';
@@ -101,13 +100,13 @@ sub Data {
     $Self->{Translation}->{'Show details'} = 'Prikaži detalje';
     $Self->{Translation}->{'Show workorder'} = 'Prikaži radni nalog';
 
-    # Template: AgentITSMChangeHistoryZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
     $Self->{Translation}->{'Detailed history information of %s'} = 'Detaljni istorijat za %s';
     $Self->{Translation}->{'Modified'} = 'Promenjeno';
     $Self->{Translation}->{'Old Value'} = 'Stara vrednost';
     $Self->{Translation}->{'New Value'} = 'Nova vrednost';
 
-    # Template: AgentITSMChangeInvolvedPersons
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
     $Self->{Translation}->{'Edit Involved Persons of %s%s'} = 'Uredi uključene osobe za %s%s';
     $Self->{Translation}->{'Involved Persons'} = 'Uključene osobe';
     $Self->{Translation}->{'ChangeManager'} = 'Upravljač promenama';
@@ -122,11 +121,11 @@ sub Data {
     $Self->{Translation}->{'Invalid User'} = 'Pogrešan korisnik';
     $Self->{Translation}->{'Current CAB'} = 'Aktuelni CAB';
 
-    # Template: AgentITSMChangeOverviewNavBar
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
     $Self->{Translation}->{'Context Settings'} = 'Podešavanje konteksta';
     $Self->{Translation}->{'Changes per page'} = 'Promena po strani';
 
-    # Template: AgentITSMChangeOverviewSmall
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
     $Self->{Translation}->{'Workorder Title'} = 'Naslov radnog naloga';
     $Self->{Translation}->{'Change Title'} = 'Naslov promene';
     $Self->{Translation}->{'Workorder Agent'} = 'Operater za radni nalog';
@@ -142,10 +141,10 @@ sub Data {
     $Self->{Translation}->{'Actual Start Time'} = 'Stvarno vreme početka';
     $Self->{Translation}->{'Actual End Time'} = 'Stvarno vreme završetka';
 
-    # Template: AgentITSMChangeReset
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeReset.tt
     $Self->{Translation}->{'Do you really want to reset this change?'} = 'Da li zaista želite da poništite ovu promenu?';
 
-    # Template: AgentITSMChangeSearch
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
     $Self->{Translation}->{'(e.g. 10*5155 or 105658*)'} = '(npr 10*5155 ili 105658*)';
     $Self->{Translation}->{'CAB Agent'} = 'Operater CAB';
     $Self->{Translation}->{'e.g.'} = 'npr.';
@@ -158,7 +157,7 @@ sub Data {
     $Self->{Translation}->{'(before/after)'} = '(pre/posle)';
     $Self->{Translation}->{'(between)'} = '(između)';
 
-    # Template: AgentITSMChangeTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
     $Self->{Translation}->{'Save Change as Template'} = 'Sačuvaj promenu kao šablon';
     $Self->{Translation}->{'A template should have a name!'} = 'Šablon treba da ima ime!';
     $Self->{Translation}->{'The template name is required.'} = 'Ime šablona je obavezno.';
@@ -166,10 +165,10 @@ sub Data {
     $Self->{Translation}->{'Overwrite original template'} = 'Prepiši preko originalnog šablona';
     $Self->{Translation}->{'Delete original change'} = 'Obriši originalnu promenu';
 
-    # Template: AgentITSMChangeTimeSlot
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTimeSlot.tt
     $Self->{Translation}->{'Move Time Slot'} = 'Pomeri vremenski termin';
 
-    # Template: AgentITSMChangeZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
     $Self->{Translation}->{'Change Information'} = 'Informacija o promeni';
     $Self->{Translation}->{'Planned Effort'} = 'Planirani napor';
     $Self->{Translation}->{'Accounted Time'} = 'Obračunato vreme';
@@ -181,10 +180,10 @@ sub Data {
         'Da biste otvorili veze u sledećim blokovima opisa, možda ćete trebati da pritisnete "Ctrl" ili "Cmd" ili "Shift" taster dok istovremeno kliknete na vezu (zavisi od vašeg operativnog sistema i pretraživača).';
     $Self->{Translation}->{'Download Attachment'} = 'Preuzmi prilog';
 
-    # Template: AgentITSMTemplateEditCAB
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditCAB.tt
     $Self->{Translation}->{'Edit CAB Template'} = 'Uredi CAB šablon';
 
-    # Template: AgentITSMTemplateEditContent
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
     $Self->{Translation}->{'This will create a new change from this template, so you can edit and save it.'} =
         'Ovo će kreirati novu promenu od ovog šablona, pa je možete izmeniti i sačuvati.';
     $Self->{Translation}->{'The new change will be deleted automatically after it has been saved as template.'} =
@@ -197,57 +196,57 @@ sub Data {
         'Privremana promena i novi radni nalog će automatski biti obrisani, kad radni nalog bude sačuvan kao šablon.';
     $Self->{Translation}->{'Do you want to proceed?'} = 'Da li želite da nastavite?';
 
-    # Template: AgentITSMTemplateOverviewSmall
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
     $Self->{Translation}->{'Template ID'} = 'ID šablona';
     $Self->{Translation}->{'Edit Content'} = 'Uredi sadržaj';
     $Self->{Translation}->{'Create by'} = 'Kreirao';
     $Self->{Translation}->{'Change by'} = 'Izmenio';
     $Self->{Translation}->{'Change Time'} = 'Vreme promene';
 
-    # Template: AgentITSMWorkOrderAdd
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
     $Self->{Translation}->{'Add Workorder to %s%s'} = 'Dodaj radni nalog u %s%s';
     $Self->{Translation}->{'Instruction'} = 'Instrukcija';
     $Self->{Translation}->{'Invalid workorder type.'} = 'Neispravan tip radnog naloga.';
     $Self->{Translation}->{'The planned start time must be before the planned end time!'} = 'Planirano vreme početka mora biti pre planiranog vremena završetka!';
     $Self->{Translation}->{'Invalid format.'} = 'Neispravan format.';
 
-    # Template: AgentITSMWorkOrderAddFromTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAddFromTemplate.tt
     $Self->{Translation}->{'Select Workorder Template'} = 'Izaberi šablon radnog naloga';
 
-    # Template: AgentITSMWorkOrderAgent
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAgent.tt
     $Self->{Translation}->{'Edit Workorder Agent of %s%s'} = 'Uredi korisnika radnog naloga za %s%s';
 
-    # Template: AgentITSMWorkOrderDelete
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
     $Self->{Translation}->{'Do you really want to delete this workorder?'} = 'Da li zaista želite da izbrišete ovaj radni nalog?';
     $Self->{Translation}->{'You can not delete this Workorder. It is used in at least one Condition!'} =
         'Ne možete obrisati ovaj radni nalog. Upotrebljen je u bar jednom uslovu';
     $Self->{Translation}->{'This Workorder is used in the following Condition(s)'} = 'Ovaj radni nalog je upotrebljen u sledećim uslovima';
 
-    # Template: AgentITSMWorkOrderEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
     $Self->{Translation}->{'Edit %s%s-%s'} = 'Uredi %s%s-%s';
     $Self->{Translation}->{'Move following workorders accordingly'} = 'Pomerite adekvatno sledeće radne naloge';
     $Self->{Translation}->{'If the planned end time of this workorder is changed, the planned start times of all following workorders will be changed accordingly'} =
         'Planirano vreme završetka ovog radnog naloga je promenjeno, planirana vremena početka svih narednih radnih naloga će biti adekvatno usklađena';
 
-    # Template: AgentITSMWorkOrderHistory
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderHistory.tt
     $Self->{Translation}->{'History of %s%s-%s'} = 'Istorijat za %s%s-%s';
 
-    # Template: AgentITSMWorkOrderReport
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
     $Self->{Translation}->{'Edit Report of %s%s-%s'} = 'Uredi izveštaj za %s%s-%s';
     $Self->{Translation}->{'Report'} = 'Izveštaj';
     $Self->{Translation}->{'The actual start time must be before the actual end time!'} = 'Aktuelno vreme početka mora biti pre aktuelnog vremena završetka!';
     $Self->{Translation}->{'The actual start time must be set, when the actual end time is set!'} =
         'Aktuelno vreme početka mora biti podešeno kada je podešeno i aktuelno vreme završetka!';
 
-    # Template: AgentITSMWorkOrderTake
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
     $Self->{Translation}->{'Current Agent'} = 'Aktuelni operater';
     $Self->{Translation}->{'Do you really want to take this workorder?'} = 'Da li zaista želite da preuzmete ovaj radni nalog?';
 
-    # Template: AgentITSMWorkOrderTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
     $Self->{Translation}->{'Save Workorder as Template'} = 'Sačuvaj radni nalog kao šablon';
     $Self->{Translation}->{'Delete original workorder (and surrounding change)'} = 'Obriši originalni radni nalog (i promenu u kojoj je)';
 
-    # Template: AgentITSMWorkOrderZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderZoom.tt
     $Self->{Translation}->{'Workorder Information'} = 'Informacija o radnom nalogu';
 
     # Perl Module: Kernel/Modules/AdminITSMChangeNotification.pm
@@ -527,7 +526,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = 'Grupa ITSMChangeBuilder';
     $Self->{Translation}->{'Group ITSMChangeManager'} = 'Grupa ITSMChangeManager';
 
-    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
+    # XML Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = 'zahtevano';
     $Self->{Translation}->{'pending approval'} = 'odobrenje na čekanju';
     $Self->{Translation}->{'rejected'} = 'odbijeno';
@@ -569,12 +568,12 @@ sub Data {
     $Self->{Translation}->{'ends with'} = 'završava sa';
     $Self->{Translation}->{'set'} = 'podesi';
 
-    # JS File: ITSM.Agent.ChangeManagement.Condition
+    # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = 'Da li stvarno želite da obrišete ovaj izraz?';
     $Self->{Translation}->{'Do you really want to delete this action?'} = 'Da li stvarno želite da obrišete ovu akciju?';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = 'Da li zaista želite da obrišete ovaj uslov?';
 
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
+    # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.ConfirmDialog.js
     $Self->{Translation}->{'Ok'} = 'U redu';
 
     # SysConfig

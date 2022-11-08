@@ -14,670 +14,637 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#. Template: AdminITSMChangeCIPAllocate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
 msgstr "Категория ↔ Влияние ↔ Приоритет"
 
-#. Template: AdminITSMChangeCIPAllocate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Manage the priority result of combinating Category ↔ Impact."
 msgstr "Управление приоритетом на основе комбинации Категория ↔ Влияние"
 
-#. Template: AdminITSMChangeCIPAllocate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Priority allocation"
 msgstr "Назначение приоритета"
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "ITSM ChangeManagement Notification Management"
 msgstr "Управление уведомлениями в ITSM ChangeManagement"
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Add Notification Rule"
 msgstr "Добавить правило уведомления"
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Edit Notification Rule"
 msgstr ""
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "A notification should have a name!"
 msgstr "Уведомление должно иметь имя"
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Name is required."
 msgstr "Требуется имя"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Admin State Machine"
 msgstr "Управление Машиной состояний"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Select a catalog class!"
 msgstr "Выберите класс каталога!"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "A catalog class is required!"
 msgstr "Класс каталога обязателен!"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Add a state transition"
 msgstr "Добавить состояние перехода"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Catalog Class"
 msgstr "Класс каталога"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Object Name"
 msgstr "Имя объекта"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Overview over state transitions for"
 msgstr "Обзор состояний перехода для"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Delete this state transition"
 msgstr "Удалить это состояние перехода"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Add a new state transition for"
 msgstr "Добавить новое состояние перехода для"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Please select a state!"
 msgstr "Выберите состояние!"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Please select a next state!"
 msgstr "Выберите следующее состояние!"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Edit a state transition for"
 msgstr "Редактировать состояние перехода для"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Do you really want to delete the state transition"
 msgstr "Вы действительно хототе удалить состояние перехода"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Add Change"
 msgstr "Добавить изменение"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "ITSM Change"
 msgstr "Изменение"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Justification"
 msgstr "Обоснование"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Input invalid."
 msgstr "Неверные данные"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Impact"
 msgstr "Влияние"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Requested Date"
 msgstr "Запрошенное время"
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "Select Change Template"
 msgstr "Выбрать шаблон для изменения"
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "Time type"
 msgstr "Тип времени"
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "Invalid time type."
 msgstr "неверный тип времени."
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "New time"
 msgstr "новое время"
 
-#. Template: AgentITSMChangeCABTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
 msgid "Save Change CAB as template"
 msgstr "Сохратиь состав CAB как шаблон"
 
-#. Template: AgentITSMChangeCABTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
 msgid "go to involved persons screen"
 msgstr "перейти к экрану вовлеченных специалистов"
 
-#. Template: AgentITSMChangeCABTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
 msgid "Invalid Name"
 msgstr "Неверное имя"
 
-#. Template: AgentITSMChangeCondition
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
 msgid "Conditions and Actions"
 msgstr "Условия и Действия"
 
-#. Template: AgentITSMChangeCondition
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
 msgid "Delete Condition"
 msgstr "Удалить условие"
 
-#. Template: AgentITSMChangeCondition
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
 msgid "Add new condition"
 msgstr "Добавить новое условие"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Edit Condition"
 msgstr "Редактировать состояние"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Need a valid name."
 msgstr "Требуется правильное имя"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "A valid name is needed."
 msgstr "Требуется правильное имя."
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Duplicate name:"
 msgstr "Уже используемое имя:"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "This name is already used by another condition."
 msgstr "Это имя уже сипользуется в другом условии."
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Matching"
 msgstr "Сопоставление"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Any expression (OR)"
 msgstr "Любое выражение (OR)"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "All expressions (AND)"
 msgstr "Все выражения (AND)"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Expressions"
 msgstr "Выражения"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Selector"
 msgstr "Переключатель"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Operator"
 msgstr "Оператор"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Delete Expression"
 msgstr "Удалить выражение"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "No Expressions found."
 msgstr "Выражение не задано."
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Add new expression"
 msgstr "Добавитьновое выражение"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Delete Action"
 msgstr "Удалить действие"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "No Actions found."
 msgstr "Действий не задано."
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Add new action"
 msgstr "Добавить новое действие"
 
-#. Template: AgentITSMChangeDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeDelete.tt
 msgid "Do you really want to delete this change?"
 msgstr "Вы действительно желаете удалить это изменение?"
 
-#. Template: AgentITSMChangeEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeEdit.tt
 msgid "Edit %s%s"
 msgstr "Редактировать %s%s"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "History of %s%s"
 msgstr "История для %s%s"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "History Content"
 msgstr "Содержимое истории"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Workorder"
 msgstr "Задача"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Createtime"
 msgstr "Время создания"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Show details"
 msgstr "Показать подробно"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Show workorder"
 msgstr "Показать задачу"
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Detailed history information of %s"
 msgstr "Подробная информация об истории %s"
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Modified"
 msgstr "Изменено"
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Old Value"
 msgstr "Старое значение"
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "New Value"
 msgstr "Новое значение"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Edit Involved Persons of %s%s"
 msgstr "Изменить вовлеченных лиц %s%s"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Involved Persons"
 msgstr "Вовлеченные сотрудники"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "ChangeManager"
 msgstr "Менеджер изменений"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "User invalid."
 msgstr "Неверный исполнитель"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "ChangeBuilder"
 msgstr "Составитель изменения"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Change Advisory Board"
 msgstr "CAB - Комитет по изменения"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "CAB Template"
 msgstr "Шаблон для CAB"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Apply Template"
 msgstr "Применить шаблон"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "NewTemplate"
 msgstr "Новый шаблон"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Save this CAB as template"
 msgstr "Сохранить состав CAB как шаблон"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Add to CAB"
 msgstr "Добавить к CAB"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Invalid User"
 msgstr "Неверный сотрудник"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Current CAB"
 msgstr "Текущий CAB"
 
-#. Template: AgentITSMChangeOverviewNavBar
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
 msgid "Context Settings"
 msgstr "Параметры контекста"
 
-#. Template: AgentITSMChangeOverviewNavBar
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
 msgid "Changes per page"
 msgstr "Изменений на страницу"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Title"
 msgstr "Заголовок задачи"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Title"
 msgstr "Заголовок Изменения"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Agent"
 msgstr "Агент по задаче"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Builder"
 msgstr "Составитель изменения"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Manager"
 msgstr "Менеджер изменения"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorders"
 msgstr "Задачи"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change State"
 msgstr "Состояние Изменения"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder State"
 msgstr "Статус задачи"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Type"
 msgstr "Тип задачи"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Requested Time"
 msgstr "Запрошенное время"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Planned Start Time"
 msgstr "Запланированное время начала"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Planned End Time"
 msgstr "Планируемое время окончания"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Actual Start Time"
 msgstr "Фактическое время начала"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Actual End Time"
 msgstr "Фактическое время окончания"
 
-#. Template: AgentITSMChangeReset
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeReset.tt
 msgid "Do you really want to reset this change?"
 msgstr "Вы действительно желаете очистить это изменение?"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(e.g. 10*5155 or 105658*)"
 msgstr "(т.е. 10*5155 или 105658*)"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "CAB Agent"
 msgstr "Агент, член CAB "
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "e.g."
 msgstr "т.е."
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "CAB Customer"
 msgstr "Клиент, член CAB "
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Workorder Instruction"
 msgstr "Инструкция по задачам ITSM "
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Workorder Report"
 msgstr "Отчет по задачам ITSM"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change Priority"
 msgstr "Изменить приоритет ITSM"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change Impact"
 msgstr "Изменить воздействие ITSM"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "Change Category"
 msgstr "Изменить категорию"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(before/after)"
 msgstr "до/после"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(between)"
 msgstr "между"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Save Change as Template"
 msgstr "Сохранить изменение как шаблон"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "A template should have a name!"
 msgstr "Надо присвоить имя шаблону!"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "The template name is required."
 msgstr "Требуется имя шаблона."
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Reset States"
 msgstr "Очистить состояния"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Overwrite original template"
 msgstr "Перезаписать исходный шаблон"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Delete original change"
 msgstr "Удалить исходное изменение"
 
-#. Template: AgentITSMChangeTimeSlot
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTimeSlot.tt
 msgid "Move Time Slot"
 msgstr "Сместить диапазон времени"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Change Information"
 msgstr "Информация об изменении"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Planned Effort"
 msgstr "Планируемое усилие"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Accounted Time"
 msgstr " Затраченное время"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Change Initiator(s)"
 msgstr "Инициатор изменения"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "CAB"
 msgstr "CAB"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Last changed"
 msgstr "Дата последнего изменеия"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Last changed by"
 msgstr "Последний изменил"
 
-#. Template: AgentITSMChangeZoom
-msgid ""
-"To open links in the following description blocks, you might need to press "
-"Ctrl or Cmd or Shift key while clicking the link (depending on your browser "
-"and OS)."
-msgstr ""
-"Для открытия ссылки в следующем сообщении/заметке необходимо нажать и "
-"удерживать клавишу Ctrl или Cmd или Shift и кликнуть по ссылке (зависит от "
-"вашего браузера и ОС)."
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
+msgid "To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS)."
+msgstr "Для открытия ссылки в следующем сообщении/заметке необходимо нажать и удерживать клавишу Ctrl или Cmd или Shift и кликнуть по ссылке (зависит от вашего браузера и ОС)."
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Download Attachment"
 msgstr "Загрузить вложение"
 
-#. Template: AgentITSMTemplateEditCAB
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditCAB.tt
 msgid "Edit CAB Template"
 msgstr "Редактировать шаблон CAB"
 
-#. Template: AgentITSMTemplateEditContent
-msgid ""
-"This will create a new change from this template, so you can edit and save "
-"it."
-msgstr ""
-"Будет создано новое изменение из этого шаблона и вы сможете его "
-"редактировать и сохранить."
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
+msgid "This will create a new change from this template, so you can edit and save it."
+msgstr "Будет создано новое изменение из этого шаблона и вы сможете его редактировать и сохранить."
 
-#. Template: AgentITSMTemplateEditContent
-msgid ""
-"The new change will be deleted automatically after it has been saved as "
-"template."
-msgstr ""
-"Новое изменение будет автоматически удалено после его сохранения в качестве "
-"шаблона."
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
+msgid "The new change will be deleted automatically after it has been saved as template."
+msgstr "Новое изменение будет автоматически удалено после его сохранения в качестве шаблона."
 
-#. Template: AgentITSMTemplateEditContent
-msgid ""
-"This will create a new workorder from this template, so you can edit and "
-"save it."
-msgstr ""
-"Будет создана новая задача из этого шаблона и вы сможете его редактировать и "
-"сохранить."
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
+msgid "This will create a new workorder from this template, so you can edit and save it."
+msgstr "Будет создана новая задача из этого шаблона и вы сможете его редактировать и сохранить."
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "A temporary change will be created which contains the workorder."
 msgstr "Будет создано временное изменение, содержащее задачу."
 
-#. Template: AgentITSMTemplateEditContent
-msgid ""
-"The temporary change and new workorder will be deleted automatically after "
-"the workorder has been saved as template."
-msgstr ""
-"Временное изменение и новая задача будет автоматически удалены после "
-"сохранения задачи в качестве шаблона."
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
+msgid "The temporary change and new workorder will be deleted automatically after the workorder has been saved as template."
+msgstr "Временное изменение и новая задача будет автоматически удалены после сохранения задачи в качестве шаблона."
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "Do you want to proceed?"
 msgstr "Желаете продолжить?"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Template ID"
 msgstr "ID шаблона"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Edit Content"
 msgstr "Редактировать содержание"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Create by"
 msgstr "Создано"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Change by"
 msgstr "Изменено"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Change Time"
 msgstr "Время модификации"
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Add Workorder to %s%s"
 msgstr "Добавить задачу к %s%s"
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Instruction"
 msgstr "Инструкция"
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Invalid workorder type."
 msgstr "Неправильный тип задачи."
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "The planned start time must be before the planned end time!"
 msgstr "Время начала должно предшествовать времени окончания!"
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Invalid format."
 msgstr "Неверный формат"
 
-#. Template: AgentITSMWorkOrderAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAddFromTemplate.tt
 msgid "Select Workorder Template"
 msgstr "Выбрать шаблон для задачи"
 
-#. Template: AgentITSMWorkOrderAgent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAgent.tt
 msgid "Edit Workorder Agent of %s%s"
 msgstr "Редактировать агента по задаче %s%s"
 
-#. Template: AgentITSMWorkOrderDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
 msgid "Do you really want to delete this workorder?"
 msgstr "Вы действительно желаете удалить эту задачу?"
 
-#. Template: AgentITSMWorkOrderDelete
-msgid ""
-"You can not delete this Workorder. It is used in at least one Condition!"
-msgstr ""
-"Вы не можете удалить эту задачу. Она используется как минимум в одном "
-"условии!"
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
+msgid "You can not delete this Workorder. It is used in at least one Condition!"
+msgstr "Вы не можете удалить эту задачу. Она используется как минимум в одном условии!"
 
-#. Template: AgentITSMWorkOrderDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
 msgid "This Workorder is used in the following Condition(s)"
 msgstr "Эта задача используется в следующих условиях"
 
-#. Template: AgentITSMWorkOrderEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
 msgid "Edit %s%s-%s"
 msgstr "Редактировать %s%s-%s"
 
-#. Template: AgentITSMWorkOrderEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
 msgid "Move following workorders accordingly"
 msgstr "Переместить/сдвинуть следующие задачи соответственно"
 
-#. Template: AgentITSMWorkOrderEdit
-msgid ""
-"If the planned end time of this workorder is changed, the planned start "
-"times of all following workorders will be changed accordingly"
-msgstr ""
-"Если запланированное время окончания задачи будет изменено, запланированное "
-"время начала всех последующих задач будет соответственно изменено"
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
+msgid "If the planned end time of this workorder is changed, the planned start times of all following workorders will be changed accordingly"
+msgstr "Если запланированное время окончания задачи будет изменено, запланированное время начала всех последующих задач будет соответственно изменено"
 
-#. Template: AgentITSMWorkOrderHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderHistory.tt
 msgid "History of %s%s-%s"
 msgstr "История %s%s-%s"
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "Edit Report of %s%s-%s"
 msgstr "Редактировать отчет %s%s-%s"
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "Report"
 msgstr "Отчет"
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "The actual start time must be before the actual end time!"
 msgstr "Время начала должно предшествовать времени окончания!"
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "The actual start time must be set, when the actual end time is set!"
-msgstr ""
-"Фактическое время начала должно быть задано, если задано время фактического "
-"окончания!"
+msgstr "Фактическое время начала должно быть задано, если задано время фактического окончания!"
 
-#. Template: AgentITSMWorkOrderTake
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
 msgid "Current Agent"
 msgstr "Текущий агент"
 
-#. Template: AgentITSMWorkOrderTake
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
 msgid "Do you really want to take this workorder?"
 msgstr "Вы действительно хотите взять эту задачу?"
 
-#. Template: AgentITSMWorkOrderTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
 msgid "Save Workorder as Template"
 msgstr "Сохранить задачу как шаблон"
 
-#. Template: AgentITSMWorkOrderTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
 msgid "Delete original workorder (and surrounding change)"
 msgstr "Удалить исходную задачу  (и окружающее изменение)"
 
-#. Template: AgentITSMWorkOrderZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderZoom.tt
 msgid "Workorder Information"
 msgstr "Информация о задаче"
 
@@ -711,8 +678,7 @@ msgstr "Заявка с таким TicketID %s не существует!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
 msgid "Missing sysconfig option \"ITSMChange::AddChangeLinkTicketTypes\"!"
-msgstr ""
-"Пропущен параметр конфигурации \"ITSMChange::AddChangeLinkTicketTypes\"!"
+msgstr "Пропущен параметр конфигурации \"ITSMChange::AddChangeLinkTicketTypes\"!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
 msgid "Was not able to add change!"
@@ -864,8 +830,7 @@ msgstr "Задача \"%s\" не найдена в БД!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "Can't create output, as the workorder is not attached to a change!"
-msgstr ""
-"Невозможно создать результат, так как Задача не прикреплена к Изменению!"
+msgstr "Невозможно создать результат, так как Задача не прикреплена к Изменению!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "Can't create output, as no ChangeID is given!"
@@ -1120,8 +1085,7 @@ msgid "No WorkOrderID is given!"
 msgstr "WorkOrderID не задан!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderAgent.pm
-msgid ""
-"Was not able to set the workorder agent of the workorder \"%s\" to empty!"
+msgid "Was not able to set the workorder agent of the workorder \"%s\" to empty!"
 msgstr "Не удалось сбросить агента для Задачи \"%s\"!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderAgent.pm
@@ -1416,197 +1380,189 @@ msgstr ""
 msgid "Group ITSMChangeManager"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "requested"
 msgstr "запрошено"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "pending approval"
 msgstr "отложенное утверждение"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "rejected"
 msgstr "отвергнуто"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "approved"
 msgstr "Утверждено"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "in progress"
 msgstr "в работе"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "pending pir"
 msgstr "ожидает одобрения PIR"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "successful"
 msgstr "успешно"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "failed"
 msgstr "не удалось"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "canceled"
 msgstr "отменено"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "retracted"
 msgstr "отказано"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "created"
 msgstr "создано(а)"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "accepted"
 msgstr "Принято"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ready"
 msgstr "готово"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "approval"
 msgstr "Утверждение"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "workorder"
 msgstr "Задача"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "backout"
 msgstr "План отката"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "decision"
 msgstr "решение"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "pir"
 msgstr "PIR (Post Implementation Review/анализ по окончании)"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeStateID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "CategoryID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ImpactID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "PriorityID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeManagerID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeBuilderID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderStateID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderTypeID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderAgentID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is"
 msgstr "Является"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is not"
 msgstr "не"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is empty"
 msgstr "пусто"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is not empty"
 msgstr "не пусто"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is greater than"
 msgstr "больше чем"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is less than"
 msgstr "меньше чем"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is before"
 msgstr "до"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is after"
 msgstr "после"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "contains"
 msgstr "содержит"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "not contains"
 msgstr "не содержит"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "begins with"
 msgstr "начать с"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ends with"
 msgstr "окончить с"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "set"
 msgstr "установлено"
 
-#. JS File: ITSM.Agent.ChangeManagement.Condition
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this expression?"
 msgstr ""
 
-#. JS File: ITSM.Agent.ChangeManagement.Condition
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this action?"
 msgstr ""
 
-#. JS File: ITSM.Agent.ChangeManagement.Condition
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this condition?"
 msgstr ""
 
-#. JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.ConfirmDialog.js
 msgid "Ok"
 msgstr "О.К."
 
 #. SysConfig
-msgid ""
-"A list of the agents who have permission to take workorders. Key is a login "
-"name. Content is 0 or 1."
-msgstr ""
-"Список агентов, имеющих права взять задачу в работу. Ключ - логин, "
-"Содержание - 0 или 1"
+msgid "A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1."
+msgstr "Список агентов, имеющих права взять задачу в работу. Ключ - логин, Содержание - 0 или 1"
 
 #. SysConfig
-msgid ""
-"A list of workorder states, at which the ActualStartTime of a workorder will "
-"be set if it was empty at this point."
-msgstr ""
-"Список состояний задачи в которых фактическое время начала задачи может быть "
-"задано, если еще пусто к этому моменту."
+msgid "A list of workorder states, at which the ActualStartTime of a workorder will be set if it was empty at this point."
+msgstr "Список состояний задачи в которых фактическое время начала задачи может быть задано, если еще пусто к этому моменту."
 
 #. SysConfig
 msgid "Actual end time"
@@ -1653,15 +1609,11 @@ msgid "Admin of the state machine."
 msgstr "Управление машиной состояний"
 
 #. SysConfig
-msgid ""
-"Agent interface notification module to see the number of change advisory "
-"boards."
+msgid "Agent interface notification module to see the number of change advisory boards."
 msgstr "Модуль отображающий количество CAB в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Agent interface notification module to see the number of changes managed by "
-"the user."
+msgid "Agent interface notification module to see the number of changes managed by the user."
 msgstr "Модуль отображающий количество изменений с которыми работает агент"
 
 #. SysConfig
@@ -1670,28 +1622,19 @@ msgstr "Модуль отображающий количество измене�
 
 #. SysConfig
 msgid "Agent interface notification module to see the number of workorders."
-msgstr ""
-"Модуль уведомлений для интерфейса агента для получения количества Задач."
+msgstr "Модуль уведомлений для интерфейса агента для получения количества Задач."
 
 #. SysConfig
 msgid "CAB Member Search"
 msgstr "Поиск членов CAB "
 
 #. SysConfig
-msgid ""
-"Cache time in minutes for the change management toolbars. Default: 3 hours "
-"(180 minutes)."
-msgstr ""
-"Время кэширования в минутах для панели управления изменениями. По умолчанию: "
-"3 часа (180 минут)."
+msgid "Cache time in minutes for the change management toolbars. Default: 3 hours (180 minutes)."
+msgstr "Время кэширования в минутах для панели управления изменениями. По умолчанию: 3 часа (180 минут)."
 
 #. SysConfig
-msgid ""
-"Cache time in minutes for the change management. Default: 5 days (7200 "
-"minutes)."
-msgstr ""
-"Время кэширования в минутах для управлени изменениями. По умолчанию: 5 дней "
-"(7200 минут)."
+msgid "Cache time in minutes for the change management. Default: 5 days (7200 minutes)."
+msgstr "Время кэширования в минутах для управлени изменениями. По умолчанию: 5 дней (7200 минут)."
 
 #. SysConfig
 msgid "Change CAB Templates"
@@ -1707,8 +1650,7 @@ msgstr "Список вовлеченных участников Изменен�
 
 #. SysConfig
 msgid "Change Overview \"Small\" Limit"
-msgstr ""
-"Изменить количество строк/записей при просмотре изменений в формате Small."
+msgstr "Изменить количество строк/записей при просмотре изменений в формате Small."
 
 #. SysConfig
 msgid "Change Overview."
@@ -1787,18 +1729,12 @@ msgid "Condition Overview"
 msgstr "Обзор Условий"
 
 #. SysConfig
-msgid ""
-"Configure which screen should be shown after a new workorder has been "
-"created."
+msgid "Configure which screen should be shown after a new workorder has been created."
 msgstr "Настройте, какой экран следует показывать после создания новой задачи."
 
 #. SysConfig
-msgid ""
-"Configures how often the notifications are sent when planned the start time "
-"or other time values have been reached/passed."
-msgstr ""
-"Задает частоту отправки уведомлений, когда запланированное время начала или "
-"другие времеНные значения достигнуты/прошли."
+msgid "Configures how often the notifications are sent when planned the start time or other time values have been reached/passed."
+msgstr "Задает частоту отправки уведомлений, когда запланированное время начала или другие времеНные значения достигнуты/прошли."
 
 #. SysConfig
 msgid "Create Change"
@@ -1825,59 +1761,28 @@ msgid "Create and manage change notifications."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Default type for a workorder. This entry must exist in general catalog class "
-"'ITSM::ChangeManagement::WorkOrder::Type'."
-msgstr ""
-"Тип задачи по умолчанию. Он должен быть описан в качестве класса в Общем "
-"каталоге в ITSM::ChangeManagement::WorkOrder::Type"
+msgid "Default type for a workorder. This entry must exist in general catalog class 'ITSM::ChangeManagement::WorkOrder::Type'."
+msgstr "Тип задачи по умолчанию. Он должен быть описан в качестве класса в Общем каталоге в ITSM::ChangeManagement::WorkOrder::Type"
 
 #. SysConfig
-msgid ""
-"Define Actions where a settings button is available in the linked objects "
-"widget (LinkObject::ViewMode = \"complex\"). Please note that these Actions "
-"must have registered the following JS and CSS files: Core.AllocationList."
-"css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent."
-"TableFilters.js and Core.Agent.LinkObject.js."
-msgstr ""
-"Задает Действия/Actions когда кнопка настройки доступна в связанном виджете "
-"(LinkObject::ViewMode = \"complex\"). Обратите внимание, что эти Действия/"
-"Actions должны иметь зарегистрированные JS или CSS файлы: Core."
-"AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core."
-"Agent.TableFilters.js и Core.Agent.LinkObject.js."
+msgid "Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = \"complex\"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js."
+msgstr "Задает Действия/Actions когда кнопка настройки доступна в связанном виджете (LinkObject::ViewMode = \"complex\"). Обратите внимание, что эти Действия/Actions должны иметь зарегистрированные JS или CSS файлы: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js и Core.Agent.LinkObject.js."
 
 #. SysConfig
 msgid "Define the signals for each workorder state."
 msgstr "Задает индикаторы для каждого состояния задачи."
 
 #. SysConfig
-msgid ""
-"Define which columns are shown in the linked Changes widget (LinkObject::"
-"ViewMode = \"complex\"). Note: Only Change attributes are allowed for "
-"DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled "
-"by default."
-msgstr ""
-"Определить, какие столбцы отображаются в связанном виджете Изменений "
-"(LinkObject::ViewMode = \"complex\"). Примечание: Только атрибуты Изменения "
-"разрешены для DefaultColumns. Возможные настройки: 0 = Отключено, 1 = "
-"Включено, 2 = Включено по умолчанию."
+msgid "Define which columns are shown in the linked Changes widget (LinkObject::ViewMode = \"complex\"). Note: Only Change attributes are allowed for DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by default."
+msgstr "Определить, какие столбцы отображаются в связанном виджете Изменений (LinkObject::ViewMode = \"complex\"). Примечание: Только атрибуты Изменения разрешены для DefaultColumns. Возможные настройки: 0 = Отключено, 1 = Включено, 2 = Включено по умолчанию."
 
 #. SysConfig
-msgid ""
-"Define which columns are shown in the linked Workorder widget (LinkObject::"
-"ViewMode = \"complex\"). Note: Only Workorder attributes are allowed for "
-"DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled "
-"by default."
-msgstr ""
-"Определить, какие столбцы отображаются в связанном виджете Задача "
-"(LinkObject::ViewMode = \"complex\"). Примечание: Только атрибуты Задачи "
-"разрешены для DefaultColumns. Возможные настройки: 0 = Отключено, 1 = "
-"Включено, 2 = Включено по умолчанию."
+msgid "Define which columns are shown in the linked Workorder widget (LinkObject::ViewMode = \"complex\"). Note: Only Workorder attributes are allowed for DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by default."
+msgstr "Определить, какие столбцы отображаются в связанном виджете Задача (LinkObject::ViewMode = \"complex\"). Примечание: Только атрибуты Задачи разрешены для DefaultColumns. Возможные настройки: 0 = Отключено, 1 = Включено, 2 = Включено по умолчанию."
 
 #. SysConfig
 msgid "Defines an overview module to show the small view of a change list."
-msgstr ""
-"Задает модуль просмотра для отображения списка изменений в small формате."
+msgstr "Задает модуль просмотра для отображения списка изменений в small формате."
 
 #. SysConfig
 msgid "Defines an overview module to show the small view of a template list."
@@ -1892,20 +1797,12 @@ msgid "Defines if it will be possible to print the planned effort."
 msgstr "Задает возможность печати планируемых затрат."
 
 #. SysConfig
-msgid ""
-"Defines if reachable (as defined by the state machine) change end states "
-"should be allowed if a change is in a locked state."
-msgstr ""
-"Определяет, будут ли (как задано машиной состояний) конечные состояния "
-"изменения разрешены , если изменение в состоянии блокировки."
+msgid "Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state."
+msgstr "Определяет, будут ли (как задано машиной состояний) конечные состояния изменения разрешены , если изменение в состоянии блокировки."
 
 #. SysConfig
-msgid ""
-"Defines if reachable (as defined by the state machine) workorder end states "
-"should be allowed if a workorder is in a locked state."
-msgstr ""
-"Определяет, будут ли (как задано машиной состояний) конечные состояния "
-"задачи разрешены, если задача в состоянии блокировки."
+msgid "Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state."
+msgstr "Определяет, будут ли (как задано машиной состояний) конечные состояния задачи разрешены, если задача в состоянии блокировки."
 
 #. SysConfig
 msgid "Defines if the accounted time should be shown."
@@ -1916,16 +1813,11 @@ msgid "Defines if the actual start and end times should be set."
 msgstr "Задает необходимость указания фактического времени начала и окончания."
 
 #. SysConfig
-msgid ""
-"Defines if the change search and the workorder search functions could use "
-"the mirror DB."
-msgstr ""
-"Задает будет ли использоваться зеркальная БД для поиска изменений и задач."
+msgid "Defines if the change search and the workorder search functions could use the mirror DB."
+msgstr "Задает будет ли использоваться зеркальная БД для поиска изменений и задач."
 
 #. SysConfig
-msgid ""
-"Defines if the change state can be set in the change edit screen of the "
-"agent interface."
+msgid "Defines if the change state can be set in the change edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
@@ -1961,75 +1853,44 @@ msgid "Defines shown graph attributes."
 msgstr "Задает отображаемые атрибуты диаграммы."
 
 #. SysConfig
-msgid ""
-"Defines that only changes containing Workorders linked with services, which "
-"the customer user has permission to use will be shown. Any other changes "
-"will not be displayed."
-msgstr ""
-"Задет, что только изменения содержащие задачи связанные с сервисами на "
-"которые у клиента есть права будут отображаться. Любые другие изменения не "
-"отображаются."
+msgid "Defines that only changes containing Workorders linked with services, which the customer user has permission to use will be shown. Any other changes will not be displayed."
+msgstr "Задет, что только изменения содержащие задачи связанные с сервисами на которые у клиента есть права будут отображаться. Любые другие изменения не отображаются."
 
 #. SysConfig
 msgid "Defines the change states that will be allowed to delete."
 msgstr "Задает состояния изменения которые будет разрешено удалить."
 
 #. SysConfig
-msgid ""
-"Defines the change states that will be used as filters in the Change PSA "
-"overview."
-msgstr ""
-"Задает состояния изменений используемые в фильтрах в обзоре изменений PSA."
+msgid "Defines the change states that will be used as filters in the Change PSA overview."
+msgstr "Задает состояния изменений используемые в фильтрах в обзоре изменений PSA."
 
 #. SysConfig
-msgid ""
-"Defines the change states that will be used as filters in the Change "
-"Schedule overview."
-msgstr ""
-"Задает состояния изменений используемые в фильтрах в обзоре Планировщика "
-"изменений."
+msgid "Defines the change states that will be used as filters in the Change Schedule overview."
+msgstr "Задает состояния изменений используемые в фильтрах в обзоре Планировщика изменений."
 
 #. SysConfig
-msgid ""
-"Defines the change states that will be used as filters in the MyCAB overview."
+msgid "Defines the change states that will be used as filters in the MyCAB overview."
 msgstr "Задает состояния изменений используемые в фильтрах в обзоре Мои CAB."
 
 #. SysConfig
-msgid ""
-"Defines the change states that will be used as filters in the MyChanges "
-"overview."
-msgstr ""
-"Задает состояния изменений используемые в фильтрах в обзоре Мои изменения."
+msgid "Defines the change states that will be used as filters in the MyChanges overview."
+msgstr "Задает состояния изменений используемые в фильтрах в обзоре Мои изменения."
 
 #. SysConfig
-msgid ""
-"Defines the change states that will be used as filters in the change manager "
-"overview."
-msgstr ""
-"Задает состояния изменений используемые в фильтрах в обзоре менеджеров "
-"изменений"
+msgid "Defines the change states that will be used as filters in the change manager overview."
+msgstr "Задает состояния изменений используемые в фильтрах в обзоре менеджеров изменений"
 
 #. SysConfig
-msgid ""
-"Defines the change states that will be used as filters in the change "
-"overview."
+msgid "Defines the change states that will be used as filters in the change overview."
 msgstr "Задает состояния изменений используемые в фильтрах в обзоре изменений."
 
 #. SysConfig
-msgid ""
-"Defines the change states that will be used as filters in the customer "
-"change schedule overview."
-msgstr ""
-"Задает состояния изменений используемые в фильтрах в обзоре изменений "
-"управляемых клиентом."
+msgid "Defines the change states that will be used as filters in the customer change schedule overview."
+msgstr "Задает состояния изменений используемые в фильтрах в обзоре изменений управляемых клиентом."
 
 #. SysConfig
-msgid ""
-"Defines the default change title for a dummy change which is needed to edit "
-"a workorder template."
-msgstr ""
-"Задает имя по умолчанию для фиктивного изменения, необходимое для "
-"редактирования шаблона задачи."
+msgid "Defines the default change title for a dummy change which is needed to edit a workorder template."
+msgstr "Задает имя по умолчанию для фиктивного изменения, необходимое для редактирования шаблона задачи."
 
 #. SysConfig
 msgid "Defines the default sort criteria in the change PSA overview."
@@ -2037,8 +1898,7 @@ msgstr "Задает стандартные критерии сортировк�
 
 #. SysConfig
 msgid "Defines the default sort criteria in the change manager overview."
-msgstr ""
-"Задает стандартные критерии сортировки при просмотре изменений менеджера."
+msgstr "Задает стандартные критерии сортировки при просмотре изменений менеджера."
 
 #. SysConfig
 msgid "Defines the default sort criteria in the change overview."
@@ -2053,35 +1913,24 @@ msgid "Defines the default sort criteria of the changes in the MyCAB overview."
 msgstr "Задает стандартные критерии сортировки при просмотре Моих CAB."
 
 #. SysConfig
-msgid ""
-"Defines the default sort criteria of the changes in the MyChanges overview."
+msgid "Defines the default sort criteria of the changes in the MyChanges overview."
 msgstr "Задает стандартные критерии сортировки при просмотре Моих изменений."
 
 #. SysConfig
-msgid ""
-"Defines the default sort criteria of the changes in the MyWorkorders "
-"overview."
+msgid "Defines the default sort criteria of the changes in the MyWorkorders overview."
 msgstr "Задает стандартные критерии сортировки при просмотре Моих задач."
 
 #. SysConfig
 msgid "Defines the default sort criteria of the changes in the PIR overview."
-msgstr ""
-"Задает стандартные критерии сортировки при просмотре изменений в состоянии "
-"PIR."
+msgstr "Задает стандартные критерии сортировки при просмотре изменений в состоянии PIR."
 
 #. SysConfig
-msgid ""
-"Defines the default sort criteria of the changes in the customer change "
-"schedule overview."
-msgstr ""
-"Задает стандартные критерии сортировки при просмотре изменений планируемых "
-"клиентом."
+msgid "Defines the default sort criteria of the changes in the customer change schedule overview."
+msgstr "Задает стандартные критерии сортировки при просмотре изменений планируемых клиентом."
 
 #. SysConfig
-msgid ""
-"Defines the default sort criteria of the changes in the template overview."
-msgstr ""
-"Задает стандартные критерии сортировки при просмотре шаблонов изменений."
+msgid "Defines the default sort criteria of the changes in the template overview."
+msgstr "Задает стандартные критерии сортировки при просмотре шаблонов изменений."
 
 #. SysConfig
 msgid "Defines the default sort order in the MyCAB overview."
@@ -2097,9 +1946,7 @@ msgstr "Задает стандартный порядок сортировки 
 
 #. SysConfig
 msgid "Defines the default sort order in the PIR overview."
-msgstr ""
-"Задает стандартный порядок сортировки для просмотра изменений в состоянии "
-"PIR."
+msgstr "Задает стандартный порядок сортировки для просмотра изменений в состоянии PIR."
 
 #. SysConfig
 msgid "Defines the default sort order in the change PSA overview."
@@ -2107,8 +1954,7 @@ msgstr "Задает стандартный порядок сортировки 
 
 #. SysConfig
 msgid "Defines the default sort order in the change manager overview."
-msgstr ""
-"Задает стандартный порядок сортировки для просмотра изменений менеджера."
+msgstr "Задает стандартный порядок сортировки для просмотра изменений менеджера."
 
 #. SysConfig
 msgid "Defines the default sort order in the change overview."
@@ -2116,21 +1962,15 @@ msgstr "Задает стандартный порядок сортировки 
 
 #. SysConfig
 msgid "Defines the default sort order in the change schedule overview."
-msgstr ""
-"Задает стандартный порядок сортировки для просмотра изменений выполняемых "
-"агентом."
+msgstr "Задает стандартный порядок сортировки для просмотра изменений выполняемых агентом."
 
 #. SysConfig
-msgid ""
-"Defines the default sort order in the customer change schedule overview."
-msgstr ""
-"Задает стандартный порядок сортировки для просмотра выполняемых клиентом "
-"изменений."
+msgid "Defines the default sort order in the customer change schedule overview."
+msgstr "Задает стандартный порядок сортировки для просмотра выполняемых клиентом изменений."
 
 #. SysConfig
 msgid "Defines the default sort order in the template overview."
-msgstr ""
-"Задает стандартный порядок сортировки для просмотра шаблонов изменений."
+msgstr "Задает стандартный порядок сортировки для просмотра шаблонов изменений."
 
 #. SysConfig
 msgid "Defines the default value for the category of a change."
@@ -2141,281 +1981,168 @@ msgid "Defines the default value for the impact of a change."
 msgstr "Задает стандартное значение для влияния (impact) изменения."
 
 #. SysConfig
-msgid ""
-"Defines the field type of CompareValue fields for change attributes used in "
-"the change condition edit screen of the agent interface. Valid values are "
-"Selection, Text and Date. If a type is not defined, the field will not be "
-"shown."
+msgid "Defines the field type of CompareValue fields for change attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the field type of CompareValue fields for workorder attributes used "
-"in the change condition edit screen of the agent interface. Valid values are "
-"Selection, Text and Date. If a type is not defined, the field will not be "
-"shown."
+msgid "Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the object attributes that are selectable for change objects in the "
-"change condition edit screen of the agent interface."
+msgid "Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the object attributes that are selectable for workorder objects in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the object attributes that are selectable for workorder objects in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute AccountedTime in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute AccountedTime in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute ActualEndTime in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute ActualEndTime in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute ActualStartTime "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute ActualStartTime in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute CategoryID in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute CategoryID in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute ChangeBuilderID "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute ChangeBuilderID in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute ChangeManagerID "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute ChangeManagerID in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute ChangeStateID in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute ChangeStateID in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute ChangeTitle in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute ChangeTitle in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute DynamicField in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute DynamicField in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute ImpactID in the "
-"change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute ImpactID in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute PlannedEffort in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute PlannedEffort in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute PlannedEndTime "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute PlannedEndTime in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute PlannedStartTime "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute PlannedStartTime in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute PriorityID in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute PriorityID in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute RequestedTime in "
-"the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute RequestedTime in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute WorkOrderAgentID "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute WorkOrderAgentID in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute WorkOrderNumber "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute WorkOrderNumber in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute WorkOrderStateID "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute WorkOrderStateID in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute WorkOrderTitle "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute WorkOrderTitle in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the operators that are selectable for the attribute WorkOrderTypeID "
-"in the change condition edit screen of the agent interface."
+msgid "Defines the operators that are selectable for the attribute WorkOrderTypeID in the change condition edit screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the period (in years), in which start and end times can be selected."
-msgstr ""
-"Задает период (в годах), в котором время начала и окончания могут быть "
-"выбраны."
+msgid "Defines the period (in years), in which start and end times can be selected."
+msgstr "Задает период (в годах), в котором время начала и окончания могут быть выбраны."
 
 #. SysConfig
-msgid ""
-"Defines the shown attributes of a workorder in the tooltip of the workorder "
-"graph in the change zoom. To show workorder dynamic fields in the tooltip, "
-"they must be specified like DynamicField_WorkOrderFieldName1, "
-"DynamicField_WorkOrderFieldName2, etc."
-msgstr ""
-"Задает отображаемые атрибуты задачи в подсказке для задачи на графике при "
-"просмотре изменения. Для отображения динамических полей в подсказке, они "
-"должны быть указаны как DynamicField_WorkOrderFieldName1, "
-"DynamicField_WorkOrderFieldName2, и т.д."
+msgid "Defines the shown attributes of a workorder in the tooltip of the workorder graph in the change zoom. To show workorder dynamic fields in the tooltip, they must be specified like DynamicField_WorkOrderFieldName1, DynamicField_WorkOrderFieldName2, etc."
+msgstr "Задает отображаемые атрибуты задачи в подсказке для задачи на графике при просмотре изменения. Для отображения динамических полей в подсказке, они должны быть указаны как DynamicField_WorkOrderFieldName1, DynamicField_WorkOrderFieldName2, и т.д."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the Change PSA overview. This option has no "
-"effect on the position of the column."
-msgstr ""
-"Задает список колонок при просмотре изменений PSA. Не влияет на порядок "
-"колонок."
+msgid "Defines the shown columns in the Change PSA overview. This option has no effect on the position of the column."
+msgstr "Задает список колонок при просмотре изменений PSA. Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the Change Schedule overview. This option has "
-"no effect on the position of the column."
-msgstr ""
-"Задает список колонок при просмотре Change Schedule. Не влияет на порядок "
-"колонок."
+msgid "Defines the shown columns in the Change Schedule overview. This option has no effect on the position of the column."
+msgstr "Задает список колонок при просмотре Change Schedule. Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the MyCAB overview. This option has no effect "
-"on the position of the column."
-msgstr ""
-"Задает список колонок при просмотре MyCAB. Не влияет на порядок колонок."
+msgid "Defines the shown columns in the MyCAB overview. This option has no effect on the position of the column."
+msgstr "Задает список колонок при просмотре MyCAB. Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the MyChanges overview. This option has no "
-"effect on the position of the column."
-msgstr ""
-"Задает список колонок при просмотре MyChanges. Не влияет на порядок колонок."
+msgid "Defines the shown columns in the MyChanges overview. This option has no effect on the position of the column."
+msgstr "Задает список колонок при просмотре MyChanges. Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the MyWorkorders overview. This option has no "
-"effect on the position of the column."
-msgstr ""
-"Задает список колонок при просмотре MyWorkorders. Не влияет на порядок "
-"колонок."
+msgid "Defines the shown columns in the MyWorkorders overview. This option has no effect on the position of the column."
+msgstr "Задает список колонок при просмотре MyWorkorders. Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the PIR overview. This option has no effect on "
-"the position of the column."
+msgid "Defines the shown columns in the PIR overview. This option has no effect on the position of the column."
 msgstr "Задает список колонок при просмотре PIR Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the change manager overview. This option has no "
-"effect on the position of the column."
-msgstr ""
-"Задает список колонок при просмотре изменений менеджера. Не влияет на "
-"порядок колонок."
+msgid "Defines the shown columns in the change manager overview. This option has no effect on the position of the column."
+msgstr "Задает список колонок при просмотре изменений менеджера. Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the change overview. This option has no effect "
-"on the position of the column."
-msgstr ""
-"Задает список колонок при просмотре изменений. Не влияет на порядок колонок."
+msgid "Defines the shown columns in the change overview. This option has no effect on the position of the column."
+msgstr "Задает список колонок при просмотре изменений. Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the change search. This option has no effect on "
-"the position of the column."
-msgstr ""
-"Задает список колонок при поиске изменений. Не влияет на порядок колонок."
+msgid "Defines the shown columns in the change search. This option has no effect on the position of the column."
+msgstr "Задает список колонок при поиске изменений. Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the customer change schedule overview. This "
-"option has no effect on the position of the column."
-msgstr ""
-"Задает список колонок при просмотре изменений клиента. Не влияет на порядок "
-"колонок."
+msgid "Defines the shown columns in the customer change schedule overview. This option has no effect on the position of the column."
+msgstr "Задает список колонок при просмотре изменений клиента. Не влияет на порядок колонок."
 
 #. SysConfig
-msgid ""
-"Defines the shown columns in the template overview. This option has no "
-"effect on the position of the column."
-msgstr ""
-"Задает список колонок при просмотре шаблонов изменений. Не влияет на порядок "
-"колонок."
+msgid "Defines the shown columns in the template overview. This option has no effect on the position of the column."
+msgstr "Задает список колонок при просмотре шаблонов изменений. Не влияет на порядок колонок."
 
 #. SysConfig
 msgid "Defines the signals for each ITSM change state."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the template types that will be used as filters in the template "
-"overview."
-msgstr ""
-"Задает типы шаблонов, которые будут использоваться ка фильтры при просмотре "
-"шаблонов."
+msgid "Defines the template types that will be used as filters in the template overview."
+msgstr "Задает типы шаблонов, которые будут использоваться ка фильтры при просмотре шаблонов."
 
 #. SysConfig
-msgid ""
-"Defines the workorder states that will be used as filters in the "
-"MyWorkorders overview."
-msgstr ""
-"Задает состояния задач, которые будут использоваться в качестве фильтра при "
-"просмотре Моих задач."
+msgid "Defines the workorder states that will be used as filters in the MyWorkorders overview."
+msgstr "Задает состояния задач, которые будут использоваться в качестве фильтра при просмотре Моих задач."
 
 #. SysConfig
-msgid ""
-"Defines the workorder states that will be used as filters in the PIR "
-"overview."
-msgstr ""
-"Задает состояния задач, которые будут использоваться в качестве фильтра при "
-"просмотре PIR."
+msgid "Defines the workorder states that will be used as filters in the PIR overview."
+msgstr "Задает состояния задач, которые будут использоваться в качестве фильтра при просмотре PIR."
 
 #. SysConfig
 msgid "Defines the workorder types that will be used to show the PIR overview."
@@ -2442,111 +2169,68 @@ msgid "Details of a change history entry."
 msgstr "Детали записи Истории Изменения."
 
 #. SysConfig
-msgid ""
-"Determines if an agent can exchange the X-axis of a stat if he generates one."
+msgid "Determines if an agent can exchange the X-axis of a stat if he generates one."
 msgstr "Задает возможность агенту поменять ось Х на графике при его создании."
 
 #. SysConfig
-msgid ""
-"Determines if the common stats module may generate stats about changes done "
-"for config item classes."
-msgstr ""
-"Определяет, может ли базовый модуль отчетов строить отчеты об изменениях "
-"выполненных для классов учетных элементов."
+msgid "Determines if the common stats module may generate stats about changes done for config item classes."
+msgstr "Определяет, может ли базовый модуль отчетов строить отчеты об изменениях выполненных для классов учетных элементов."
 
 #. SysConfig
-msgid ""
-"Determines if the common stats module may generate stats about changes "
-"regarding change state updates within a timeperiod."
-msgstr ""
-"Определяет, может ли базовый модуль отчетов строить отчеты об изменениях, в "
-"зависисмости от того, изменялось ли состояние изменения за период времени."
+msgid "Determines if the common stats module may generate stats about changes regarding change state updates within a timeperiod."
+msgstr "Определяет, может ли базовый модуль отчетов строить отчеты об изменениях, в зависисмости от того, изменялось ли состояние изменения за период времени."
 
 #. SysConfig
-msgid ""
-"Determines if the common stats module may generate stats about changes "
-"regarding the relation between changes and incident tickets."
-msgstr ""
-"Определяет, может ли базовый модуль отчетов строить отчеты об изменениях, в "
-"зависимости от отношений между изменением и заявкой об инциденте."
+msgid "Determines if the common stats module may generate stats about changes regarding the relation between changes and incident tickets."
+msgstr "Определяет, может ли базовый модуль отчетов строить отчеты об изменениях, в зависимости от отношений между изменением и заявкой об инциденте."
 
 #. SysConfig
 msgid "Determines if the common stats module may generate stats about changes."
-msgstr ""
-"Определяет, может ли базовый модуль отчетов строить отчеты об изменениях."
+msgstr "Определяет, может ли базовый модуль отчетов строить отчеты об изменениях."
 
 #. SysConfig
-msgid ""
-"Determines if the common stats module may generate stats about the number of "
-"Rfc tickets a requester created."
-msgstr ""
-"Определяет, может ли базовый модуль отчетов строить отчеты о количестве "
-"созданных заявителем заявок с запросами на изменение (Rfc)."
+msgid "Determines if the common stats module may generate stats about the number of Rfc tickets a requester created."
+msgstr "Определяет, может ли базовый модуль отчетов строить отчеты о количестве созданных заявителем заявок с запросами на изменение (Rfc)."
 
 #. SysConfig
-msgid ""
-"Dynamic fields (for changes and workorders) shown in the change print screen "
-"of the agent interface."
-msgstr ""
-"Динамические поля (для изменений и задач), отображаемые на экране печати "
-"изменений интерфейса агента."
+msgid "Dynamic fields (for changes and workorders) shown in the change print screen of the agent interface."
+msgstr "Динамические поля (для изменений и задач), отображаемые на экране печати изменений интерфейса агента."
 
 #. SysConfig
 msgid "Dynamic fields shown in the change add screen of the agent interface."
-msgstr ""
-"Динамические поля, отображаемые в окне добавления изменения в интерфейсе "
-"агента."
+msgstr "Динамические поля, отображаемые в окне добавления изменения в интерфейсе агента."
 
 #. SysConfig
 msgid "Dynamic fields shown in the change edit screen of the agent interface."
-msgstr ""
-"Динамические поля, отображаемые в окне редактирования изменений в интерфейсе "
-"агента."
+msgstr "Динамические поля, отображаемые в окне редактирования изменений в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Dynamic fields shown in the change search screen of the agent interface."
-msgstr ""
-"Динамические поля, отображаемые в окне поиска изменений в интерфейсе агента."
+msgid "Dynamic fields shown in the change search screen of the agent interface."
+msgstr "Динамические поля, отображаемые в окне поиска изменений в интерфейсе агента."
 
 #. SysConfig
 msgid "Dynamic fields shown in the change zoom screen of the agent interface."
-msgstr ""
-"Динамические поля, отображаемые в окне просмотра изменений в интерфейсе "
-"агента."
+msgstr "Динамические поля, отображаемые в окне просмотра изменений в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Dynamic fields shown in the workorder add screen of the agent interface."
-msgstr ""
-"Динамические поля, отображаемые в окне добавления задачи в интерфейсе агента."
+msgid "Dynamic fields shown in the workorder add screen of the agent interface."
+msgstr "Динамические поля, отображаемые в окне добавления задачи в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Dynamic fields shown in the workorder edit screen of the agent interface."
-msgstr ""
-"Динамические поля, отображаемые в окне редактирования задачи в интерфейсе "
-"агента."
+msgid "Dynamic fields shown in the workorder edit screen of the agent interface."
+msgstr "Динамические поля, отображаемые в окне редактирования задачи в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Dynamic fields shown in the workorder report screen of the agent interface."
-msgstr ""
-"Динамические поля, отображаемые в окне отчета по задачам в интерфейсе агента."
+msgid "Dynamic fields shown in the workorder report screen of the agent interface."
+msgstr "Динамические поля, отображаемые в окне отчета по задачам в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Dynamic fields shown in the workorder zoom screen of the agent interface."
-msgstr ""
-"Динамические поля, отображаемые в окне просмотра задачи в интерфейсе агента."
+msgid "Dynamic fields shown in the workorder zoom screen of the agent interface."
+msgstr "Динамические поля, отображаемые в окне просмотра задачи в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"DynamicField event module to handle the update of conditions if dynamic "
-"fields are added, updated or deleted."
-msgstr ""
-"Модуль управления событиями для динамических полей при изменении Условий, "
-"если динамические поля добавляются, изменяются или удаляются."
+msgid "DynamicField event module to handle the update of conditions if dynamic fields are added, updated or deleted."
+msgstr "Модуль управления событиями для динамических полей при изменении Условий, если динамические поля добавляются, изменяются или удаляются."
 
 #. SysConfig
 msgid "Edit a change."
@@ -2565,15 +2249,12 @@ msgid "Edit the workorder."
 msgstr "Редактировать задачу."
 
 #. SysConfig
-msgid ""
-"Enables the minimal change counter size (if \"Date\" was selected as "
-"ITSMChange::NumberGenerator)."
+msgid "Enables the minimal change counter size (if \"Date\" was selected as ITSMChange::NumberGenerator)."
 msgstr ""
 
 #. SysConfig
 msgid "Forward schedule of changes. Overview over approved changes."
-msgstr ""
-"Планирование перемещения Изменений. Обзор порядка утверждения Изменений."
+msgstr "Планирование перемещения Изменений. Обзор порядка утверждения Изменений."
 
 #. SysConfig
 msgid "History Zoom"
@@ -2649,9 +2330,7 @@ msgstr "ITSM модуль обработки событий, очищающий 
 
 #. SysConfig
 msgid "ITSM event module that deletes the cache for a toolbar."
-msgstr ""
-"ITSM модуль управления событиями, который очищает кэш для панели "
-"инструментов."
+msgstr "ITSM модуль управления событиями, который очищает кэш для панели инструментов."
 
 #. SysConfig
 msgid "ITSM event module that deletes the history of changes."
@@ -2659,9 +2338,7 @@ msgstr "ITSM модуль обработки событий, удаляющий 
 
 #. SysConfig
 msgid "ITSM event module that matches conditions and executes actions."
-msgstr ""
-"ITSM модуль обработки событий, проверяющий соответствие условиям и "
-"выполняющий действия."
+msgstr "ITSM модуль обработки событий, проверяющий соответствие условиям и выполняющий действия."
 
 #. SysConfig
 msgid "ITSM event module that sends notifications."
@@ -2685,9 +2362,7 @@ msgstr "ITSM модуль обработки событий, перевычис�
 
 #. SysConfig
 msgid "ITSM event module to set the actual start and end times of workorders."
-msgstr ""
-"ITSM модуль обработки событий, устанавливающий фактическое время начала и "
-"окончания задач."
+msgstr "ITSM модуль обработки событий, устанавливающий фактическое время начала и окончания задач."
 
 #. SysConfig
 msgid "ITSMChange"
@@ -2698,12 +2373,8 @@ msgid "ITSMWorkOrder"
 msgstr "ITSMWorkOrder"
 
 #. SysConfig
-msgid ""
-"If frequency is 'regularly', you can configure how often the notifications "
-"are sent (every X hours)."
-msgstr ""
-"Если частота указана как \"regularly\" вы можете задать как часто будут "
-"отправляться уведомления (каждые Х часов)."
+msgid "If frequency is 'regularly', you can configure how often the notifications are sent (every X hours)."
+msgstr "Если частота указана как \"regularly\" вы можете задать как часто будут отправляться уведомления (каждые Х часов)."
 
 #. SysConfig
 msgid "Link another object to the change."
@@ -2738,12 +2409,8 @@ msgid "Manage the category ↔ impact ↔ priority matrix."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Module to check if WorkOrderAdd or WorkOrderAddFromTemplate should be "
-"permitted."
-msgstr ""
-"Модуль, проверяющий, что WorkOrderAdd или WorkOrderAddFromTemplate должны "
-"быть разрешены."
+msgid "Module to check if WorkOrderAdd or WorkOrderAddFromTemplate should be permitted."
+msgstr "Модуль, проверяющий, что WorkOrderAdd или WorkOrderAddFromTemplate должны быть разрешены."
 
 #. SysConfig
 msgid "Module to check the CAB members."
@@ -2774,12 +2441,8 @@ msgid "Module to check whether the agent is contained in the configured list."
 msgstr "Модуль проверки содержится ли агент в списке конфигурации."
 
 #. SysConfig
-msgid ""
-"Module to show a link to create a change from this ticket. The ticket will "
-"be automatically linked with the new change."
-msgstr ""
-"Модуль для отображении ссылки на создание изменения из этой заявки. Заявка "
-"будет автоматически связана с новым изменением."
+msgid "Module to show a link to create a change from this ticket. The ticket will be automatically linked with the new change."
+msgstr "Модуль для отображении ссылки на создание изменения из этой заявки. Заявка будет автоматически связана с новым изменением."
 
 #. SysConfig
 msgid "Move Time Slot."
@@ -2794,14 +2457,8 @@ msgid "New (from template)"
 msgstr "Новое из шаблона"
 
 #. SysConfig
-msgid ""
-"Only users of these groups have the permission to use the ticket types as "
-"defined in \"ITSMChange::AddChangeLinkTicketTypes\" if the feature \"Ticket::"
-"Acl::Module###200-Ticket::Acl::Module\" is enabled."
-msgstr ""
-"Пользователи только указанных групп имеют права на использование типов "
-"заявок заданных в \"ITSMChange::AddChangeLinkTicketTypes\", если параметр "
-"\"Ticket::Acl::Module###200-Ticket::Acl::Module\" включен."
+msgid "Only users of these groups have the permission to use the ticket types as defined in \"ITSMChange::AddChangeLinkTicketTypes\" if the feature \"Ticket::Acl::Module###200-Ticket::Acl::Module\" is enabled."
+msgstr "Пользователи только указанных групп имеют права на использование типов заявок заданных в \"ITSMChange::AddChangeLinkTicketTypes\", если параметр \"Ticket::Acl::Module###200-Ticket::Acl::Module\" включен."
 
 #. SysConfig
 msgid "Other Settings"
@@ -2824,28 +2481,16 @@ msgid "PSA"
 msgstr "PSA"
 
 #. SysConfig
-msgid ""
-"Parameters for the UserCreateWorkOrderNextMask object in the preference view "
-"of the agent interface."
-msgstr ""
-"Параметры для объекта UserCreateWorkOrderNextMask  в предварительном "
-"просмотре в интерфейсе агента"
+msgid "Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface."
+msgstr "Параметры для объекта UserCreateWorkOrderNextMask  в предварительном просмотре в интерфейсе агента"
 
 #. SysConfig
-msgid ""
-"Parameters for the pages (in which the changes are shown) of the small "
-"change overview."
-msgstr ""
-"Параметры для страниц (на которых отображаются изменения) в кратком (small) "
-"обзоре изменений."
+msgid "Parameters for the pages (in which the changes are shown) of the small change overview."
+msgstr "Параметры для страниц (на которых отображаются изменения) в кратком (small) обзоре изменений."
 
 #. SysConfig
-msgid ""
-"Performs the configured action for each event (as an Invoker) for each "
-"configured Webservice."
-msgstr ""
-"Выполняет заданное действие для каждого события (как Invoker) для каждого "
-"настроенного Webservice."
+msgid "Performs the configured action for each event (as an Invoker) for each configured Webservice."
+msgstr "Выполняет заданное действие для каждого события (как Invoker) для каждого настроенного Webservice."
 
 #. SysConfig
 msgid "Planned end time"
@@ -2872,12 +2517,8 @@ msgid "Projected Service Availability (PSA)"
 msgstr "Проектируемая доступность сервиса (PSA)"
 
 #. SysConfig
-msgid ""
-"Projected Service Availability (PSA) of changes. Overview of approved "
-"changes and their services."
-msgstr ""
-"Проектируемая доступность сервиса (PSA) для Изменений. Обзор утвержденных "
-"Изменений и их Сервисов."
+msgid "Projected Service Availability (PSA) of changes. Overview of approved changes and their services."
+msgstr "Проектируемая доступность сервиса (PSA) для Изменений. Обзор утвержденных Изменений и их Сервисов."
 
 #. SysConfig
 msgid "Requested time"
@@ -2905,8 +2546,7 @@ msgstr "Привилегии, требуемые агенту для созда�
 
 #. SysConfig
 msgid "Required privileges to create a template from a changes' CAB."
-msgstr ""
-"Привилегии, требуемые агенту для создания шаблона из изменения или CAB."
+msgstr "Привилегии, требуемые агенту для создания шаблона из изменения или CAB."
 
 #. SysConfig
 msgid "Required privileges to create a template from a workorder."
@@ -2954,9 +2594,7 @@ msgstr "Права, необходимые для редактирования �
 
 #. SysConfig
 msgid "Required privileges to edit the involved persons of a change."
-msgstr ""
-"Привилегии, требуемые агенту для редактирования списка вовлеченных "
-"сотрудников в изменении."
+msgstr "Привилегии, требуемые агенту для редактирования списка вовлеченных сотрудников в изменении."
 
 #. SysConfig
 msgid "Required privileges to move changes in time."
@@ -2979,19 +2617,12 @@ msgid "Required privileges to view changes."
 msgstr "Привилегии, требуемые агенту для просмотра изменений."
 
 #. SysConfig
-msgid ""
-"Required privileges to view list of changes where the user is a CAB member."
-msgstr ""
-"Привилегии, требуемые агенту для просмотра списка изменений, в которых агент "
-"является членом CAB."
+msgid "Required privileges to view list of changes where the user is a CAB member."
+msgstr "Привилегии, требуемые агенту для просмотра списка изменений, в которых агент является членом CAB."
 
 #. SysConfig
-msgid ""
-"Required privileges to view list of changes where the user is the change "
-"manager."
-msgstr ""
-"Привилегии, требуемые агенту для просмотра списка изменений, в которых агент "
-"является менеджером изменений."
+msgid "Required privileges to view list of changes where the user is the change manager."
+msgstr "Привилегии, требуемые агенту для просмотра списка изменений, в которых агент является менеджером изменений."
 
 #. SysConfig
 msgid "Required privileges to view overview over all templates."
@@ -3011,8 +2642,7 @@ msgstr "Привилегии, требуемые агенту для просм�
 
 #. SysConfig
 msgid "Required privileges to view the history zoom of a change."
-msgstr ""
-"Привилегии, требуемые агенту для просмотра подробной истории изменения."
+msgstr "Привилегии, требуемые агенту для просмотра подробной истории изменения."
 
 #. SysConfig
 msgid "Required privileges to view the history zoom of a workorder."
@@ -3020,20 +2650,15 @@ msgstr "Привилегии, требуемые агенту для просм�
 
 #. SysConfig
 msgid "Required privileges to view the list of Change Schedule."
-msgstr ""
-"Привилегии, требуемые агенту для просмотра списка Планировщика изменений."
+msgstr "Привилегии, требуемые агенту для просмотра списка Планировщика изменений."
 
 #. SysConfig
 msgid "Required privileges to view the list of change PSA."
 msgstr "Привилегии, требуемые агенту для просмотра списка PSA."
 
 #. SysConfig
-msgid ""
-"Required privileges to view the list of changes with an upcoming PIR (Post "
-"Implementation Review)."
-msgstr ""
-"Привилегии, требуемые агенту для просмотра списка изменений с предстоящим "
-"PIR (Post Implementation Review)."
+msgid "Required privileges to view the list of changes with an upcoming PIR (Post Implementation Review)."
+msgstr "Привилегии, требуемые агенту для просмотра списка изменений с предстоящим PIR (Post Implementation Review)."
 
 #. SysConfig
 msgid "Required privileges to view the list of own changes."
@@ -3056,12 +2681,8 @@ msgid "Reset change and its workorders."
 msgstr "Очистить изменение и его задачи."
 
 #. SysConfig
-msgid ""
-"Run task to check if specific times have been reached in changes and "
-"workorders."
-msgstr ""
-"Запустить задание для проверки достижимости значений времени в Изменениях и "
-"Задачах."
+msgid "Run task to check if specific times have been reached in changes and workorders."
+msgstr "Запустить задание для проверки достижимости значений времени в Изменениях и Задачах."
 
 #. SysConfig
 msgid "Save change as a template."
@@ -3088,50 +2709,24 @@ msgid "Search Changes."
 msgstr "Поиск изменений."
 
 #. SysConfig
-msgid ""
-"Selects the change number generator module. \"AutoIncrement\" increments the "
-"change number, the SystemID and the counter are used with SystemID.counter "
-"format (e.g. 100118, 100119). With \"Date\", the change numbers will be "
-"generated by the current date and a counter; this format looks like Year."
-"Month.Day.counter, e.g. 2010062400001, 2010062400002. With \"DateChecksum\", "
-"the counter will be appended as checksum to the string of date plus the "
-"SystemID. The checksum will be rotated on a daily basis. This format looks "
-"like Year.Month.Day.SystemID.Counter.CheckSum, e.g. 2010062410000017, "
-"2010062410000026."
-msgstr ""
-"Задает способ генерации номеров изменений.  \"AutoIncrement\" - увеличивает "
-"номер на 1, формат - SystemID.counter (например, 100118, 100119).  \"Date\" "
-"- использует текущую дату, SystemID и счетчик, вид: Year.Month.Day.SystemID."
-"counter - 2010062400001, 2010062400002. \"DateChecksum\" - счетчик "
-"дополняется контрольной суммой к строке из даты и SystemID. Формат строится "
-"как Year.Month.Day.SystemID.Counter.CheckSum. Контрольная сумма обновляется "
-"ежедневно, вид: 2010062410000017, 2010062410000026."
+msgid "Selects the change number generator module. \"AutoIncrement\" increments the change number, the SystemID and the counter are used with SystemID.counter format (e.g. 100118, 100119). With \"Date\", the change numbers will be generated by the current date and a counter; this format looks like Year.Month.Day.counter, e.g. 2010062400001, 2010062400002. With \"DateChecksum\", the counter will be appended as checksum to the string of date plus the SystemID. The checksum will be rotated on a daily basis. This format looks like Year.Month.Day.SystemID.Counter.CheckSum, e.g. 2010062410000017, 2010062410000026."
+msgstr "Задает способ генерации номеров изменений.  \"AutoIncrement\" - увеличивает номер на 1, формат - SystemID.counter (например, 100118, 100119).  \"Date\" - использует текущую дату, SystemID и счетчик, вид: Year.Month.Day.SystemID.counter - 2010062400001, 2010062400002. \"DateChecksum\" - счетчик дополняется контрольной суммой к строке из даты и SystemID. Формат строится как Year.Month.Day.SystemID.Counter.CheckSum. Контрольная сумма обновляется ежедневно, вид: 2010062410000017, 2010062410000026."
 
 #. SysConfig
 msgid "Set the agent for the workorder."
 msgstr "Назначить агента по задаче."
 
 #. SysConfig
-msgid ""
-"Set the default height (in pixels) of inline HTML fields in the change zoom "
-"screen and workorder zoom screen of the agent interface."
+msgid "Set the default height (in pixels) of inline HTML fields in the change zoom screen and workorder zoom screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Set the maximum height (in pixels) of inline HTML fields in the change zoom "
-"screen and workorder zoom screen of the agent interface."
+msgid "Set the maximum height (in pixels) of inline HTML fields in the change zoom screen and workorder zoom screen of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Sets the minimal change counter size (if \"AutoIncrement\" was selected as "
-"ITSMChange::NumberGenerator). Default is 5, this means the counter starts "
-"from 10000."
-msgstr ""
-"Задает минимальное количество разрядов для счетчика изменений (если выбран "
-"тип  \"AutoIncrement\" для ITSMChange::NumberGenerator). По умолчанию - 5, "
-"что означает, что начальное значение счетчика будет 10000."
+msgid "Sets the minimal change counter size (if \"AutoIncrement\" was selected as ITSMChange::NumberGenerator). Default is 5, this means the counter starts from 10000."
+msgstr "Задает минимальное количество разрядов для счетчика изменений (если выбран тип  \"AutoIncrement\" для ITSMChange::NumberGenerator). По умолчанию - 5, что означает, что начальное значение счетчика будет 10000."
 
 #. SysConfig
 msgid "Sets up the state machine for changes."
@@ -3142,178 +2737,95 @@ msgid "Sets up the state machine for workorders."
 msgstr "Задает state machine для заданий."
 
 #. SysConfig
-msgid ""
-"Shows a checkbox in the workorder edit screen of the agent interface that "
-"defines if the the following workorders should also be moved if a workorder "
-"is modified and the planned end time has changed."
+msgid "Shows a checkbox in the workorder edit screen of the agent interface that defines if the the following workorders should also be moved if a workorder is modified and the planned end time has changed."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu that allows changing the workorder agent, in the "
-"zoom view of the workorder of the agent interface."
+msgid "Shows a link in the menu that allows changing the workorder agent, in the zoom view of the workorder of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu that allows defining a change as a template in the "
-"zoom view of the change, in the agent interface."
-msgstr ""
-"Отображает ссылку в меню, которая позволяет определить изменения как шаблон "
-"в детальном просмотре изменения в интерфейсе агента."
+msgid "Shows a link in the menu that allows defining a change as a template in the zoom view of the change, in the agent interface."
+msgstr "Отображает ссылку в меню, которая позволяет определить изменения как шаблон в детальном просмотре изменения в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu that allows defining a workorder as a template in "
-"the zoom view of the workorder, in the agent interface."
-msgstr ""
-"Отображает ссылку в меню, которая позволяет определить Задачу как шаблон в "
-"детальном просмотре Задачи в интерфейсе агента."
+msgid "Shows a link in the menu that allows defining a workorder as a template in the zoom view of the workorder, in the agent interface."
+msgstr "Отображает ссылку в меню, которая позволяет определить Задачу как шаблон в детальном просмотре Задачи в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu that allows editing the report of a workorder, in "
-"the zoom view of the workorder of the agent interface."
+msgid "Shows a link in the menu that allows editing the report of a workorder, in the zoom view of the workorder of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu that allows linking a change with another object in "
-"the change zoom view of the agent interface."
-msgstr ""
-"Отображает ссылку в меню, которая позволяет установить связь изменения с "
-"другим объекторм в детальном просмотре изменения в интерфейсе агента."
+msgid "Shows a link in the menu that allows linking a change with another object in the change zoom view of the agent interface."
+msgstr "Отображает ссылку в меню, которая позволяет установить связь изменения с другим объекторм в детальном просмотре изменения в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu that allows linking a workorder with another object "
-"in the zoom view of the workorder of the agent interface."
+msgid "Shows a link in the menu that allows linking a workorder with another object in the zoom view of the workorder of the agent interface."
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu that allows moving the time slot of a change in its "
-"zoom view of the agent interface."
-msgstr ""
-"Отображает ссылку в меню которая позволяет перемещать временной интервал "
-"изменения в его детальном просмотре в агентском интерфейсе."
+msgid "Shows a link in the menu that allows moving the time slot of a change in its zoom view of the agent interface."
+msgstr "Отображает ссылку в меню которая позволяет перемещать временной интервал изменения в его детальном просмотре в агентском интерфейсе."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu that allows taking a workorder in the its zoom view "
-"of the agent interface."
-msgstr ""
-"Отображает ссылку которая позволяет принять задачу в работу при её детальном "
-"просмотре в интерфейсе агента."
+msgid "Shows a link in the menu that allows taking a workorder in the its zoom view of the agent interface."
+msgstr "Отображает ссылку которая позволяет принять задачу в работу при её детальном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to access the conditions of a change in the its "
-"zoom view of the agent interface."
-msgstr ""
-"Отображает ссылку в меню для доступа к условиям изменения в его детальном "
-"просмотре в интерфейсе агента."
+msgid "Shows a link in the menu to access the conditions of a change in the its zoom view of the agent interface."
+msgstr "Отображает ссылку в меню для доступа к условиям изменения в его детальном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to access the history of a change in the its zoom "
-"view of the agent interface."
-msgstr ""
-"Отображает ссылку в меня для доступа к истории изменения в его детальном "
-"просмотре в интерфейсе агента"
+msgid "Shows a link in the menu to access the history of a change in the its zoom view of the agent interface."
+msgstr "Отображает ссылку в меня для доступа к истории изменения в его детальном просмотре в интерфейсе агента"
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to access the history of a workorder in the its "
-"zoom view of the agent interface."
-msgstr ""
-"Отображает ссылку в меню для доступа к истории Задачи при её детальном "
-"просмотре в интерфейсе агента."
+msgid "Shows a link in the menu to access the history of a workorder in the its zoom view of the agent interface."
+msgstr "Отображает ссылку в меню для доступа к истории Задачи при её детальном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to add a workorder in the change zoom view of the "
-"agent interface."
-msgstr ""
-"Отображает ссылку в меню для добавления Задачи в детальном просмотре "
-"Изменения в интерфейсе агента."
+msgid "Shows a link in the menu to add a workorder in the change zoom view of the agent interface."
+msgstr "Отображает ссылку в меню для добавления Задачи в детальном просмотре Изменения в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to delete a change in its zoom view of the agent "
-"interface."
-msgstr ""
-"Показывает пункт меню для удаления изменения при его подробном просмотре в "
-"интерфейсе агента."
+msgid "Shows a link in the menu to delete a change in its zoom view of the agent interface."
+msgstr "Показывает пункт меню для удаления изменения при его подробном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to delete a workorder in its zoom view of the agent "
-"interface."
-msgstr ""
-"Показывает пункт меню для удаления задачи при её подробном просмотре в "
-"интерфейсе агента."
+msgid "Shows a link in the menu to delete a workorder in its zoom view of the agent interface."
+msgstr "Показывает пункт меню для удаления задачи при её подробном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to edit a change in the its zoom view of the agent "
-"interface."
-msgstr ""
-"Отображает ссылку в меню для редактирования измененя в его детальном "
-"просмотре в интерфейсе агента."
+msgid "Shows a link in the menu to edit a change in the its zoom view of the agent interface."
+msgstr "Отображает ссылку в меню для редактирования измененя в его детальном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to edit a workorder in the its zoom view of the "
-"agent interface."
-msgstr ""
-"Отображает ссылку в меню для редактирования Задачи в её детальном просмотре "
-"в интерфейсе агента."
+msgid "Shows a link in the menu to edit a workorder in the its zoom view of the agent interface."
+msgstr "Отображает ссылку в меню для редактирования Задачи в её детальном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to go back in the change zoom view of the agent "
-"interface."
-msgstr ""
-"Отображает ссылку в меню для возврата в детальный просмотр изменения в "
-"интерфейсе агента."
+msgid "Shows a link in the menu to go back in the change zoom view of the agent interface."
+msgstr "Отображает ссылку в меню для возврата в детальный просмотр изменения в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to go back in the workorder zoom view of the agent "
-"interface."
-msgstr ""
-"Отображает ссылку в меню для возврата назад в детальном просмотре Задачи в "
-"интерфейсе агента."
+msgid "Shows a link in the menu to go back in the workorder zoom view of the agent interface."
+msgstr "Отображает ссылку в меню для возврата назад в детальном просмотре Задачи в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to print a change in the its zoom view of the agent "
-"interface."
-msgstr ""
-"Отображает ссылку в меню для печати изменения при его детальном просмотре в "
-"интерфейсе агента."
+msgid "Shows a link in the menu to print a change in the its zoom view of the agent interface."
+msgstr "Отображает ссылку в меню для печати изменения при его детальном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to print a workorder in the its zoom view of the "
-"agent interface."
-msgstr ""
-"Отображает ссылку в меню для печати Задачи при ее детальном просмотре в "
-"интерфейсе агента."
+msgid "Shows a link in the menu to print a workorder in the its zoom view of the agent interface."
+msgstr "Отображает ссылку в меню для печати Задачи при ее детальном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to reset a change and its workorders in its zoom "
-"view of the agent interface."
-msgstr ""
-"Показывает пункт меню для очистки изменения и его задач при его подробном "
-"просмотре в интерфейсе агента."
+msgid "Shows a link in the menu to reset a change and its workorders in its zoom view of the agent interface."
+msgstr "Показывает пункт меню для очистки изменения и его задач при его подробном просмотре в интерфейсе агента."
 
 #. SysConfig
-msgid ""
-"Shows a link in the menu to show the involved persons in a change, in the "
-"zoom view of the change in the agent interface."
+msgid "Shows a link in the menu to show the involved persons in a change, in the zoom view of the change in the agent interface."
 msgstr ""
 
 #. SysConfig
@@ -3325,12 +2837,8 @@ msgid "State Machine"
 msgstr "Состояния"
 
 #. SysConfig
-msgid ""
-"Stores change and workorder ids and their corresponding template id, while a "
-"user is editing a template."
-msgstr ""
-"Сохраняет идентфикаторы - id's изменениия и задачи и их соответствующие "
-"идентификаторы шаблонов во время редактирования их пользователем."
+msgid "Stores change and workorder ids and their corresponding template id, while a user is editing a template."
+msgstr "Сохраняет идентфикаторы - id's изменениия и задачи и их соответствующие идентификаторы шаблонов во время редактирования их пользователем."
 
 #. SysConfig
 msgid "Take Workorder"
@@ -3357,47 +2865,24 @@ msgid "Template."
 msgstr "Шаблон."
 
 #. SysConfig
-msgid ""
-"The identifier for a change, e.g. Change#, MyChange#. The default is Change#."
-msgstr ""
-"Индентификатор для изменения, например Change#, MyChange#. The default is "
-"Change#."
+msgid "The identifier for a change, e.g. Change#, MyChange#. The default is Change#."
+msgstr "Индентификатор для изменения, например Change#, MyChange#. The default is Change#."
 
 #. SysConfig
-msgid ""
-"The identifier for a workorder, e.g. Workorder#, MyWorkorder#. The default "
-"is Workorder#."
-msgstr ""
-"Индентификатор для задания, например Workorder#, MyWorkorder#. The default "
-"is Workorder#."
+msgid "The identifier for a workorder, e.g. Workorder#, MyWorkorder#. The default is Workorder#."
+msgstr "Индентификатор для задания, например Workorder#, MyWorkorder#. The default is Workorder#."
 
 #. SysConfig
-msgid ""
-"This ACL module restricts the usuage of the ticket types that are defined in "
-"the sysconfig option 'ITSMChange::AddChangeLinkTicketTypes', to users of the "
-"groups as defined in \"ITSMChange::RestrictTicketTypes::Groups\". As this "
-"ACL could collide with other ACLs which are also related to the ticket type, "
-"this sysconfig option is disabled by default and should only be activated if "
-"needed."
-msgstr ""
-"Этот ACL модуль ограничивает использование типов заявок заданных в "
-"параметре  'ITSMChange::AddChangeLinkTicketTypes', для агентов групп, "
-"указанных в \"ITSMChange::RestrictTicketTypes::Groups\". Так как этот ACL "
-"может конфликтовать с другими ACL, также связанными с типами заявок, этот "
-"параметр отключен по умолчанию и может быть, при необходимости, активирован "
-"вручную."
+msgid "This ACL module restricts the usuage of the ticket types that are defined in the sysconfig option 'ITSMChange::AddChangeLinkTicketTypes', to users of the groups as defined in \"ITSMChange::RestrictTicketTypes::Groups\". As this ACL could collide with other ACLs which are also related to the ticket type, this sysconfig option is disabled by default and should only be activated if needed."
+msgstr "Этот ACL модуль ограничивает использование типов заявок заданных в параметре  'ITSMChange::AddChangeLinkTicketTypes', для агентов групп, указанных в \"ITSMChange::RestrictTicketTypes::Groups\". Так как этот ACL может конфликтовать с другими ACL, также связанными с типами заявок, этот параметр отключен по умолчанию и может быть, при необходимости, активирован вручную."
 
 #. SysConfig
 msgid "Time Slot"
 msgstr "Диапазон дат"
 
 #. SysConfig
-msgid ""
-"Types of tickets, where in the ticket zoom view a link to add a change will "
-"be displayed."
-msgstr ""
-"Типы заявок, в которых подробном просмотре ссылка для добавления изменения "
-"будет показана."
+msgid "Types of tickets, where in the ticket zoom view a link to add a change will be displayed."
+msgstr "Типы заявок, в которых подробном просмотре ссылка для добавления изменения будет показана."
 
 #. SysConfig
 msgid "User Search"
@@ -3450,3 +2935,4 @@ msgstr "один раз"
 #. SysConfig
 msgid "regularly"
 msgstr "регулярно"
+

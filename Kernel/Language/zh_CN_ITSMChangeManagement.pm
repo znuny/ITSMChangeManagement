@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,20 +15,20 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AdminITSMChangeCIPAllocate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
     $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = '风险类别 ↔ 影响 ↔ 优先级';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         '管理"风险类别 ↔ 影响"组合决定的优先级结果。';
     $Self->{Translation}->{'Priority allocation'} = '优先级分配';
 
-    # Template: AdminITSMChangeNotification
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '管理变更通知';
     $Self->{Translation}->{'Add Notification Rule'} = '添加通知规则';
     $Self->{Translation}->{'Edit Notification Rule'} = '编辑通知规则';
     $Self->{Translation}->{'A notification should have a name!'} = '通知必须有名称！';
     $Self->{Translation}->{'Name is required.'} = '名称是必需的。';
 
-    # Template: AdminITSMStateMachine
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
     $Self->{Translation}->{'Admin State Machine'} = '管理状态模式转换';
     $Self->{Translation}->{'Select a catalog class!'} = '选择一个目录类！';
     $Self->{Translation}->{'A catalog class is required!'} = '目录类是必需的！';
@@ -44,7 +43,7 @@ sub Data {
     $Self->{Translation}->{'Edit a state transition for'} = '编辑状态转换';
     $Self->{Translation}->{'Do you really want to delete the state transition'} = '您真的想要删除这个状态转换';
 
-    # Template: AgentITSMChangeAdd
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = '创建变更';
     $Self->{Translation}->{'ITSM Change'} = '变更';
     $Self->{Translation}->{'Justification'} = '理由';
@@ -52,23 +51,23 @@ sub Data {
     $Self->{Translation}->{'Impact'} = '影响';
     $Self->{Translation}->{'Requested Date'} = '请求日期';
 
-    # Template: AgentITSMChangeAddFromTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
     $Self->{Translation}->{'Select Change Template'} = '选择变更模板';
     $Self->{Translation}->{'Time type'} = '时间类型';
     $Self->{Translation}->{'Invalid time type.'} = '无效的时间类型。';
     $Self->{Translation}->{'New time'} = '新的时间';
 
-    # Template: AgentITSMChangeCABTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
     $Self->{Translation}->{'Save Change CAB as template'} = '保存变更CAB为模板';
     $Self->{Translation}->{'go to involved persons screen'} = '转向相关人员窗口';
     $Self->{Translation}->{'Invalid Name'} = '无效的名称';
 
-    # Template: AgentITSMChangeCondition
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
     $Self->{Translation}->{'Conditions and Actions'} = '条件和操作';
     $Self->{Translation}->{'Delete Condition'} = '删除条件';
     $Self->{Translation}->{'Add new condition'} = '添加新的条件';
 
-    # Template: AgentITSMChangeConditionEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
     $Self->{Translation}->{'Edit Condition'} = '编辑条件';
     $Self->{Translation}->{'Need a valid name.'} = '需要一个有效的名称。';
     $Self->{Translation}->{'A valid name is needed.'} = '需要一个有效的名称。';
@@ -87,13 +86,13 @@ sub Data {
     $Self->{Translation}->{'No Actions found.'} = '没有找到操作。';
     $Self->{Translation}->{'Add new action'} = '添加新的操作';
 
-    # Template: AgentITSMChangeDelete
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeDelete.tt
     $Self->{Translation}->{'Do you really want to delete this change?'} = '您真的想要删除这个变更吗?';
 
-    # Template: AgentITSMChangeEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeEdit.tt
     $Self->{Translation}->{'Edit %s%s'} = '编辑%s%s';
 
-    # Template: AgentITSMChangeHistory
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = '工单%s%s的历史信息';
     $Self->{Translation}->{'History Content'} = '历史值';
     $Self->{Translation}->{'Workorder'} = '工作指令';
@@ -101,13 +100,13 @@ sub Data {
     $Self->{Translation}->{'Show details'} = '显示详情';
     $Self->{Translation}->{'Show workorder'} = '显示工作指令';
 
-    # Template: AgentITSMChangeHistoryZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
     $Self->{Translation}->{'Detailed history information of %s'} = '%s的详细历史信息';
     $Self->{Translation}->{'Modified'} = '已修改';
     $Self->{Translation}->{'Old Value'} = '旧值';
     $Self->{Translation}->{'New Value'} = '新值';
 
-    # Template: AgentITSMChangeInvolvedPersons
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
     $Self->{Translation}->{'Edit Involved Persons of %s%s'} = '编辑%s%s的相关人员';
     $Self->{Translation}->{'Involved Persons'} = '相关人员';
     $Self->{Translation}->{'ChangeManager'} = '变更经理';
@@ -122,11 +121,11 @@ sub Data {
     $Self->{Translation}->{'Invalid User'} = '无效的用户';
     $Self->{Translation}->{'Current CAB'} = '当前CAB';
 
-    # Template: AgentITSMChangeOverviewNavBar
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
     $Self->{Translation}->{'Context Settings'} = '上下文设置';
     $Self->{Translation}->{'Changes per page'} = '每页显示的变更个数';
 
-    # Template: AgentITSMChangeOverviewSmall
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
     $Self->{Translation}->{'Workorder Title'} = '工作指令标题';
     $Self->{Translation}->{'Change Title'} = '变更标题';
     $Self->{Translation}->{'Workorder Agent'} = '工作指令服务人员';
@@ -142,10 +141,10 @@ sub Data {
     $Self->{Translation}->{'Actual Start Time'} = '实际开始时间';
     $Self->{Translation}->{'Actual End Time'} = '实际结束时间';
 
-    # Template: AgentITSMChangeReset
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeReset.tt
     $Self->{Translation}->{'Do you really want to reset this change?'} = '您真的想要重置这个变更吗？';
 
-    # Template: AgentITSMChangeSearch
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
     $Self->{Translation}->{'(e.g. 10*5155 or 105658*)'} = '例如：10*5155 or 105658*';
     $Self->{Translation}->{'CAB Agent'} = 'CAB服务人员成员';
     $Self->{Translation}->{'e.g.'} = '例如：';
@@ -158,7 +157,7 @@ sub Data {
     $Self->{Translation}->{'(before/after)'} = '（之前/之后）';
     $Self->{Translation}->{'(between)'} = '（在...之间）';
 
-    # Template: AgentITSMChangeTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
     $Self->{Translation}->{'Save Change as Template'} = '保存变更为模板';
     $Self->{Translation}->{'A template should have a name!'} = '模板应该有一个名称!';
     $Self->{Translation}->{'The template name is required.'} = '模板名称是必需的。';
@@ -166,10 +165,10 @@ sub Data {
     $Self->{Translation}->{'Overwrite original template'} = '覆盖原始模板';
     $Self->{Translation}->{'Delete original change'} = '删除原始变更';
 
-    # Template: AgentITSMChangeTimeSlot
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTimeSlot.tt
     $Self->{Translation}->{'Move Time Slot'} = '移动时间轴';
 
-    # Template: AgentITSMChangeZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
     $Self->{Translation}->{'Change Information'} = '变更信息';
     $Self->{Translation}->{'Planned Effort'} = '计划用时';
     $Self->{Translation}->{'Accounted Time'} = '所用工时';
@@ -181,10 +180,10 @@ sub Data {
         '要打开下面描述中的链接，你可能需要在单击链接的同时按住 Ctrl 或 Cmd 或 Shift 键 （取决于您的浏览器和操作系统 ）。';
     $Self->{Translation}->{'Download Attachment'} = '下载附件';
 
-    # Template: AgentITSMTemplateEditCAB
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditCAB.tt
     $Self->{Translation}->{'Edit CAB Template'} = '编辑CAB模板';
 
-    # Template: AgentITSMTemplateEditContent
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
     $Self->{Translation}->{'This will create a new change from this template, so you can edit and save it.'} =
         '这将从这个模板创建一个新的变更，这样您能够编辑和保存它。';
     $Self->{Translation}->{'The new change will be deleted automatically after it has been saved as template.'} =
@@ -197,57 +196,57 @@ sub Data {
         '新的工作指令保存为模板后，临时变更和新的工作指令都将被自动删除。';
     $Self->{Translation}->{'Do you want to proceed?'} = '您要继续进行吗？';
 
-    # Template: AgentITSMTemplateOverviewSmall
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
     $Self->{Translation}->{'Template ID'} = '模板ID';
     $Self->{Translation}->{'Edit Content'} = '编辑内容';
     $Self->{Translation}->{'Create by'} = '创建人';
     $Self->{Translation}->{'Change by'} = '修改人';
     $Self->{Translation}->{'Change Time'} = '修改时间';
 
-    # Template: AgentITSMWorkOrderAdd
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
     $Self->{Translation}->{'Add Workorder to %s%s'} = '将工作指令添加到%s%s';
     $Self->{Translation}->{'Instruction'} = '指令';
     $Self->{Translation}->{'Invalid workorder type.'} = '无效的工作指令类型。';
     $Self->{Translation}->{'The planned start time must be before the planned end time!'} = '计划开始时间必须在计划结束时间之前!';
     $Self->{Translation}->{'Invalid format.'} = '无效的格式.';
 
-    # Template: AgentITSMWorkOrderAddFromTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAddFromTemplate.tt
     $Self->{Translation}->{'Select Workorder Template'} = '选择工作指令模板';
 
-    # Template: AgentITSMWorkOrderAgent
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAgent.tt
     $Self->{Translation}->{'Edit Workorder Agent of %s%s'} = '编辑工作指令%s%s的服务人员';
 
-    # Template: AgentITSMWorkOrderDelete
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
     $Self->{Translation}->{'Do you really want to delete this workorder?'} = '您真的想要删除这个工作指令吗?';
     $Self->{Translation}->{'You can not delete this Workorder. It is used in at least one Condition!'} =
         '你无法删除这个工作单。至少有一个条件用到了它!';
     $Self->{Translation}->{'This Workorder is used in the following Condition(s)'} = '此工作指令出现在下列条件中';
 
-    # Template: AgentITSMWorkOrderEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
     $Self->{Translation}->{'Edit %s%s-%s'} = '编辑%s%s-%s';
     $Self->{Translation}->{'Move following workorders accordingly'} = '相应的移动工作指令';
     $Self->{Translation}->{'If the planned end time of this workorder is changed, the planned start times of all following workorders will be changed accordingly'} =
         '如果该工作指令的计划结束时间改变了，所有后续工作指令的计划开始时间将相应的改变';
 
-    # Template: AgentITSMWorkOrderHistory
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderHistory.tt
     $Self->{Translation}->{'History of %s%s-%s'} = '%s%s-%s历史';
 
-    # Template: AgentITSMWorkOrderReport
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
     $Self->{Translation}->{'Edit Report of %s%s-%s'} = '编辑%s%s-%s的报告';
     $Self->{Translation}->{'Report'} = '报告';
     $Self->{Translation}->{'The actual start time must be before the actual end time!'} = '实际开始时间必须在实际结束时间之前!';
     $Self->{Translation}->{'The actual start time must be set, when the actual end time is set!'} =
         '设置实际结束时间后必须设置实际开始时间!';
 
-    # Template: AgentITSMWorkOrderTake
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
     $Self->{Translation}->{'Current Agent'} = '当前的服务人员';
     $Self->{Translation}->{'Do you really want to take this workorder?'} = '您真的想要删除这个工作指令吗?';
 
-    # Template: AgentITSMWorkOrderTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
     $Self->{Translation}->{'Save Workorder as Template'} = '保存工作指令为模板';
     $Self->{Translation}->{'Delete original workorder (and surrounding change)'} = '删除原始工作指令（和相关的变更）';
 
-    # Template: AgentITSMWorkOrderZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderZoom.tt
     $Self->{Translation}->{'Workorder Information'} = '工作指令信息';
 
     # Perl Module: Kernel/Modules/AdminITSMChangeNotification.pm
@@ -527,7 +526,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = 'ITSM变更创建人组';
     $Self->{Translation}->{'Group ITSMChangeManager'} = 'ITSM变更经理组';
 
-    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
+    # XML Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = '已请求';
     $Self->{Translation}->{'pending approval'} = '待审批';
     $Self->{Translation}->{'rejected'} = '被拒绝';
@@ -569,12 +568,12 @@ sub Data {
     $Self->{Translation}->{'ends with'} = '以...结束';
     $Self->{Translation}->{'set'} = '设置';
 
-    # JS File: ITSM.Agent.ChangeManagement.Condition
+    # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '你确定要删除这个表达式吗？';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '你确定要删除这个操作吗？';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = '你确定要删除这个条件吗？';
 
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
+    # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.ConfirmDialog.js
     $Self->{Translation}->{'Ok'} = '确定';
 
     # SysConfig

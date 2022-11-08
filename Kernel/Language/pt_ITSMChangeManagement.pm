@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,20 +15,20 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AdminITSMChangeCIPAllocate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
     $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Categoria ↔ Impacto ↔ Prioridade';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'Gestão de Prioridade a partir da combinação da categoria ↔ Impacto.';
     $Self->{Translation}->{'Priority allocation'} = 'Atribuir Prioridade';
 
-    # Template: AdminITSMChangeNotification
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Gestão de Notificações de gestão de Alteração ITSM';
     $Self->{Translation}->{'Add Notification Rule'} = 'Adicionar Regra de Notificação';
     $Self->{Translation}->{'Edit Notification Rule'} = '';
     $Self->{Translation}->{'A notification should have a name!'} = 'A notificação precisa de um nome!';
     $Self->{Translation}->{'Name is required.'} = 'Nome é obrigatório.';
 
-    # Template: AdminITSMStateMachine
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
     $Self->{Translation}->{'Admin State Machine'} = 'Gerir Máquina de Estado';
     $Self->{Translation}->{'Select a catalog class!'} = 'Selecione uma classe de catálogo!';
     $Self->{Translation}->{'A catalog class is required!'} = 'A classe de catálogo é necessária!';
@@ -44,7 +43,7 @@ sub Data {
     $Self->{Translation}->{'Edit a state transition for'} = 'Editar uma transição de estado para';
     $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Você quer mesmo apagar esta transição de estado?';
 
-    # Template: AgentITSMChangeAdd
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Adicionar Alteração';
     $Self->{Translation}->{'ITSM Change'} = 'Alteração ITSM';
     $Self->{Translation}->{'Justification'} = 'Justificação';
@@ -52,23 +51,23 @@ sub Data {
     $Self->{Translation}->{'Impact'} = 'Impacto';
     $Self->{Translation}->{'Requested Date'} = 'Data Solicitada';
 
-    # Template: AgentITSMChangeAddFromTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
     $Self->{Translation}->{'Select Change Template'} = 'Selecione modelo de Alteração';
     $Self->{Translation}->{'Time type'} = 'Tipo de Horário';
     $Self->{Translation}->{'Invalid time type.'} = 'Tipo de horário inválido.';
     $Self->{Translation}->{'New time'} = 'Novo horário';
 
-    # Template: AgentITSMChangeCABTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
     $Self->{Translation}->{'Save Change CAB as template'} = 'Guardar CAB da Alteração como modelo';
     $Self->{Translation}->{'go to involved persons screen'} = 'ir para o ecrã "Pessoas Envolvidas"';
     $Self->{Translation}->{'Invalid Name'} = 'Nome inválido';
 
-    # Template: AgentITSMChangeCondition
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
     $Self->{Translation}->{'Conditions and Actions'} = 'Condições e Ações';
     $Self->{Translation}->{'Delete Condition'} = 'Apagar Condição';
     $Self->{Translation}->{'Add new condition'} = 'Adicionar nova condição';
 
-    # Template: AgentITSMChangeConditionEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
     $Self->{Translation}->{'Edit Condition'} = '';
     $Self->{Translation}->{'Need a valid name.'} = 'Um nome válido é necessário.';
     $Self->{Translation}->{'A valid name is needed.'} = '';
@@ -87,13 +86,13 @@ sub Data {
     $Self->{Translation}->{'No Actions found.'} = 'Nenhuma ação encontrada.';
     $Self->{Translation}->{'Add new action'} = 'Adicionar nova ação';
 
-    # Template: AgentITSMChangeDelete
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeDelete.tt
     $Self->{Translation}->{'Do you really want to delete this change?'} = 'Você quer realmente excluir esta mudança?';
 
-    # Template: AgentITSMChangeEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeEdit.tt
     $Self->{Translation}->{'Edit %s%s'} = '';
 
-    # Template: AgentITSMChangeHistory
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = '';
     $Self->{Translation}->{'History Content'} = 'Histórico do conteúdo';
     $Self->{Translation}->{'Workorder'} = 'Ordem de Serviço';
@@ -101,13 +100,13 @@ sub Data {
     $Self->{Translation}->{'Show details'} = 'Mostrar detalhes';
     $Self->{Translation}->{'Show workorder'} = 'Mostrar Ordem de Serviço';
 
-    # Template: AgentITSMChangeHistoryZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
     $Self->{Translation}->{'Detailed history information of %s'} = '';
     $Self->{Translation}->{'Modified'} = 'Modificado';
     $Self->{Translation}->{'Old Value'} = 'Antigo valor';
     $Self->{Translation}->{'New Value'} = 'Novo valor';
 
-    # Template: AgentITSMChangeInvolvedPersons
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
     $Self->{Translation}->{'Edit Involved Persons of %s%s'} = '';
     $Self->{Translation}->{'Involved Persons'} = 'Pessoas Envolvidas';
     $Self->{Translation}->{'ChangeManager'} = 'gestor da Alteração';
@@ -122,11 +121,11 @@ sub Data {
     $Self->{Translation}->{'Invalid User'} = 'Utilizador inválido';
     $Self->{Translation}->{'Current CAB'} = 'CAB Atual';
 
-    # Template: AgentITSMChangeOverviewNavBar
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
     $Self->{Translation}->{'Context Settings'} = 'Configurações de Contexto';
     $Self->{Translation}->{'Changes per page'} = 'Alterações por página';
 
-    # Template: AgentITSMChangeOverviewSmall
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
     $Self->{Translation}->{'Workorder Title'} = '';
     $Self->{Translation}->{'Change Title'} = '';
     $Self->{Translation}->{'Workorder Agent'} = '';
@@ -142,10 +141,10 @@ sub Data {
     $Self->{Translation}->{'Actual Start Time'} = '';
     $Self->{Translation}->{'Actual End Time'} = '';
 
-    # Template: AgentITSMChangeReset
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeReset.tt
     $Self->{Translation}->{'Do you really want to reset this change?'} = 'Você quer realmente redefinir esta mudança?';
 
-    # Template: AgentITSMChangeSearch
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
     $Self->{Translation}->{'(e.g. 10*5155 or 105658*)'} = '(ex. 10*5155 ou 105658*)';
     $Self->{Translation}->{'CAB Agent'} = '';
     $Self->{Translation}->{'e.g.'} = 'ex.';
@@ -158,7 +157,7 @@ sub Data {
     $Self->{Translation}->{'(before/after)'} = '(antes/depois)';
     $Self->{Translation}->{'(between)'} = '(entre)';
 
-    # Template: AgentITSMChangeTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
     $Self->{Translation}->{'Save Change as Template'} = 'Guardar Alteração como Modelo';
     $Self->{Translation}->{'A template should have a name!'} = 'Um modelo precisa de um nome!';
     $Self->{Translation}->{'The template name is required.'} = 'O nome do modelo é necessário.';
@@ -166,10 +165,10 @@ sub Data {
     $Self->{Translation}->{'Overwrite original template'} = '';
     $Self->{Translation}->{'Delete original change'} = '';
 
-    # Template: AgentITSMChangeTimeSlot
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTimeSlot.tt
     $Self->{Translation}->{'Move Time Slot'} = 'Deslocar Horários';
 
-    # Template: AgentITSMChangeZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
     $Self->{Translation}->{'Change Information'} = 'Informação da Alteração';
     $Self->{Translation}->{'Planned Effort'} = '';
     $Self->{Translation}->{'Accounted Time'} = '';
@@ -181,10 +180,10 @@ sub Data {
         'Para abrir as ligações abaixo poderá necessitar de pressionar a tecla CTRL (ou CMD) ou Shift (dependendo do browser e do sistema operativo) quando clicar sobre a ligação.';
     $Self->{Translation}->{'Download Attachment'} = 'Descarregar Anexo';
 
-    # Template: AgentITSMTemplateEditCAB
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditCAB.tt
     $Self->{Translation}->{'Edit CAB Template'} = '';
 
-    # Template: AgentITSMTemplateEditContent
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
     $Self->{Translation}->{'This will create a new change from this template, so you can edit and save it.'} =
         '';
     $Self->{Translation}->{'The new change will be deleted automatically after it has been saved as template.'} =
@@ -197,57 +196,57 @@ sub Data {
         '';
     $Self->{Translation}->{'Do you want to proceed?'} = '';
 
-    # Template: AgentITSMTemplateOverviewSmall
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
     $Self->{Translation}->{'Template ID'} = '';
     $Self->{Translation}->{'Edit Content'} = '';
     $Self->{Translation}->{'Create by'} = '';
     $Self->{Translation}->{'Change by'} = '';
     $Self->{Translation}->{'Change Time'} = '';
 
-    # Template: AgentITSMWorkOrderAdd
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
     $Self->{Translation}->{'Add Workorder to %s%s'} = '';
     $Self->{Translation}->{'Instruction'} = 'Instrução';
     $Self->{Translation}->{'Invalid workorder type.'} = 'Tipo de ordem de serviço inválido';
     $Self->{Translation}->{'The planned start time must be before the planned end time!'} = 'O tempo de início planeado deve ser anterior ao horário de fim planeado!';
     $Self->{Translation}->{'Invalid format.'} = 'Formato Inválido.';
 
-    # Template: AgentITSMWorkOrderAddFromTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAddFromTemplate.tt
     $Self->{Translation}->{'Select Workorder Template'} = 'Selecione modelo de ordem de serviço';
 
-    # Template: AgentITSMWorkOrderAgent
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAgent.tt
     $Self->{Translation}->{'Edit Workorder Agent of %s%s'} = '';
 
-    # Template: AgentITSMWorkOrderDelete
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
     $Self->{Translation}->{'Do you really want to delete this workorder?'} = 'Deseja apagar esta ordem de serviço?';
     $Self->{Translation}->{'You can not delete this Workorder. It is used in at least one Condition!'} =
         'Não é possível apagar esta ordem de serviço. É utilizada pelo menos numa condição!';
     $Self->{Translation}->{'This Workorder is used in the following Condition(s)'} = 'Esta ordem de serviço está em utilização na(s) condição(ões)';
 
-    # Template: AgentITSMWorkOrderEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
     $Self->{Translation}->{'Edit %s%s-%s'} = '';
     $Self->{Translation}->{'Move following workorders accordingly'} = 'Mover as seguintes ordens de acordo';
     $Self->{Translation}->{'If the planned end time of this workorder is changed, the planned start times of all following workorders will be changed accordingly'} =
         'Se o término planejado desta ordem de serviço for alterado, o horário planejado de início de todas as seguintes ordens também serão alterados';
 
-    # Template: AgentITSMWorkOrderHistory
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderHistory.tt
     $Self->{Translation}->{'History of %s%s-%s'} = '';
 
-    # Template: AgentITSMWorkOrderReport
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
     $Self->{Translation}->{'Edit Report of %s%s-%s'} = '';
     $Self->{Translation}->{'Report'} = 'Relatório';
     $Self->{Translation}->{'The actual start time must be before the actual end time!'} = 'O tempo de início real deve ser anterior ao tempo final real !';
     $Self->{Translation}->{'The actual start time must be set, when the actual end time is set!'} =
         'O tempo de início real deve ser definido, quando o tempo de fim real é configurado!';
 
-    # Template: AgentITSMWorkOrderTake
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
     $Self->{Translation}->{'Current Agent'} = 'agente atual';
     $Self->{Translation}->{'Do you really want to take this workorder?'} = 'Deseja assumir esta ordem de serviço?';
 
-    # Template: AgentITSMWorkOrderTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
     $Self->{Translation}->{'Save Workorder as Template'} = 'Guardar Ordem de Serviço como Modelo';
     $Self->{Translation}->{'Delete original workorder (and surrounding change)'} = '';
 
-    # Template: AgentITSMWorkOrderZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderZoom.tt
     $Self->{Translation}->{'Workorder Information'} = 'Informação da Ordem de Serviço';
 
     # Perl Module: Kernel/Modules/AdminITSMChangeNotification.pm
@@ -527,7 +526,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = '';
     $Self->{Translation}->{'Group ITSMChangeManager'} = '';
 
-    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
+    # XML Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = 'Requerida';
     $Self->{Translation}->{'pending approval'} = 'Aprovação Pendente';
     $Self->{Translation}->{'rejected'} = 'Rejeitada';
@@ -569,12 +568,12 @@ sub Data {
     $Self->{Translation}->{'ends with'} = 'termina com';
     $Self->{Translation}->{'set'} = 'configurar';
 
-    # JS File: ITSM.Agent.ChangeManagement.Condition
+    # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = '';
 
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
+    # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.ConfirmDialog.js
     $Self->{Translation}->{'Ok'} = 'Ok';
 
     # SysConfig

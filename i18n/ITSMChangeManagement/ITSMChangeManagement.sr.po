@@ -4,645 +4,643 @@ msgstr ""
 "POT-Creation-Date: 2019-06-25 11:49+0000\n"
 "PO-Revision-Date: 2020-02-07 11:51+0000\n"
 "Last-Translator: Milorad Jovanović <j.milorad@gmail.com>\n"
-"Language-Team: Serbian <https://translate.app.otrs.com/projects/otrs-6/"
-"itsm-change-management/sr/>\n"
+"Language-Team: Serbian <https://translate.app.otrs.com/projects/otrs-6/itsm-change-management/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.10\n"
 
-#. Template: AdminITSMChangeCIPAllocate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
 msgstr "Категорија ↔ утицај ↔ приоритет"
 
-#. Template: AdminITSMChangeCIPAllocate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Manage the priority result of combinating Category ↔ Impact."
 msgstr "Управљање резултатом приоритета комбинацијом категорија ↔ утицај."
 
-#. Template: AdminITSMChangeCIPAllocate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Priority allocation"
 msgstr "Расподела приоритета"
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "ITSM ChangeManagement Notification Management"
 msgstr "Управљање обавештењима у ITSM управљању променама"
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Add Notification Rule"
 msgstr "Додај правило обавештавања"
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Edit Notification Rule"
 msgstr "Уреди правило обавештавања"
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "A notification should have a name!"
 msgstr "Обавештење треба да има име!"
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Name is required."
 msgstr "Име је обавезно."
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Admin State Machine"
 msgstr "Администарција машине стања"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Select a catalog class!"
 msgstr "Избор класе каталога!"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "A catalog class is required!"
 msgstr "Класа каталога је обавезна!"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Add a state transition"
 msgstr "Додај транзицију статуса"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Catalog Class"
 msgstr "Класа каталога"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Object Name"
 msgstr "Назив објекта"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Overview over state transitions for"
 msgstr "Преглед преко транзиције статуса за"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Delete this state transition"
 msgstr "Обриши ову транзицију статуса"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Add a new state transition for"
 msgstr "Додај нову транзицију статуса за"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Please select a state!"
 msgstr "Молимо да одаберете стање!"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Please select a next state!"
 msgstr "Молимо да одаберете следеће стање!"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Edit a state transition for"
 msgstr "Уреди транзицију статуса за"
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Do you really want to delete the state transition"
 msgstr "Да ли заиста желите да обришете ову транзицију статуса?"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Add Change"
 msgstr "Додај промену"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "ITSM Change"
 msgstr "ITSM промена"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Justification"
 msgstr "Оправдање"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Input invalid."
 msgstr "Неисправан унос."
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Impact"
 msgstr "Утицај"
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Requested Date"
 msgstr "Тражени датум"
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "Select Change Template"
 msgstr "Изабери шаблон промене"
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "Time type"
 msgstr "Тип времена"
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "Invalid time type."
 msgstr "Неисправан тип времена."
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "New time"
 msgstr "Ново време"
 
-#. Template: AgentITSMChangeCABTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
 msgid "Save Change CAB as template"
 msgstr "Сачувај промену CAB као шаблон"
 
-#. Template: AgentITSMChangeCABTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
 msgid "go to involved persons screen"
 msgstr "иди на екран укључених особа"
 
-#. Template: AgentITSMChangeCABTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
 msgid "Invalid Name"
 msgstr "Погрешно име"
 
-#. Template: AgentITSMChangeCondition
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
 msgid "Conditions and Actions"
 msgstr "Услови и акције"
 
-#. Template: AgentITSMChangeCondition
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
 msgid "Delete Condition"
 msgstr "Услов брисања"
 
-#. Template: AgentITSMChangeCondition
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
 msgid "Add new condition"
 msgstr "Додај нови услов"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Edit Condition"
 msgstr "Уреди услов"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Need a valid name."
 msgstr "Потребно је исправно име."
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "A valid name is needed."
 msgstr "Неопходно је важеће име."
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Duplicate name:"
 msgstr "Дупликат имена:"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "This name is already used by another condition."
 msgstr "ово име је већ употребљено за други услов."
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Matching"
 msgstr "Подударање"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Any expression (OR)"
 msgstr "Сваки израз (OR)"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "All expressions (AND)"
 msgstr "Сви изрази (AND)"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Expressions"
 msgstr "Изрази"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Selector"
 msgstr "Бирач"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Operator"
 msgstr "Оператор"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Delete Expression"
 msgstr "Обриши израз"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "No Expressions found."
 msgstr "Није пронађен ниједан израз."
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Add new expression"
 msgstr "Додај нов израз"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Delete Action"
 msgstr "Обриши акцију"
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "No Actions found."
 msgstr "Није пронађена ниједна акција."
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Add new action"
 msgstr "Додај нову акцију"
 
-#. Template: AgentITSMChangeDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeDelete.tt
 msgid "Do you really want to delete this change?"
 msgstr "Да ли заиста желите да избришете ову промену?"
 
-#. Template: AgentITSMChangeEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeEdit.tt
 msgid "Edit %s%s"
 msgstr "Уреди %s%s"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "History of %s%s"
 msgstr "Историјат од %s%s"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "History Content"
 msgstr "Садржај историјата"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Workorder"
 msgstr "Радни налог"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Createtime"
 msgstr "Време креирања"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Show details"
 msgstr "Прикажи детаље"
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Show workorder"
 msgstr "Прикажи радни налог"
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Detailed history information of %s"
 msgstr "Детаљни историјат за %s"
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Modified"
 msgstr "Промењено"
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Old Value"
 msgstr "Стара вредност"
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "New Value"
 msgstr "Нова вредност"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Edit Involved Persons of %s%s"
 msgstr "Уреди укључене особе за %s%s"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Involved Persons"
 msgstr "Укључене особе"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "ChangeManager"
 msgstr "Управљач променама"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "User invalid."
 msgstr "Неисправан корисник."
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "ChangeBuilder"
 msgstr "Градитељ промене"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Change Advisory Board"
 msgstr "Саветодавни одбор за промене"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "CAB Template"
 msgstr "CAB шаблон"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Apply Template"
 msgstr "Примени шаблон"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "NewTemplate"
 msgstr "Нови шаблон"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Save this CAB as template"
 msgstr "Сачувај ово као CAB шаблон"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Add to CAB"
 msgstr "Додај у CAB"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Invalid User"
 msgstr "Погрешан корисник"
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Current CAB"
 msgstr "Актуелни CAB"
 
-#. Template: AgentITSMChangeOverviewNavBar
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
 msgid "Context Settings"
 msgstr "Подешавање контекста"
 
-#. Template: AgentITSMChangeOverviewNavBar
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
 msgid "Changes per page"
 msgstr "Промена по страни"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Title"
 msgstr "Наслов радног налога"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Title"
 msgstr "Наслов промене"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Agent"
 msgstr "Оператер за радни налог"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Builder"
 msgstr "Градитељ промене"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Manager"
 msgstr "Управљање променама"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorders"
 msgstr "Радни налози"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change State"
 msgstr "Стање промене"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder State"
 msgstr "Стање радног налога"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Type"
 msgstr "Тип радног налога"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Requested Time"
 msgstr "Тражено време"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Planned Start Time"
 msgstr "Планирано време почетка"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Planned End Time"
 msgstr "Планирано време завршетка"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Actual Start Time"
 msgstr "Стварно време почетка"
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Actual End Time"
 msgstr "Стварно време завршетка"
 
-#. Template: AgentITSMChangeReset
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeReset.tt
 msgid "Do you really want to reset this change?"
 msgstr "Да ли заиста желите да поништите ову промену?"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(e.g. 10*5155 or 105658*)"
 msgstr "(нпр 10*5155 или 105658*)"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "CAB Agent"
 msgstr "Оператер CAB"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "e.g."
 msgstr "нпр."
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "CAB Customer"
 msgstr "CAB клијент"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Workorder Instruction"
 msgstr "Упутство ITSM радног налога"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Workorder Report"
 msgstr "Извештај ITSM радног налога"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change Priority"
 msgstr "Приоритет ITSM промене"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change Impact"
 msgstr "Утицај ITSM промене"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "Change Category"
 msgstr "Категорија промене"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(before/after)"
 msgstr "(пре/после)"
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(between)"
 msgstr "(између)"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Save Change as Template"
 msgstr "Сачувај промену као шаблон"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "A template should have a name!"
 msgstr "Шаблон треба да има име!"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "The template name is required."
 msgstr "Име шаблона је обавезно."
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Reset States"
 msgstr "Поништи стања"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Overwrite original template"
 msgstr "Препиши преко оригиналног шаблона"
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Delete original change"
 msgstr "Обриши оригиналну промену"
 
-#. Template: AgentITSMChangeTimeSlot
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTimeSlot.tt
 msgid "Move Time Slot"
 msgstr "Помери временски термин"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Change Information"
 msgstr "Информација о промени"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Planned Effort"
 msgstr "Планирани напор"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Accounted Time"
 msgstr "Обрачунато време"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Change Initiator(s)"
 msgstr "Иницијатор(и) промене"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "CAB"
 msgstr "CAB"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Last changed"
 msgstr "Задњи пут промењено"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Last changed by"
 msgstr "Променио"
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS)."
 msgstr "Да бисте отворили везе у следећим блоковима описа, можда ћете требати да притиснете \"Ctrl\" или \"Cmd\" или \"Shift\" тастер док истовремено кликнете на везу (зависи од вашег оперативног система и претраживача)."
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Download Attachment"
 msgstr "Преузми прилог"
 
-#. Template: AgentITSMTemplateEditCAB
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditCAB.tt
 msgid "Edit CAB Template"
 msgstr "Уреди CAB шаблон"
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "This will create a new change from this template, so you can edit and save it."
 msgstr "Ово ће креирати нову промену од овог шаблона, па је можете изменити и сачувати."
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "The new change will be deleted automatically after it has been saved as template."
 msgstr "Нова промена ће аутоматски бити обрисана, кад буде сачувана као шаблон."
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "This will create a new workorder from this template, so you can edit and save it."
 msgstr "Ово ће креирати нов радни налог од овог шаблона, па га можете изменити и сачувати."
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "A temporary change will be created which contains the workorder."
 msgstr "Биће креирана привремена промена која садржи радни налог."
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "The temporary change and new workorder will be deleted automatically after the workorder has been saved as template."
 msgstr "Привремана промена и нови радни налог ће аутоматски бити обрисани, кад радни налог буде сачуван као шаблон."
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "Do you want to proceed?"
 msgstr "Да ли желите да наставите?"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Template ID"
 msgstr "ID шаблона"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Edit Content"
 msgstr "Уреди садржај"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Create by"
 msgstr "Креирао"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Change by"
 msgstr "Изменио"
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Change Time"
 msgstr "Време промене"
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Add Workorder to %s%s"
 msgstr "Додај радни налог у %s%s"
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Instruction"
 msgstr "Инструкција"
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Invalid workorder type."
 msgstr "Неисправан тип радног налога."
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "The planned start time must be before the planned end time!"
 msgstr "Планирано време почетка мора бити пре планираног времена завршетка!"
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Invalid format."
 msgstr "Неисправан формат."
 
-#. Template: AgentITSMWorkOrderAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAddFromTemplate.tt
 msgid "Select Workorder Template"
 msgstr "Изабери шаблон радног налога"
 
-#. Template: AgentITSMWorkOrderAgent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAgent.tt
 msgid "Edit Workorder Agent of %s%s"
 msgstr "Уреди корисника радног налога за %s%s"
 
-#. Template: AgentITSMWorkOrderDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
 msgid "Do you really want to delete this workorder?"
 msgstr "Да ли заиста желите да избришете овај радни налог?"
 
-#. Template: AgentITSMWorkOrderDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
 msgid "You can not delete this Workorder. It is used in at least one Condition!"
 msgstr "Не можете обрисати овај радни налог. Употребљен је у бар једном услову"
 
-#. Template: AgentITSMWorkOrderDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
 msgid "This Workorder is used in the following Condition(s)"
 msgstr "Овај радни налог је употребљен у следећим условима"
 
-#. Template: AgentITSMWorkOrderEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
 msgid "Edit %s%s-%s"
 msgstr "Уреди %s%s-%s"
 
-#. Template: AgentITSMWorkOrderEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
 msgid "Move following workorders accordingly"
 msgstr "Померите адекватно следеће радне налоге"
 
-#. Template: AgentITSMWorkOrderEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
 msgid "If the planned end time of this workorder is changed, the planned start times of all following workorders will be changed accordingly"
 msgstr "Планирано време завршетка овог радног налога је промењено, планирана времена почетка свих наредних радних налога ће бити адекватно усклађена"
 
-#. Template: AgentITSMWorkOrderHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderHistory.tt
 msgid "History of %s%s-%s"
 msgstr "Историјат за %s%s-%s"
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "Edit Report of %s%s-%s"
 msgstr "Уреди извештај за %s%s-%s"
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "Report"
 msgstr "Извештај"
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "The actual start time must be before the actual end time!"
 msgstr "Актуелно време почетка мора бити пре актуелног времена завршетка!"
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "The actual start time must be set, when the actual end time is set!"
 msgstr "Актуелно време почетка мора бити подешено када је подешено и актуелно време завршетка!"
 
-#. Template: AgentITSMWorkOrderTake
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
 msgid "Current Agent"
 msgstr "Актуелни оператер"
 
-#. Template: AgentITSMWorkOrderTake
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
 msgid "Do you really want to take this workorder?"
 msgstr "Да ли заиста желите да преузмете овај радни налог?"
 
-#. Template: AgentITSMWorkOrderTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
 msgid "Save Workorder as Template"
 msgstr "Сачувај радни налог као шаблон"
 
-#. Template: AgentITSMWorkOrderTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
 msgid "Delete original workorder (and surrounding change)"
 msgstr "Обриши оригинални радни налог (и промену у којој је)"
 
-#. Template: AgentITSMWorkOrderZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderZoom.tt
 msgid "Workorder Information"
 msgstr "Информација о радном налогу"
 
@@ -1378,179 +1376,179 @@ msgstr "Група ITSMChangeBuilder"
 msgid "Group ITSMChangeManager"
 msgstr "Група ITSMChangeManager"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "requested"
 msgstr "захтевано"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "pending approval"
 msgstr "одобрење на чекању"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "rejected"
 msgstr "одбијено"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "approved"
 msgstr "одобрено"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "in progress"
 msgstr "у току"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "pending pir"
 msgstr "PIR на чекању"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "successful"
 msgstr "успешно"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "failed"
 msgstr "неуспешно"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "canceled"
 msgstr "отказано"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "retracted"
 msgstr "повучено"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "created"
 msgstr "креирано"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "accepted"
 msgstr "прихваћено"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ready"
 msgstr "спремно"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "approval"
 msgstr "одобрење"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "workorder"
 msgstr "радни налог"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "backout"
 msgstr "одустанак"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "decision"
 msgstr "одлука"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "pir"
 msgstr "PIR"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeStateID"
 msgstr "ChangeStateID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "CategoryID"
 msgstr "ИД Категорије"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ImpactID"
 msgstr "ИД утицаја"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "PriorityID"
 msgstr "ИД приоритета"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeManagerID"
 msgstr "ChangeManagerID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeBuilderID"
 msgstr "ChangeBuilderID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderStateID"
 msgstr "WorkOrderStateID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderTypeID"
 msgstr "WorkOrderTypeID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderAgentID"
 msgstr "WorkOrderAgentID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is"
 msgstr "је"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is not"
 msgstr "није"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is empty"
 msgstr "је празно"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is not empty"
 msgstr "није празно"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is greater than"
 msgstr "је веће од"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is less than"
 msgstr "је мање од"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is before"
 msgstr "је пре"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is after"
 msgstr "је после"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "contains"
 msgstr "садржи"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "not contains"
 msgstr "не садржи"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "begins with"
 msgstr "почиње са"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ends with"
 msgstr "завршава са"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "set"
 msgstr "подеси"
 
-#. JS File: ITSM.Agent.ChangeManagement.Condition
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this expression?"
 msgstr "Да ли стварно желите да обришете овај израз?"
 
-#. JS File: ITSM.Agent.ChangeManagement.Condition
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this action?"
 msgstr "Да ли стварно желите да обришете ову акцију?"
 
-#. JS File: ITSM.Agent.ChangeManagement.Condition
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this condition?"
 msgstr "Да ли заиста желите да обришете овај услов?"
 
-#. JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.ConfirmDialog.js
 msgid "Ok"
 msgstr "У реду"
 
@@ -2933,3 +2931,4 @@ msgstr "једном"
 #. SysConfig
 msgid "regularly"
 msgstr "редовно"
+

@@ -1,5 +1,4 @@
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
 # Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -16,20 +15,20 @@ use utf8;
 sub Data {
     my $Self = shift;
 
-    # Template: AdminITSMChangeCIPAllocate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
     $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Kategori ↔ Dampak ↔ Prioritas';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'Mengelola hasil prioritas kombinasi Kategori ↔ Dampak.';
     $Self->{Translation}->{'Priority allocation'} = 'Alokasi Prioritas';
 
-    # Template: AdminITSMChangeNotification
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Manajemen Pemberitahuan ITSM Manajemen Perubahan';
     $Self->{Translation}->{'Add Notification Rule'} = 'Tambah peraturan notifikasi';
     $Self->{Translation}->{'Edit Notification Rule'} = '';
     $Self->{Translation}->{'A notification should have a name!'} = 'Pemberitahuan harus memiliki nama!';
     $Self->{Translation}->{'Name is required.'} = 'Nama diperlukan.';
 
-    # Template: AdminITSMStateMachine
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
     $Self->{Translation}->{'Admin State Machine'} = 'Admin State Machine';
     $Self->{Translation}->{'Select a catalog class!'} = 'Pilih kelas katalog!';
     $Self->{Translation}->{'A catalog class is required!'} = 'Sebuah kelas Katalog diperlukan!';
@@ -44,7 +43,7 @@ sub Data {
     $Self->{Translation}->{'Edit a state transition for'} = 'Edit transisi state';
     $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Apakah Anda benar-benar ingin menghapus transisi?';
 
-    # Template: AgentITSMChangeAdd
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Tambah perubahan';
     $Self->{Translation}->{'ITSM Change'} = 'Ubah ITSM';
     $Self->{Translation}->{'Justification'} = 'Justifikasi';
@@ -52,23 +51,23 @@ sub Data {
     $Self->{Translation}->{'Impact'} = 'Dampak';
     $Self->{Translation}->{'Requested Date'} = 'Tanggal diminta';
 
-    # Template: AgentITSMChangeAddFromTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
     $Self->{Translation}->{'Select Change Template'} = 'Pilih perubahan template';
     $Self->{Translation}->{'Time type'} = 'Jenis waktu';
     $Self->{Translation}->{'Invalid time type.'} = 'Jenis waktu tidak sah';
     $Self->{Translation}->{'New time'} = 'Waktu baru';
 
-    # Template: AgentITSMChangeCABTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
     $Self->{Translation}->{'Save Change CAB as template'} = 'Simpan perubahan CAB sebagai Template';
     $Self->{Translation}->{'go to involved persons screen'} = 'pergi ke layar orang yang terlibat';
     $Self->{Translation}->{'Invalid Name'} = 'Nama tidak sah';
 
-    # Template: AgentITSMChangeCondition
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
     $Self->{Translation}->{'Conditions and Actions'} = 'Kondisi dan Tindakan';
     $Self->{Translation}->{'Delete Condition'} = 'Hapus kondisi';
     $Self->{Translation}->{'Add new condition'} = 'Tambah kondisi baru';
 
-    # Template: AgentITSMChangeConditionEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
     $Self->{Translation}->{'Edit Condition'} = '';
     $Self->{Translation}->{'Need a valid name.'} = 'Perlu nama yang sah';
     $Self->{Translation}->{'A valid name is needed.'} = 'Nama yang sah diperlukan';
@@ -87,13 +86,13 @@ sub Data {
     $Self->{Translation}->{'No Actions found.'} = 'Tidak ada aksi ditemukan';
     $Self->{Translation}->{'Add new action'} = 'Tambah aksi baru';
 
-    # Template: AgentITSMChangeDelete
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeDelete.tt
     $Self->{Translation}->{'Do you really want to delete this change?'} = 'Apakah anda ingin menghapus perubahan ini?';
 
-    # Template: AgentITSMChangeEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeEdit.tt
     $Self->{Translation}->{'Edit %s%s'} = '';
 
-    # Template: AgentITSMChangeHistory
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = 'Sejarah dari %s%s';
     $Self->{Translation}->{'History Content'} = 'Isi sejarah';
     $Self->{Translation}->{'Workorder'} = 'Tata kerja';
@@ -101,13 +100,13 @@ sub Data {
     $Self->{Translation}->{'Show details'} = 'Tampilkan detail';
     $Self->{Translation}->{'Show workorder'} = 'Tampilkan tata kerja';
 
-    # Template: AgentITSMChangeHistoryZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
     $Self->{Translation}->{'Detailed history information of %s'} = '';
     $Self->{Translation}->{'Modified'} = 'Diubah';
     $Self->{Translation}->{'Old Value'} = 'Nilai lama';
     $Self->{Translation}->{'New Value'} = 'Nilai baru';
 
-    # Template: AgentITSMChangeInvolvedPersons
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
     $Self->{Translation}->{'Edit Involved Persons of %s%s'} = '';
     $Self->{Translation}->{'Involved Persons'} = 'Orang yang terlibat';
     $Self->{Translation}->{'ChangeManager'} = 'Ubah manager';
@@ -122,11 +121,11 @@ sub Data {
     $Self->{Translation}->{'Invalid User'} = 'Pengguna tidak sah';
     $Self->{Translation}->{'Current CAB'} = 'CAB saat ini';
 
-    # Template: AgentITSMChangeOverviewNavBar
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
     $Self->{Translation}->{'Context Settings'} = 'Pengaturan Konteks';
     $Self->{Translation}->{'Changes per page'} = 'Ubah setiap halaman';
 
-    # Template: AgentITSMChangeOverviewSmall
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
     $Self->{Translation}->{'Workorder Title'} = '';
     $Self->{Translation}->{'Change Title'} = 'Ubah judul';
     $Self->{Translation}->{'Workorder Agent'} = '';
@@ -142,10 +141,10 @@ sub Data {
     $Self->{Translation}->{'Actual Start Time'} = 'Waktu dimulai';
     $Self->{Translation}->{'Actual End Time'} = 'Waktu berakhir';
 
-    # Template: AgentITSMChangeReset
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeReset.tt
     $Self->{Translation}->{'Do you really want to reset this change?'} = 'Apakah anda ingin mengeset ulang perubahan ini?';
 
-    # Template: AgentITSMChangeSearch
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
     $Self->{Translation}->{'(e.g. 10*5155 or 105658*)'} = '(Contoh 10*5155 or 105658*)';
     $Self->{Translation}->{'CAB Agent'} = 'Agen CAB';
     $Self->{Translation}->{'e.g.'} = 'Contoh';
@@ -158,7 +157,7 @@ sub Data {
     $Self->{Translation}->{'(before/after)'} = '(Sebelum/Setelah)';
     $Self->{Translation}->{'(between)'} = '(diantara)';
 
-    # Template: AgentITSMChangeTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
     $Self->{Translation}->{'Save Change as Template'} = 'Simpan sebagai template';
     $Self->{Translation}->{'A template should have a name!'} = 'Sebuah template harus memiliki nama!';
     $Self->{Translation}->{'The template name is required.'} = 'Nama Template diperlukan.';
@@ -166,10 +165,10 @@ sub Data {
     $Self->{Translation}->{'Overwrite original template'} = 'Template asli ditimpa';
     $Self->{Translation}->{'Delete original change'} = 'Hapus perubahan asli';
 
-    # Template: AgentITSMChangeTimeSlot
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTimeSlot.tt
     $Self->{Translation}->{'Move Time Slot'} = 'Pindahkan Waktu Slot';
 
-    # Template: AgentITSMChangeZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
     $Self->{Translation}->{'Change Information'} = 'Ubah informasi';
     $Self->{Translation}->{'Planned Effort'} = '';
     $Self->{Translation}->{'Accounted Time'} = '';
@@ -181,10 +180,10 @@ sub Data {
         'Untuk membuka tautan pada bagian deskripsi berikut, Anda harus menekan tombol Ctrl atau Cms atau Shift sambil menekan tautannya (tergantung pada Sistem Operasi dan Peramban)';
     $Self->{Translation}->{'Download Attachment'} = 'Unduh Lampiran';
 
-    # Template: AgentITSMTemplateEditCAB
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditCAB.tt
     $Self->{Translation}->{'Edit CAB Template'} = 'Mengedit CAB Template';
 
-    # Template: AgentITSMTemplateEditContent
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
     $Self->{Translation}->{'This will create a new change from this template, so you can edit and save it.'} =
         'Ini akan membuat perubahan baru dari template ini, sehingga Anda dapat mengedit dan menyimpannya.';
     $Self->{Translation}->{'The new change will be deleted automatically after it has been saved as template.'} =
@@ -197,57 +196,57 @@ sub Data {
         'Perubahan sementara dan perintah kerja baru akan dihapus secara otomatis setelah perintah kerja telah disimpan sebagai template.';
     $Self->{Translation}->{'Do you want to proceed?'} = 'Apakah Anda ingin melanjutkan?';
 
-    # Template: AgentITSMTemplateOverviewSmall
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
     $Self->{Translation}->{'Template ID'} = '';
     $Self->{Translation}->{'Edit Content'} = 'Ubah isi';
     $Self->{Translation}->{'Create by'} = '';
     $Self->{Translation}->{'Change by'} = '';
     $Self->{Translation}->{'Change Time'} = 'Mengubah waktu';
 
-    # Template: AgentITSMWorkOrderAdd
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
     $Self->{Translation}->{'Add Workorder to %s%s'} = '';
     $Self->{Translation}->{'Instruction'} = 'Instruksi';
     $Self->{Translation}->{'Invalid workorder type.'} = 'Jenis perintah kerja tidak valid';
     $Self->{Translation}->{'The planned start time must be before the planned end time!'} = 'waktu mulai direncanakan harus sebelum waktu akhir yang direncanakan!';
     $Self->{Translation}->{'Invalid format.'} = 'Format tidak sah';
 
-    # Template: AgentITSMWorkOrderAddFromTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAddFromTemplate.tt
     $Self->{Translation}->{'Select Workorder Template'} = 'Pilih Work Order Template';
 
-    # Template: AgentITSMWorkOrderAgent
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAgent.tt
     $Self->{Translation}->{'Edit Workorder Agent of %s%s'} = '';
 
-    # Template: AgentITSMWorkOrderDelete
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
     $Self->{Translation}->{'Do you really want to delete this workorder?'} = 'Apakah Anda benar-benar ingin menghapus perintah kerja ini?';
     $Self->{Translation}->{'You can not delete this Workorder. It is used in at least one Condition!'} =
         'Anda tidak dapat menghapus Perintah Kerja ini. Hal ini digunakan dalam setidaknya satu Kondisi!';
     $Self->{Translation}->{'This Workorder is used in the following Condition(s)'} = 'Perintah Kerja ini digunakan dalam Kondisi berikut (s)';
 
-    # Template: AgentITSMWorkOrderEdit
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
     $Self->{Translation}->{'Edit %s%s-%s'} = '';
     $Self->{Translation}->{'Move following workorders accordingly'} = 'Bergerak mengikuti perintah kerja yang sesuai';
     $Self->{Translation}->{'If the planned end time of this workorder is changed, the planned start times of all following workorders will be changed accordingly'} =
         'Jika waktu akhir yang direncanakan dari perintah kerja ini berubah, kali mulai direncanakan semua perintah kerja berikut akan berubah dengan sesuai';
 
-    # Template: AgentITSMWorkOrderHistory
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderHistory.tt
     $Self->{Translation}->{'History of %s%s-%s'} = '';
 
-    # Template: AgentITSMWorkOrderReport
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
     $Self->{Translation}->{'Edit Report of %s%s-%s'} = '';
     $Self->{Translation}->{'Report'} = 'Laporan';
     $Self->{Translation}->{'The actual start time must be before the actual end time!'} = 'Waktu mulai yang sebenarnya harus sebelum waktu akhir yang sebenarnya!';
     $Self->{Translation}->{'The actual start time must be set, when the actual end time is set!'} =
         'Waktu mulai yang sebenarnya harus diatur, ketika waktu akhir yang sebenarnya diatur!';
 
-    # Template: AgentITSMWorkOrderTake
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
     $Self->{Translation}->{'Current Agent'} = 'Agen saat ini';
     $Self->{Translation}->{'Do you really want to take this workorder?'} = 'Apakah Anda benar-benar ingin mengambil pesanan pekerjaan ini?';
 
-    # Template: AgentITSMWorkOrderTemplate
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
     $Self->{Translation}->{'Save Workorder as Template'} = 'Hemat Work Order sebagai Template';
     $Self->{Translation}->{'Delete original workorder (and surrounding change)'} = 'Hapus perintah kerja asli (dan perubahan sekitarnya)';
 
-    # Template: AgentITSMWorkOrderZoom
+    # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderZoom.tt
     $Self->{Translation}->{'Workorder Information'} = 'Perintah kerja informasi';
 
     # Perl Module: Kernel/Modules/AdminITSMChangeNotification.pm
@@ -527,7 +526,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = '';
     $Self->{Translation}->{'Group ITSMChangeManager'} = '';
 
-    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
+    # XML Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = 'Diminta';
     $Self->{Translation}->{'pending approval'} = 'approval tertunda';
     $Self->{Translation}->{'rejected'} = 'Ditolak';
@@ -569,12 +568,12 @@ sub Data {
     $Self->{Translation}->{'ends with'} = 'Berakhir dengan';
     $Self->{Translation}->{'set'} = 'Aturan';
 
-    # JS File: ITSM.Agent.ChangeManagement.Condition
+    # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = '';
 
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
+    # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.ConfirmDialog.js
     $Self->{Translation}->{'Ok'} = 'Ok';
 
     # SysConfig
