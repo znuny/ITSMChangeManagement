@@ -14,14 +14,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
-"PO-Revision-Date: 2019-04-16 12:23+0000\n"
-"Last-Translator: Michael Reuther <michael.reuther@otrs.com>\n"
-"Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
+"PO-Revision-Date: 2022-03-18 15:10+0000\n"
+"Last-Translator: Denny Korsukéwitz <dk@znuny.com>\n"
+"Language-Team: German <https://translations.znuny.org/projects/znuny/"
+"itsmchangemanagement/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
@@ -1009,7 +1011,7 @@ msgstr "Der Change \"%s\" konnte nicht serialisiert werden."
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeTemplate.pm
 msgid "Could not update the template \"%s\"."
-msgstr "Konnte Vorlage \"%s\" nicht aktualisieren!"
+msgstr "Konnte Vorlage \"%s\" nicht aktualisieren."
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeTemplate.pm
 msgid "Could not delete change \"%s\"."
@@ -1137,7 +1139,7 @@ msgstr "Konnte Arbeitsauftrag %s nicht nehmen!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderTemplate.pm
 msgid "The workorder \"%s\" could not be serialized."
-msgstr "Der Arbeitsauftrag \"%s\" konnte nicht serialisiert werden!"
+msgstr "Der Arbeitsauftrag \"%s\" konnte nicht serialisiert werden."
 
 #. Perl Module: Kernel/Output/HTML/Layout/ITSMChange.pm
 msgid "Need config option %s!"
@@ -1613,7 +1615,7 @@ msgstr "Admin der CIP-Matrix."
 
 #. SysConfig
 msgid "Admin of the state machine."
-msgstr "Admin der State Machine"
+msgstr "Admin der State Machine."
 
 #. SysConfig
 msgid "Agent interface notification module to see the number of change advisory boards."
@@ -1653,7 +1655,7 @@ msgstr "Change-Historie."
 
 #. SysConfig
 msgid "Change Involved Persons."
-msgstr "Change-Beteiligte Personen"
+msgstr "Change-Beteiligte Personen."
 
 #. SysConfig
 msgid "Change Overview \"Small\" Limit"
@@ -1761,7 +1763,7 @@ msgstr "Einen Change aus diesem Ticket erstellen."
 
 #. SysConfig
 msgid "Create and manage ITSM Change Management notifications."
-msgstr "ITSM Change-Benachrichtigungen erstellen und verwalten"
+msgstr "ITSM Change-Benachrichtigungen erstellen und verwalten."
 
 #. SysConfig
 msgid "Create and manage change notifications."
@@ -2269,7 +2271,7 @@ msgstr "Historiendetails"
 
 #. SysConfig
 msgid "ITSM Change CAB Templates."
-msgstr "ITSM Change-CAB Vorlagen"
+msgstr "ITSM Change-CAB Vorlagen."
 
 #. SysConfig
 msgid "ITSM Change Condition Edit."
@@ -2277,11 +2279,11 @@ msgstr "ITSM Change-Bedingungen bearbeiten."
 
 #. SysConfig
 msgid "ITSM Change Condition Overview."
-msgstr "ITSM Change-Bedingungs-Übersicht"
+msgstr "ITSM Change-Bedingungs-Übersicht."
 
 #. SysConfig
 msgid "ITSM Change Manager Overview."
-msgstr "ITSM Change-Manager-Übersicht"
+msgstr "ITSM Change-Manager-Übersicht."
 
 #. SysConfig
 msgid "ITSM Change Notifications"
@@ -2289,7 +2291,7 @@ msgstr "ITSM Change-Benachrichtigungen"
 
 #. SysConfig
 msgid "ITSM Change PIR Overview."
-msgstr "ITSM Change PIR-Übersicht"
+msgstr "ITSM Change PIR-Übersicht."
 
 #. SysConfig
 msgid "ITSM Change notification rules"
@@ -2301,15 +2303,15 @@ msgstr "ITSM Changes"
 
 #. SysConfig
 msgid "ITSM MyCAB Overview."
-msgstr "ITSM Meine CABs-Übersicht"
+msgstr "ITSM Meine CABs-Übersicht."
 
 #. SysConfig
 msgid "ITSM MyChanges Overview."
-msgstr "ITSM \"Meine Changes\"-Übersicht"
+msgstr "ITSM \"Meine Changes\"-Übersicht."
 
 #. SysConfig
 msgid "ITSM MyWorkorders Overview."
-msgstr "ITSM \"Meine Arbeitsaufträge\"-Übersicht"
+msgstr "ITSM \"Meine Arbeitsaufträge\"-Übersicht."
 
 #. SysConfig
 msgid "ITSM Template Delete."
@@ -2329,7 +2331,7 @@ msgstr "ITSM Vorlage bearbeiten."
 
 #. SysConfig
 msgid "ITSM Template Overview."
-msgstr "ITSM Vorlagen-Übersicht"
+msgstr "ITSM Vorlagen-Übersicht."
 
 #. SysConfig
 msgid "ITSM event module that cleans up conditions."
@@ -2409,7 +2411,7 @@ msgstr "Nachschlagen von Agenten zur automatischen Vervollständigung."
 
 #. SysConfig
 msgid "Manage ITSM Change Management state machine."
-msgstr "ITSM Change Management State Machine"
+msgstr "ITSM Change Management State Machine."
 
 #. SysConfig
 msgid "Manage the category ↔ impact ↔ priority matrix."
