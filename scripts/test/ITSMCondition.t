@@ -15,8 +15,6 @@ use vars qw($Self);
 
 use Data::Dumper;
 
-## nofilter(TidyAll::Plugin::OTRS::Perl::TestSubs)
-
 # ------------------------------------------------------------ #
 # make preparations
 # ------------------------------------------------------------ #

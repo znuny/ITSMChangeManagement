@@ -12,7 +12,7 @@ package Kernel::System::ITSMChange::Template::ITSMChange;
 use strict;
 use warnings;
 
-## nofilter(TidyAll::Plugin::OTRS::Perl::Dumper)
+## nofilter(TidyAll::Plugin::Znuny::Perl::Dumper)
 use Data::Dumper;
 use Kernel::System::VariableCheck qw(:all);
 

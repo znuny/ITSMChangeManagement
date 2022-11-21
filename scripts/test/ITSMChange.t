@@ -16,8 +16,6 @@ use vars qw($Self);
 use Data::Dumper;
 use List::Util qw(max);
 
-## nofilter(TidyAll::Plugin::OTRS::Perl::TestSubs)
-
 # ------------------------------------------------------------ #
 # make preparations
 # ------------------------------------------------------------ #

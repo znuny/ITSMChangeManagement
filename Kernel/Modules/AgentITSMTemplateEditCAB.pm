@@ -16,7 +16,7 @@ use Kernel::Language qw(Translatable);
 
 our $ObjectManagerDisabled = 1;
 
-## nofilter(TidyAll::Plugin::OTRS::Perl::Dumper)
+## nofilter(TidyAll::Plugin::Znuny::Perl::Dumper)
 use Data::Dumper;
 
 sub new {
