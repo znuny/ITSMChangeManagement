@@ -1,9 +1,9 @@
 # --
-# Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
+# Copyright (C) 2012-2022 Znuny GmbH, https://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
-# the enclosed file COPYING for license information (GPL). If you
-# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+# the enclosed file COPYING for license information (AGPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 # --
 
 package Kernel::Language::de_ITSMChangeManagement;
@@ -110,7 +110,7 @@ sub Data {
     $Self->{Translation}->{'Edit Involved Persons of %s%s'} = 'Beteiligte Personen von %s%s bearbeiten';
     $Self->{Translation}->{'Involved Persons'} = 'Beteiligte Personen';
     $Self->{Translation}->{'ChangeManager'} = 'Change-Manager';
-    $Self->{Translation}->{'User invalid.'} = 'Ungültiger Benutzer';
+    $Self->{Translation}->{'User invalid.'} = 'ungültiger Benutzer.';
     $Self->{Translation}->{'ChangeBuilder'} = 'ChangeBuilder';
     $Self->{Translation}->{'Change Advisory Board'} = 'Change-Advisory-Board';
     $Self->{Translation}->{'CAB Template'} = 'CAB-Vorlage';
@@ -206,7 +206,7 @@ sub Data {
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
     $Self->{Translation}->{'Add Workorder to %s%s'} = 'Arbeitsauftrag zu %s%s hinzufügen';
     $Self->{Translation}->{'Instruction'} = 'Anweisung';
-    $Self->{Translation}->{'Invalid workorder type.'} = 'Ungültiger Arbeitsauftrags-Typ';
+    $Self->{Translation}->{'Invalid workorder type.'} = 'ungültiger Arbeitsauftrags-Typ.';
     $Self->{Translation}->{'The planned start time must be before the planned end time!'} = 'Die geplante Startzeit muss vor der geplanten Endzeit liegen!';
     $Self->{Translation}->{'Invalid format.'} = 'Ungültiges Format.';
 
@@ -387,7 +387,7 @@ sub Data {
 
     # Perl Module: Kernel/Modules/AgentITSMChangeTemplate.pm
     $Self->{Translation}->{'The change "%s" could not be serialized.'} = 'Der Change "%s" konnte nicht serialisiert werden.';
-    $Self->{Translation}->{'Could not update the template "%s".'} = 'Konnte Vorlage "%s" nicht aktualisieren!';
+    $Self->{Translation}->{'Could not update the template "%s".'} = 'Konnte Vorlage "%s" nicht aktualisieren.';
     $Self->{Translation}->{'Could not delete change "%s".'} = 'Konnte Change "%s" nicht löschen.';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeTimeSlot.pm
@@ -448,7 +448,7 @@ sub Data {
     $Self->{Translation}->{'Was not able to take the workorder %s!'} = 'Konnte Arbeitsauftrag %s nicht nehmen!';
 
     # Perl Module: Kernel/Modules/AgentITSMWorkOrderTemplate.pm
-    $Self->{Translation}->{'The workorder "%s" could not be serialized.'} = 'Der Arbeitsauftrag "%s" konnte nicht serialisiert werden!';
+    $Self->{Translation}->{'The workorder "%s" could not be serialized.'} = 'Der Arbeitsauftrag "%s" konnte nicht serialisiert werden.';
 
     # Perl Module: Kernel/Output/HTML/Layout/ITSMChange.pm
     $Self->{Translation}->{'Need config option %s!'} = 'Benötige Systemkonfigurations-Option %s!';
@@ -591,7 +591,7 @@ sub Data {
     $Self->{Translation}->{'Add a workorder to the change.'} = 'Fügt einen Arbeitsauftrag zum Change hinzu.';
     $Self->{Translation}->{'Add from template'} = 'Aus Vorlage hinzufügen';
     $Self->{Translation}->{'Admin of the CIP matrix.'} = 'Admin der CIP-Matrix.';
-    $Self->{Translation}->{'Admin of the state machine.'} = 'Admin der State Machine';
+    $Self->{Translation}->{'Admin of the state machine.'} = 'Admin der State Machine.';
     $Self->{Translation}->{'Agent interface notification module to see the number of change advisory boards.'} =
         'Benachrichtigung-Modul für das Agenten-Interface um die Zahl der Change-Advisory-Boards anzuzeigen.';
     $Self->{Translation}->{'Agent interface notification module to see the number of changes managed by the user.'} =
@@ -607,7 +607,7 @@ sub Data {
         'Cache-Zeit in Minuten für das Change-Management. Standard: 5 Tage (7200 Minuten).';
     $Self->{Translation}->{'Change CAB Templates'} = 'Change-CAB Vorlagen';
     $Self->{Translation}->{'Change History.'} = 'Change-Historie.';
-    $Self->{Translation}->{'Change Involved Persons.'} = 'Change-Beteiligte Personen';
+    $Self->{Translation}->{'Change Involved Persons.'} = 'Change-Beteiligte Personen.';
     $Self->{Translation}->{'Change Overview "Small" Limit'} = 'Change-Übersicht Limit für Ansicht "Klein"';
     $Self->{Translation}->{'Change Overview.'} = 'Change-Übersicht.';
     $Self->{Translation}->{'Change Print.'} = 'Change-Ausdruck.';
@@ -636,7 +636,7 @@ sub Data {
     $Self->{Translation}->{'Create Change (from Template)'} = 'Change erstellen (aus Vorlage)';
     $Self->{Translation}->{'Create a change (from template) from this ticket.'} = 'Einen Change (aus Vorlage) aus diesem Ticket erstellen.';
     $Self->{Translation}->{'Create a change from this ticket.'} = 'Einen Change aus diesem Ticket erstellen.';
-    $Self->{Translation}->{'Create and manage ITSM Change Management notifications.'} = 'ITSM Change-Benachrichtigungen erstellen und verwalten';
+    $Self->{Translation}->{'Create and manage ITSM Change Management notifications.'} = 'ITSM Change-Benachrichtigungen erstellen und verwalten.';
     $Self->{Translation}->{'Create and manage change notifications.'} = 'Change-Benachrichtigungen erstellen und verwalten.';
     $Self->{Translation}->{'Default type for a workorder. This entry must exist in general catalog class \'ITSM::ChangeManagement::WorkOrder::Type\'.'} =
         'Standardtyp für einen Arbeitsauftrag. Dieser Eintrag muss in der General Katalog-Klasse \'ITSM::ChangeManagement::WorkOrder::Type\' existieren.';
@@ -855,22 +855,22 @@ sub Data {
     $Self->{Translation}->{'Forward schedule of changes. Overview over approved changes.'} =
         'Zeitplan für Changes. Übersicht über genehmigte Changes.';
     $Self->{Translation}->{'History Zoom'} = 'Historiendetails';
-    $Self->{Translation}->{'ITSM Change CAB Templates.'} = 'ITSM Change-CAB Vorlagen';
+    $Self->{Translation}->{'ITSM Change CAB Templates.'} = 'ITSM Change-CAB Vorlagen.';
     $Self->{Translation}->{'ITSM Change Condition Edit.'} = 'ITSM Change-Bedingungen bearbeiten.';
-    $Self->{Translation}->{'ITSM Change Condition Overview.'} = 'ITSM Change-Bedingungs-Übersicht';
-    $Self->{Translation}->{'ITSM Change Manager Overview.'} = 'ITSM Change-Manager-Übersicht';
+    $Self->{Translation}->{'ITSM Change Condition Overview.'} = 'ITSM Change-Bedingungs-Übersicht.';
+    $Self->{Translation}->{'ITSM Change Manager Overview.'} = 'ITSM Change-Manager-Übersicht.';
     $Self->{Translation}->{'ITSM Change Notifications'} = 'ITSM Change-Benachrichtigungen';
-    $Self->{Translation}->{'ITSM Change PIR Overview.'} = 'ITSM Change PIR-Übersicht';
+    $Self->{Translation}->{'ITSM Change PIR Overview.'} = 'ITSM Change PIR-Übersicht.';
     $Self->{Translation}->{'ITSM Change notification rules'} = 'ITSM Change Benachrichtigungs-Regeln';
     $Self->{Translation}->{'ITSM Changes'} = 'ITSM Changes';
-    $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'ITSM Meine CABs-Übersicht';
-    $Self->{Translation}->{'ITSM MyChanges Overview.'} = 'ITSM "Meine Changes"-Übersicht';
-    $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = 'ITSM "Meine Arbeitsaufträge"-Übersicht';
+    $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'ITSM Meine CABs-Übersicht.';
+    $Self->{Translation}->{'ITSM MyChanges Overview.'} = 'ITSM "Meine Changes"-Übersicht.';
+    $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = 'ITSM "Meine Arbeitsaufträge"-Übersicht.';
     $Self->{Translation}->{'ITSM Template Delete.'} = 'ITSM Vorlage löschen.';
     $Self->{Translation}->{'ITSM Template Edit CAB.'} = 'ITSM Vorlage CAB bearbeiten.';
     $Self->{Translation}->{'ITSM Template Edit Content.'} = 'ITSM Vorlage Inhalt bearbeiten.';
     $Self->{Translation}->{'ITSM Template Edit.'} = 'ITSM Vorlage bearbeiten.';
-    $Self->{Translation}->{'ITSM Template Overview.'} = 'ITSM Vorlagen-Übersicht';
+    $Self->{Translation}->{'ITSM Template Overview.'} = 'ITSM Vorlagen-Übersicht.';
     $Self->{Translation}->{'ITSM event module that cleans up conditions.'} = 'ITSM-Ereignismodul zum Aufräumen von Bedingungen.';
     $Self->{Translation}->{'ITSM event module that deletes the cache for a toolbar.'} = 'ITSM-Ereignismodul, das den Cache für eine Werkzeugleiste löscht.';
     $Self->{Translation}->{'ITSM event module that deletes the history of changes.'} = 'ITSM-Ereignismodul, das die Historie von Changes löscht.';
@@ -893,7 +893,7 @@ sub Data {
     $Self->{Translation}->{'List of all workorder events to be displayed in the GUI.'} = 'Liste aller Arbeitsauftrags-Ereignisse, die in der grafischen Benutzeroberfläche angezeigt werden sollen.';
     $Self->{Translation}->{'Lookup of CAB members for autocompletion.'} = 'Nachschlagen von CAB-Mitgliedern zur automatischen Vervollständigung.';
     $Self->{Translation}->{'Lookup of agents, used for autocompletion.'} = 'Nachschlagen von Agenten zur automatischen Vervollständigung.';
-    $Self->{Translation}->{'Manage ITSM Change Management state machine.'} = 'ITSM Change Management State Machine';
+    $Self->{Translation}->{'Manage ITSM Change Management state machine.'} = 'ITSM Change Management State Machine.';
     $Self->{Translation}->{'Manage the category ↔ impact ↔ priority matrix.'} = 'Die Kategorie ↔ Auswirkung ↔ Priorität - Matrix verwalten.';
     $Self->{Translation}->{'Module to check if WorkOrderAdd or WorkOrderAddFromTemplate should be permitted.'} =
         'Modul zur Überprüfung ob das Hinzufügen von Arbeitsaufträgen oder Hinzufügen von Arbeitsaufträgen aus Vorlagen erlaubt ist.';

@@ -1,9 +1,9 @@
 # --
-# Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
+# Copyright (C) 2012-2022 Znuny GmbH, https://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
-# the enclosed file COPYING for license information (GPL). If you
-# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+# the enclosed file COPYING for license information (AGPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 # --
 
 package Kernel::Language::cs_ITSMChangeManagement;
@@ -16,30 +16,30 @@ sub Data {
     my $Self = shift;
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = '';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Kategorie ↔ Dopad ↔ Priorita';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
-        '';
+        'Spravovat prioritní výsledek kombinace Kategorie ↔ Dopad.';
     $Self->{Translation}->{'Priority allocation'} = 'Alokace priorit';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '';
     $Self->{Translation}->{'Add Notification Rule'} = 'Přidat notifikační pravidlo';
-    $Self->{Translation}->{'Edit Notification Rule'} = '';
-    $Self->{Translation}->{'A notification should have a name!'} = 'Oznámení by mělo mít jméno';
-    $Self->{Translation}->{'Name is required.'} = 'Jméno je požadováno';
+    $Self->{Translation}->{'Edit Notification Rule'} = 'Upravit notifikační pravidlo';
+    $Self->{Translation}->{'A notification should have a name!'} = 'Notifikace by měla mít název!';
+    $Self->{Translation}->{'Name is required.'} = 'Název je povinný.';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
     $Self->{Translation}->{'Admin State Machine'} = '';
-    $Self->{Translation}->{'Select a catalog class!'} = 'Vyberat třídu katalogu';
-    $Self->{Translation}->{'A catalog class is required!'} = 'Třída katalogu je požadována';
-    $Self->{Translation}->{'Add a state transition'} = 'Plánovaná pracnost';
-    $Self->{Translation}->{'Catalog Class'} = 'Třídy Katalogu';
+    $Self->{Translation}->{'Select a catalog class!'} = 'Vyber třídu katalogu!';
+    $Self->{Translation}->{'A catalog class is required!'} = 'Třída katalogu je povinná!';
+    $Self->{Translation}->{'Add a state transition'} = 'Přidat přechod stavu';
+    $Self->{Translation}->{'Catalog Class'} = 'Třída katalogu';
     $Self->{Translation}->{'Object Name'} = 'Název objektu';
-    $Self->{Translation}->{'Overview over state transitions for'} = 'Přehled';
-    $Self->{Translation}->{'Delete this state transition'} = '';
-    $Self->{Translation}->{'Add a new state transition for'} = '';
-    $Self->{Translation}->{'Please select a state!'} = 'Prosím vyberte stav';
-    $Self->{Translation}->{'Please select a next state!'} = 'Prosím vyberte další stav';
+    $Self->{Translation}->{'Overview over state transitions for'} = 'Přehled přechodů stavů pro';
+    $Self->{Translation}->{'Delete this state transition'} = 'Odstranit tento přechod stavu';
+    $Self->{Translation}->{'Add a new state transition for'} = 'Přidat nový přechod stavu pro';
+    $Self->{Translation}->{'Please select a state!'} = 'Vyberte prosím stav!';
+    $Self->{Translation}->{'Please select a next state!'} = 'Vyberte prosím další stav!';
     $Self->{Translation}->{'Edit a state transition for'} = '';
     $Self->{Translation}->{'Do you really want to delete the state transition'} = '';
 

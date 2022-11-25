@@ -1,9 +1,9 @@
 # --
-# Copyright (C) 2021-2022 Znuny GmbH, https://znuny.org/
+# Copyright (C) 2012-2022 Znuny GmbH, https://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
-# the enclosed file COPYING for license information (GPL). If you
-# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+# the enclosed file COPYING for license information (AGPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 # --
 
 package Kernel::Language::pl_ITSMChangeManagement;
@@ -305,7 +305,7 @@ sub Data {
     $Self->{Translation}->{'Can\'t show history, as no ChangeID is given!'} = '';
     $Self->{Translation}->{'Change "%s" not found in the database!'} = '';
     $Self->{Translation}->{'Unknown type "%s" encountered!'} = '';
-    $Self->{Translation}->{'Change History'} = 'Zmień historię.';
+    $Self->{Translation}->{'Change History'} = 'Zmień historię';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
     $Self->{Translation}->{'Can\'t show history zoom, no HistoryEntryID is given!'} = '';
@@ -590,8 +590,8 @@ sub Data {
     $Self->{Translation}->{'Add a workorder (from template) to the change.'} = '';
     $Self->{Translation}->{'Add a workorder to the change.'} = '';
     $Self->{Translation}->{'Add from template'} = '';
-    $Self->{Translation}->{'Admin of the CIP matrix.'} = 'Zarządzanie macierzą KWP';
-    $Self->{Translation}->{'Admin of the state machine.'} = 'Zarządzanie maszyną stanów';
+    $Self->{Translation}->{'Admin of the CIP matrix.'} = 'Zarządzanie macierzą KWP.';
+    $Self->{Translation}->{'Admin of the state machine.'} = 'Zarządzanie maszyną stanów.';
     $Self->{Translation}->{'Agent interface notification module to see the number of change advisory boards.'} =
         '';
     $Self->{Translation}->{'Agent interface notification module to see the number of changes managed by the user.'} =
@@ -915,7 +915,7 @@ sub Data {
     $Self->{Translation}->{'Other Settings'} = 'Inne ustawienia';
     $Self->{Translation}->{'Overview over all Changes.'} = '';
     $Self->{Translation}->{'PIR'} = '';
-    $Self->{Translation}->{'PIR (Post Implementation Review)'} = 'PIR (Post Implementation Review)';
+    $Self->{Translation}->{'PIR (Post Implementation Review)'} = 'PIR (Przegląd Powdrożeniowy)';
     $Self->{Translation}->{'PSA'} = '';
     $Self->{Translation}->{'Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface.'} =
         '';
