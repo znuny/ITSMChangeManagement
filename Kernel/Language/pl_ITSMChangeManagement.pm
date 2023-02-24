@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2021 Znuny GmbH, https://znuny.org/
+# Copyright (C) 2012-2023 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -48,7 +48,6 @@ sub Data {
     $Self->{Translation}->{'ITSM Change'} = 'Zmiana';
     $Self->{Translation}->{'Justification'} = 'Uzasadnienie';
     $Self->{Translation}->{'Input invalid.'} = 'Niepoprawne dane wejściowe.';
-    $Self->{Translation}->{'Impact'} = 'Wpływ';
     $Self->{Translation}->{'Requested Date'} = 'Żądana data';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt

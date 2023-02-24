@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2021 Znuny GmbH, https://znuny.org/
+# Copyright (C) 2012-2023 Znuny GmbH, https://znuny.org/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -48,7 +48,6 @@ sub Data {
     $Self->{Translation}->{'ITSM Change'} = 'Mudança';
     $Self->{Translation}->{'Justification'} = 'Justificativa';
     $Self->{Translation}->{'Input invalid.'} = 'Entrada inválida.';
-    $Self->{Translation}->{'Impact'} = 'Impacto';
     $Self->{Translation}->{'Requested Date'} = 'Data Solicitada';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
@@ -281,7 +280,7 @@ sub Data {
     $Self->{Translation}->{'Could not delete ConditionID %s!'} = 'Não foi possível excluir ConditionID %s!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
-    $Self->{Translation}->{'No %s is given!'} = 'Nenhum %s informado.';
+    $Self->{Translation}->{'No %s is given!'} = 'Nenhum %s informado!';
     $Self->{Translation}->{'Could not create new condition!'} = 'Não foi possível criar nova condição!';
     $Self->{Translation}->{'Could not update ConditionID %s!'} = '';
     $Self->{Translation}->{'Could not update ExpressionID %s!'} = '';

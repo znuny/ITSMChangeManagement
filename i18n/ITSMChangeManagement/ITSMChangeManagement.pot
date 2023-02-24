@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ITSMChangeManagement\n"
-"POT-Creation-Date: 2020-01-24 11:46+0000\n"
+"POT-Creation-Date: 2023-02-24 10:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,635 +10,631 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. Template: AdminITSMChangeCIPAllocate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
 msgstr ""
 
-#. Template: AdminITSMChangeCIPAllocate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Manage the priority result of combinating Category ↔ Impact."
 msgstr ""
 
-#. Template: AdminITSMChangeCIPAllocate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Priority allocation"
 msgstr ""
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "ITSM ChangeManagement Notification Management"
 msgstr ""
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Add Notification Rule"
 msgstr ""
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Edit Notification Rule"
 msgstr ""
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "A notification should have a name!"
 msgstr ""
 
-#. Template: AdminITSMChangeNotification
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Name is required."
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Admin State Machine"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Select a catalog class!"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "A catalog class is required!"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Add a state transition"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Catalog Class"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Object Name"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Overview over state transitions for"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Delete this state transition"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Add a new state transition for"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Please select a state!"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Please select a next state!"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Edit a state transition for"
 msgstr ""
 
-#. Template: AdminITSMStateMachine
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Do you really want to delete the state transition"
 msgstr ""
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Add Change"
 msgstr ""
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "ITSM Change"
 msgstr ""
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Justification"
 msgstr ""
 
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Input invalid."
 msgstr ""
 
-#. Template: AgentITSMChangeAdd
-msgid "Impact"
-msgstr ""
-
-#. Template: AgentITSMChangeAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Requested Date"
 msgstr ""
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "Select Change Template"
 msgstr ""
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "Time type"
 msgstr ""
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "Invalid time type."
 msgstr ""
 
-#. Template: AgentITSMChangeAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
 msgid "New time"
 msgstr ""
 
-#. Template: AgentITSMChangeCABTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
 msgid "Save Change CAB as template"
 msgstr ""
 
-#. Template: AgentITSMChangeCABTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
 msgid "go to involved persons screen"
 msgstr ""
 
-#. Template: AgentITSMChangeCABTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCABTemplate.tt
 msgid "Invalid Name"
 msgstr ""
 
-#. Template: AgentITSMChangeCondition
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
 msgid "Conditions and Actions"
 msgstr ""
 
-#. Template: AgentITSMChangeCondition
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
 msgid "Delete Condition"
 msgstr ""
 
-#. Template: AgentITSMChangeCondition
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeCondition.tt
 msgid "Add new condition"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Edit Condition"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Need a valid name."
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "A valid name is needed."
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Duplicate name:"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "This name is already used by another condition."
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Matching"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Any expression (OR)"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "All expressions (AND)"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Expressions"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Selector"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Operator"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Delete Expression"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "No Expressions found."
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Add new expression"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Delete Action"
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "No Actions found."
 msgstr ""
 
-#. Template: AgentITSMChangeConditionEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Add new action"
 msgstr ""
 
-#. Template: AgentITSMChangeDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeDelete.tt
 msgid "Do you really want to delete this change?"
 msgstr ""
 
-#. Template: AgentITSMChangeEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeEdit.tt
 msgid "Edit %s%s"
 msgstr ""
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "History of %s%s"
 msgstr ""
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "History Content"
 msgstr ""
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Workorder"
 msgstr ""
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Createtime"
 msgstr ""
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Show details"
 msgstr ""
 
-#. Template: AgentITSMChangeHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "Show workorder"
 msgstr ""
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Detailed history information of %s"
 msgstr ""
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Modified"
 msgstr ""
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Old Value"
 msgstr ""
 
-#. Template: AgentITSMChangeHistoryZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "New Value"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Edit Involved Persons of %s%s"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Involved Persons"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "ChangeManager"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "User invalid."
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "ChangeBuilder"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Change Advisory Board"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "CAB Template"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Apply Template"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "NewTemplate"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Save this CAB as template"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Add to CAB"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Invalid User"
 msgstr ""
 
-#. Template: AgentITSMChangeInvolvedPersons
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Current CAB"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewNavBar
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
 msgid "Context Settings"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewNavBar
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewNavBar.tt
 msgid "Changes per page"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Title"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Title"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Agent"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Builder"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Manager"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorders"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change State"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder State"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Type"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Requested Time"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Planned Start Time"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Planned End Time"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Actual Start Time"
 msgstr ""
 
-#. Template: AgentITSMChangeOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Actual End Time"
 msgstr ""
 
-#. Template: AgentITSMChangeReset
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeReset.tt
 msgid "Do you really want to reset this change?"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(e.g. 10*5155 or 105658*)"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "CAB Agent"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "e.g."
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "CAB Customer"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Workorder Instruction"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Workorder Report"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change Priority"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change Impact"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "Change Category"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(before/after)"
 msgstr ""
 
-#. Template: AgentITSMChangeSearch
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(between)"
 msgstr ""
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Save Change as Template"
 msgstr ""
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "A template should have a name!"
 msgstr ""
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "The template name is required."
 msgstr ""
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Reset States"
 msgstr ""
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Overwrite original template"
 msgstr ""
 
-#. Template: AgentITSMChangeTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTemplate.tt
 msgid "Delete original change"
 msgstr ""
 
-#. Template: AgentITSMChangeTimeSlot
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeTimeSlot.tt
 msgid "Move Time Slot"
 msgstr ""
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Change Information"
 msgstr ""
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Planned Effort"
 msgstr ""
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Accounted Time"
 msgstr ""
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Change Initiator(s)"
 msgstr ""
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "CAB"
 msgstr ""
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Last changed"
 msgstr ""
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Last changed by"
 msgstr ""
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS)."
 msgstr ""
 
-#. Template: AgentITSMChangeZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
 msgid "Download Attachment"
 msgstr ""
 
-#. Template: AgentITSMTemplateEditCAB
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditCAB.tt
 msgid "Edit CAB Template"
 msgstr ""
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "This will create a new change from this template, so you can edit and save it."
 msgstr ""
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "The new change will be deleted automatically after it has been saved as template."
 msgstr ""
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "This will create a new workorder from this template, so you can edit and save it."
 msgstr ""
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "A temporary change will be created which contains the workorder."
 msgstr ""
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "The temporary change and new workorder will be deleted automatically after the workorder has been saved as template."
 msgstr ""
 
-#. Template: AgentITSMTemplateEditContent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateEditContent.tt
 msgid "Do you want to proceed?"
 msgstr ""
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Template ID"
 msgstr ""
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Edit Content"
 msgstr ""
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Create by"
 msgstr ""
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Change by"
 msgstr ""
 
-#. Template: AgentITSMTemplateOverviewSmall
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Change Time"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Add Workorder to %s%s"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Instruction"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Invalid workorder type."
 msgstr ""
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "The planned start time must be before the planned end time!"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderAdd
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Invalid format."
 msgstr ""
 
-#. Template: AgentITSMWorkOrderAddFromTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAddFromTemplate.tt
 msgid "Select Workorder Template"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderAgent
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAgent.tt
 msgid "Edit Workorder Agent of %s%s"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
 msgid "Do you really want to delete this workorder?"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
 msgid "You can not delete this Workorder. It is used in at least one Condition!"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderDelete
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderDelete.tt
 msgid "This Workorder is used in the following Condition(s)"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
 msgid "Edit %s%s-%s"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
 msgid "Move following workorders accordingly"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderEdit
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderEdit.tt
 msgid "If the planned end time of this workorder is changed, the planned start times of all following workorders will be changed accordingly"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderHistory
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderHistory.tt
 msgid "History of %s%s-%s"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "Edit Report of %s%s-%s"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "Report"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "The actual start time must be before the actual end time!"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderReport
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
 msgid "The actual start time must be set, when the actual end time is set!"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderTake
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
 msgid "Current Agent"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderTake
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTake.tt
 msgid "Do you really want to take this workorder?"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
 msgid "Save Workorder as Template"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderTemplate
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
 msgid "Delete original workorder (and surrounding change)"
 msgstr ""
 
-#. Template: AgentITSMWorkOrderZoom
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderZoom.tt
 msgid "Workorder Information"
 msgstr ""
 
@@ -1374,179 +1370,179 @@ msgstr ""
 msgid "Group ITSMChangeManager"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "requested"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "pending approval"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "rejected"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "approved"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "in progress"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "pending pir"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "successful"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "failed"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "canceled"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "retracted"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "created"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "accepted"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ready"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "approval"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "workorder"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "backout"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "decision"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "pir"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeStateID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "CategoryID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ImpactID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "PriorityID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeManagerID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeBuilderID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderStateID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderTypeID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderAgentID"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is not"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is empty"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is not empty"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is greater than"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is less than"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is before"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "is after"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "contains"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "not contains"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "begins with"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "ends with"
 msgstr ""
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. XML Definition: ITSMChangeManagement.sopm
 msgid "set"
 msgstr ""
 
-#. JS File: ITSM.Agent.ChangeManagement.Condition
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this expression?"
 msgstr ""
 
-#. JS File: ITSM.Agent.ChangeManagement.Condition
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this action?"
 msgstr ""
 
-#. JS File: ITSM.Agent.ChangeManagement.Condition
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this condition?"
 msgstr ""
 
-#. JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
+#. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.ConfirmDialog.js
 msgid "Ok"
 msgstr ""
 
