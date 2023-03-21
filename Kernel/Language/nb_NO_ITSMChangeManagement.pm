@@ -18,7 +18,7 @@ sub Data {
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
     $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Kategori <-> Omfang <-> Prioritet';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
-        'Sett opp valg av prioritet basert på Kategori ↔ Omfang';
+        'Sett opp valg av prioritet basert på Kategori ↔ Omfang.';
     $Self->{Translation}->{'Priority allocation'} = 'Tildeling av prioritet';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
@@ -30,7 +30,7 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
     $Self->{Translation}->{'Admin State Machine'} = '';
-    $Self->{Translation}->{'Select a catalog class!'} = 'Velg en katalogklasse';
+    $Self->{Translation}->{'Select a catalog class!'} = 'Velg en katalogklasse!';
     $Self->{Translation}->{'A catalog class is required!'} = 'En katalogklasse er påkrevd!';
     $Self->{Translation}->{'Add a state transition'} = 'Legg til en tilstandsendring';
     $Self->{Translation}->{'Catalog Class'} = 'Katalogklasse';
@@ -41,7 +41,7 @@ sub Data {
     $Self->{Translation}->{'Please select a state!'} = 'Vennligst velg en tilstand!';
     $Self->{Translation}->{'Please select a next state!'} = 'Vennligst velg neste tilstand!';
     $Self->{Translation}->{'Edit a state transition for'} = 'Redigér en tilstandsendring for';
-    $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Vil du virkelig slette tilstandsendringen?';
+    $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Vil du virkelig slette tilstandsendringen';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Legg til Endring';
@@ -70,7 +70,7 @@ sub Data {
     $Self->{Translation}->{'Edit Condition'} = 'Endre forutsetning';
     $Self->{Translation}->{'Need a valid name.'} = 'Trenger et gyldig navn';
     $Self->{Translation}->{'A valid name is needed.'} = 'Et gyldig navn kreves.';
-    $Self->{Translation}->{'Duplicate name:'} = 'Duplikat navn';
+    $Self->{Translation}->{'Duplicate name:'} = 'Duplikat navn:';
     $Self->{Translation}->{'This name is already used by another condition.'} = 'Dette navnet er allerede brukt på en annen forutsetning.';
     $Self->{Translation}->{'Matching'} = 'Som passer til';
     $Self->{Translation}->{'Any expression (OR)'} = 'Hvilket utrykk som helst (OR)';
@@ -206,7 +206,7 @@ sub Data {
     $Self->{Translation}->{'Add Workorder to %s%s'} = '';
     $Self->{Translation}->{'Instruction'} = 'Instruks';
     $Self->{Translation}->{'Invalid workorder type.'} = 'Ugyldig type arbeidsordre';
-    $Self->{Translation}->{'The planned start time must be before the planned end time!'} = 'Planlagt starttid må være før planlagt sluttid';
+    $Self->{Translation}->{'The planned start time must be before the planned end time!'} = 'Planlagt starttid må være før planlagt sluttid!';
     $Self->{Translation}->{'Invalid format.'} = 'Ugyldig format.';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAddFromTemplate.tt
@@ -233,7 +233,7 @@ sub Data {
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderReport.tt
     $Self->{Translation}->{'Edit Report of %s%s-%s'} = 'Endre rapport for %s%s-%s';
     $Self->{Translation}->{'Report'} = 'Rapport';
-    $Self->{Translation}->{'The actual start time must be before the actual end time!'} = 'Faktisk starttid må være før faktisk sluttid';
+    $Self->{Translation}->{'The actual start time must be before the actual end time!'} = 'Faktisk starttid må være før faktisk sluttid!';
     $Self->{Translation}->{'The actual start time must be set, when the actual end time is set!'} =
         'Hvis sluttiden settes må også starttid settes!';
 
