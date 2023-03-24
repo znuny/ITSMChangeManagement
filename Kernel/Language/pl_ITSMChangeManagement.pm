@@ -1061,7 +1061,7 @@ sub Data {
         '';
     $Self->{Translation}->{'Time Slot'} = '';
     $Self->{Translation}->{'Types of tickets, where in the ticket zoom view a link to add a change will be displayed.'} =
-        'Typy zgłoszeń dla których na ekranie szczegółów zgłoszenia wyświetlony będzie link tworzący zmianę';
+        'Typy zgłoszeń, dla których na ekranie szczegółów zgłoszenia wyświetlony będzie link tworzący zmianę.';
     $Self->{Translation}->{'User Search'} = '';
     $Self->{Translation}->{'Workorder Add (from template).'} = '';
     $Self->{Translation}->{'Workorder Add.'} = '';

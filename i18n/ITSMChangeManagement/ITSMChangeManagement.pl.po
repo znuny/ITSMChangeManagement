@@ -10,15 +10,12 @@ msgstr ""
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
 "PO-Revision-Date: 2023-03-24 12:12+0000\n"
 "Last-Translator: Daniel Lisiecki <lisiecki.daniel@gmail.com>\n"
-"Language-Team: Polish <https://translations.znuny.org/projects/znuny/"
-"itsmchangemanagement/pl/>\n"
+"Language-Team: Polish <https://translations.znuny.org/projects/znuny/itsmchangemanagement/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
-"n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
-"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 4.16.2\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
@@ -2887,9 +2884,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Types of tickets, where in the ticket zoom view a link to add a change will be displayed."
-msgstr ""
-"Typy zgłoszeń, dla których na ekranie szczegółów zgłoszenia wyświetlony "
-"będzie link tworzący zmianę."
+msgstr "Typy zgłoszeń, dla których na ekranie szczegółów zgłoszenia wyświetlony będzie link tworzący zmianę."
 
 #. SysConfig
 msgid "User Search"
@@ -2942,3 +2937,4 @@ msgstr ""
 #. SysConfig
 msgid "regularly"
 msgstr ""
+
