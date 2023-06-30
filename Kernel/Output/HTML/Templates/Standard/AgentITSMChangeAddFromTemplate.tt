@@ -10,16 +10,15 @@
 <div class="MainBox ARIARoleMain">
 
     <h1>[% Translate("Add Change") | html %]</h1>
+    <form action="[% Env("CGIHandle") %]" method="post" name="template" enctype="multipart/form-data" class="Validate PreventMultipleSubmits">
+        <div class="ContentColumn">
 
-    <div class="ContentColumn">
+            <div class="WidgetSimple">
+                <div class="Header">
+                    <h2>[% Translate("Select Change Template") | html %]</h2>
+                </div>
 
-        <div class="WidgetSimple">
-            <div class="Header">
-                <h2>[% Translate("Select Change Template") | html %]</h2>
-            </div>
-
-            <div class="Content">
-                <form action="[% Env("CGIHandle") %]" method="post" name="template" enctype="multipart/form-data" class="Validate PreventMultipleSubmits">
+                <div class="Content">
                     <input type="hidden" name="Action"    value="[% Env("Action") %]"/>
                     <input type="hidden" name="Subaction" value="CreateFromTemplate"/>
                     <input type="hidden" name="ChangeID"  value="[% Data.ChangeID | html %]"/>
@@ -27,32 +26,39 @@
 
                     <fieldset class="TableLike FixedLabelSmall">
 
-                        <label class="Mandatory" for="TemplateID"><span class="Marker">* </span>[% Translate("Template") | html %]:</label>
-                        <div class="Field">
-                            [% Data.TemplateSelectionString %]
-                            <div id="TemplateIDError" class="TooltipErrorMessage"><p>[% Translate("This field is required.") | html %]</p></div>
-                            <div id="TemplateIDServerError" class="TooltipErrorMessage"><p>[% Translate("This field is required.") | html %]</p></div>
+                        <div class="field-wrapper">
+                            <label class="Mandatory" for="TemplateID"><span class="Marker">* </span>[% Translate("Template") | html %]:</label>
+                            <div class="Field">
+                                [% Data.TemplateSelectionString %]
+                                <div id="TemplateIDError" class="TooltipErrorMessage"><p>[% Translate("This field is required.") | html %]</p></div>
+                                <div id="TemplateIDServerError" class="TooltipErrorMessage"><p>[% Translate("This field is required.") | html %]</p></div>
+                            </div>
                         </div>
 
-                        <label for="MoveTimeType">[% Translate("Time type") | html %]:</label>
-                        <div class="Field">
-                            [% Data.MoveTimeTypeSelectionString %]
-                            <div id="MoveTimeTypeServerError" class="TooltipErrorMessage"><p>[% Translate("Invalid time type.") | html %]</p></div>
+                        <div class="field-wrapper">
+                            <label for="MoveTimeType">[% Translate("Time type") | html %]:</label>
+                            <div class="Field">
+                                [% Data.MoveTimeTypeSelectionString %]
+                                <div id="MoveTimeTypeServerError" class="TooltipErrorMessage"><p>[% Translate("Invalid time type.") | html %]</p></div>
+                            </div>
                         </div>
 
-                        <label>[% Translate("New time") | html %]:</label>
-                        <div class="Field">
-                            [% Data.MoveTimeSelectionString %]
+                        <div class="field-wrapper">
+                            <label>[% Translate("New time") | html %]:</label>
+                            <div class="Field">
+                                <div class="select-field-wrapper">[% Data.MoveTimeSelectionString %]</div>
+                            </div>
                         </div>
-
-                        <div class="Field SpacingTop">
-                            <button class="Primary CallForAction" id="SubmitAddTemplate" accesskey="g" title="[% Translate("Submit") | html %] (g)" type="submit" name="AddTemplate" value="[% Translate("Submit") | html %]"><span><i class="fa fa-check-square-o"></i> [% Translate("Submit") | html %]</span></button>
-                        </div>
-
                     </fieldset>
-                </form>
+                    <fieldset class="TableLike">
+                        <div class="field-wrapper form-button-actions">
+                            <div class="Field buttons-field">
+                                <button class="CallForAction Primary btn-main btn-primary btn-width-md" id="SubmitAddTemplate" accesskey="g" title="[% Translate("Submit") | html %] (g)" type="submit" name="AddTemplate" value="[% Translate("Submit") | html %]"><span>[% Translate("Submit") | html %]</span></button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
             </div>
         </div>
-
-    </div>
+    </form>
 </div>

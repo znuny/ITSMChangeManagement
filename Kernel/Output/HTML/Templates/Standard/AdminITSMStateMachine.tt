@@ -8,8 +8,54 @@
 # --
 
 [% RenderBlockStart("Overview") %]
-<div class="MainBox ARIARoleMain LayoutFixedSidebar SidebarFirst">
-    <h1 class="InvisibleText">[% Translate("Admin State Machine") | html %]</h1>
+<div class="MainBox ARIARoleMain LayoutFixedSidebar SidebarFirst ActionsSideBar">
+
+    <div class="SidebarColumn ActionsSideBarComp">
+        <div class="WidgetSimple">
+            <div class="Header">
+                <h2>[% Translate("Actions") | html %]</h2>
+            </div>
+            <div class="Content">
+                <ul class="ActionList">
+[% RenderBlockStart("ActionAddState") %]
+                    <li>
+                        <form action="[% Env("CGIHandle") %]" method="get" class="Validate">
+                            <input type="hidden" name="Action"    value="[% Env("Action") %]">
+                            <input type="hidden" name="Subaction" value="StateTransitionAdd">
+
+                            <div class="field-wrapper">
+                                <div>[% Data.ClassSelectionString %]</div>
+                                <div id="ClassError" class="TooltipErrorMessage"><p>[% Translate("Select a catalog class!") | html %]</p></div>
+                                <div id="ClassServerError" class="TooltipErrorMessage"><p>[% Translate("A catalog class is required!") | html %]</p></div>
+                                <button class="CallForAction btn-main btn-primary-ghost" type="submit" value="[% Translate("Add") | html %]">
+                                    <span>[% Translate("Add a state transition") | html %]</span>
+                                </button>
+                            </div>
+                        </form>
+                    </li>
+[% RenderBlockEnd("ActionAddState") %]
+[% RenderBlockStart("ActionOverview") %]
+                    <li>
+                        <a href="[% Env("Baselink") %]Action=[% Env("Action") %]" class="CallForAction Fullsize Center"><span>[% Translate("Go to overview") | html %]</span></a>
+                    </li>
+[% RenderBlockEnd("ActionOverview") %]
+                </ul>
+            </div>
+        </div>
+[% RenderBlockStart("Filter") %]
+        <div class="WidgetSimple">
+            <div class="Header">
+                <h2><label for="Filter">[% Translate("Filter") | html %]</label></h2>
+            </div>
+            <div class="Content">
+                <input type="text" id="Filter" class="FilterBox" placeholder="[% Translate("Just start typing to filter...") | html %]" name="Filter" value="" title="[% Translate("Filter") | html %]">
+            </div>
+        </div>
+[% RenderBlockEnd("Filter") %]
+    </div>
+
+    <div class="ContentColumn">
+        <h1 class="InvisibleText">[% Translate("Admin State Machine") | html %]</h1>
 [%-
     BreadcrumbPath = [
         {
@@ -36,45 +82,13 @@
 
 [% INCLUDE "Breadcrumb.tt" Path = BreadcrumbPath %]
 
-    <div class="SidebarColumn">
-        <div class="WidgetSimple">
-            <div class="Header">
-                <h2>[% Translate("Actions") | html %]</h2>
-            </div>
-            <div class="Content">
-                <ul class="ActionList">
-[% RenderBlockStart("ActionAddState") %]
-                    <li>
-                        <form action="[% Env("CGIHandle") %]" method="get" class="Validate">
-                            <input type="hidden" name="Action"    value="[% Env("Action") %]">
-                            <input type="hidden" name="Subaction" value="StateTransitionAdd">
-                            <div>[% Data.ClassSelectionString %]</div>
-                            <div id="ClassError" class="TooltipErrorMessage"><p>[% Translate("Select a catalog class!") | html %]</p></div>
-                            <div id="ClassServerError" class="TooltipErrorMessage"><p>[% Translate("A catalog class is required!") | html %]</p></div>
-                            <button class="CallForAction Fullsize Center" type="submit" value="[% Translate("Add") | html %]">
-                                <span>[% Translate("Add a state transition") | html %]</span>
-                            </button>
-                        </form>
-                    </li>
-[% RenderBlockEnd("ActionAddState") %]
-[% RenderBlockStart("ActionOverview") %]
-                    <li>
-                        <a href="[% Env("Baselink") %]Action=[% Env("Action") %]" class="CallForAction Fullsize Center"><span>[% Translate("Go to overview") | html %]</span></a>
-                    </li>
-[% RenderBlockEnd("ActionOverview") %]
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="ContentColumn">
         <div class="WidgetSimple">
 [% RenderBlockStart("OverviewClasses") %]
             <div class="Header">
                 <h2>[% Translate("List") | html %]</h2>
             </div>
             <div class="Content">
-                <table class="DataTable">
+                <table class="DataTable" id="OverviewTable">
                     <thead>
                         <tr>
                             <th>[% Translate("Catalog Class") | html %]</th>
@@ -101,7 +115,7 @@
                 <h2>[% Translate("Overview over state transitions for") | html %] [% Data.Class | html %]</h2>
             </div>
             <div class="Content">
-                <table class="DataTable">
+                <table class="DataTable" id="OverviewTable">
                     <thead>
                         <tr>
                             <th>[% Translate("State") | html %]</th>
@@ -120,7 +134,7 @@
                             <td>[% Translate(Data.NextStateName) | html %]</td>
                             <td class="Center Last">
 [% RenderBlockStart("StateTransitionDeleteButton") %]
-                                <a href="[% Env("Baselink") %]Action=[% Env("Action") %];Subaction=StateTransitionDelete;Class=[% Data.Class | uri %];StateID=[% Data.StateID | uri %];NextStateID=[% Data.NextStateID | uri %]" title="[% Translate("Delete this state transition") | html %]">
+                                <a class="table-icon-hover-md" href="[% Env("Baselink") %]Action=[% Env("Action") %];Subaction=StateTransitionDelete;Class=[% Data.Class | uri %];StateID=[% Data.StateID | uri %];NextStateID=[% Data.NextStateID | uri %]" title="[% Translate("Delete this state transition") | html %]">
                                     <i class="fa fa-trash-o">
                                         <span class="InvisibleText">[% Translate("Delete this state transition") | html %]</span>
                                     </i>
@@ -133,6 +147,7 @@
                 </table>
             </div>
 [% RenderBlockEnd("OverviewStateTransitions") %]
+
 [% RenderBlockStart("StateTransitionAdd") %]
             <div class="Header">
                 <h2>[% Translate("Add a new state transition for") | html %] [% Data.Class | html %]</h2>
@@ -145,35 +160,44 @@
                     <input type="hidden" name="ContinueAfterSave" id="ContinueAfterSave" value=""/>
                     <fieldset class="TableLike">
 
-                        <label for="StateID">[% Translate("State") | html %]:</label>
-                        <div class="Field">
-                            [% Data.StateSelectionString %]
-                            <div id="StateIDError" class="TooltipErrorMessage"><p>[% Translate("Please select a state!") | html %]</p></div>
-                            <div id="StateIDServerError" class="TooltipErrorMessage"><p>[% Translate("Please select a state!") | html %]</p></div>
+                        <div class="field-wrapper">
+                            <label for="StateID">[% Translate("State") | html %]:</label>
+                            <div class="Field">
+                                [% Data.StateSelectionString %]
+                                <div id="StateIDError" class="TooltipErrorMessage"><p>[% Translate("Please select a state!") | html %]</p></div>
+                                <div id="StateIDServerError" class="TooltipErrorMessage"><p>[% Translate("Please select a state!") | html %]</p></div>
+                            </div>
                         </div>
-                        <div class="Clear"></div>
 
-                        <label>[% Translate("Next state") | html %]:</label>
-                        <div class="Field">
-                            [% Data.NextStateSelectionString %]
-                            <div id="NextStateIDError" class="TooltipErrorMessage"><p>[% Translate("Please select a next state!") | html %]</p></div>
-                            <div id="NextStateIDServerError" class="TooltipErrorMessage"><p>[% Translate("Please select a next state!") | html %]</p></div>
+                        <div class="field-wrapper">
+                            <label>[% Translate("Next state") | html %]:</label>
+                            <div class="Field">
+                                [% Data.NextStateSelectionString %]
+                                <div id="NextStateIDError" class="TooltipErrorMessage"><p>[% Translate("Please select a next state!") | html %]</p></div>
+                                <div id="NextStateIDServerError" class="TooltipErrorMessage"><p>[% Translate("Please select a next state!") | html %]</p></div>
+                            </div>
                         </div>
-                        <div class="Clear"></div>
 
-                        <div class="Field SpacingTop SaveButtons">
-                            <button class="Primary CallForAction" id="SubmitAndContinue" type="submit" value="[% Translate("Save") | html %]"><span>[% Translate("Save") | html %]</span></button>
-                            [% Translate("or") | html %]
-                            <button class="Primary CallForAction" id="Submit" type="submit" value="[% Translate("Save") | html %]"><span>[% Translate("Save and finish") | html %]</span></button>
-                            [% Translate("or") | html %]
-                            <a href="[% Env("Baselink") %]Action=[% Env("Action") %]"><span>[% Translate("Cancel") | html %]</span></a>
+                        <div class="field-wrapper form-button-actions">
+                            <div class="Field buttons-field">
+                                <a href="[% Env("Baselink") %]Action=[% Env("Action") %]" class="btn-cancel-ghost btn-main btn-width-md">
+                                    <span>[% Translate("Cancel") | html %]</span>
+                                </a>
+
+                                <button class="btn-primary-ghost btn-main btn-width-md" id="Submit" type="submit" value="[% Translate("Save") | html %]">
+                                    <span>[% Translate("Save and finish") | html %]</span>
+                                </button>
+
+                                <button class="btn-primary btn-main btn-width-md" id="SubmitAndContinue" type="button" value="[% Translate("Save") | html %]">
+                                    <span>[% Translate("Save") | html %]</span>
+                                </button>
+                            </div>
                         </div>
-                        <div class="Clear"></div>
-
                     </fieldset>
                 </form>
             </div>
 [% RenderBlockEnd("StateTransitionAdd") %]
+
 [% RenderBlockStart("StateTransitionUpdate") %]
             <div class="Header">
                 <h2>[% Translate("Edit a state transition for") | html %] [% Data.Class | html %]</h2>
@@ -188,30 +212,41 @@
                     <input type="hidden" name="ContinueAfterSave" id="ContinueAfterSave" value=""/>
                     <fieldset class="TableLike">
 
-                        <label>[% Translate("State") | html %]:</label>
-                        <div class="Field">
-                            [% Translate(Data.StateName) | html %]
+                        <div class="field-wrapper">
+                            <label>[% Translate("State") | html %]:</label>
+                            <div class="Field">
+                                [% Translate(Data.StateName) | html %]
+                            </div>
                         </div>
-                        <div class="Clear"></div>
 
-                        <label>[% Translate("Next state") | html %]:</label>
-                        <div class="Field">
-                            [% Data.NextStateSelectionString %]
+                        <div class="field-wrapper">
+                            <label>[% Translate("Next state") | html %]:</label>
+                            <div class="Field">
+                                [% Data.NextStateSelectionString %]
+                            </div>
                         </div>
-                        <div class="Clear"></div>
-                        <div class="Field SpacingTop SaveButtons">
-                            <button class="Primary CallForAction" id="SubmitAndContinue" type="submit" value="[% Translate("Save") | html %]"><span>[% Translate("Save") | html %]</span></button>
-                            [% Translate("or") | html %]
-                            <button class="Primary CallForAction" id="Submit" type="submit" value="[% Translate("Save") | html %]"><span>[% Translate("Save and finish") | html %]</span></button>
-                            [% Translate("or") | html %]
-                            <a href="[% Env("Baselink") %]Action=[% Env("Action") %]"><span>[% Translate("Cancel") | html %]</span></a>
+
+                        <div class="field-wrapper form-button-actions">
+                            <div class="Field buttons-field">
+                                <a href="[% Env("Baselink") %]Action=[% Env("Action") %]" class="btn-cancel-ghost btn-main btn-width-md">
+                                    <span>[% Translate("Cancel") | html %]</span>
+                                </a>
+
+                                <button class="btn-primary-ghost btn-main btn-width-md" id="Submit" type="submit" value="[% Translate("Save") | html %]">
+                                    <span>[% Translate("Save and finish") | html %]</span>
+                                </button>
+
+                                <button class="btn-primary btn-main btn-width-md" id="SubmitAndContinue" type="button" value="[% Translate("Save") | html %]">
+                                    <span>[% Translate("Save") | html %]</span>
+                                </button>
+                            </div>
                         </div>
-                        <div class="Clear"></div>
 
                     </fieldset>
                 </form>
             </div>
 [% RenderBlockEnd("StateTransitionUpdate") %]
+
 [% RenderBlockStart("StateTransitionDelete") %]
             <div class="Header">
                 <h2>[% Translate("Delete") | html %]</h2>
@@ -224,15 +259,16 @@
                 </p>
 
                 <fieldset class="TableLike">
-                    <div class="Field">
-                        <a class="CallForAction" href="[% Env("Baselink") %]Action=[% Env("Action") %];Class=[% Data.Class | uri %]">
-                            <span>[% Translate("No") | html %]</span>
-                        </a>
-                        <a class="CallForAction" href="[% Env("Baselink") %]Action=[% Env("Action") %];Subaction=[% Data.Action | uri %]Action;Class=[% Data.Class | uri %];StateID=[% Data.StateID | uri %];NextStateID=[% Data.NextStateID | uri %]">
-                            <span>[% Translate("Yes") | html %]</span>
-                        </a>
+                    <div class="field-wrapper form-button-actions">
+                        <div class="Field buttons-field">
+                            <a class="btn-cancel-ghost btn-main btn-width-md" href="[% Env("Baselink") %]Action=[% Env("Action") %];Class=[% Data.Class | uri %]">
+                                <span>[% Translate("No") | html %]</span>
+                            </a>
+                            <a class="btn-primary btn-main btn-width-md" href="[% Env("Baselink") %]Action=[% Env("Action") %];Subaction=[% Data.Action | uri %]Action;Class=[% Data.Class | uri %];StateID=[% Data.StateID | uri %];NextStateID=[% Data.NextStateID | uri %]">
+                                <span>[% Translate("Yes") | html %]</span>
+                            </a>
+                        </div>
                     </div>
-                    <div class="Clear"></div>
                 </fieldset>
             </div>
 [% RenderBlockEnd("StateTransitionDelete") %]

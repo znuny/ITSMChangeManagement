@@ -215,7 +215,7 @@ sub Run {
         Filters     => \%NavBarFilter,
         FilterLink  => $LinkFilter,
 
-        TitleName => $LayoutObject->{LanguageObject}->Translate('Overview: Template'),
+        TitleName => $LayoutObject->{LanguageObject}->Translate('Template'),
 
         TitleValue => $Filters{ $Self->{Filter} }->{Name},
 

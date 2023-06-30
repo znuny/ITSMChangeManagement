@@ -111,6 +111,19 @@
             </Hash>
         </Value>
     </Setting>
+    <Setting Name="Loader::Module::AdminITSMStateMachine###003-ITSMChangeManagement" Required="0" Valid="1">
+        <Description Translatable="1">Loader module registration for the agent interface.</Description>
+        <Navigation>Frontend::Admin::ModuleRegistration::Loader</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="JavaScript">
+                    <Array>
+                        <Item>ITSM.Admin.ChangeManagement.StateMachine.js</Item>
+                    </Array>
+                </Item>
+            </Hash>
+        </Value>
+    </Setting>
     <Setting Name="Frontend::Navigation###AdminITSMChangeNotification###003-ITSMChangeManagement" Required="0" Valid="0">
         <Description Translatable="1">Main menu item registration.</Description>
         <Navigation>Frontend::Admin::ModuleRegistration::MainMenu</Navigation>
@@ -629,8 +642,14 @@
         <Navigation>Frontend::Agent::ModuleRegistration::Loader</Navigation>
         <Value>
             <Hash>
+                <Item Key="CSS">
+                    <Array>
+                        <Item>Core.Agent.TicketHistory.css</Item>
+                    </Array>
+                </Item>
                 <Item Key="JavaScript">
                     <Array>
+                        <Item>Core.Agent.TicketHistory.js</Item>
                         <Item>ITSM.Agent.ChangeManagement.History.js</Item>
                     </Array>
                 </Item>
@@ -726,6 +745,11 @@
                         <Item>ITSM.Agent.Default.css</Item>
                     </Array>
                 </Item>
+                <Item Key="JavaScript">
+                    <Array>
+                        <Item>ITSM.Agent.ChangeManagement.Overview.js</Item>
+                    </Array>
+                </Item>
             </Hash>
         </Value>
     </Setting>
@@ -819,6 +843,11 @@
                 <Item Key="CSS">
                     <Array>
                         <Item>ITSM.Agent.Default.css</Item>
+                    </Array>
+                </Item>
+                <Item Key="JavaScript">
+                    <Array>
+                        <Item>ITSM.Agent.ChangeManagement.Overview.js</Item>
                     </Array>
                 </Item>
             </Hash>
@@ -1278,10 +1307,7 @@
                     <Array>
                         <Item>ITSM.Agent.Default.css</Item>
                         <Item>Core.AllocationList.css</Item>
-                        <Item>ITSM.ChangeManagement.Default.css</Item>
-                        <Item>ITSM.ChangeManagement.Responsive.css</Item>
                         <Item>ITSM.ChangeManagement.WorkorderGraph.css</Item>
-                        <Item>ITSM.ChangeManagement.RTEContent.css</Item>
                     </Array>
                 </Item>
                 <Item Key="JavaScript">
@@ -1433,11 +1459,6 @@
         <Navigation>Frontend::Agent::ModuleRegistration::Loader</Navigation>
         <Value>
             <Hash>
-                <Item Key="CSS">
-                    <Array>
-                        <Item>ITSM.ChangeManagement.Default.css</Item>
-                    </Array>
-                </Item>
                 <Item Key="JavaScript">
                     <Array>
                         <Item>ITSM.Agent.ConfirmDialog.js</Item>
@@ -1641,8 +1662,14 @@
         <Navigation>Frontend::Agent::ModuleRegistration::Loader</Navigation>
         <Value>
             <Hash>
+                <Item Key="CSS">
+                    <Array>
+                        <Item>Core.Agent.TicketHistory.css</Item>
+                    </Array>
+                </Item>
                 <Item Key="JavaScript">
                     <Array>
+                        <Item>Core.Agent.TicketHistory.js</Item>
                         <Item>ITSM.Agent.ChangeManagement.History.js</Item>
                     </Array>
                 </Item>
@@ -1767,8 +1794,6 @@
                 <Item Key="CSS">
                     <Array>
                         <Item>ITSM.Agent.Default.css</Item>
-                        <Item>ITSM.ChangeManagement.Default.css</Item>
-                        <Item>ITSM.ChangeManagement.RTEContent.css</Item>
                         <Item>Core.AllocationList.css</Item>
                     </Array>
                 </Item>
@@ -1781,6 +1806,19 @@
                         <Item>ITSM.Agent.ConfirmDialog.js</Item>
                         <Item>ITSM.Agent.ChangeManagement.Zoom.js</Item>
                         <Item>ITSM.Agent.ChangeManagement.ConfirmDialog.js</Item>
+                    </Array>
+                </Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="Loader::Module::CustomerITSMChangeSchedule###003-ITSMChangeManagement" Required="0" Valid="1">
+        <Description Translatable="1">Loader module registration for the agent interface.</Description>
+        <Navigation>Frontend::Customer::ModuleRegistration::Loader</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="CSS">
+                    <Array>
+                        <Item>ITSM.ChangeManagement.FlagColors.css</Item>
                     </Array>
                 </Item>
             </Hash>
@@ -1807,20 +1845,6 @@
             </Item>
         </Value>
     </Setting>
-    <Setting Name="Loader::Module::CustomerITSMChangeSchedule###003-ITSMChangeManagement" Required="0" Valid="0">
-        <Description Translatable="1">Loader module registration for the agent interface.</Description>
-        <Navigation>Frontend::Customer::ModuleRegistration::Loader</Navigation>
-        <Value>
-            <Hash>
-                <Item Key="CSS">
-                    <Array>
-                        <Item>ITSM.ChangeManagement.Default.css</Item>
-                        <Item>ITSM.ChangeManagement.Table.css</Item>
-                    </Array>
-                </Item>
-            </Hash>
-        </Value>
-    </Setting>
     <Setting Name="CustomerFrontend::Navigation###CustomerITSMChangeSchedule###003-ITSMChangeManagement" Required="0" Valid="0">
         <Description Translatable="1">Main menu item registration.</Description>
         <Navigation>Frontend::Customer::ModuleRegistration::MainMenu</Navigation>
@@ -1844,8 +1868,8 @@
                         <Item Key="Name" Translatable="1">Change Schedule</Item>
                         <Item Key="Link">Action=CustomerITSMChangeSchedule</Item>
                         <Item Key="LinkOption"></Item>
-                        <Item Key="NavBar"></Item>
-                        <Item Key="Type"></Item>
+                        <Item Key="NavBar">ITSM Change</Item>
+                        <Item Key="Type">Menu</Item>
                         <Item Key="Block"></Item>
                         <Item Key="AccessKey"></Item>
                         <Item Key="Prio">450</Item>
@@ -1860,6 +1884,7 @@
         <Value>
             <Hash>
                 <Item Key="Module">Kernel::Output::HTML::ToolBar::ChangeManager</Item>
+                <Item Key="Block">ToolBarActions</Item> <!-- TODO: possible Blocks (ToolBarOverviews|ToolBarActions|ToolBarPersonalViews|ToolBarSearch) -->
                 <Item Key="CssClass">ChangeManager</Item>
                 <Item Key="Icon">fa fa-male</Item>
                 <Item Key="Priority">1000610</Item>
@@ -1872,6 +1897,7 @@
         <Value>
             <Hash>
                 <Item Key="Module">Kernel::Output::HTML::ToolBar::MyChanges</Item>
+                <Item Key="Block">ToolBarActions</Item> <!-- TODO: possible Blocks (ToolBarOverviews|ToolBarActions|ToolBarPersonalViews|ToolBarSearch) -->
                 <Item Key="CssClass">MyChanges</Item>
                 <Item Key="Icon">fa fa-retweet</Item>
                 <Item Key="Priority">1000630</Item>
@@ -1884,6 +1910,7 @@
         <Value>
             <Hash>
                 <Item Key="Module">Kernel::Output::HTML::ToolBar::MyWorkOrders</Item>
+                <Item Key="Block">ToolBarActions</Item> <!-- TODO: possible Blocks (ToolBarOverviews|ToolBarActions|ToolBarPersonalViews|ToolBarSearch) -->
                 <Item Key="CssClass">MyWorkOrders</Item>
                 <Item Key="Icon">fa fa-tasks</Item>
                 <Item Key="Priority">1000640</Item>
@@ -1896,6 +1923,7 @@
         <Value>
             <Hash>
                 <Item Key="Module">Kernel::Output::HTML::ToolBar::MyCAB</Item>
+                <Item Key="Block">ToolBarActions</Item> <!-- TODO: possible Blocks (ToolBarOverviews|ToolBarActions|ToolBarPersonalViews|ToolBarSearch) -->
                 <Item Key="CssClass">MyCABs</Item>
                 <Item Key="Icon">fa fa-group</Item>
                 <Item Key="Priority">1000620</Item>

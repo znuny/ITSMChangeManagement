@@ -60,12 +60,20 @@ ITSM.Agent.ChangeManagement.Search = (function (TargetNS) {
      *      This function adds one attributes for the search.
      */
     TargetNS.SearchAttributeAdd = function (Attribute) {
-        var $Label = $('#SearchAttributesHidden label#Label' + Attribute);
+        var $Label = $('#SearchAttributesHidden label#Label' + Attribute),
+            $Clone;
 
         if ($Label.length) {
-            $Label.prev().clone().appendTo('#SearchInsert');
-            $Label.clone().appendTo('#SearchInsert');
-            $Label.next().clone().appendTo('#SearchInsert')
+            if ($Label.parents('.field-wrapper').length){
+                $Clone = $Label.parents('.field-wrapper').clone();
+            }else{
+                // use old clone calls
+                $Label.prev().clone().appendTo('#SearchInsert');
+                $Label.clone().appendTo('#SearchInsert');
+                $Clone = $Label.next().clone().appendTo('#SearchInsert')
+            }
+
+            $Clone.appendTo('#SearchInsert')
 
                 // bind click function to remove button now
                 .find('.RemoveButton').off('click.RemoveSearchAttribute').on('click.RemoveSearchAttribute', function () {
@@ -186,7 +194,7 @@ ITSM.Agent.ChangeManagement.Search = (function (TargetNS) {
                     // If there's no input element with the selected name
                     // find the next "select" element and use that one for checking
                     if (!$Element.length) {
-                        $Element = $(this).next().find('select');
+                        $Element = $(this).parent().next().find('select');
                     }
                     if ($Element.length) {
                         if ($Element.val() && $Element.val() !== '') {
@@ -314,6 +322,11 @@ ITSM.Agent.ChangeManagement.Search = (function (TargetNS) {
                     });
 
                     return false;
+                });
+
+                // added cancel function to modal
+                $('#Cancel').on('click', function () {
+                    Core.UI.Dialog.CloseDialog($('.Dialog:visible'));
                 });
 
                 // register return key

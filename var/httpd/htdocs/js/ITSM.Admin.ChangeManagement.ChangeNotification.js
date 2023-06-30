@@ -31,15 +31,39 @@ ITSM.Admin.ChangeManagement.ChangeNotification = (function (TargetNS) {
             This function initializes the special module functions.
      */
     TargetNS.Init = function () {
+        Core.UI.Table.InitTableFilter($("#FilterNotificationRules"), $("#NotificationRules"));
 
         if (Core.Config.Get('OverviewResult')) {
             $('.NotificationDelete').on('click', function (Event) {
+                var $Element = $(this);
 
-                if (window.confirm(Core.Language.Translate('Do you really want to delete this notification?'))) {
-                    window.location = $(this).attr('href');
-                }
+                $('#DeleteDialogText').text(Core.Language.Translate("Do you really want to delete this notification?"));
+                Core.UI.Dialog.ShowContentDialog(
+                    $('#DeleteDialogContainer'),
+                    Core.Language.Translate('Delete Notification'),
+                    '240px',
+                    'Center',
+                    true,
+                    [
+                        {
+                            Label: Core.Language.Translate("Cancel"),
+                            Type: 'Secondary',
+                            Function: function () {
+                                Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
+                            }
+                        },
+                        {
+                            Label: Core.Language.Translate("Delete"),
+                            Type: 'Warning',
+                            Function: function() {
+                                Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
+                                window.location = $Element.attr('href');
+                            }
+                        },
+                    ]
+                );
 
-                // don't interfere with MasterAction
+                // // don't interfere with MasterAction
                 Event.stopPropagation();
                 Event.preventDefault();
                 return false;

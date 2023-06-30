@@ -41,11 +41,36 @@ ITSM.Agent.ChangeManagement.NotificationEvent = (function (TargetNS) {
         });
 
         // bind click function to remove button
-        $('.LanguageRemove').off('click.LanguageRemove').on('click.LanguageRemove', function(){
-            if (window.confirm(TargetNS.Localization.DeleteNotificationLanguageMsg)) {
-                TargetNS.RemoveLanguage($(this));
-            }
-            return false;
+        $('.LanguageRemove').off('click.LanguageRemove').on('click.LanguageRemove', function() {
+                var $Element = $(this);
+
+                $('#DeleteDialogText').text(TargetNS.Localization.DeleteNotificationLanguageMsg);
+                Core.UI.Dialog.ShowContentDialog(
+                    $('#DeleteDialogContainer'),
+                    Core.Language.Translate('Delete'),
+                    '240px',
+                    'Center',
+                    true,
+                    [
+                        {
+                            Label: Core.Language.Translate("Cancel"),
+                            Type: 'Secondary',
+                            Function: function () {
+                                Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
+                            }
+                        },
+                        {
+                            Label: Core.Language.Translate("Delete"),
+                            Type: 'Warning',
+                            Function: function() {
+                                Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
+                                TargetNS.RemoveLanguage($Element);
+                            }
+                        },
+                    ]
+                );
+
+                return false;
         });
     };
 

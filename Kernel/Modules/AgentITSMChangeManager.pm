@@ -228,7 +228,7 @@ sub Run {
         Filters    => \%NavBarFilter,
         FilterLink => $LinkFilter,
 
-        TitleName => $LayoutObject->{LanguageObject}->Translate('Overview: ChangeManager'),
+        TitleName => $LayoutObject->{LanguageObject}->Translate('ChangeManager'),
 
         TitleValue => $Self->{Filter},
 

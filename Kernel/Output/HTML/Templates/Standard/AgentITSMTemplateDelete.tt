@@ -12,19 +12,16 @@
     <p class="Value">
         [% Data.Name | html %]
     </p>
-    <div class="Clear"></div>
 
     <label>[% Translate("Type") | html %]:</label>
     <p class="Value">
         [% Translate(Data.Type) | html %]
     </p>
-    <div class="Clear"></div>
 
     <label>[% Translate("Comment") | html %]:</label>
     <p class="Value">
         [% Data.Comment | truncate(40) | html %]
     </p>
-    <div class="Clear"></div>
 </fieldset>
 <p class="SpacingTop Center">
     [% Translate("Do you really want to delete this template?") | html %]

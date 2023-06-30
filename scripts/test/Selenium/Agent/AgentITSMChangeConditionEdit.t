@@ -107,51 +107,85 @@ $Selenium->RunTest(
         # Add new expression
         #   in change object for test change, look for priority value of '2 low'.
         $Selenium->find_element("//button[\@name='AddExpressionButton'][\@type='submit']")->VerifiedClick();
-        sleep 1;
-        $Selenium->find_element( "#ExpressionID-NEW-ObjectID option[value='1']", 'css' )->click();
+
+        $Selenium->execute_script(
+            "\$('#SaveButton')[0].scrollIntoView(true);",
+        );
+
+        $Selenium->WaitFor( JavaScript => "return \$('#ExpressionID-NEW-ObjectID option').length > 1;" );
+        $Selenium->InputFieldValueSet(
+            Element => '#ExpressionID-NEW-ObjectID',
+            Value   => 1,
+        );
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
-        $Selenium->WaitFor( JavaScript => "return \$.active == 0" );
         $Selenium->WaitFor( JavaScript => "return \$('#ExpressionID-NEW-Selector option').length > 1;" );
-        $Selenium->find_element( "#ExpressionID-NEW-Selector option[value='$ChangeID']", 'css' )->click();
+        $Selenium->InputFieldValueSet(
+            Element => '#ExpressionID-NEW-Selector',
+            Value   => $ChangeID,
+        );
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
         $Selenium->WaitFor( JavaScript => "return \$('#ExpressionID-NEW-AttributeID option').length > 1;" );
-        $Selenium->find_element( "#ExpressionID-NEW-AttributeID option[value='$ExpresionAttributeID']", 'css' )
-            ->click();
+        $Selenium->InputFieldValueSet(
+            Element => '#ExpressionID-NEW-AttributeID',
+            Value   => $ExpresionAttributeID,
+        );
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
         $Selenium->WaitFor( JavaScript => "return \$('#ExpressionID-NEW-OperatorID option').length > 1;" );
-        $Selenium->find_element( "#ExpressionID-NEW-OperatorID option[value='1']", 'css' )->click();
+        $Selenium->InputFieldValueSet(
+            Element => '#ExpressionID-NEW-OperatorID',
+            Value   => 1,
+        );
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
         $Selenium->WaitFor( JavaScript => "return \$('#ExpressionID-NEW-CompareValue option').length > 1;" );
-        $Selenium->find_element( "#ExpressionID-NEW-CompareValue option[value='$PriorityDataRef->{ItemID}']", 'css' )
-            ->click();
+        $Selenium->InputFieldValueSet(
+            Element => '#ExpressionID-NEW-CompareValue',
+            Value   => $PriorityDataRef->{ItemID},
+        );
 
         # Add new action in change object for test change, set change state on 'Approved'.
         $Selenium->find_element("//button[\@name='AddActionButton'][\@type='submit']")->VerifiedClick();
-        $Selenium->find_element( "#ActionID-NEW-ObjectID option[value='1']", 'css' )->click();
+
+        $Selenium->execute_script(
+            "\$('#SaveButton')[0].scrollIntoView(true);",
+        );
+
+        $Selenium->WaitFor( JavaScript => "return \$('#ActionID-NEW-ObjectID option').length > 1;" );
+        $Selenium->InputFieldValueSet(
+            Element => '#ActionID-NEW-ObjectID',
+            Value   => 1,
+        );
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
-        $Selenium->WaitFor( JavaScript => "return \$.active == 0" );
         $Selenium->WaitFor( JavaScript => "return \$('#ActionID-NEW-Selector option').length > 1;" );
-        $Selenium->find_element( "#ActionID-NEW-Selector option[value='$ChangeID']", 'css' )->click();
+        $Selenium->InputFieldValueSet(
+            Element => '#ActionID-NEW-Selector',
+            Value   => $ChangeID,
+        );
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
         $Selenium->WaitFor( JavaScript => "return \$('#ActionID-NEW-AttributeID option').length > 1;" );
-        $Selenium->find_element( "#ActionID-NEW-AttributeID option[value='$ActionAttributeID']", 'css' )->click();
+        $Selenium->InputFieldValueSet(
+            Element => '#ActionID-NEW-AttributeID',
+            Value   => $ActionAttributeID,
+        );
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
         $Selenium->WaitFor( JavaScript => "return \$('#ActionID-NEW-OperatorID option').length > 1;" );
-        $Selenium->find_element( "#ActionID-NEW-OperatorID option[value='$ActionOperatorID']", 'css' )->click();
+        $Selenium->InputFieldValueSet(
+            Element => '#ActionID-NEW-OperatorID',
+            Value   => $ActionOperatorID,
+        );
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
         $Selenium->WaitFor( JavaScript => "return \$('#ActionID-NEW-ActionValue option').length > 1;" );
-        $Selenium->find_element(
-            "#ActionID-NEW-ActionValue option[value='$ConditionChangeStateDataRef->{ItemID}']",
-            'css'
-        )->click();
+        $Selenium->InputFieldValueSet(
+            Element => '#ActionID-NEW-ActionValue',
+            Value   => $ConditionChangeStateDataRef->{ItemID},
+        );
 
         $Selenium->find_element( "#SaveButton", 'css' )->VerifiedClick();
 

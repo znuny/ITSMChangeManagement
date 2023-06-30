@@ -7,7 +7,7 @@
 # did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 # --
 
-<form action="[% Env("CGIHandle") %]" method="post" name="compose" class="Validate PreventMultipleSubmits">
+<form action="[% Env("CGIHandle") %]" method="post" name="compose" class="Validate WidgetSimple PreventMultipleSubmits">
     <input type="hidden" name="Action"    value="[% Env("Action") %]" />
     <input type="hidden" name="Subaction" value="Save" />
     <input type="hidden" name="WorkOrderID" value="[% Data.WorkOrderID | html %]" />
@@ -17,30 +17,35 @@
             <h1 title="[% Translate("Edit Workorder Agent of %s%s", Config("ITSMWorkOrder::Hook"), Data.ChangeNumber) | html %] &ndash; [% Data.WorkOrderNumber | html %]: [% Data.WorkOrderTitle | html %]">
                 [% Translate("Edit Workorder Agent of %s%s", Config("ITSMWorkOrder::Hook"), Data.ChangeNumber) | html %] &ndash; [% Data.WorkOrderNumber | html %]: [% Data.WorkOrderTitle | truncate(70) | html %]
             </h1>
-            <p>
-                <a href="#" class="CancelClosePopup">[% Translate("Cancel & close") | html %]</a>
-            </p>
+            <div class="SaveButtons">
+                <a class="CancelClosePopup btn-cancel-ghost btn-main btn-width-md" href="#">[% Translate("Cancel") | html %]</a>
+            </div>
         </div>
 
-        <div class="Content SpacingBottom">
+        <div class="Content">
             <fieldset class="TableLike FixedLabel">
 
-                <label for="User"> [% Translate("Workorder Agent") | html %]: </label>
-                <div class="Field">
-                    <input id="User" type="text" name="User" value="[% Data.User | html %]" class="W75pc [% Data.UserServerError %] UserSearch" data-autocompletegroups="itsm-change"/>
-                    <input id="UserSelected" type="hidden" name="UserSelected" value="[% Data.UserID | html %]" class="UserSearchSelected"/>
+                <div class="field-wrapper">
+                    <label for="User"> [% Translate("Workorder Agent") | html %]: </label>
+                    <div class="Field">
+                        <input id="User" type="text" name="User" value="[% Data.User | html %]" class="W75pc [% Data.UserServerError %] UserSearch" data-autocompletegroups="itsm-change"/>
+                        <input id="UserSelected" type="hidden" name="UserSelected" value="[% Data.UserID | html %]" class="UserSearchSelected"/>
+                        <div id="UserServerError" class="TooltipErrorMessage">
+                            <p>[% Translate("Invalid User") | html %]</p>
+                        </div>
+                    </div>
                 </div>
-
-                <div id="UserServerError" class="TooltipErrorMessage">
-                    <p>[% Translate("Invalid User") | html %]</p>
-                </div>
-
             </fieldset>
-        </div>
-        <div class="Footer">
-            <button class="Primary CallForAction" accesskey="g" title="[% Translate("Submit") | html %] (g)" type="submit" value="[% Translate("Submit") | html %]">
-                <span><i class="fa fa-check-square-o"></i> [% Translate("Submit") | html %]</span>
-            </button>
+
+            <fieldset class="TableLike">
+                <div class="field-wrapper form-button-actions">
+                    <div class="Field buttons-field">
+                        <button class="CallForAction Primary btn-main btn-primary btn-width-md" accesskey="g" title="[% Translate("Submit") | html %] (g)" type="submit" value="[% Translate("Submit") | html %]">
+                            <span>[% Translate("Submit") | html %]</span>
+                        </button>
+                    </div>
+                </div>
+            </fieldset>
         </div>
     </div>
 </form>

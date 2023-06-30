@@ -162,21 +162,12 @@ $Selenium->RunTest(
             "$TestCustomer is found",
         );
 
-        # Test delete CAB button.
-        $Selenium->find_element( "#CABAgents-$TestUserCABID", 'css' )->click();
-        $Selenium->WaitFor(
-            JavaScript => "return typeof(\$) === 'function' && !\$('#CABAgents-$TestUserCABID').length"
-        );
-
-        $Self->False(
-            $Selenium->execute_script(
-                "return \$('table.DataTable tr td:contains($TestUserCAB)').length"
-            ),
-            "$TestUserCAB is not found",
+        $Selenium->execute_script(
+            "\$('#SubmitButton')[0].scrollIntoView(true);",
         );
 
         # Submit.
-        $Selenium->find_element("//button[\@value='Submit'][\@type='submit']")->click();
+        $Selenium->find_element( "#SubmitButton", 'css' )->click();
 
         # Back to previous window.
         $Selenium->WaitFor( WindowCount => 1 );

@@ -23,6 +23,7 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'ITSM ChangeManagement Benachrichtigungs-Verwaltung';
+    $Self->{Translation}->{'Filter for notification rules'} = 'Filter für Benachrichtigungs-Regeln';
     $Self->{Translation}->{'Add Notification Rule'} = 'Benachrichtigungs-Regel hinzufügen';
     $Self->{Translation}->{'Edit Notification Rule'} = 'Benachrichtigungs-Regel bearbeiten';
     $Self->{Translation}->{'A notification should have a name!'} = 'Eine Benachrichtigung benötigt einen Namen!';

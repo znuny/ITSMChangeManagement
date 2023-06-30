@@ -7,25 +7,26 @@
 # did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 # --
 
-<form action="[% Env("CGIHandle") %]" method="post" enctype="multipart/form-data" name="compose" id="MoveTimeSlotForm" class="Validate PreventMultipleSubmits">
-    <input type="hidden" name="Action"    value="[% Env("Action") %]" />
-    <input type="hidden" name="Subaction" value="MoveTimeSlot" />
-    <input type="hidden" name="ChangeID"  value="[% Data.ChangeID | html %]" />
-
+<form action="[% Env("CGIHandle") %]" method="post" enctype="multipart/form-data" name="compose" id="MoveTimeSlotForm" class="Validate WidgetSimple PreventMultipleSubmits">
     <div class="LayoutPopup ARIARoleMain">
         <div class="Header">
             <h1>[% Translate("Move Time Slot") | html %] [% Config("ITSMChange::Hook") %] [% Data.ChangeNumber %]</h1>
-            <p>
-                <a class="CancelClosePopup" href="#">[% Translate("Cancel & close") | html %]</a>
-            </p>
+            <div class="SaveButtons">
+                <a class="CancelClosePopup btn-cancel-ghost btn-main btn-width-md" href="#">[% Translate("Cancel") | html %]</a>
+            </div>
         </div>
         <div class="Content">
-            <fieldset class="TableLike FixedLabel">
-                <label for="MoveTimeType">[% Translate("Time type") | html %]:</label>
-                <div class="Field">
-                    [% Data.MoveTimeTypeSelectionString %]
+            <input type="hidden" name="Action"    value="[% Env("Action") %]" />
+            <input type="hidden" name="Subaction" value="MoveTimeSlot" />
+            <input type="hidden" name="ChangeID"  value="[% Data.ChangeID | html %]" />
+
+            <fieldset class="TableLike FixedLabelSmall">
+                <div class="field-wrapper">
+                    <label for="MoveTimeType">[% Translate("Time type") | html %]:</label>
+                    <div class="Field">
+                        [% Data.MoveTimeTypeSelectionString %]
+                    </div>
                 </div>
-                <div class="Clear"></div>
 
                 <label>[% Translate("New time") | html %]:</label>
                 <div class="Field">
@@ -33,13 +34,18 @@
                     <div id="MoveTimeDayServerError" class="TooltipErrorMessage"><p>[% Translate("Date invalid!") | html %]</p></div>
                     <div id="MoveTimeHourServerError" class="TooltipErrorMessage"><p>[% Translate("Date invalid!") | html %]</p></div>
                 </div>
-                <div class="Clear"></div>
             </fieldset>
-        </div>
-        <div class="Footer">
-            <button class="Primary CallForAction" id="SubmitMoveTimeSlot" accesskey="g" title="[% Translate("Move") | html %] (g)" type="submit" value="[% Translate("Move") | html %]">
-                <span><i class="fa fa-check-square-o"></i> [% Translate("Move") | html %]</span>
-            </button>
+            </fieldset>
+
+            <fieldset class="TableLike">
+                <div class="field-wrapper form-button-actions">
+                    <div class="Field buttons-field">
+                        <button class="CallForAction Primary btn-main btn-primary btn-width-md" id="SubmitMoveTimeSlot" accesskey="g" title="[% Translate("Move") | html %] (g)" type="submit" value="[% Translate("Move") | html %]">
+                            <span>[% Translate("Move") | html %]</span>
+                        </button>
+                    </div>
+                </div>
+            </fieldset>
         </div>
     </div>
 </form>

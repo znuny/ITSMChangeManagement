@@ -8,7 +8,11 @@
 # --
 [% RenderBlockStart("OverviewNavBar") %]
 <div class="OverviewBox ARIARoleMain [% Data.View | html %]">
-    <h1>[% Translate(Data.TitleName) | html %]: [% Translate(Data.TitleValue) | html %]</h1>
+    <h1>[% Translate(Data.TitleName) | html %]:
+        <div class="overview-breadcrumb">
+        [% Translate(Data.TitleValue) | html %]
+        </div>
+    </h1>
 
     [% Data.DataInTheMiddle %]
 
@@ -72,32 +76,38 @@
             </div>
             <div class="ActionRow">
                 <div class="OverviewActions">
-                    [% Data.ActionRow %]
-                    <ul class="OverviewZoom">
+# &nbsp; because if action row is empty, the pagination and view mode would be shown on the left instead of on the right
+                    [% Data.ActionRow %] &nbsp;
+                    <div>
+[% RenderBlockStart("OverviewNavBarPageNavBar") %]
+                        <span class="Pagination">
+                            <ul>
+                                <li>
+                                    <span>[% Data.ResultLong %]</span>
+                                </li>
+                                <li class="page-links">[% Data.SiteNavBarLong %]</li>
+                            </ul>
+                        </span>
+[% RenderBlockEnd("OverviewNavBarPageNavBar") %]
+                        <ul class="OverviewZoom">
 [% RenderBlockStart("OverviewNavBarViewMode") %]
 [% RenderBlockStart("OverviewNavBarViewModeSelected") %]
-                        <li class="Active">
-                            <a class="[% Data.Name | html %]" name="OverviewControl" href="[% Env("Baselink") %]Action=[% Env("Action") %];Filter=[% Data.Filter | uri %];View=[% Data.View | uri %];[% Data.LinkFilter %]" title="[% Translate(Data.Name) | html %]">
-                                [% Translate(Data.NameShort) | html %]
-                            </a>
-                        </li>
+                            <li class="Active">
+                                <a class="[% Data.Name | html %]" name="OverviewControl" href="[% Env("Baselink") %]Action=[% Env("Action") %];Filter=[% Data.Filter | uri %];View=[% Data.View | uri %];[% Data.LinkFilter %]" title="[% Translate(Data.Name) | html %]">
+                                    [% Translate(Data.NameShort) | html %]
+                                </a>
+                            </li>
 [% RenderBlockEnd("OverviewNavBarViewModeSelected") %]
 [% RenderBlockStart("OverviewNavBarViewModeNotSelected") %]
-                        <li>
-                            <a class="[% Data.Name | html %]" name="OverviewControl" href="[% Env("Baselink") %]Action=[% Env("Action") %];Filter=[% Data.Filter | uri %];View=[% Data.View | uri %];[% Data.LinkFilter %]" title="[% Translate(Data.Name) | html %]">
-                                [% Translate(Data.NameShort) | html %]
-                            </a>
-                        </li>
+                            <li>
+                                <a class="[% Data.Name | html %]" name="OverviewControl" href="[% Env("Baselink") %]Action=[% Env("Action") %];Filter=[% Data.Filter | uri %];View=[% Data.View | uri %];[% Data.LinkFilter %]" title="[% Translate(Data.Name) | html %]">
+                                    [% Translate(Data.NameShort) | html %]
+                                </a>
+                            </li>
 [% RenderBlockEnd("OverviewNavBarViewModeNotSelected") %]
 [% RenderBlockEnd("OverviewNavBarViewMode") %]
-                    </ul>
-                    <span class="Pagination">
-[% RenderBlockStart("OverviewNavBarPageNavBar") %]
-                        [% Data.ResultLong %]
-                        [% Data.SiteNavBarLong %]
-[% RenderBlockEnd("OverviewNavBarPageNavBar") %]
-                    </span>
-                    <div class="ClearLeft"></div>
+                        </ul>
+                    </div>
                 </div>
 # sort order bar if needed
                 [% Data.SortOrderBar %]

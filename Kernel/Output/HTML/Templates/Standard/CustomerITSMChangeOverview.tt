@@ -7,24 +7,26 @@
 # did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 # --
 <div id="MainBox" class="TicketView ARIARoleMain Sortable">
-    <div class="ActionRow">
-        <ul class="Filter Tabs">
-[% RenderBlockStart("FilterHeader") %]
-            <li class="[% Data.ClassLI | html %]">
-                <a class="[% Data.ClassA | html %]" href="[% Env("Baselink") %]Action=[% Env("Action") %];Subaction=[% Env("Subaction") %];Filter=[% Data.Filter | uri %];SortBy=[% Data.SortBy | uri %];Order=[% Data.OrderBy | uri %];">
-                    [% Translate(Data.Name) | html %] [% Data.CountStrg | html %]
-                </a>
-            </li>
-[% RenderBlockEnd("FilterHeader") %]
-            <li class="Clear"></li>
-        </ul>
-        <div class="Tabs Pagination">
-            [% Data.SiteNavBar %]
-        </div>
-        <div class="Clear"></div>
-    </div>
+    <div class="ContentWrapper flex-column">
     <div class="Content">
-        <table class="ITSMOverview">
+        <div class="ActionRow ActionRow-full-width">
+            <ul class="Filter Tabs">
+    [% RenderBlockStart("FilterHeader") %]
+                <li class="[% Data.ClassLI | html %]">
+                    <a class="[% Data.ClassA | html %]" href="[% Env("Baselink") %]Action=[% Env("Action") %];Subaction=[% Env("Subaction") %];Filter=[% Data.Filter | uri %];SortBy=[% Data.SortBy | uri %];Order=[% Data.OrderBy | uri %];">
+                        [% Translate(Data.Name) | html %] [% Data.CountStrg | html %]
+                    </a>
+                </li>
+    [% RenderBlockEnd("FilterHeader") %]
+            </ul>
+            <div class="Tabs Pagination">
+                <ul>
+                    <li class="page-links">[% Data.SiteNavBar %]</li>
+                </ul>
+            </div>
+        </div>
+        <div class="Content outerTable">
+        <table class="Overview">
             <thead>
                 <tr>
 [% RenderBlockStart("RecordChangeStateSignalHeader") %]
@@ -247,14 +249,7 @@
                         <ul class="ITSMFlag">
 [% RenderBlockStart("RecordServicesSubElement") %]
                             <li>
-                                <div title="[% Translate(Data.Name) | html %]">
-                                    <div class="Value">
-                                        <div class="Flag Small">
-                                            <span class="[% Data.CurInciSignal | html %]">"[% Data.CurrInciState | html %]"</span>
-                                        </div>
-                                    </div>
-                                    [% Data.Name | html %]
-                                </div>
+                                <div>[% Translate(Data.Name) | html %]</div>
                             </li>
 [% RenderBlockEnd("RecordServicesSubElement") %]
 [% RenderBlockStart("RecordServicesSubElementEmpty") %]
@@ -297,5 +292,7 @@
 [% RenderBlockEnd("Record") %]
             </tbody>
         </table>
+        </div>
+    </div>
     </div>
 </div>

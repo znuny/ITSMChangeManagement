@@ -8,7 +8,7 @@
 # --
 
 # TODO. Add validation for the actual start and end times in the client side.
-<form action="[% Env("CGIHandle") %]" method="post" name="compose" enctype="multipart/form-data" class="Validate PreventMultipleSubmits">
+<form action="[% Env("CGIHandle") %]" method="post" name="compose" enctype="multipart/form-data" class="Validate WidgetSimple PreventMultipleSubmits">
     <input type="hidden" name="Action" value="[% Env("Action") %]"/>
     <input type="hidden" name="Subaction" value="Save"/>
     <input type="hidden" name="WorkOrderID" value="[% Data.WorkOrderID | html %]"/>
@@ -17,36 +17,40 @@
     <div class="LayoutPopup ARIARoleMain">
         <div class="Header">
             <h1>[% Translate("Edit Report of %s%s-%s", Config("ITSMWorkOrder::Hook"), Data.ChangeNumber, Data.WorkOrderNumber) | html %] &ndash; [% Data.WorkOrderTitle | truncate(60) | html %]</h1>
-            <p>
-                <a class="CancelClosePopup" href="#">[% Translate("Cancel & close") | html %]</a>
-            </p>
+            <div class="SaveButtons">
+                <a class="CancelClosePopup btn-cancel-ghost btn-main btn-width-md" href="#">[% Translate("Cancel") | html %]</a>
+            </div>
         </div>
         <div class="Content">
             <fieldset class="TableLike FixedLabel">
-                <label class="Mandatory" for="RichText"><span class="Marker">*</span> [% Translate("Report") | html %]:</label>
-                <div class="RichTextField Field">
 
-                    <textarea id="RichText" class="RichText Validate_Required [% Data.ReportInvalid %]" name="Report" rows="15" cols="[% Config("Ticket::Frontend::TextAreaNote") %]">[% Data.Report | html %]</textarea>
-                    <div id="RichTextError" class="TooltipErrorMessage"><p>[% Translate("This field is required.") | html %]</p></div>
-                    <div id="RichTextServerError" class="TooltipErrorMessage"><p>[% Translate("This field is required.") | html %]</p></div>
+                <div class="field-wrapper">
+                    <label class="Mandatory" for="RichText"><span class="Marker">*</span> [% Translate("Report") | html %]:</label>
+                    <div class="RichTextField Field">
+
+                        <textarea id="RichText" class="RichText Validate_Required [% Data.ReportInvalid %]" name="Report" rows="15" cols="[% Config("Ticket::Frontend::TextAreaNote") %]">[% Data.Report | html %]</textarea>
+                        <div id="RichTextError" class="TooltipErrorMessage"><p>[% Translate("This field is required.") | html %]</p></div>
+                        <div id="RichTextServerError" class="TooltipErrorMessage"><p>[% Translate("This field is required.") | html %]</p></div>
+                    </div>
                 </div>
-                <div class="Clear"></div>
 
 [% RenderBlockStart("State") %]
-                <label for="WorkOrderStateID">[% Translate("State") | html %]:</label>
-                <div class="Field">
-                    [% Data.StateSelect %]
+                <div class="field-wrapper">
+                    <label for="WorkOrderStateID">[% Translate("State") | html %]:</label>
+                    <div class="Field">
+                        [% Data.StateSelect %]
+                    </div>
                 </div>
-                <div class="Clear"></div>
 [% RenderBlockEnd("State") %]
 
 [% RenderBlockStart("DynamicField") %]
-                <div class="Row Row_DynamicField_[% Data.Name | html %]">
-                    [% Data.Label %]
-                    <div class="Field">
-                        [% Data.Field %]
+                <div class="field-wrapper">
+                    <div class="Row Row_DynamicField_[% Data.Name | html %]">
+                        [% Data.Label %]
+                        <div class="Field">
+                            [% Data.Field %]
+                        </div>
                     </div>
-                    <div class="Clear"></div>
                 </div>
 [% RenderBlockEnd("DynamicField") %]
 
@@ -54,21 +58,23 @@
 # Note: Field1 and Field2 are the names of the fields and had to be replaced with the actual
 # field names
 #[% RenderBlockStart("DynamicField_Field1") %]
-#                <div class="Row Row_DynamicField_[% Data.Name | html %]">
-#                    [% Data.Label %]
-#                    <div class="Field">
-#                        [% Data.Field %]
+#                <div class="field-wrapper">
+#                    <div class="Row Row_DynamicField_[% Data.Name | html %]">
+#                        [% Data.Label %]
+#                        <div class="Field">
+#                            [% Data.Field %]
+#                        </div>
 #                    </div>
-#                    <div class="Clear"></div>
 #                </div>
 #[% RenderBlockEnd("DynamicField_Field1") %]
 #[% RenderBlockStart("DynamicField_Field2") %]
-#                <div class="Row Row_DynamicField_[% Data.Name | html %]">
-#                    [% Data.Label %]
-#                    <div class="Field">
-#                        [% Data.Field %]
+#                <div class="field-wrapper">
+#                    <div class="Row Row_DynamicField_[% Data.Name | html %]">
+#                        [% Data.Label %]
+#                        <div class="Field">
+#                            [% Data.Field %]
+#                        </div>
 #                    </div>
-#                    <div class="Clear"></div>
 #                </div>
 #[% RenderBlockEnd("DynamicField_Field2") %]
 
@@ -91,7 +97,6 @@
                     <div id="ActualStartTimeHourServerError" class="TooltipErrorMessage"><p>[% Translate("The actual start time must be set, when the actual end time is set!") | html %]</p></div>
 [% RenderBlockEnd("ActualStartTimeSetServerError") %]
                 </div>
-                <div class="Clear"></div>
 [% RenderBlockEnd("ActualStartTime") %]
 
 [% RenderBlockStart("ActualEndTime") %]
@@ -107,29 +112,32 @@
 [% RenderBlockEnd("ActualEndTime") %]
 
 [% RenderBlockStart("ShowAccountedTime") %]
-                <label for="AccountedTime">[% Translate("Accounted Time") | html %]:</label>
-                <div class="Field">
-                    <input type="text" id="AccountedTime" name="AccountedTime" value="[% Data.AccountedTime | html %]" class="25pc Validate [% Data.AccountedTimeInvalid | html %]" maxlength="11"/>
-                    <div id="AccountedTimeError" class="TooltipErrorMessage" ><p>[% Translate("Invalid format.") | html %]</p></div>
-                    <div id="AccountedTimeServerError" class="TooltipErrorMessage"><p>[% Translate("Invalid format.") | html %]</p></div>
+                <div class="field-wrapper">
+                    <label for="AccountedTime">[% Translate("Accounted Time") | html %]:</label>
+                    <div class="Field">
+                        <input type="text" id="AccountedTime" name="AccountedTime" value="[% Data.AccountedTime | html %]" class="25pc Validate [% Data.AccountedTimeInvalid | html %]" maxlength="11"/>
+                        <div id="AccountedTimeError" class="TooltipErrorMessage" ><p>[% Translate("Invalid format.") | html %]</p></div>
+                        <div id="AccountedTimeServerError" class="TooltipErrorMessage"><p>[% Translate("Invalid format.") | html %]</p></div>
+                    </div>
                 </div>
-                <div class="Clear"></div>
 [% RenderBlockEnd("ShowAccountedTime") %]
 
 [% RenderBlockStart("AttachmentUpload") %]
-                <label>[% Translate("Attachment") | html %]:</label>
-                <div class="Field">
-                    [% INCLUDE "FormElements/AttachmentList.tt" %]
+                <div class="field-wrapper">
+                    <div class="Field component-attachment">
+                        [% INCLUDE "FormElements/AttachmentList.tt" %]
+                    </div>
                 </div>
-                <div class="Clear"></div>
 [% RenderBlockEnd("AttachmentUpload") %]
-
-                <div class="Field SpacingTop">
-                    <button class="Primary CallForAction" id="SubmitWorkOrderEditReport" accesskey="g" name="WorkOrderEdit" title="[% Translate("Submit") | html %] (g)" type="submit" value="[% Translate("Submit") | html %]">
-                        <span><i class="fa fa-check-square-o"></i> [% Translate("Submit") | html %]</span>
-                    </button>
+            </fieldset>
+            <fieldset class="TableLike">
+                <div class="field-wrapper form-button-actions">
+                    <div class="Field buttons-field">
+                        <button class="CallForAction Primary btn-main btn-primary btn-width-md" id="SubmitWorkOrderEditReport" accesskey="g" name="WorkOrderEdit" title="[% Translate("Submit") | html %] (g)" type="submit" value="[% Translate("Submit") | html %]">
+                            <span>[% Translate("Submit") | html %]</span>
+                        </button>
+                    </div>
                 </div>
-
             </fieldset>
         </div>
     </div>

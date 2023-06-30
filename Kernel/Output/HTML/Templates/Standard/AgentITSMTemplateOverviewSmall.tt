@@ -98,7 +98,7 @@
 
 [% RenderBlockStart("RecordEditContent") %]
                 <td class="Center Last">
-                    <a class="" href="#" title="[% Translate("Edit Content") | html %]">
+                    <a class="table-icon-hover-md" href="#" title="[% Translate("Edit Content") | html %]">
                         <i id="EditContentTemplateID[% Data.TemplateID | html %]" class="fa fa-pencil"></i>
                         <span class="InvisibleText">[% Translate("Edit Content") | html %]</span>
                     </a>
@@ -107,7 +107,7 @@
 
 [% RenderBlockStart("RecordEditContentCAB") %]
                 <td class="Center">
-                    <a href="[% Env("Baselink") %]Action=AgentITSMTemplateEditCAB;TemplateID=[% Data.TemplateID | uri %]" title="[% Translate("Edit Content") | html %]" class="AsBlock AsPopup">
+                    <a href="[% Env("Baselink") %]Action=AgentITSMTemplateEditCAB;TemplateID=[% Data.TemplateID | uri %]" title="[% Translate("Edit Content") | html %]" class="AsBlock AsPopup table-icon-hover-md">
                         <i class="fa fa-pencil"></i>
                         <span class="InvisibleText">[% Translate("Edit Content") | html %]</span>
                     </a>
@@ -116,7 +116,7 @@
 
 [% RenderBlockStart("RecordDelete") %]
                 <td class="Center Last">
-                    <a href="#" title="[% Translate("Delete") | html %]">
+                    <a class="table-icon-hover-md" href="#" title="[% Translate("Delete") | html %]">
                         <i id="DeleteTemplateID[% Data.TemplateID | html %]" class="fa fa-trash-o">
                             <span class="InvisibleText">[% Translate("Delete") | html %]</span>
                         </i>

@@ -2,8 +2,8 @@
 <otrs_package version="1.0">
     <Name>ITSMChangeManagement</Name>
     <Version>6.5.1</Version>
-    <Framework>6.5.x</Framework>
-    <PackageRequired Version="6.5.1">ITSMCore</PackageRequired>
+    <Framework>7.0.x</Framework>
+    <PackageRequired Version="7.0.1">ITSMCore</PackageRequired>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
@@ -17,8 +17,6 @@
     <ChangeLog Version="6.3.3" Date="2022-04-28 10:12:21 +0200">Release for Znuny 6.3.3.</ChangeLog>
     <ChangeLog Version="6.3.1" Date="2022-03-18 15:49:01 +0100">Ported to 6.3.</ChangeLog>
     <Filelist>
-        <File Permission="660" Location="doc/itsm-change-management-database.dia"/>
-        <File Permission="660" Location="doc/itsm-change-management-database.png"/>
         <File Permission="660" Location="Kernel/Config/Files/XML/ITSMChangeManagement.xml"/>
         <File Permission="660" Location="Kernel/GenericInterface/Event/ObjectType/ITSMChange.pm"/>
         <File Permission="660" Location="Kernel/GenericInterface/Event/ObjectType/ITSMWorkOrder.pm"/>
@@ -29,9 +27,9 @@
         <File Permission="660" Location="Kernel/Language/da_ITSMChangeManagement.pm"/>
         <File Permission="660" Location="Kernel/Language/de_ITSMChangeManagement.pm"/>
         <File Permission="660" Location="Kernel/Language/el_ITSMChangeManagement.pm"/>
-        <File Permission="660" Location="Kernel/Language/en_ITSMChangeManagement.pm"/>
         <File Permission="660" Location="Kernel/Language/en_CA_ITSMChangeManagement.pm"/>
         <File Permission="660" Location="Kernel/Language/en_GB_ITSMChangeManagement.pm"/>
+        <File Permission="660" Location="Kernel/Language/en_ITSMChangeManagement.pm"/>
         <File Permission="660" Location="Kernel/Language/es_CO_ITSMChangeManagement.pm"/>
         <File Permission="660" Location="Kernel/Language/es_ITSMChangeManagement.pm"/>
         <File Permission="660" Location="Kernel/Language/es_MX_ITSMChangeManagement.pm"/>
@@ -131,11 +129,6 @@
         <File Permission="660" Location="Kernel/Output/HTML/Layout/ITSMTemplate.pm"/>
         <File Permission="660" Location="Kernel/Output/HTML/LinkObject/ITSMChange.pm"/>
         <File Permission="660" Location="Kernel/Output/HTML/LinkObject/ITSMWorkOrder.pm"/>
-        <File Permission="660" Location="Kernel/Output/HTML/TicketMenu/ITSMChange.pm"/>
-        <File Permission="660" Location="Kernel/Output/HTML/ToolBar/ChangeManager.pm"/>
-        <File Permission="660" Location="Kernel/Output/HTML/ToolBar/MyCAB.pm"/>
-        <File Permission="660" Location="Kernel/Output/HTML/ToolBar/MyChanges.pm"/>
-        <File Permission="660" Location="Kernel/Output/HTML/ToolBar/MyWorkOrders.pm"/>
         <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt"/>
         <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt"/>
         <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt"/>
@@ -175,17 +168,17 @@
         <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderZoom.tt"/>
         <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/CustomerITSMChangeOverview.tt"/>
         <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/ITSMChange.tt"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange.pm"/>
+        <File Permission="660" Location="Kernel/Output/HTML/TicketMenu/ITSMChange.pm"/>
+        <File Permission="660" Location="Kernel/Output/HTML/ToolBar/ChangeManager.pm"/>
+        <File Permission="660" Location="Kernel/Output/HTML/ToolBar/MyCAB.pm"/>
+        <File Permission="660" Location="Kernel/Output/HTML/ToolBar/MyChanges.pm"/>
+        <File Permission="660" Location="Kernel/Output/HTML/ToolBar/MyWorkOrders.pm"/>
+        <File Permission="660" Location="Kernel/System/Console/Command/Admin/ITSM/Change/Check.pm"/>
+        <File Permission="660" Location="Kernel/System/Console/Command/Admin/ITSM/Change/Delete.pm"/>
         <File Permission="660" Location="Kernel/System/DynamicField/Event/UpdateITSMChangeConditions.pm"/>
         <File Permission="660" Location="Kernel/System/DynamicField/ObjectType/ITSMChange.pm"/>
         <File Permission="660" Location="Kernel/System/DynamicField/ObjectType/ITSMWorkOrder.pm"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMChangeCIPAllocate.pm"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition.pm"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange/History.pm"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMStateMachine.pm"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMWorkOrder.pm"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange/Notification.pm"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange/Template.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Event/Condition.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Event/ConditionDelete.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Event/HistoryAdd.pm"/>
@@ -194,15 +187,20 @@
         <File Permission="660" Location="Kernel/System/ITSMChange/Event/ToolBarChangeManagerCacheDelete.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Event/ToolBarMyCABCacheDelete.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Event/ToolBarMyChangesCacheDelete.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange/History.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMChangeCIPAllocate.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Action.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Attribute.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Expression.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Object.pm"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Operator.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Object/ITSMChange.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Object/ITSMWorkOrder.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Operator.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Operator/ITSMChange.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMCondition/Operator/ITSMWorkOrder.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMStateMachine.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange/ITSMWorkOrder.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMWorkOrder/Event/ToolBarMyWorkOrdersCacheDelete.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMWorkOrder/Event/WorkOrderActualTimesSet.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMWorkOrder/Event/WorkOrderNumberCalc.pm"/>
@@ -212,15 +210,17 @@
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMWorkOrder/Permission/EmptyAgentCheck.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMWorkOrder/Permission/ListAgentCheck.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/ITSMWorkOrder/Permission/WorkOrderAgentCheck.pm"/>
-        <File Permission="660" Location="Kernel/System/ITSMChange/NumberBase.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange/Notification.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Number/AutoIncrement.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Number/Date.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Number/DateChecksum.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange/NumberBase.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Permission/AddWorkOrderCheck.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Permission/CABCheck.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Permission/ChangeAgentCheck.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Permission/ChangeBuilderCheck.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Permission/ChangeManagerCheck.pm"/>
+        <File Permission="660" Location="Kernel/System/ITSMChange/Template.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Template/CAB.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Template/ITSMChange.pm"/>
         <File Permission="660" Location="Kernel/System/ITSMChange/Template/ITSMCondition.pm"/>
@@ -233,56 +233,56 @@
         <File Permission="660" Location="Kernel/System/Stats/Dynamic/ITSMChangeManagementHistory.pm"/>
         <File Permission="660" Location="Kernel/System/Stats/Dynamic/ITSMChangeManagementRfcRequester.pm"/>
         <File Permission="660" Location="Kernel/System/Ticket/Acl/RestrictTicketTypes.pm"/>
-        <File Permission="660" Location="Kernel/System/Console/Command/Admin/ITSM/Change/Delete.pm"/>
-        <File Permission="660" Location="Kernel/System/Console/Command/Admin/ITSM/Change/Check.pm"/>
+        <File Permission="660" Location="scripts/test/Console/Command/Admin/ITSM/Change/Check.t"/>
+        <File Permission="660" Location="scripts/test/Console/Command/Admin/ITSM/Change/Delete.t"/>
         <File Permission="660" Location="scripts/test/ITSMChange.t"/>
         <File Permission="660" Location="scripts/test/ITSMCondition.t"/>
         <File Permission="660" Location="scripts/test/ITSMStateMachine.t"/>
         <File Permission="660" Location="scripts/test/ITSMTemplate.t"/>
         <File Permission="660" Location="scripts/test/ITSMWorkOrder.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/Admin/AdminITSMChangeCIPAllocate.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/Admin/AdminITSMStateMachine.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMCABMemberSearch.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChange.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeAdd.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeAddFromTemplate.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeCABTemplate.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeCondition.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeConditionEdit.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeDelete.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeEdit.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeHistory.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeHistoryZoom.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/Admin/AdminITSMChangeCIPAllocate.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/Admin/AdminITSMStateMachine.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeInvolvedPersons.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeManager.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeMyCAB.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeMyChanges.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeMyWorkOrders.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeInvolvedPersons.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangePIR.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangePSA.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeReset.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeSchedule.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeSearch.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeTemplate.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeTimeSlot.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeZoom.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMTemplateDelete.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMTemplateEdit.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMTemplateEditCAB.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMTemplateEditContent.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMTemplateOverview.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMUserSearch.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderAdd.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderAddFromTemplate.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderAgent.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderDelete.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderEdit.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderHistory.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeDelete.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeReset.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderHistoryZoom.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderReport.t"/>
+        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderTake.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderTemplate.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderZoom.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMCABMemberSearch.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeSearch.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeTimeSlot.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMTemplateOverview.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMUserSearch.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderAddFromTemplate.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMChangeConditionEdit.t"/>
-        <File Permission="660" Location="scripts/test/Selenium/Agent/AgentITSMWorkOrderTake.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Output/ITSMChange/MenuGeneric.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Output/ITSMWorkOrder/MenuGeneric.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Output/LinkObject/ITSMChange.t"/>
@@ -291,9 +291,8 @@
         <File Permission="660" Location="scripts/test/Selenium/Output/ToolBar/MyCAB.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Output/ToolBar/MyChanges.t"/>
         <File Permission="660" Location="scripts/test/Selenium/Output/ToolBar/MyWorkOrder.t"/>
-        <File Permission="660" Location="scripts/test/Console/Command/Admin/ITSM/Change/Delete.t"/>
-        <File Permission="660" Location="scripts/test/Console/Command/Admin/ITSM/Change/Check.t"/>
         <File Permission="660" Location="var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js"/>
+        <File Permission="660" Location="var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.StateMachine.js"/>
         <File Permission="660" Location="var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.AddEdit.js"/>
         <File Permission="660" Location="var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.CABMemberSearch.js"/>
         <File Permission="660" Location="var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.CABTemplateEdit.js"/>
@@ -309,13 +308,8 @@
         <File Permission="660" Location="var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.UserSearch.js"/>
         <File Permission="660" Location="var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.WorkorderGraph.js"/>
         <File Permission="660" Location="var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Zoom.js"/>
-        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/default/css/ITSM.ChangeManagement.Default.css"/>
-        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/default/css/ITSM.ChangeManagement.Responsive.css"/>
-        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/default/css/ITSM.ChangeManagement.RTEContent.css"/>
         <File Permission="660" Location="var/httpd/htdocs/skins/Agent/default/css/ITSM.ChangeManagement.WorkorderGraph.css"/>
-        <File Permission="660" Location="var/httpd/htdocs/skins/Customer/default/css/ITSM.ChangeManagement.Table.css"/>
-        <File Permission="660" Location="var/httpd/htdocs/skins/Customer/default/css/ITSM.ChangeManagement.Default.css"/>
-        <File Permission="660" Location="var/httpd/htdocs/skins/Customer/default/img/flag_shadow.png"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Customer/default/css/ITSM.ChangeManagement.FlagColors.css"/>
         <File Permission="660" Location="var/packagesetup/ITSMChangeManagement.pm"/>
     </Filelist>
     <DatabaseInstall Type="post">
@@ -1935,8 +1929,7 @@
         You are about to install the Znuny package ITSMChangeManagement.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroInstall>
     <IntroInstall Type="pre" Title="Installation Information" Lang="de"><![CDATA[
@@ -1948,8 +1941,7 @@
         Sie sind im Begriff das Znuny-Paket ITSMChangeManagement zu installieren.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroInstall>
     <IntroInstall Type="pre" Title="Install Information" Lang="es"><![CDATA[
@@ -1960,8 +1952,7 @@
         Usted est&aacute; a punto de instalar el paquete ITSMChangeManagement de Znuny.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
     ]]></IntroInstall>
     <IntroInstall Type="pre" Title="Telepítési információk" Lang="hu"><![CDATA[
 
@@ -1972,8 +1963,7 @@
         Ön az ITSMChangeManagement Znuny csomag telepítésére készül.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroInstall>
     <IntroInstall Type="post" Title="Installation Information" Lang="en"><![CDATA[
@@ -1988,8 +1978,7 @@
         The menu items that were added by this package will be visible after you log-in to the system again.
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroInstall>
     <IntroInstall Type="post" Title="Installation Information" Lang="de"><![CDATA[
@@ -2004,8 +1993,7 @@
         Die von diesem Paket hinzugefügten Menü-Punkte sind erst nach einem erneuten Anmeldevorgang im System sichtbar.
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroInstall>
     <IntroInstall Type="post" Title="Installation Information" Lang="es"><![CDATA[
@@ -2020,8 +2008,7 @@
         Los elementos del menu que fueron agregados por este paquete ser&aacute;n visibles despu&eacute;s de que cierre y abra su sesi&oacute;n de nuevo.
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroInstall>
     <IntroInstall Type="post" Title="Telepítési információk" Lang="hu"><![CDATA[
@@ -2036,8 +2023,7 @@
         Azok a menüpontok, amelyeket ez a csomag adott hozzá, azután lesznek láthatóak, miután ismét bejelentkezik a rendszerbe.
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroInstall>
     <IntroUpgrade Type="pre" Title="Upgrade Information" Lang="en"><![CDATA[
@@ -2049,8 +2035,7 @@
         You are about to upgrade the Znuny package ITSMChangeManagement.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroUpgrade>
     <IntroUpgrade Type="pre" Title="Upgrade Information" Lang="de"><![CDATA[
@@ -2062,8 +2047,7 @@
         Sie sind im Begriff das Znuny-Paket ITSMChangeManagement zu aktualisieren.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroUpgrade>
     <IntroUpgrade Type="pre" Title="Upgrade Information" Lang="es"><![CDATA[
@@ -2075,8 +2059,7 @@
         Usted est&aacute; apunto de actualizar el paquete ITSMChangeManagement de Znuny.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroUpgrade>
     <IntroUpgrade Type="pre" Title="Frissítési információk" Lang="hu"><![CDATA[
@@ -2088,8 +2071,7 @@
         Ön az ITSMChangeManagement Znuny csomag frissítésére készül.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroUpgrade>
     <IntroUninstall Type="pre" Title="Uninstallation Information" Lang="en"><![CDATA[
@@ -2112,8 +2094,7 @@
         The statistics that are associated with this package, will no longer be available if the package is uninstalled.
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroUninstall>
     <IntroUninstall Type="pre" Title="Uninstallation Information" Lang="de"><![CDATA[
@@ -2136,8 +2117,7 @@
         Nach der Deinstallation sind die zu diesem Paket zugehörigen Statistiken nicht mehr verfügbar.
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroUninstall>
     <IntroUninstall Type="pre" Title="Uninstallation Information" Lang="es"><![CDATA[
@@ -2160,8 +2140,7 @@
         Si usted desinstala este paquete, las estad&iacute;sticas que est&aacute;n asociadas a &eacute;l ya no estar&aacute;n disponibles.
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroUninstall>
     <IntroUninstall Type="pre" Title="Eltávolítási információk" Lang="hu"><![CDATA[
@@ -2184,8 +2163,7 @@
         Az ehhez a csomaghoz hozzárendelt statisztikák többé nem lesznek elérhetők, ha a csomag eltávolításra kerül.
         <br/>
         <br/>
-        ((enjoy))<br/>
-        <br/>
+
 
     ]]></IntroUninstall>
 </otrs_package>

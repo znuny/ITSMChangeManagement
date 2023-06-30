@@ -245,7 +245,7 @@ sub Run {
                 );
 
                 # workorder has no linked service
-                next WORKORDERID if !%LinkKeyList;
+                next CHANGEID if !%LinkKeyList;
 
                 SERVICEID:
                 for my $ServiceID ( sort keys %LinkKeyList ) {
@@ -325,10 +325,9 @@ sub Run {
 
         # display the navbar filter
         $NavBarFilter{ $Filters{$FilterName}->{Prio} } = {
-            CountStrg => $CountStrg,
-            Filter    => $FilterName,
-            ClassLI   => $ClassLI,
-            ClassA    => $ClassA,
+            Filter  => $FilterName,
+            ClassLI => $ClassLI,
+            ClassA  => $ClassA,
             %{ $Filters{$FilterName} },
         };
     }

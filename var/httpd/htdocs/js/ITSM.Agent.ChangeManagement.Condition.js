@@ -52,6 +52,8 @@ ITSM.Agent.ChangeManagement.Condition = (function (TargetNS) {
             FormSerialized,
             URLString;
 
+        Core.UI.InputFields.Activate();
+
         if (ValidDropdowns.indexOf(Dropdown) === -1) {
             return;
         }
@@ -153,34 +155,104 @@ ITSM.Agent.ChangeManagement.Condition = (function (TargetNS) {
         $('.CallForAction').on('click.SubmitAction', SetSubmitAction);
 
         $('.DeleteExpression').on('click.ConditionDeleteExpression', function() {
+            var $Element = $(this);
+            $('#DeleteDialogText').text(Core.Language.Translate("Do you really want to delete this expression?"));
+            Core.UI.Dialog.ShowContentDialog(
+                $('#DeleteDialogContainer'),
+                Core.Language.Translate('Delete Expression'),
+                '240px',
+                'Center',
+                true,
+                [
+                    {
+                        Label: Core.Language.Translate("Cancel"),
+                        Type: 'Secondary',
+                        Function: function () {
+                            Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
+                        }
+                    },
+                    {
+                        Label: Core.Language.Translate("Delete"),
+                        Type: 'Warning',
+                        Function: function() {
+                            Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
 
-            if (!window.confirm(Core.Language.Translate('Do you really want to delete this expression?'))) {
-               return false;
-            }
+                            $('#DeleteExpressionID').val($Element.attr('id').replace(/DeleteExpressionID-/, ''));
+                            $Element.closest('form').submit();
+                        }
+                    },
+                ]
+            );
 
-            $('#DeleteExpressionID').val($(this).attr('id').replace(/DeleteExpressionID-/, ''));
-            $(this).closest('form').submit();
             return false;
         });
 
         $('.DeleteAction').on('click.ConditionDeleteAction', function() {
+            var $Element = $(this);
+            $('#DeleteDialogText').text(Core.Language.Translate("Do you really want to delete this action?"));
+            Core.UI.Dialog.ShowContentDialog(
+                $('#DeleteDialogContainer'),
+                Core.Language.Translate('Delete Action'),
+                '240px',
+                'Center',
+                true,
+                [
+                    {
+                        Label: Core.Language.Translate("Cancel"),
+                        Type: 'Secondary',
+                        Function: function () {
+                            Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
+                        }
+                    },
+                    {
+                        Label: Core.Language.Translate("Delete"),
+                        Type: 'Warning',
+                        Function: function() {
+                            Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
 
-            if (!window.confirm(Core.Language.Translate('Do you really want to delete this action?'))) {
-               return false;
-            }
+                            $('#DeleteActionID').val($Element.attr('id').replace(/DeleteActionID-/, ''));
+                            $Element.closest('form').submit();
 
-            $('#DeleteActionID').val($(this).attr('id').replace(/DeleteActionID-/, ''));
-            $(this).closest('form').submit();
+                        }
+                    },
+                ]
+            );
+
             return false;
+
         });
 
         $('.DeleteCondition').on('click.ConditionDelete', function() {
+            var $Element = $(this);
+            $('#DeleteDialogText').text(Core.Language.Translate("Do you really want to delete this condition?"));
 
-            if (!window.confirm(Core.Language.Translate('Do you really want to delete this condition?'))) {
-               return false;
-            }
+            Core.UI.Dialog.ShowContentDialog(
+                $('#DeleteDialogContainer'),
+                Core.Language.Translate('Delete Condition'),
+                '240px',
+                'Center',
+                true,
+                [
+                    {
+                        Label: Core.Language.Translate("Cancel"),
+                        Type: 'Secondary',
+                        Function: function () {
+                            Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
+                        }
+                    },
+                    {
+                        Label: Core.Language.Translate("Delete"),
+                        Type: 'Warning',
+                        Function: function() {
+                            Core.UI.Dialog.CloseDialog($('#DeleteDialog'));
 
-            return true;
+                            window.location = $Element.attr('href');
+                        }
+                    },
+                ]
+            );
+
+            return false;
         });
 
     };

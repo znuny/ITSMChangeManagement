@@ -699,6 +699,7 @@ sub Run {
                     SelectedID   => $GetParam{$ValueFieldName},
                     PossibleNone => $PossibleNone,
                     Translation  => 1,
+                    Class        => 'Modernize',
                 );
             }
 
@@ -1069,6 +1070,7 @@ sub _ShowObjectSelection {
         SelectedID   => $Param{ObjectID},
         PossibleNone => $PossibleNone,
         Translation  => 1,
+        Class        => 'Modernize',
     );
 
     # output object selection
@@ -1134,6 +1136,7 @@ sub _ShowSelectorSelection {
         SelectedID   => $Param{Selector},
         PossibleNone => $PossibleNone,
         Translation  => 1,
+        Class        => 'Modernize',
     );
 
     # output selector selection
@@ -1213,6 +1216,7 @@ sub _ShowAttributeSelection {
         SelectedID   => $Param{AttributeID},
         PossibleNone => $PossibleNone,
         Translation  => 1,
+        Class        => 'Modernize',
     );
 
     # output attribute selection
@@ -1282,6 +1286,7 @@ sub _ShowOperatorSelection {
         SelectedID   => $Param{OperatorID},
         PossibleNone => $PossibleNone,
         Translation  => 1,
+        Class        => 'Modernize',
     );
 
     # output operator selection
@@ -1382,6 +1387,7 @@ sub _ShowCompareValueField {
             SelectedID   => $Param{$ValueFieldName},
             PossibleNone => $PossibleNone,
             Translation  => 1,
+            Class        => 'Modernize',
         );
 
         # output selection

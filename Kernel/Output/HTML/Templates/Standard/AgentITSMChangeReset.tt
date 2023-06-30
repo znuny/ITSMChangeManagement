@@ -12,7 +12,6 @@
     <p class="Value">
         [% Data.ChangeTitle | html %]
     </p>
-    <div class="Clear"></div>
 </fieldset>
 <p class="SpacingTop Center">
     [% Translate("Do you really want to reset this change?") | html %]

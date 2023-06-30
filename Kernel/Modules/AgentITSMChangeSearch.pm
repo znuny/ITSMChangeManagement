@@ -1128,6 +1128,10 @@ sub _MaskForm {
     # set attributes string
     my @Attributes = (
         {
+            Key   => 'Fulltext',
+            Value => Translatable('Fulltext'),
+        },
+        {
             Key   => 'ChangeNumber',
             Value => Translatable('Change Number'),
         },

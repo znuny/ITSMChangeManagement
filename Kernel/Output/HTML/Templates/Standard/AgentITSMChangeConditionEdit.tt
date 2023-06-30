@@ -7,7 +7,7 @@
 # did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 # --
 
-<form action="[% Env("CGIHandle") %]" method="post" enctype="multipart/form-data" id="NewCondition" name="NewCondition" class="Validate">
+<form action="[% Env("CGIHandle") %]" method="post" enctype="multipart/form-data" id="NewCondition" name="NewCondition" class="Validate WidgetSimple">
     <input type="hidden" name="Action" value="[% Env("Action") %]"/>
     <input type="hidden" name="Subaction" value="Save"/>
     <input type="hidden" name="ChangeID" value="[% Data.ChangeID | html %]"/>
@@ -23,11 +23,10 @@
             <h1>
                 [% Translate("Edit Condition") | html %]: [% Config("ITSMChange::Hook") %]: [% Data.ChangeNumber | html %] [% Data.ChangeTitle | truncate(70) | html %]
             </h1>
-            <p>
-                <a href="[% Env("Baselink") %]Action=AgentITSMChangeCondition;ChangeID=[% Data.ChangeID | uri %]">[% Translate("Back") | html %]</a>
-                [% Translate("or") | html %]
-                <a class="CancelClosePopup" href="#">[% Translate("Cancel & close") | html %]</a>
-            </p>
+            <div class="SaveButtons">
+                <a class="btn-cancel-ghost btn-main btn-width-md" href="[% Env("Baselink") %]Action=AgentITSMChangeCondition;ChangeID=[% Data.ChangeID | uri %]">[% Translate("Back") | html %]</a>
+                <a class="CancelClosePopup btn-cancel-ghost btn-main btn-width-md" href="#">[% Translate("Cancel") | html %]</a>
+            </div>
         </div>
         <div class="Content">
             <div class="WidgetSimple">
@@ -40,37 +39,43 @@
 
                     <fieldset class="TableLike FixedLabel">
 
-                        <label class="Mandatory" for="Name"><span class="Marker">* </span>[% Translate("Name") | html %]:</label>
-                        <div class="Field">
-                            <input type="text" id="Name" name="Name" value="[% Data.Name | html %]" class="W50pc Validate_Required [% Data.InvalidName | html %] [% Data.DuplicateName | html %]" maxlength="250" />
-                            <div id="NameError" class="TooltipErrorMessage" ><p>[% Translate("Need a valid name.") | html %]</p></div>
+                        <div class="field-wrapper">
+                            <label class="Mandatory" for="Name"><span class="Marker">* </span>[% Translate("Name") | html %]:</label>
+                            <div class="Field">
+                                <input type="text" id="Name" name="Name" value="[% Data.Name | html %]" class="W50pc Validate_Required [% Data.InvalidName | html %] [% Data.DuplicateName | html %]" maxlength="250" />
+                                <div id="NameError" class="TooltipErrorMessage" ><p>[% Translate("Need a valid name.") | html %]</p></div>
 [% RenderBlockStart("InvalidName") %]
-                            <div id="NameServerError" class="TooltipErrorMessage"><p>[% Translate("A valid name is needed.") | html %]</p></div>
+                                <div id="NameServerError" class="TooltipErrorMessage"><p>[% Translate("A valid name is needed.") | html %]</p></div>
 [% RenderBlockEnd("InvalidName") %]
 [% RenderBlockStart("DuplicateName") %]
-                            <div id="NameServerError" class="TooltipErrorMessage"><p>[% Translate("Duplicate name:") | html %] '[% Data.Name | html %]'. [% Translate("This name is already used by another condition.") | html %]</p></div>
+                                <div id="NameServerError" class="TooltipErrorMessage"><p>[% Translate("Duplicate name:") | html %] '[% Data.Name | html %]'. [% Translate("This name is already used by another condition.") | html %]</p></div>
 [% RenderBlockEnd("DuplicateName") %]
+                            </div>
                         </div>
-                        <div class="Clear"></div>
 
-                        <label>[% Translate("Matching") | html %]:</label>
-                        <div class="Field">
-                            <input name="ExpressionConjunction" type="radio" value="any" [% Data.anyselected %] title="[% Translate("Any expression (OR)") | html %]"/> [% Translate("Any expression (OR)") | html %]
-                            <input name="ExpressionConjunction" type="radio" value="all" [% Data.allselected %] title="[% Translate("All expressions (AND)") | html %]"/> [% Translate("All expressions (AND)") | html %]
+                        <div class="field-wrapper">
+                            <label>[% Translate("Matching") | html %]:</label>
+                            <div class="Field flex-row">
+                                <input name="ExpressionConjunction" type="radio" value="any" [% Data.anyselected %] title="[% Translate("Any expression (OR)") | html %]"/> [% Translate("Any expression (OR)") | html %]
+                            </div>
+                            <div class="Field flex-row">
+                                <input name="ExpressionConjunction" type="radio" value="all" [% Data.allselected %] title="[% Translate("All expressions (AND)") | html %]"/> [% Translate("All expressions (AND)") | html %]
+                            </div>
                         </div>
-                        <div class="Clear"></div>
 
-                        <label for="ValidID">[% Translate("Validity") | html %]:</label>
-                        <div class="Field">
-                            [% Data.ValidOptionString %]
+                        <div class="field-wrapper">
+                            <label for="ValidID">[% Translate("Validity") | html %]:</label>
+                            <div class="Field">
+                                [% Data.ValidOptionString %]
+                            </div>
                         </div>
-                        <div class="Clear"></div>
 
-                        <label  for="Comment">[% Translate("Comment") | html %]:</label>
-                        <div class="Field">
-                            <textarea id="Comment" name="Comment" class="W50pc" rows="5" cols="60" maxlength="250">[% Data.Comment | html %]</textarea>
+                        <div class="field-wrapper">
+                            <label  for="Comment">[% Translate("Comment") | html %]:</label>
+                            <div class="Field">
+                                <textarea id="Comment" name="Comment" class="W100pc" rows="5" cols="60" maxlength="250">[% Data.Comment | html %]</textarea>
+                            </div>
                         </div>
-                        <div class="Clear"></div>
 
                     </fieldset>
                 </div>
@@ -122,7 +127,7 @@
                                     </div>
                                 </td>
                                 <td class="Center">
-                                    <a href="#" class="DeleteExpression" id="DeleteExpressionID-[% Data.ExpressionID | uri %]" title="[% Translate("Delete Expression") | html %]">
+                                    <a href="#" class="DeleteExpression table-icon-hover-md" id="DeleteExpressionID-[% Data.ExpressionID | uri %]" title="[% Translate("Delete Expression") | html %]">
                                         <i class="fa fa-trash-o">
                                             <span class="InvisibleText">[% Translate("Delete Expression") | html %]</span>
                                         </i>
@@ -140,10 +145,11 @@
 [% RenderBlockEnd("ExpressionOverviewRowNoData") %]
                         </tbody>
                     </table>
-                    <div class="Clear"></div>
 
-                    <div class="W100pc Right SpacingTopSmall">
-                        <button type="submit" title="[% Translate("Add new expression") | html %]" value="[% Translate("Add new expression") | html %]" name="AddExpressionButton" id="AddExpressionButton" class="CallForAction Plus"><span>[% Translate("Add new expression") | html %]</span></button>
+                    <div class="field-wrapper form-button-actions">
+                        <div class="Field buttons-field">
+                            <button type="submit" title="[% Translate("Add new expression") | html %]" value="[% Translate("Add new expression") | html %]" name="AddExpressionButton" id="AddExpressionButton" class="CallForAction Primary btn-main btn-primary btn-width-xxl"><span>[% Translate("Add new expression") | html %]</span></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -190,7 +196,7 @@
                                     </div>
                                 </td>
                                 <td class="Center">
-                                    <a href="#" class="DeleteAction" id="DeleteActionID-[% Data.ActionID | uri %]" title="[% Translate("Delete Action") | html %]">
+                                    <a href="#" class="DeleteAction table-icon-hover-md" id="DeleteActionID-[% Data.ActionID | uri %]" title="[% Translate("Delete Action") | html %]">
                                         <i class="fa fa-trash-o">
                                             <span class="InvisibleText">[% Translate("Delete Action") | html %]</span>
                                         </i>
@@ -208,19 +214,31 @@
 [% RenderBlockEnd("ActionOverviewRowNoData") %]
                         </tbody>
                     </table>
-                    <div class="Clear"></div>
 
-                    <div class="W100pc Right SpacingTopSmall">
-                        <button type="submit" title="[% Translate("Add new action") | html %]" value="[% Translate("Add new action") | html %]" name="AddActionButton" id="AddActionButton" class="CallForAction Plus"><span>[% Translate("Add new action") | html %]</span></button>
+                    <div class="field-wrapper form-button-actions">
+                        <div class="Field buttons-field">
+                            <button type="submit" title="[% Translate("Add new action") | html %]" value="[% Translate("Add new action") | html %]" name="AddActionButton" id="AddActionButton" class="CallForAction Primary btn-main btn-primary btn-width-xxl"><span>[% Translate("Add new action") | html %]</span></button>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
-        <div class="Footer">
-            <button class="Primary CallForAction" accesskey="g" title="[% Translate("Submit") | html %] (g)" type="submit" name="SaveButton" id="SaveButton" value="[% Translate("Submit") | html %]">
-                <span><i class="fa fa-check-square-o"></i> [% Translate("Submit") | html %]</span>
-            </button>
-        </div>
+
+        <fieldset class="TableLike">
+            <div class="field-wrapper form-button-actions">
+                <div class="Field buttons-field">
+                    <button class="CallForAction Primary btn-main btn-primary btn-width-md" accesskey="g" title="[% Translate("Submit") | html %] (g)" type="submit" name="SaveButton" id="SaveButton" value="[% Translate("Submit") | html %]">
+                        <span>[% Translate("Submit") | html %]</span>
+                    </button>
+                </div>
+            </div>
+        </fieldset>
     </div>
 </form>
+<div class="Hidden" id="DeleteDialogContainer">
+    <div id ="DeleteDialog" class="InnerContent">
+        <p class="Center Spacing" id="DeleteDialogText">[% Translate("Delete") | html %]</p>
+        <div class="SpacingTop"></div>
+    </div>
+</div>

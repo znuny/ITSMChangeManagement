@@ -226,7 +226,7 @@ sub Run {
         Filters    => \%NavBarFilter,
         FilterLink => $LinkFilter,
 
-        TitleName => $LayoutObject->{LanguageObject}->Translate('Overview: Change Schedule'),
+        TitleName => $LayoutObject->{LanguageObject}->Translate('Change Schedule'),
 
         TitleValue => $Self->{Filter},
 

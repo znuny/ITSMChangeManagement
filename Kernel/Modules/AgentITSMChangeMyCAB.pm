@@ -228,7 +228,7 @@ sub Run {
         Filters    => \%NavBarFilter,
         FilterLink => $LinkFilter,
 
-        TitleName  => $LayoutObject->{LanguageObject}->Translate('Overview: My CAB'),
+        TitleName  => $LayoutObject->{LanguageObject}->Translate('My CAB'),
         TitleValue => $Self->{Filter},
 
         Env      => $Self,

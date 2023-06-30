@@ -254,7 +254,7 @@ sub Run {
         Filters    => \%NavBarFilter,
         FilterLink => $LinkFilter,
 
-        TitleName => $LayoutObject->{LanguageObject}->Translate('Overview: PIR'),
+        TitleName => $LayoutObject->{LanguageObject}->Translate('PIR'),
 
         TitleValue => $Self->{Filter},
 

@@ -8,17 +8,19 @@
 # --
 
 <fieldset class="TableLike W300px">
-    <label>[% Translate("Title") | html %]:</label>
-    <p class="Value">
-        [% Data.WorkOrderTitle | html %]
-    </p>
-    <div class="Clear"></div>
+    <div class="field-wrapper">
+        <label>[% Translate("Title") | html %]:</label>
+        <p class="Value">
+            [% Data.WorkOrderTitle | html %]
+        </p>
+    </div>
 
-    <label>[% Translate("Current Agent") | html %]:</label>
-    <p class="Value">
-        [% Data.WorkOrderAgent | html %]
-    </p>
-    <div class="Clear"></div>
+    <div class="field-wrapper">
+        <label>[% Translate("Current Agent") | html %]:</label>
+        <p class="Value">
+            [% Data.WorkOrderAgent | html %]
+        </p>
+    </div>
 
 </fieldset>
 <p class="SpacingTop Center">

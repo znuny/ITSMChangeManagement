@@ -154,10 +154,9 @@ $Selenium->RunTest(
         );
 
         # Save edited CAB template and switch window.
-        $Selenium->find_element("//button[\@type='submit'][\@name='Submit']")->click();
+        $Selenium->find_element("//button[\@type='submit']")->click();
 
         $Selenium->WaitFor( WindowCount => 1 );
-        $Selenium->switch_to_window( $Handles->[0] );
 
         # Navigate to created test change.
         $Selenium->VerifiedGet("${ScriptAlias}index.pl?Action=AgentITSMChangeZoom;ChangeID=$ChangeID");

@@ -7,7 +7,7 @@
 # did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 # --
 
-<form action="[% Env("CGIHandle") %]" method="post" enctype="multipart/form-data" name="compose">
+<form action="[% Env("CGIHandle") %]" method="post" enctype="multipart/form-data" name="compose" class="WidgetSimple">
     <input type="hidden" name="Action" value="[% Env("Action") %]"/>
     <input type="hidden" name="Subaction" value=""/>
     <input type="hidden" name="ChangeID" value="[% Data.ChangeID | html %]"/>
@@ -18,9 +18,9 @@
             <h1>
                 [% Translate("Overview") | html %]: [% Translate("Conditions and Actions") | html %] : [% Config("ITSMChange::Hook") %]: [% Data.ChangeNumber | html %] [% Data.ChangeTitle | truncate(70) | html %]
             </h1>
-            <p>
-                <a class="CancelClosePopup" href="#">[% Translate("Cancel & close") | html %]</a>
-            </p>
+            <div class="SaveButtons">
+                <a class="CancelClosePopup btn-cancel-ghost btn-main btn-width-md" href="#">[% Translate("Close and Back") | html %]</a>
+            </div>
         </div>
         <div class="Content">
             <div class="WidgetSimple">
@@ -29,7 +29,7 @@
                 </div>
                 <div class="Content">
 [% RenderBlockStart("Overview") %]
-                    <table class="DataTable SpacingTopSmall">
+                    <table class="DataTable">
                         <thead>
                             <tr>
                                 <th class="W50pc">[% Translate("Name") | html %]</th>
@@ -51,7 +51,7 @@
                                 <td class="Center">[% Translate(Data.Valid) | html %]</td>
                                 <td>[% Data.ChangeTime | Localize("TimeLong") %]</td>
                                 <td class="Center">
-                                    <a href="[% Env("Baselink") %]Action=[% Env("Action") %];ChangeID=[% Data.ChangeID | uri %];ConditionID=[% Data.ConditionID | uri %];DeleteConditionID::[% Data.ConditionID | uri %]=Delete" title="[% Translate("Delete") | html %]" class="DeleteCondition">
+                                    <a href="[% Env("Baselink") %]Action=[% Env("Action") %];ChangeID=[% Data.ChangeID | uri %];ConditionID=[% Data.ConditionID | uri %];DeleteConditionID::[% Data.ConditionID | uri %]=Delete" title="[% Translate("Delete") | html %]" class="DeleteCondition table-icon-hover-md">
                                         <i class="fa fa-trash-o">
                                             <span class="InvisibleText">[% Translate("Delete Condition") | html %]</span>
                                         </i>
@@ -62,16 +62,19 @@
                         </tbody>
                     </table>
 [% RenderBlockEnd("Overview") %]
-                    <div class="LayoutGrid SpacingTopSmall">
-                        <div class="W100pc Right">
-                            <button type="submit" title="[% Translate("Add new condition") | html %]" value="[% Translate("Add") | html %]" name="AddCondition" class="CallForAction Plus"><span>[% Translate("Add new condition") | html %]</span></button>
+                    <div class="field-wrapper form-button-actions">
+                        <div class="Field buttons-field">
+                            <button type="submit" title="[% Translate("Add new condition") | html %]" value="[% Translate("Add") | html %]" name="AddCondition" class="CallForAction Primary btn-main btn-primary btn-width-xl"><span>[% Translate("Add new condition") | html %]</span></button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="Footer"></div>
     </div>
-    <div class="Clear"></div>
 </form>
+<div class="Hidden" id="DeleteDialogContainer">
+    <div id ="DeleteDialog" class="InnerContent">
+        <p class="Center Spacing" id="DeleteDialogText">[% Translate("Delete") | html %]</p>
+        <div class="SpacingTop"></div>
+    </div>
+</div>

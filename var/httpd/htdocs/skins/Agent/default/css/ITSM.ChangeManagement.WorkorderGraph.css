@@ -133,7 +133,7 @@ div.WorkorderDetails {
     position: absolute;
     top: 2px;
     left: 2px;
-    z-index: 5;
+    z-index: 999;
     width: 400px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;

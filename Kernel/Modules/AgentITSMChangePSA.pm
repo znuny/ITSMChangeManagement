@@ -226,7 +226,7 @@ sub Run {
         Filters    => \%NavBarFilter,
         FilterLink => $LinkFilter,
 
-        TitleName => $LayoutObject->{LanguageObject}->Translate('Overview: PSA'),
+        TitleName => $LayoutObject->{LanguageObject}->Translate('PSA'),
 
         TitleValue => $Self->{Filter},
 

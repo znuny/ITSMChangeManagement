@@ -132,8 +132,13 @@ $Selenium->RunTest(
         $Selenium->find_element("//a[contains(\@href, \'Action=AgentITSMChangeReset;ChangeID=$ChangeID')]")->click();
 
         # Wait for confirm button to show up and confirm reset action.
-        $Selenium->WaitFor( JavaScript => "return \$('.Dialog button.Primary.CallForAction:visible').length;" );
-        $Selenium->find_element( ".Dialog button.Primary.CallForAction", 'css' )->VerifiedClick();
+        $Selenium->WaitFor(
+            JavaScript =>
+                "return typeof(\$) === 'function' && \$('#DialogButton1').length;"
+        );
+
+        # Close popup.
+        $Selenium->find_element( "#DialogButton1", 'css' )->click();
 
         # Wait until page has loaded, if necessary.
         $Selenium->WaitFor(

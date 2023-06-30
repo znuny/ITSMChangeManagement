@@ -13,49 +13,53 @@
         <h1>
             [% Translate("History of %s%s-%s", Config("ITSMWorkOrder::Hook"), Data.ChangeNumber, Data.WorkOrderNumber) | html %] &ndash; [% Data.WorkOrderTitle | truncate(60) | html %]
         </h1>
-        <p>
-            <a href="[% Env("Baselink") %]Action=AgentITSMWorkOrderHistory;WorkOrderID=[% Data.WorkOrderID | uri %]">[% Translate("Back") | html %]</a>
-            [% Translate("or") | html %]
-            <a class="CancelClosePopup" href="#">[% Translate("Cancel & close") | html %]</a>
-        </p>
+        <div class="SaveButtons">
+            <a class="CancelClosePopup btn-cancel-ghost btn-main btn-width-md" href="#">[% Translate("Cancel") | html %]</a>
+            <a class="btn-cancel-ghost btn-main btn-width-xl" href="Action=AgentITSMWorkOrderHistory;WorkOrderID=[% Data.WorkOrderID | uri %]">
+                [% Translate("Back") | html %]
+            </a>
+        </div>
     </div>
     <div class="Content">
 
         <h2>[% Translate("Detailed history information of %s", Data.HistoryType) | html %]</h2>
         <fieldset class="TableLike FixedLabel">
 
-            <label>[% Translate("Modified") | html %]:</label>
-            <div class="Field">
-                [% Data.Fieldname | html %]
+            <div class="field-wrapper">
+                <label>[% Translate("Modified") | html %]:</label>
+                <div class="Field">
+                    [% Data.Fieldname | html %]
+                </div>
             </div>
-            <div class="Clear"></div>
 
-            <label>[% Translate("Old Value") | html %]:</label>
-            <div class="Field">
-                [% Data.ContentOld %]
+            <div class="field-wrapper">
+                <label>[% Translate("Old Value") | html %]:</label>
+                <div class="Field">
+                    [% Data.ContentOld %]
+                </div>
             </div>
-            <div class="Clear"></div>
 
-            <label>[% Translate("New Value") | html %]:</label>
-            <div class="Field">
-                [% Data.ContentNew %]
+            <div class="field-wrapper">
+                <label>[% Translate("New Value") | html %]:</label>
+                <div class="Field">
+                    [% Data.ContentNew %]
+                </div>
             </div>
-            <div class="Clear"></div>
 
-            <label>[% Translate("Changed") | html %]:</label>
-            <div class="Field">
-                [% Data.ChangeTime | Localize("TimeLong") %]
+            <div class="field-wrapper">
+                <label>[% Translate("Changed") | html %]:</label>
+                <div class="Field">
+                    [% Data.ChangeTime | Localize("TimeLong") %]
+                </div>
             </div>
-            <div class="Clear"></div>
 
-            <label>[% Translate("Changed by") | html %]:</label>
-            <div class="Field" title="[% Data.UserFullname | html %]">
-                ([% Data.UserFullname | html %])
+            <div class="field-wrapper">
+                <label>[% Translate("Changed by") | html %]:</label>
+                <div class="Field" title="[% Data.UserFullname | html %]">
+                    ([% Data.UserFullname | html %])
+                </div>
             </div>
-            <div class="Clear"></div>
 
         </fieldset>
-    </div>
-    <div class="Footer">
     </div>
 </div>

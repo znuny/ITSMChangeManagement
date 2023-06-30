@@ -1,0 +1,53 @@
+/*
+Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
+Copyright (C) 2021 Znuny GmbH, https://znuny.org/
+
+This software comes with ABSOLUTELY NO WARRANTY. For details, see
+the enclosed file COPYING for license information (GPL). If you
+did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+*/
+
+/**
+ * @package     Skin "Default"
+ * @section     Workorder Graph
+ */
+
+@media screen,projection,tv,handheld {
+
+.Flag span.grayled {
+    background-color:#cdcdcd;
+}
+
+.Flag span.greenled {
+    background-color: #8bef4d;
+}
+
+.Flag span.yellowled {
+    background-color: #ffdd50;
+}
+
+.Flag span.redled {
+    background-color:#ff505e;
+}
+
+.Flag span.purpleled {
+    background-color:#b23aee;
+}
+
+.Flag span.orangeled {
+    background-color:#ff8c00;
+}
+
+.Flag span.cyanled {
+    background-color:#79cdcd;
+}
+
+.Flag span.whiteled {
+    background-color:#ffffff;
+}
+
+.Flag span.blackled {
+    background-color:#000000;
+}
+
+} /* end @media */

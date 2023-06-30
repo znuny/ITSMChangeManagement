@@ -431,6 +431,8 @@ sub _OverviewStateTransitionsPageGet {
         Data => \%Param,
     );
 
+    $LayoutObject->Block( Name => 'Filter' );
+
     # get state machine object
     my $StateMachineObject = $Kernel::OM->Get('Kernel::System::ITSMChange::ITSMStateMachine');
 
@@ -513,6 +515,8 @@ sub _OverviewClassesPageGet {
         Name => 'OverviewClasses',
         Data => \%Param,
     );
+
+    $LayoutObject->Block( Name => 'Filter' );
 
     # read the config,
     my $Config = $Kernel::OM->Get('Kernel::Config')->Get("ITSMStateMachine::Object") || {};

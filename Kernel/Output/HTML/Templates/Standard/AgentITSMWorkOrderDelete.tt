@@ -13,7 +13,6 @@
     <p class="Value">
         [% Data.WorkOrderTitle | html %]
     </p>
-    <div class="Clear"></div>
 </fieldset>
 <p class="SpacingTop Center">
     [% Translate("Do you really want to delete this workorder?") | html %]
