@@ -29,14 +29,15 @@
                 <div class="Content">
 [% RenderBlockStart("Meta") %]
                     <fieldset class="TableLike FixedLabelSmall Tight">
-                        <label>[% Translate("Workorder State") | html %]:</label>
-                        <div class="Value">
-                            <div class="Flag Small">
-                                <span class="[% Data.WorkOrderStateSignal | html %]">[% Translate(Data.WorkOrderState) | html %]</span>
+                        <span>
+                            <label>[% Translate("Workorder State") | html %]:</label>
+                            <div class="Value">
+                                <div class="Flag Small">
+                                    <span class="[% Data.WorkOrderStateSignal | html %]">[% Translate(Data.WorkOrderState) | html %]</span>
+                                </div>
+                                [% Translate(Data.WorkOrderState) | html %]
                             </div>
-                            [% Translate(Data.WorkOrderState) | html %]
-                        </div>
-                        <div class="Clear"></div>
+                        </span>
 
                         <label>[% Translate("Workorder Type") | html %]:</label>
 [% RenderBlockStart("EmptyWorkOrderType") %]

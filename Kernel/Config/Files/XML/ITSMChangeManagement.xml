@@ -1795,6 +1795,7 @@
                     <Array>
                         <Item>ITSM.Agent.Default.css</Item>
                         <Item>Core.AllocationList.css</Item>
+                        <Item>ITSM.ChangeManagement.WorkorderGraph.css</Item>
                     </Array>
                 </Item>
                 <Item Key="JavaScript">

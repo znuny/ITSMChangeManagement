@@ -68,6 +68,7 @@ div.WorkorderLabel {
     padding-top: 3px;
     padding-bottom: 3px;
     line-height: 14px;
+    top: 4px;
 }
 
 .RTL div.WorkorderLabel {
@@ -90,6 +91,14 @@ div.WorkorderLabel .Flag {
 
 div.WorkorderLabel .Flag span {
     cursor: auto;
+}
+div.Value .Flag.Small {
+    align-self: center;
+    margin: 0 5px 0 5px;
+}
+
+.WidgetSimple fieldset.TableLike .Value {
+    line-height: 100%;
 }
 
 div.Workorder {
