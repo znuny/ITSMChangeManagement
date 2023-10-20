@@ -217,10 +217,15 @@ sub Run {
 
         # get linked objects which are directly linked with this change object
         my $LinkListWithData = $LinkObject->LinkListWithData(
-            Object => 'ITSMChange',
-            Key    => $ChangeID,
-            State  => 'Valid',
-            UserID => $Self->{UserID},
+            Object           => 'ITSMChange',
+            Key              => $ChangeID,
+            State            => 'Valid',
+            UserID           => $Self->{UserID},
+            ObjectParameters => {
+                Ticket => {
+                    IgnoreLinkedTicketStateTypes => 1,
+                },
+            },
         );
 
         # get the combined linked objects from all workorders of this change
@@ -229,10 +234,15 @@ sub Run {
 
             # get linked objects of this workorder
             my $LinkListWithDataWorkOrder = $LinkObject->LinkListWithData(
-                Object => 'ITSMWorkOrder',
-                Key    => $WorkOrderID,
-                State  => 'Valid',
-                UserID => $Self->{UserID},
+                Object           => 'ITSMWorkOrder',
+                Key              => $WorkOrderID,
+                State            => 'Valid',
+                UserID           => $Self->{UserID},
+                ObjectParameters => {
+                    Ticket => {
+                        IgnoreLinkedTicketStateTypes => 1,
+                    },
+                },
             );
 
             OBJECT:
@@ -377,10 +387,15 @@ sub Run {
 
         # get linked objects
         my $LinkListWithData = $LinkObject->LinkListWithData(
-            Object => 'ITSMWorkOrder',
-            Key    => $WorkOrderID,
-            State  => 'Valid',
-            UserID => $Self->{UserID},
+            Object           => 'ITSMWorkOrder',
+            Key              => $WorkOrderID,
+            State            => 'Valid',
+            UserID           => $Self->{UserID},
+            ObjectParameters => {
+                Ticket => {
+                    IgnoreLinkedTicketStateTypes => 1,
+                },
+            },
         );
 
         # get the link data

@@ -378,10 +378,15 @@ sub _AgentAndCustomerIDsGet {
 
             # get linked objects which are directly linked with this change object
             my $LinkListWithData = $Kernel::OM->Get('Kernel::System::LinkObject')->LinkListWithData(
-                Object => 'ITSMChange',
-                Key    => $Param{ChangeID},
-                State  => 'Valid',
-                UserID => $Param{UserID},
+                Object           => 'ITSMChange',
+                Key              => $Param{ChangeID},
+                State            => 'Valid',
+                UserID           => $Param{UserID},
+                ObjectParameters => {
+                    Ticket => {
+                        IgnoreLinkedTicketStateTypes => 1,
+                    },
+                },
             );
 
             # get change initiators (customer users of linked tickets)

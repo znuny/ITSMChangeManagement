@@ -167,10 +167,15 @@ sub Serialize {
 
     # get links to other object
     my $LinkListWithData = $Kernel::OM->Get('Kernel::System::LinkObject')->LinkListWithData(
-        Object => 'ITSMWorkOrder',
-        Key    => $WorkOrder->{WorkOrderID},
-        State  => 'Valid',
-        UserID => $Param{UserID},
+        Object           => 'ITSMWorkOrder',
+        Key              => $WorkOrder->{WorkOrderID},
+        State            => 'Valid',
+        UserID           => $Param{UserID},
+        ObjectParameters => {
+            Ticket => {
+                IgnoreLinkedTicketStateTypes => 1,
+            },
+        },
     );
 
     for my $TargetObject ( sort keys %{$LinkListWithData} ) {

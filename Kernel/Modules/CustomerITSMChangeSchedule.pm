@@ -484,10 +484,15 @@ sub Run {
 
                     # get linked objects of this workorder
                     my $LinkListWithDataWorkOrder = $LinkObject->LinkListWithData(
-                        Object => 'ITSMWorkOrder',
-                        Key    => $WorkOrderID,
-                        State  => 'Valid',
-                        UserID => $Self->{UserID},
+                        Object           => 'ITSMWorkOrder',
+                        Key              => $WorkOrderID,
+                        State            => 'Valid',
+                        UserID           => $Self->{UserID},
+                        ObjectParameters => {
+                            Ticket => {
+                                IgnoreLinkedTicketStateTypes => 1,
+                            },
+                        },
                     );
 
                     OBJECT:
