@@ -104,7 +104,7 @@ msgstr "Вы действительно хототе удалить состоя
 msgid "Add Change"
 msgstr "Добавить изменение"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "Изменение"
 
@@ -1152,7 +1152,7 @@ msgstr "Заголовок: %s | Тип: %s"
 msgid "My CABs"
 msgstr "Мои CAB"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "Мои изменения"
 
@@ -1660,7 +1660,7 @@ msgstr "Обзор Изменения"
 msgid "Change Print."
 msgstr "Печать Изменения."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "Расписание изменений"
 
@@ -2288,7 +2288,7 @@ msgstr "Обзор ITSM Change PIR"
 msgid "ITSM Change notification rules"
 msgstr "Правила Уведомления в Управлении Изменениями"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "Изменения"
 
@@ -2468,7 +2468,7 @@ msgstr "Прочие настройки"
 msgid "Overview over all Changes."
 msgstr "Обзор всех Изменений."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr "PIR"
 
@@ -2476,7 +2476,7 @@ msgstr "PIR"
 msgid "PIR (Post Implementation Review)"
 msgstr "PIR (Post Implementation Review/Анализ после выполнения)"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr "PSA"
 
@@ -2935,4 +2935,20 @@ msgstr "один раз"
 #. SysConfig
 msgid "regularly"
 msgstr "регулярно"
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
 

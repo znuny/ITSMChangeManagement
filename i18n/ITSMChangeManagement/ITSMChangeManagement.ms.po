@@ -102,7 +102,7 @@ msgstr "Adakah anda mahu memadam status peralihan ini benar-benar?"
 msgid "Add Change"
 msgstr "Tukar Tambah"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "Ubah ITSM"
 
@@ -1150,7 +1150,7 @@ msgstr ""
 msgid "My CABs"
 msgstr "CAB Saya"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "Perubahan Saya"
 
@@ -1658,7 +1658,7 @@ msgstr ""
 msgid "Change Print."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "Ubah Jadual"
 
@@ -2286,7 +2286,7 @@ msgstr ""
 msgid "ITSM Change notification rules"
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "ITSM Changes"
 
@@ -2466,7 +2466,7 @@ msgstr "Aturan Lain"
 msgid "Overview over all Changes."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr ""
 
@@ -2474,7 +2474,7 @@ msgstr ""
 msgid "PIR (Post Implementation Review)"
 msgstr "PIR (Post Implementation Review)"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr ""
 
@@ -2932,5 +2932,21 @@ msgstr ""
 
 #. SysConfig
 msgid "regularly"
+msgstr ""
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
 msgstr ""
 

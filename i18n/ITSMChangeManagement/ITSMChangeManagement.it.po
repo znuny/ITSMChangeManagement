@@ -104,7 +104,7 @@ msgstr "Vuoi veramente cancellare la transizione di stato"
 msgid "Add Change"
 msgstr "Aggiungi modifica"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "ITSM Change"
 
@@ -1152,7 +1152,7 @@ msgstr ""
 msgid "My CABs"
 msgstr "I miei CAB"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr ""
 
@@ -1660,7 +1660,7 @@ msgstr ""
 msgid "Change Print."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr ""
 
@@ -2288,7 +2288,7 @@ msgstr ""
 msgid "ITSM Change notification rules"
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr ""
 
@@ -2468,7 +2468,7 @@ msgstr "Altre impostazioni"
 msgid "Overview over all Changes."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr ""
 
@@ -2476,7 +2476,7 @@ msgstr ""
 msgid "PIR (Post Implementation Review)"
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr ""
 
@@ -2959,4 +2959,20 @@ msgstr "Regolarmente"
 
 #~ msgid "Shows a link in the menu to print a workorder in the zoom view of the agent interface."
 #~ msgstr "Mostrare un collegamento nel menu per stampare un ordine di lavoro nella vista zoom dell'interfaccia agenti."
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
 

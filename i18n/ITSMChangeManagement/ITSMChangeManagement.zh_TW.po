@@ -102,7 +102,7 @@ msgstr "你確定要删除這個狀態轉換嗎?"
 msgid "Add Change"
 msgstr "創建變更"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "變更"
 
@@ -1150,7 +1150,7 @@ msgstr ""
 msgid "My CABs"
 msgstr "我的CAB"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "我的變更"
 
@@ -1658,7 +1658,7 @@ msgstr ""
 msgid "Change Print."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "變更計劃"
 
@@ -2286,7 +2286,7 @@ msgstr ""
 msgid "ITSM Change notification rules"
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "變更"
 
@@ -2466,7 +2466,7 @@ msgstr "其它設置"
 msgid "Overview over all Changes."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr ""
 
@@ -2474,7 +2474,7 @@ msgstr ""
 msgid "PIR (Post Implementation Review)"
 msgstr "PIR (實施後審查)"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr ""
 
@@ -2932,5 +2932,21 @@ msgstr ""
 
 #. SysConfig
 msgid "regularly"
+msgstr ""
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
 msgstr ""
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ITSMChangeManagement\n"
-"POT-Creation-Date: 2023-02-24 10:16+0000\n"
+"POT-Creation-Date: 2024-04-11 12:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,11 +11,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-msgid "Category ↔ Impact ↔ Priority"
+msgid "Manage the priority result of combinating Category ↔ Impact."
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-msgid "Manage the priority result of combinating Category ↔ Impact."
+msgid "Category ↔ Impact ↔ Priority"
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
@@ -23,11 +23,15 @@ msgid "Priority allocation"
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-msgid "ITSM ChangeManagement Notification Management"
+msgid "Add Notification Rule"
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-msgid "Add Notification Rule"
+msgid "Filter for notification rules"
+msgstr ""
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "ITSM ChangeManagement Notification Management"
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
@@ -43,10 +47,6 @@ msgid "Name is required."
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
-msgid "Admin State Machine"
-msgstr ""
-
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Select a catalog class!"
 msgstr ""
 
@@ -56,6 +56,10 @@ msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Add a state transition"
+msgstr ""
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
+msgid "Admin State Machine"
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
@@ -96,10 +100,6 @@ msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Add Change"
-msgstr ""
-
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
-msgid "ITSM Change"
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
@@ -232,10 +232,6 @@ msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "History of %s%s"
-msgstr ""
-
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
-msgid "History Content"
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
@@ -404,6 +400,10 @@ msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "CAB Customer"
+msgstr ""
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
+msgid "ITSM Change"
 msgstr ""
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
@@ -659,7 +659,7 @@ msgid "State Transition Added!"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChange.pm
-msgid "Overview: ITSM Changes"
+msgid "ITSM Changes"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
@@ -790,28 +790,24 @@ msgstr ""
 msgid "Was not able to update Change %s!"
 msgstr ""
 
-#. Perl Module: Kernel/Modules/AgentITSMChangeManager.pm
-msgid "Overview: ChangeManager"
-msgstr ""
-
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
-msgid "Overview: My CAB"
+msgid "My CAB"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
-msgid "Overview: My Changes"
+msgid "My Changes"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
-msgid "Overview: My Workorders"
+msgid "My Workorders"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
-msgid "Overview: PIR"
+msgid "PIR"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
-msgid "Overview: PSA"
+msgid "PSA"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
@@ -915,7 +911,7 @@ msgid "Was not able to reset Change %s!"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
-msgid "Overview: Change Schedule"
+msgid "Change Schedule"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
@@ -1058,10 +1054,6 @@ msgstr ""
 msgid "Was not able to create workorder from template!"
 msgstr ""
 
-#. Perl Module: Kernel/Modules/AgentITSMTemplateOverview.pm
-msgid "Overview: Template"
-msgstr ""
-
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderAdd.pm
 msgid "You need %s permissions on the change!"
 msgstr ""
@@ -1140,10 +1132,6 @@ msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/MyCAB.pm
 msgid "My CABs"
-msgstr ""
-
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
-msgid "My Changes"
 msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/MyWorkOrders.pm
@@ -1530,6 +1518,10 @@ msgstr ""
 msgid "set"
 msgstr ""
 
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
+
 #. JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
 msgid "Do you really want to delete this expression?"
 msgstr ""
@@ -1648,10 +1640,6 @@ msgstr ""
 
 #. SysConfig
 msgid "Change Print."
-msgstr ""
-
-#. SysConfig
-msgid "Change Schedule"
 msgstr ""
 
 #. SysConfig
@@ -2279,10 +2267,6 @@ msgid "ITSM Change notification rules"
 msgstr ""
 
 #. SysConfig
-msgid "ITSM Changes"
-msgstr ""
-
-#. SysConfig
 msgid "ITSM MyCAB Overview."
 msgstr ""
 
@@ -2459,15 +2443,7 @@ msgid "Overview over all Changes."
 msgstr ""
 
 #. SysConfig
-msgid "PIR"
-msgstr ""
-
-#. SysConfig
 msgid "PIR (Post Implementation Review)"
-msgstr ""
-
-#. SysConfig
-msgid "PSA"
 msgstr ""
 
 #. SysConfig

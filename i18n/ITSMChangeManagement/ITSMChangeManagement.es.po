@@ -110,7 +110,7 @@ msgstr "¿Realmente desea eliminar esta transición de estado?"
 msgid "Add Change"
 msgstr "Agregar Cambio"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "Cambio ITSM"
 
@@ -1161,7 +1161,7 @@ msgstr "Título: %s | Tipo: %s"
 msgid "My CABs"
 msgstr "Mis Comités de Cambio (CABs)"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "Mis Cambios"
 
@@ -1672,7 +1672,7 @@ msgstr "Cambiar Resumen."
 msgid "Change Print."
 msgstr "Cambiar Impresión."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "Cambiar Programación"
 
@@ -2300,7 +2300,7 @@ msgstr "Resumen del Cambio PIR en ITSM."
 msgid "ITSM Change notification rules"
 msgstr "Reglas de notificación del Cambio en ITSM"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "Cambios"
 
@@ -2480,7 +2480,7 @@ msgstr "Otros ajustes"
 msgid "Overview over all Changes."
 msgstr "Resumen sobre todos los Cambios."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr "PIR"
 
@@ -2488,7 +2488,7 @@ msgstr "PIR"
 msgid "PIR (Post Implementation Review)"
 msgstr "Revisión Post Implementación (PIR)"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr "PSA"
 
@@ -2947,4 +2947,20 @@ msgstr "una vez"
 #. SysConfig
 msgid "regularly"
 msgstr "regularmente"
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
 

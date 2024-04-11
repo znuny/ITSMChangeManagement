@@ -16,23 +16,24 @@ sub Data {
     my $Self = shift;
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Kategória ↔ Hatás ↔ Prioritás';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'A Kategória ↔ Hatás összetétel prioritás eredményének kezelése.';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Kategória ↔ Hatás ↔ Prioritás';
     $Self->{Translation}->{'Priority allocation'} = 'Prioritás lefoglalás';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'ITSM változásmenedzsment értesítés kezelés';
     $Self->{Translation}->{'Add Notification Rule'} = 'Értesítési szabály hozzáadása';
+    $Self->{Translation}->{'Filter for notification rules'} = '';
+    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'ITSM változásmenedzsment értesítés kezelés';
     $Self->{Translation}->{'Edit Notification Rule'} = 'Értesítési szabály szerkesztése';
     $Self->{Translation}->{'A notification should have a name!'} = 'Az értesítésnek rendelkeznie kell egy névvel!';
     $Self->{Translation}->{'Name is required.'} = 'A név kötelező.';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
-    $Self->{Translation}->{'Admin State Machine'} = 'Adminisztrátori állapotgép';
     $Self->{Translation}->{'Select a catalog class!'} = 'Válasszon egy katalógusosztályt!';
     $Self->{Translation}->{'A catalog class is required!'} = 'A katalógusosztály kötelező!';
     $Self->{Translation}->{'Add a state transition'} = 'Egy állapotátmenet hozzáadása';
+    $Self->{Translation}->{'Admin State Machine'} = 'Adminisztrátori állapotgép';
     $Self->{Translation}->{'Catalog Class'} = 'Katalógusosztály';
     $Self->{Translation}->{'Object Name'} = 'Objektumnév';
     $Self->{Translation}->{'Overview over state transitions for'} = 'Állapotátmenetek áttekintése ennél:';
@@ -45,7 +46,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Változás hozzáadása';
-    $Self->{Translation}->{'ITSM Change'} = 'ITSM változás';
     $Self->{Translation}->{'Justification'} = 'Indoklás';
     $Self->{Translation}->{'Input invalid.'} = 'Érvénytelen bemenet.';
     $Self->{Translation}->{'Requested Date'} = 'Kért dátum';
@@ -93,7 +93,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = '%s%s előzményei';
-    $Self->{Translation}->{'History Content'} = 'Előzménytartalom';
     $Self->{Translation}->{'Workorder'} = 'Munkamegrendelés';
     $Self->{Translation}->{'Createtime'} = 'Létrehozás ideje';
     $Self->{Translation}->{'Show details'} = 'Részletek megjelenítése';
@@ -148,6 +147,7 @@ sub Data {
     $Self->{Translation}->{'CAB Agent'} = 'CAB-ügyintéző';
     $Self->{Translation}->{'e.g.'} = 'például';
     $Self->{Translation}->{'CAB Customer'} = 'CAB-ügyfél';
+    $Self->{Translation}->{'ITSM Change'} = 'ITSM változás';
     $Self->{Translation}->{'ITSM Workorder Instruction'} = 'ITSM munkamegrendelés utasítás';
     $Self->{Translation}->{'ITSM Workorder Report'} = 'ITSM munkamegrendelés jelentés';
     $Self->{Translation}->{'ITSM Change Priority'} = 'ITSM változás prioritás';
@@ -258,7 +258,7 @@ sub Data {
     $Self->{Translation}->{'State Transition Added!'} = 'Állapotátmenet hozzáadva!';
 
     # Perl Module: Kernel/Modules/AgentITSMChange.pm
-    $Self->{Translation}->{'Overview: ITSM Changes'} = 'Áttekintő: ITSM változások';
+    $Self->{Translation}->{'ITSM Changes'} = 'ITSM változások';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
     $Self->{Translation}->{'Ticket with TicketID %s does not exist!'} = 'A(z) %s jegyazonosítóval rendelkező jegy nem létezik!';
@@ -314,23 +314,20 @@ sub Data {
     $Self->{Translation}->{'Was not able to update Change CAB for Change %s!'} = 'Nem sikerült a változás CAB frissítése a(z) %s változásnál!';
     $Self->{Translation}->{'Was not able to update Change %s!'} = 'Nem sikerült a(z) %s változás frissítése!';
 
-    # Perl Module: Kernel/Modules/AgentITSMChangeManager.pm
-    $Self->{Translation}->{'Overview: ChangeManager'} = 'Áttekintés: változásmenedzser';
-
     # Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
-    $Self->{Translation}->{'Overview: My CAB'} = 'Áttekintés: saját CAB';
+    $Self->{Translation}->{'My CAB'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
-    $Self->{Translation}->{'Overview: My Changes'} = 'Áttekintés: saját változások';
+    $Self->{Translation}->{'My Changes'} = 'Saját változások';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
-    $Self->{Translation}->{'Overview: My Workorders'} = 'Áttekintés: saját munkamegrendelések';
+    $Self->{Translation}->{'My Workorders'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
-    $Self->{Translation}->{'Overview: PIR'} = 'Áttekintés: PIR';
+    $Self->{Translation}->{'PIR'} = 'PIR';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
-    $Self->{Translation}->{'Overview: PSA'} = 'Áttekintés: PSA';
+    $Self->{Translation}->{'PSA'} = 'PSA';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
     $Self->{Translation}->{'WorkOrder "%s" not found in database!'} = 'A(z) „%s” munkamegrendelés nem található az adatbázisban!';
@@ -363,7 +360,7 @@ sub Data {
     $Self->{Translation}->{'Was not able to reset Change %s!'} = 'Nem sikerült a(z) %s változás visszaállítása!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
-    $Self->{Translation}->{'Overview: Change Schedule'} = 'Áttekintés: változtatási ütemterv';
+    $Self->{Translation}->{'Change Schedule'} = 'Változtatási ütemterv';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
     $Self->{Translation}->{'Change Search'} = 'Változáskeresés';
@@ -414,9 +411,6 @@ sub Data {
     $Self->{Translation}->{'Was not able to create change!'} = 'Nem sikerült a változás létrehozása!';
     $Self->{Translation}->{'Was not able to create workorder from template!'} = 'Nem sikerült a munkamegrendelés létrehozása sablonból!';
 
-    # Perl Module: Kernel/Modules/AgentITSMTemplateOverview.pm
-    $Self->{Translation}->{'Overview: Template'} = 'Áttekintés: sablon';
-
     # Perl Module: Kernel/Modules/AgentITSMWorkOrderAdd.pm
     $Self->{Translation}->{'You need %s permissions on the change!'} = '%s jogosultságokra van szüksége a változáson!';
     $Self->{Translation}->{'Was not able to add workorder!'} = 'Nem sikerült a munkamegrendelés hozzáadása!';
@@ -457,9 +451,6 @@ sub Data {
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyCAB.pm
     $Self->{Translation}->{'My CABs'} = 'Saját CAB-ok';
-
-    # Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
-    $Self->{Translation}->{'My Changes'} = 'Saját változások';
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyWorkOrders.pm
     $Self->{Translation}->{'My Work Orders'} = 'Saját munkamegrendelések';
@@ -567,6 +558,9 @@ sub Data {
     $Self->{Translation}->{'ends with'} = 'ezzel végződik';
     $Self->{Translation}->{'set'} = 'beállítva';
 
+    # JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+    $Self->{Translation}->{'Delete Notification'} = '';
+
     # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = 'Valóban törölni szeretné ezt a kifejezést?';
     $Self->{Translation}->{'Do you really want to delete this action?'} = 'Valóban törölni szeretné ezt a műveletet?';
@@ -610,7 +604,6 @@ sub Data {
     $Self->{Translation}->{'Change Overview "Small" Limit'} = 'Változás áttekintő „kis” korlát';
     $Self->{Translation}->{'Change Overview.'} = 'Változás áttekintés.';
     $Self->{Translation}->{'Change Print.'} = 'Változásnyomtatás.';
-    $Self->{Translation}->{'Change Schedule'} = 'Változtatási ütemterv';
     $Self->{Translation}->{'Change Schedule.'} = 'Változtatási ütemterv.';
     $Self->{Translation}->{'Change Settings'} = 'Változás beállítások';
     $Self->{Translation}->{'Change Zoom'} = 'Változásnagyítás';
@@ -861,7 +854,6 @@ sub Data {
     $Self->{Translation}->{'ITSM Change Notifications'} = 'ITSM változás értesítések';
     $Self->{Translation}->{'ITSM Change PIR Overview.'} = 'ITSM változás PIR áttekintés.';
     $Self->{Translation}->{'ITSM Change notification rules'} = 'ITSM változás értesítési szabályok';
-    $Self->{Translation}->{'ITSM Changes'} = 'ITSM változások';
     $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'ITSM saját CAB áttekintés.';
     $Self->{Translation}->{'ITSM MyChanges Overview.'} = 'ITSM saját változások áttekintés.';
     $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = 'ITSM saját munkamegrendelések áttekintés.';
@@ -913,9 +905,7 @@ sub Data {
         'Csak ezen csoportok felhasználóinak van jogosultsága az „ITSMChange::AddChangeLinkTicketTypes” beállításban meghatározott jegytípusok használatára, ha a „Ticket::Acl::Module###200-Ticket::Acl::Module” szolgáltatás engedélyezve van.';
     $Self->{Translation}->{'Other Settings'} = 'Egyéb beállítások';
     $Self->{Translation}->{'Overview over all Changes.'} = 'Az összes változás áttekintése.';
-    $Self->{Translation}->{'PIR'} = 'PIR';
     $Self->{Translation}->{'PIR (Post Implementation Review)'} = 'PIR (megvalósítás utáni vizsgálat)';
-    $Self->{Translation}->{'PSA'} = 'PSA';
     $Self->{Translation}->{'Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface.'} =
         'A UserCreateWorkOrderNextMask objektum paraméterei az ügyintézői felület beállítás nézetében.';
     $Self->{Translation}->{'Parameters for the pages (in which the changes are shown) of the small change overview.'} =
@@ -1078,6 +1068,12 @@ sub Data {
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
+    'Cancel',
+    'Delete',
+    'Delete Action',
+    'Delete Condition',
+    'Delete Expression',
+    'Delete Notification',
     'Do you really want to delete this action?',
     'Do you really want to delete this condition?',
     'Do you really want to delete this expression?',

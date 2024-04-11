@@ -16,23 +16,24 @@ sub Data {
     my $Self = shift;
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Категория ↔ Влияние ↔ Приоритет';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'Управление приоритетом на основе комбинации Категория ↔ Влияние';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Категория ↔ Влияние ↔ Приоритет';
     $Self->{Translation}->{'Priority allocation'} = 'Назначение приоритета';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Управление уведомлениями в ITSM ChangeManagement';
     $Self->{Translation}->{'Add Notification Rule'} = 'Добавить правило уведомления';
+    $Self->{Translation}->{'Filter for notification rules'} = '';
+    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Управление уведомлениями в ITSM ChangeManagement';
     $Self->{Translation}->{'Edit Notification Rule'} = '';
     $Self->{Translation}->{'A notification should have a name!'} = 'Уведомление должно иметь имя';
     $Self->{Translation}->{'Name is required.'} = 'Требуется имя';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
-    $Self->{Translation}->{'Admin State Machine'} = 'Управление Машиной состояний';
     $Self->{Translation}->{'Select a catalog class!'} = 'Выберите класс каталога!';
     $Self->{Translation}->{'A catalog class is required!'} = 'Класс каталога обязателен!';
     $Self->{Translation}->{'Add a state transition'} = 'Добавить состояние перехода';
+    $Self->{Translation}->{'Admin State Machine'} = 'Управление Машиной состояний';
     $Self->{Translation}->{'Catalog Class'} = 'Класс каталога';
     $Self->{Translation}->{'Object Name'} = 'Имя объекта';
     $Self->{Translation}->{'Overview over state transitions for'} = 'Обзор состояний перехода для';
@@ -45,7 +46,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Добавить изменение';
-    $Self->{Translation}->{'ITSM Change'} = 'Изменение';
     $Self->{Translation}->{'Justification'} = 'Обоснование';
     $Self->{Translation}->{'Input invalid.'} = 'Неверные данные';
     $Self->{Translation}->{'Requested Date'} = 'Запрошенное время';
@@ -93,7 +93,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = 'История для %s%s';
-    $Self->{Translation}->{'History Content'} = 'Содержимое истории';
     $Self->{Translation}->{'Workorder'} = 'Задача';
     $Self->{Translation}->{'Createtime'} = 'Время создания';
     $Self->{Translation}->{'Show details'} = 'Показать подробно';
@@ -148,6 +147,7 @@ sub Data {
     $Self->{Translation}->{'CAB Agent'} = 'Агент, член CAB ';
     $Self->{Translation}->{'e.g.'} = 'т.е.';
     $Self->{Translation}->{'CAB Customer'} = 'Клиент, член CAB ';
+    $Self->{Translation}->{'ITSM Change'} = 'Изменение';
     $Self->{Translation}->{'ITSM Workorder Instruction'} = 'Инструкция по задачам ITSM ';
     $Self->{Translation}->{'ITSM Workorder Report'} = 'Отчет по задачам ITSM';
     $Self->{Translation}->{'ITSM Change Priority'} = 'Изменить приоритет ITSM';
@@ -258,7 +258,7 @@ sub Data {
     $Self->{Translation}->{'State Transition Added!'} = 'Добавлен  переход состояния!';
 
     # Perl Module: Kernel/Modules/AgentITSMChange.pm
-    $Self->{Translation}->{'Overview: ITSM Changes'} = 'Обзор: ITSM Изменения';
+    $Self->{Translation}->{'ITSM Changes'} = 'Изменения';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
     $Self->{Translation}->{'Ticket with TicketID %s does not exist!'} = 'Заявка с таким TicketID %s не существует!';
@@ -314,23 +314,20 @@ sub Data {
     $Self->{Translation}->{'Was not able to update Change CAB for Change %s!'} = 'Не удалось обновить  CAB Изменения для Изменения %s!';
     $Self->{Translation}->{'Was not able to update Change %s!'} = 'Не удалось обновить Изменение %s!';
 
-    # Perl Module: Kernel/Modules/AgentITSMChangeManager.pm
-    $Self->{Translation}->{'Overview: ChangeManager'} = 'Обзор: Менеджер изменений';
-
     # Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
-    $Self->{Translation}->{'Overview: My CAB'} = 'Обзор: Мои CAB';
+    $Self->{Translation}->{'My CAB'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
-    $Self->{Translation}->{'Overview: My Changes'} = 'Обзор: Мои Изменения';
+    $Self->{Translation}->{'My Changes'} = 'Мои изменения';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
-    $Self->{Translation}->{'Overview: My Workorders'} = 'Обзор: Мои Задачи';
+    $Self->{Translation}->{'My Workorders'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
-    $Self->{Translation}->{'Overview: PIR'} = 'Обзор: PIR';
+    $Self->{Translation}->{'PIR'} = 'PIR';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
-    $Self->{Translation}->{'Overview: PSA'} = 'Обзор: PSA';
+    $Self->{Translation}->{'PSA'} = 'PSA';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
     $Self->{Translation}->{'WorkOrder "%s" not found in database!'} = 'Задача "%s" не найдена в БД!';
@@ -363,7 +360,7 @@ sub Data {
     $Self->{Translation}->{'Was not able to reset Change %s!'} = 'Не удалось очистить Изменение %s!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
-    $Self->{Translation}->{'Overview: Change Schedule'} = 'Обзор: Планировщик изменений';
+    $Self->{Translation}->{'Change Schedule'} = 'Расписание изменений';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
     $Self->{Translation}->{'Change Search'} = 'Поиск Изменений';
@@ -414,9 +411,6 @@ sub Data {
     $Self->{Translation}->{'Was not able to create change!'} = 'Не удалось создать изменение!';
     $Self->{Translation}->{'Was not able to create workorder from template!'} = 'Не удалось создать Задачу из шаблона!';
 
-    # Perl Module: Kernel/Modules/AgentITSMTemplateOverview.pm
-    $Self->{Translation}->{'Overview: Template'} = 'Обзор: Шаблоны';
-
     # Perl Module: Kernel/Modules/AgentITSMWorkOrderAdd.pm
     $Self->{Translation}->{'You need %s permissions on the change!'} = 'Вам необходимы права %s на Изменение!';
     $Self->{Translation}->{'Was not able to add workorder!'} = 'Не удалось добавить Задачу!';
@@ -457,9 +451,6 @@ sub Data {
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyCAB.pm
     $Self->{Translation}->{'My CABs'} = 'Мои CAB';
-
-    # Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
-    $Self->{Translation}->{'My Changes'} = 'Мои изменения';
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyWorkOrders.pm
     $Self->{Translation}->{'My Work Orders'} = 'Мои Задачи';
@@ -567,6 +558,9 @@ sub Data {
     $Self->{Translation}->{'ends with'} = 'окончить с';
     $Self->{Translation}->{'set'} = 'установлено';
 
+    # JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+    $Self->{Translation}->{'Delete Notification'} = '';
+
     # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '';
@@ -610,7 +604,6 @@ sub Data {
     $Self->{Translation}->{'Change Overview "Small" Limit'} = 'Изменить количество строк/записей при просмотре изменений в формате Small.';
     $Self->{Translation}->{'Change Overview.'} = 'Обзор Изменения';
     $Self->{Translation}->{'Change Print.'} = 'Печать Изменения.';
-    $Self->{Translation}->{'Change Schedule'} = 'Расписание изменений';
     $Self->{Translation}->{'Change Schedule.'} = 'Изменение расписания.';
     $Self->{Translation}->{'Change Settings'} = '';
     $Self->{Translation}->{'Change Zoom'} = 'Подробный просмотр изменения';
@@ -861,7 +854,6 @@ sub Data {
     $Self->{Translation}->{'ITSM Change Notifications'} = '';
     $Self->{Translation}->{'ITSM Change PIR Overview.'} = 'Обзор ITSM Change PIR';
     $Self->{Translation}->{'ITSM Change notification rules'} = 'Правила Уведомления в Управлении Изменениями';
-    $Self->{Translation}->{'ITSM Changes'} = 'Изменения';
     $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'Обзор МоиCAB ';
     $Self->{Translation}->{'ITSM MyChanges Overview.'} = 'Обзор МоиИзменения';
     $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = 'Обзор МоиЗадачи.';
@@ -913,9 +905,7 @@ sub Data {
         'Пользователи только указанных групп имеют права на использование типов заявок заданных в "ITSMChange::AddChangeLinkTicketTypes", если параметр "Ticket::Acl::Module###200-Ticket::Acl::Module" включен.';
     $Self->{Translation}->{'Other Settings'} = 'Прочие настройки';
     $Self->{Translation}->{'Overview over all Changes.'} = 'Обзор всех Изменений.';
-    $Self->{Translation}->{'PIR'} = 'PIR';
     $Self->{Translation}->{'PIR (Post Implementation Review)'} = 'PIR (Post Implementation Review/Анализ после выполнения)';
-    $Self->{Translation}->{'PSA'} = 'PSA';
     $Self->{Translation}->{'Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface.'} =
         'Параметры для объекта UserCreateWorkOrderNextMask  в предварительном просмотре в интерфейсе агента';
     $Self->{Translation}->{'Parameters for the pages (in which the changes are shown) of the small change overview.'} =
@@ -1078,6 +1068,12 @@ sub Data {
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
+    'Cancel',
+    'Delete',
+    'Delete Action',
+    'Delete Condition',
+    'Delete Expression',
+    'Delete Notification',
     'Do you really want to delete this action?',
     'Do you really want to delete this condition?',
     'Do you really want to delete this expression?',

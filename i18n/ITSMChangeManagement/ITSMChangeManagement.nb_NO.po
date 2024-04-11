@@ -104,7 +104,7 @@ msgstr "Vil du virkelig slette tilstandsendringen"
 msgid "Add Change"
 msgstr "Legg til Endring"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "Endring"
 
@@ -1152,7 +1152,7 @@ msgstr ""
 msgid "My CABs"
 msgstr "Mine Endringsråd"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "Mine Endringer"
 
@@ -1660,7 +1660,7 @@ msgstr ""
 msgid "Change Print."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "Endre tidsplan"
 
@@ -2288,7 +2288,7 @@ msgstr ""
 msgid "ITSM Change notification rules"
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "Endringer"
 
@@ -2468,7 +2468,7 @@ msgstr "Andre innstillinger"
 msgid "Overview over all Changes."
 msgstr "Oversikt over alle endringer."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr ""
 
@@ -2476,7 +2476,7 @@ msgstr ""
 msgid "PIR (Post Implementation Review)"
 msgstr "PIR (Sluttevaluering)"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr ""
 
@@ -2935,4 +2935,20 @@ msgstr "en gang"
 #. SysConfig
 msgid "regularly"
 msgstr "jevnlig"
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
 

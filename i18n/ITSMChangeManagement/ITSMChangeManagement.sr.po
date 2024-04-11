@@ -100,7 +100,7 @@ msgstr "Да ли заиста желите да обришете ову тра�
 msgid "Add Change"
 msgstr "Додај промену"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "ITSM промена"
 
@@ -1148,7 +1148,7 @@ msgstr "Наслов: %s | Тип: %s"
 msgid "My CABs"
 msgstr "Моји CAB"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "Моје промене"
 
@@ -1656,7 +1656,7 @@ msgstr "Преглед промене."
 msgid "Change Print."
 msgstr "Штампа промене."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "Планер промена"
 
@@ -2284,7 +2284,7 @@ msgstr "ITSM преглед PIR промена."
 msgid "ITSM Change notification rules"
 msgstr "ITSM правила обавештавања о промени."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "ITSM промене"
 
@@ -2464,7 +2464,7 @@ msgstr "Друга подешавања"
 msgid "Overview over all Changes."
 msgstr "Преглед свих промена."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr "PIR"
 
@@ -2472,7 +2472,7 @@ msgstr "PIR"
 msgid "PIR (Post Implementation Review)"
 msgstr "PIR (рецензија после спровођења)"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr "PSA"
 
@@ -2931,4 +2931,20 @@ msgstr "једном"
 #. SysConfig
 msgid "regularly"
 msgstr "редовно"
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
 

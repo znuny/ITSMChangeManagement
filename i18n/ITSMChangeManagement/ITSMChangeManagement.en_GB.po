@@ -102,7 +102,7 @@ msgstr "Do you really want to delete the state transition"
 msgid "Add Change"
 msgstr "Add Change"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "Change"
 
@@ -1150,7 +1150,7 @@ msgstr ""
 msgid "My CABs"
 msgstr "My CABs"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "My Changes"
 
@@ -1658,7 +1658,7 @@ msgstr "Change Overview."
 msgid "Change Print."
 msgstr "Change Print."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "Change Schedule"
 
@@ -2286,7 +2286,7 @@ msgstr "ITSM Change PIR Overview."
 msgid "ITSM Change notification rules"
 msgstr "ITSM Change notification rules"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "Changes"
 
@@ -2466,7 +2466,7 @@ msgstr "Other Settings"
 msgid "Overview over all Changes."
 msgstr "Overview over all Changes."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr ""
 
@@ -2474,7 +2474,7 @@ msgstr ""
 msgid "PIR (Post Implementation Review)"
 msgstr "PIR (Post Implementation Review)"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr "PSA"
 
@@ -2933,4 +2933,20 @@ msgstr "once"
 #. SysConfig
 msgid "regularly"
 msgstr "regularly"
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
 

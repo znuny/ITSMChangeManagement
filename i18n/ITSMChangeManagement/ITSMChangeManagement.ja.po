@@ -104,7 +104,7 @@ msgstr "本当にステータス遷移を削除しますか？"
 msgid "Add Change"
 msgstr "変更管理項目を追加"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "変更管理"
 
@@ -1152,7 +1152,7 @@ msgstr ""
 msgid "My CABs"
 msgstr "作成済み　CAB"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "担当する変更管理項目"
 
@@ -1660,7 +1660,7 @@ msgstr ""
 msgid "Change Print."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "変更管理スケジュール"
 
@@ -2288,7 +2288,7 @@ msgstr "変更管理のPIR一覧"
 msgid "ITSM Change notification rules"
 msgstr "変更管理の通知ルール"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "変更管理"
 
@@ -2468,7 +2468,7 @@ msgstr "その他の設定"
 msgid "Overview over all Changes."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr ""
 
@@ -2476,7 +2476,7 @@ msgstr ""
 msgid "PIR (Post Implementation Review)"
 msgstr "事後レビュー"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr ""
 
@@ -2934,5 +2934,21 @@ msgstr ""
 
 #. SysConfig
 msgid "regularly"
+msgstr ""
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
 msgstr ""
 

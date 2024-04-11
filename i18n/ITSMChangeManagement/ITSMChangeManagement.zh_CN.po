@@ -104,7 +104,7 @@ msgstr "您真的想要删除这个状态转换"
 msgid "Add Change"
 msgstr "创建变更"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "变更"
 
@@ -1152,7 +1152,7 @@ msgstr "标题：%s | 类型：%s"
 msgid "My CABs"
 msgstr "我的CAB"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "我的变更"
 
@@ -1660,7 +1660,7 @@ msgstr "变更概览。"
 msgid "Change Print."
 msgstr "打印变更。"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "变更计划"
 
@@ -2288,7 +2288,7 @@ msgstr "变更PIR（实施后评审）概览。"
 msgid "ITSM Change notification rules"
 msgstr "变更通知规则"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "变更"
 
@@ -2468,7 +2468,7 @@ msgstr "其它设置"
 msgid "Overview over all Changes."
 msgstr "所有变更的概览。"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr "实施后评审"
 
@@ -2476,7 +2476,7 @@ msgstr "实施后评审"
 msgid "PIR (Post Implementation Review)"
 msgstr "PIR (实施后评审)"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr "PSA"
 
@@ -2992,4 +2992,20 @@ msgstr "定期"
 
 #~ msgid "Shows a link in the menu to print a workorder in the zoom view of the agent interface."
 #~ msgstr "在服务人员界面工作指令详情窗口，在菜单中显示一个打印工作指令的链接。"
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
 

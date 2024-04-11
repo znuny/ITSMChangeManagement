@@ -16,23 +16,24 @@ sub Data {
     my $Self = shift;
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Категорија ↔ утицај ↔ приоритет';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'Управљање резултатом приоритета комбинацијом категорија ↔ утицај.';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Категорија ↔ утицај ↔ приоритет';
     $Self->{Translation}->{'Priority allocation'} = 'Расподела приоритета';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Управљање обавештењима у ITSM управљању променама';
     $Self->{Translation}->{'Add Notification Rule'} = 'Додај правило обавештавања';
+    $Self->{Translation}->{'Filter for notification rules'} = '';
+    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Управљање обавештењима у ITSM управљању променама';
     $Self->{Translation}->{'Edit Notification Rule'} = 'Уреди правило обавештавања';
     $Self->{Translation}->{'A notification should have a name!'} = 'Обавештење треба да има име!';
     $Self->{Translation}->{'Name is required.'} = 'Име је обавезно.';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
-    $Self->{Translation}->{'Admin State Machine'} = 'Администарција машине стања';
     $Self->{Translation}->{'Select a catalog class!'} = 'Избор класе каталога!';
     $Self->{Translation}->{'A catalog class is required!'} = 'Класа каталога је обавезна!';
     $Self->{Translation}->{'Add a state transition'} = 'Додај транзицију статуса';
+    $Self->{Translation}->{'Admin State Machine'} = 'Администарција машине стања';
     $Self->{Translation}->{'Catalog Class'} = 'Класа каталога';
     $Self->{Translation}->{'Object Name'} = 'Назив објекта';
     $Self->{Translation}->{'Overview over state transitions for'} = 'Преглед преко транзиције статуса за';
@@ -45,7 +46,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Додај промену';
-    $Self->{Translation}->{'ITSM Change'} = 'ITSM промена';
     $Self->{Translation}->{'Justification'} = 'Оправдање';
     $Self->{Translation}->{'Input invalid.'} = 'Неисправан унос.';
     $Self->{Translation}->{'Requested Date'} = 'Тражени датум';
@@ -93,7 +93,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = 'Историјат од %s%s';
-    $Self->{Translation}->{'History Content'} = 'Садржај историјата';
     $Self->{Translation}->{'Workorder'} = 'Радни налог';
     $Self->{Translation}->{'Createtime'} = 'Време креирања';
     $Self->{Translation}->{'Show details'} = 'Прикажи детаље';
@@ -148,6 +147,7 @@ sub Data {
     $Self->{Translation}->{'CAB Agent'} = 'Оператер CAB';
     $Self->{Translation}->{'e.g.'} = 'нпр.';
     $Self->{Translation}->{'CAB Customer'} = 'CAB клијент';
+    $Self->{Translation}->{'ITSM Change'} = 'ITSM промена';
     $Self->{Translation}->{'ITSM Workorder Instruction'} = 'Упутство ITSM радног налога';
     $Self->{Translation}->{'ITSM Workorder Report'} = 'Извештај ITSM радног налога';
     $Self->{Translation}->{'ITSM Change Priority'} = 'Приоритет ITSM промене';
@@ -258,7 +258,7 @@ sub Data {
     $Self->{Translation}->{'State Transition Added!'} = 'Додато транзиционо стање!';
 
     # Perl Module: Kernel/Modules/AgentITSMChange.pm
-    $Self->{Translation}->{'Overview: ITSM Changes'} = 'Преглед: ITSM промене';
+    $Self->{Translation}->{'ITSM Changes'} = 'ITSM промене';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
     $Self->{Translation}->{'Ticket with TicketID %s does not exist!'} = 'Тикет са TicketID %s не постоји!';
@@ -314,23 +314,20 @@ sub Data {
     $Self->{Translation}->{'Was not able to update Change CAB for Change %s!'} = 'Није било могуће ажурирати CAB промен за промену %s!';
     $Self->{Translation}->{'Was not able to update Change %s!'} = 'Није било могуће ажурирати промену %s!';
 
-    # Perl Module: Kernel/Modules/AgentITSMChangeManager.pm
-    $Self->{Translation}->{'Overview: ChangeManager'} = 'Преглед: Управљач променама';
-
     # Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
-    $Self->{Translation}->{'Overview: My CAB'} = 'Преглед: Мој CAB';
+    $Self->{Translation}->{'My CAB'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
-    $Self->{Translation}->{'Overview: My Changes'} = 'Преглед: Моје промене';
+    $Self->{Translation}->{'My Changes'} = 'Моје промене';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
-    $Self->{Translation}->{'Overview: My Workorders'} = 'Преглед: Моји радни налози';
+    $Self->{Translation}->{'My Workorders'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
-    $Self->{Translation}->{'Overview: PIR'} = 'Преглед: PIR';
+    $Self->{Translation}->{'PIR'} = 'PIR';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
-    $Self->{Translation}->{'Overview: PSA'} = 'Преглед: PSA';
+    $Self->{Translation}->{'PSA'} = 'PSA';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
     $Self->{Translation}->{'WorkOrder "%s" not found in database!'} = 'Радни налог "%s" није нађен у бази података!';
@@ -363,7 +360,7 @@ sub Data {
     $Self->{Translation}->{'Was not able to reset Change %s!'} = 'Није било могуће поништити промену %s!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
-    $Self->{Translation}->{'Overview: Change Schedule'} = 'Преглед: Планер промена';
+    $Self->{Translation}->{'Change Schedule'} = 'Планер промена';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
     $Self->{Translation}->{'Change Search'} = 'Претрага промена';
@@ -414,9 +411,6 @@ sub Data {
     $Self->{Translation}->{'Was not able to create change!'} = 'Није било могуће креирати промену!';
     $Self->{Translation}->{'Was not able to create workorder from template!'} = 'Није било могуће креирати радни налог из промене!';
 
-    # Perl Module: Kernel/Modules/AgentITSMTemplateOverview.pm
-    $Self->{Translation}->{'Overview: Template'} = 'Преглед: Шаблон';
-
     # Perl Module: Kernel/Modules/AgentITSMWorkOrderAdd.pm
     $Self->{Translation}->{'You need %s permissions on the change!'} = 'Потребне су вам %s дозволе за промену!';
     $Self->{Translation}->{'Was not able to add workorder!'} = 'Није било могуће додати радни налог!';
@@ -457,9 +451,6 @@ sub Data {
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyCAB.pm
     $Self->{Translation}->{'My CABs'} = 'Моји CAB';
-
-    # Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
-    $Self->{Translation}->{'My Changes'} = 'Моје промене';
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyWorkOrders.pm
     $Self->{Translation}->{'My Work Orders'} = 'Моји радни налози';
@@ -567,6 +558,9 @@ sub Data {
     $Self->{Translation}->{'ends with'} = 'завршава са';
     $Self->{Translation}->{'set'} = 'подеси';
 
+    # JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+    $Self->{Translation}->{'Delete Notification'} = '';
+
     # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = 'Да ли стварно желите да обришете овај израз?';
     $Self->{Translation}->{'Do you really want to delete this action?'} = 'Да ли стварно желите да обришете ову акцију?';
@@ -610,7 +604,6 @@ sub Data {
     $Self->{Translation}->{'Change Overview "Small" Limit'} = 'Ограничење прегледа промена малог формата';
     $Self->{Translation}->{'Change Overview.'} = 'Преглед промене.';
     $Self->{Translation}->{'Change Print.'} = 'Штампа промене.';
-    $Self->{Translation}->{'Change Schedule'} = 'Планер промена';
     $Self->{Translation}->{'Change Schedule.'} = 'Планер промена.';
     $Self->{Translation}->{'Change Settings'} = 'Промени подешавања';
     $Self->{Translation}->{'Change Zoom'} = 'Детаљи промене.';
@@ -861,7 +854,6 @@ sub Data {
     $Self->{Translation}->{'ITSM Change Notifications'} = 'Обавештења o ITSM променама';
     $Self->{Translation}->{'ITSM Change PIR Overview.'} = 'ITSM преглед PIR промена.';
     $Self->{Translation}->{'ITSM Change notification rules'} = 'ITSM правила обавештавања о промени.';
-    $Self->{Translation}->{'ITSM Changes'} = 'ITSM промене';
     $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'ITSM преглед мојих CAB.';
     $Self->{Translation}->{'ITSM MyChanges Overview.'} = 'ITSM преглед мојих промена.';
     $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = 'ITSM преглед мојих радних налога.';
@@ -913,9 +905,7 @@ sub Data {
         'Само корисници ових група имаће дозволу за коришћење типова тикета дефинисаних у "ITSMChange::AddChangeLinkTicketTypes" уколико је функција "Ticket::Acl::Module###200-Ticket::Acl::Module" омогућена.';
     $Self->{Translation}->{'Other Settings'} = 'Друга подешавања';
     $Self->{Translation}->{'Overview over all Changes.'} = 'Преглед свих промена.';
-    $Self->{Translation}->{'PIR'} = 'PIR';
     $Self->{Translation}->{'PIR (Post Implementation Review)'} = 'PIR (рецензија после спровођења)';
-    $Self->{Translation}->{'PSA'} = 'PSA';
     $Self->{Translation}->{'Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface.'} =
         'Параметри за UserCreateWorkOrderNextMask објекат у приказу подешавања у интерфејсу оператера.';
     $Self->{Translation}->{'Parameters for the pages (in which the changes are shown) of the small change overview.'} =
@@ -1078,6 +1068,12 @@ sub Data {
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
+    'Cancel',
+    'Delete',
+    'Delete Action',
+    'Delete Condition',
+    'Delete Expression',
+    'Delete Notification',
     'Do you really want to delete this action?',
     'Do you really want to delete this condition?',
     'Do you really want to delete this expression?',

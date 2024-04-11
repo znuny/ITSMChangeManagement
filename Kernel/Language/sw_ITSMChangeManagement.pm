@@ -16,23 +16,24 @@ sub Data {
     my $Self = shift;
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Kategoria↔ Athari↔ Kipaumbele';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'Simamia matokeo ya kipaumbele cha Kategoria zinazochanganywa ↔ Athari.';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Kategoria↔ Athari↔ Kipaumbele';
     $Self->{Translation}->{'Priority allocation'} = 'Utengaji wa kipaumbele';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Usimamizi wa Taarifa za ITSM UsimamiziMabadiliko';
     $Self->{Translation}->{'Add Notification Rule'} = 'Ongeza Sheria ya Taarifa';
+    $Self->{Translation}->{'Filter for notification rules'} = '';
+    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Usimamizi wa Taarifa za ITSM UsimamiziMabadiliko';
     $Self->{Translation}->{'Edit Notification Rule'} = '';
     $Self->{Translation}->{'A notification should have a name!'} = 'Taarifa lazima iwe na jina!';
     $Self->{Translation}->{'Name is required.'} = 'Jina linatakiwa.';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
-    $Self->{Translation}->{'Admin State Machine'} = 'Mashine ya Hali ya Msimamizi';
     $Self->{Translation}->{'Select a catalog class!'} = 'Chagua tabaka la katalogi!';
     $Self->{Translation}->{'A catalog class is required!'} = 'Tabaka la katalogi linatakiwa!';
     $Self->{Translation}->{'Add a state transition'} = 'Ongeza mpito wa hali';
+    $Self->{Translation}->{'Admin State Machine'} = 'Mashine ya Hali ya Msimamizi';
     $Self->{Translation}->{'Catalog Class'} = 'Tabaka Katalogi';
     $Self->{Translation}->{'Object Name'} = 'Jina la Kitu';
     $Self->{Translation}->{'Overview over state transitions for'} = 'Mapitio ya mapito ya hali ya';
@@ -45,7 +46,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Ongeza Mabadiliko';
-    $Self->{Translation}->{'ITSM Change'} = 'Mabadiliko ya ITSM';
     $Self->{Translation}->{'Justification'} = 'Uhalali';
     $Self->{Translation}->{'Input invalid.'} = 'Ingizo batili.';
     $Self->{Translation}->{'Requested Date'} = 'Tarehe Iliyoombwa';
@@ -93,7 +93,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = '';
-    $Self->{Translation}->{'History Content'} = 'Maudhui ya historia';
     $Self->{Translation}->{'Workorder'} = 'Oda ya kazi';
     $Self->{Translation}->{'Createtime'} = 'Muda wa kutengeneza';
     $Self->{Translation}->{'Show details'} = 'Onyesha undani';
@@ -148,6 +147,7 @@ sub Data {
     $Self->{Translation}->{'CAB Agent'} = '';
     $Self->{Translation}->{'e.g.'} = 'mf.';
     $Self->{Translation}->{'CAB Customer'} = '';
+    $Self->{Translation}->{'ITSM Change'} = 'Mabadiliko ya ITSM';
     $Self->{Translation}->{'ITSM Workorder Instruction'} = '';
     $Self->{Translation}->{'ITSM Workorder Report'} = '';
     $Self->{Translation}->{'ITSM Change Priority'} = '';
@@ -258,7 +258,7 @@ sub Data {
     $Self->{Translation}->{'State Transition Added!'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChange.pm
-    $Self->{Translation}->{'Overview: ITSM Changes'} = '';
+    $Self->{Translation}->{'ITSM Changes'} = 'Mabadiliko ya ITSM';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
     $Self->{Translation}->{'Ticket with TicketID %s does not exist!'} = '';
@@ -314,23 +314,20 @@ sub Data {
     $Self->{Translation}->{'Was not able to update Change CAB for Change %s!'} = '';
     $Self->{Translation}->{'Was not able to update Change %s!'} = '';
 
-    # Perl Module: Kernel/Modules/AgentITSMChangeManager.pm
-    $Self->{Translation}->{'Overview: ChangeManager'} = '';
-
     # Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
-    $Self->{Translation}->{'Overview: My CAB'} = '';
+    $Self->{Translation}->{'My CAB'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
-    $Self->{Translation}->{'Overview: My Changes'} = '';
+    $Self->{Translation}->{'My Changes'} = 'Mabadiliko Yangu';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
-    $Self->{Translation}->{'Overview: My Workorders'} = '';
+    $Self->{Translation}->{'My Workorders'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
-    $Self->{Translation}->{'Overview: PIR'} = '';
+    $Self->{Translation}->{'PIR'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
-    $Self->{Translation}->{'Overview: PSA'} = '';
+    $Self->{Translation}->{'PSA'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
     $Self->{Translation}->{'WorkOrder "%s" not found in database!'} = '';
@@ -363,7 +360,7 @@ sub Data {
     $Self->{Translation}->{'Was not able to reset Change %s!'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
-    $Self->{Translation}->{'Overview: Change Schedule'} = '';
+    $Self->{Translation}->{'Change Schedule'} = 'Badili Ratiba';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
     $Self->{Translation}->{'Change Search'} = '';
@@ -414,9 +411,6 @@ sub Data {
     $Self->{Translation}->{'Was not able to create change!'} = '';
     $Self->{Translation}->{'Was not able to create workorder from template!'} = '';
 
-    # Perl Module: Kernel/Modules/AgentITSMTemplateOverview.pm
-    $Self->{Translation}->{'Overview: Template'} = '';
-
     # Perl Module: Kernel/Modules/AgentITSMWorkOrderAdd.pm
     $Self->{Translation}->{'You need %s permissions on the change!'} = '';
     $Self->{Translation}->{'Was not able to add workorder!'} = '';
@@ -457,9 +451,6 @@ sub Data {
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyCAB.pm
     $Self->{Translation}->{'My CABs'} = 'CAB zangu';
-
-    # Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
-    $Self->{Translation}->{'My Changes'} = 'Mabadiliko Yangu';
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyWorkOrders.pm
     $Self->{Translation}->{'My Work Orders'} = '';
@@ -567,6 +558,9 @@ sub Data {
     $Self->{Translation}->{'ends with'} = 'inaishia na';
     $Self->{Translation}->{'set'} = 'seti';
 
+    # JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+    $Self->{Translation}->{'Delete Notification'} = '';
+
     # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '';
@@ -610,7 +604,6 @@ sub Data {
     $Self->{Translation}->{'Change Overview "Small" Limit'} = 'Mapitio ya Mabadiliko Kikomo "cha chini"';
     $Self->{Translation}->{'Change Overview.'} = '';
     $Self->{Translation}->{'Change Print.'} = '';
-    $Self->{Translation}->{'Change Schedule'} = 'Badili Ratiba';
     $Self->{Translation}->{'Change Schedule.'} = '';
     $Self->{Translation}->{'Change Settings'} = '';
     $Self->{Translation}->{'Change Zoom'} = '';
@@ -861,7 +854,6 @@ sub Data {
     $Self->{Translation}->{'ITSM Change Notifications'} = '';
     $Self->{Translation}->{'ITSM Change PIR Overview.'} = '';
     $Self->{Translation}->{'ITSM Change notification rules'} = '';
-    $Self->{Translation}->{'ITSM Changes'} = 'Mabadiliko ya ITSM';
     $Self->{Translation}->{'ITSM MyCAB Overview.'} = '';
     $Self->{Translation}->{'ITSM MyChanges Overview.'} = '';
     $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = '';
@@ -913,9 +905,7 @@ sub Data {
         'Watumiaji wa makundi haya tu wana ruhusa ya kutumia aina hii ya tiketi kama ilivyofafanuliwa katika "Badiliko la ITSM::Ongeza aina za tiketi za kiungo cha badiliko" kama kipengele "Tiketi::Acl::Moduli###200-Tiketi::Acl::Moduli" kimewezeshwa.';
     $Self->{Translation}->{'Other Settings'} = 'Mipangilio mingine';
     $Self->{Translation}->{'Overview over all Changes.'} = '';
-    $Self->{Translation}->{'PIR'} = '';
     $Self->{Translation}->{'PIR (Post Implementation Review)'} = 'Baada ya utekelezaji wa mapitio (PIR)';
-    $Self->{Translation}->{'PSA'} = '';
     $Self->{Translation}->{'Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface.'} =
         'Vigezo kwa ajili ya kipengele Barakoa ijayo ya mpangilio kazi wa kutengenezwa na mtumiaji katika mandhari ya mapendeleo ya kiolesura cha wakala.';
     $Self->{Translation}->{'Parameters for the pages (in which the changes are shown) of the small change overview.'} =
@@ -1078,6 +1068,12 @@ sub Data {
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
+    'Cancel',
+    'Delete',
+    'Delete Action',
+    'Delete Condition',
+    'Delete Expression',
+    'Delete Notification',
     'Do you really want to delete this action?',
     'Do you really want to delete this condition?',
     'Do you really want to delete this expression?',

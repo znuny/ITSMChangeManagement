@@ -104,7 +104,7 @@ msgstr "Valóban törölni szeretné az állapotátmenetet"
 msgid "Add Change"
 msgstr "Változás hozzáadása"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "ITSM változás"
 
@@ -1152,7 +1152,7 @@ msgstr "Cím: %s | Típus: %s"
 msgid "My CABs"
 msgstr "Saját CAB-ok"
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr "Saját változások"
 
@@ -1660,7 +1660,7 @@ msgstr "Változás áttekintés."
 msgid "Change Print."
 msgstr "Változásnyomtatás."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr "Változtatási ütemterv"
 
@@ -2288,7 +2288,7 @@ msgstr "ITSM változás PIR áttekintés."
 msgid "ITSM Change notification rules"
 msgstr "ITSM változás értesítési szabályok"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "ITSM változások"
 
@@ -2468,7 +2468,7 @@ msgstr "Egyéb beállítások"
 msgid "Overview over all Changes."
 msgstr "Az összes változás áttekintése."
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr "PIR"
 
@@ -2476,7 +2476,7 @@ msgstr "PIR"
 msgid "PIR (Post Implementation Review)"
 msgstr "PIR (megvalósítás utáni vizsgálat)"
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr "PSA"
 
@@ -2992,4 +2992,20 @@ msgstr "rendszeresen"
 
 #~ msgid "Shows a link in the menu to print a workorder in the zoom view of the agent interface."
 #~ msgstr "Egy hivatkozást jelenít meg a menüben egy munkamegrendelés nyomtatásához az ügyintézői felület nagyítási nézetében."
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
 

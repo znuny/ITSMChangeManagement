@@ -16,23 +16,24 @@ sub Data {
     my $Self = shift;
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'カテゴリ ↔ 影響度 ↔ 優先度';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'カテゴリと影響度の組み合わせによって優先度を管理します。';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'カテゴリ ↔ 影響度 ↔ 優先度';
     $Self->{Translation}->{'Priority allocation'} = '優先度の割り当て';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '変更管理の通知管理';
     $Self->{Translation}->{'Add Notification Rule'} = '通知ルールを追加';
+    $Self->{Translation}->{'Filter for notification rules'} = '';
+    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '変更管理の通知管理';
     $Self->{Translation}->{'Edit Notification Rule'} = '';
     $Self->{Translation}->{'A notification should have a name!'} = '通知には名称が必須です。';
     $Self->{Translation}->{'Name is required.'} = '名称は入力必須です。';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
-    $Self->{Translation}->{'Admin State Machine'} = 'ステートマシンの管理';
     $Self->{Translation}->{'Select a catalog class!'} = 'カタログクラスの選択は必須です。';
     $Self->{Translation}->{'A catalog class is required!'} = 'カタログクラスの選択は必須です。';
     $Self->{Translation}->{'Add a state transition'} = 'ステータス遷移を追加';
+    $Self->{Translation}->{'Admin State Machine'} = 'ステートマシンの管理';
     $Self->{Translation}->{'Catalog Class'} = 'カタログ・クラス';
     $Self->{Translation}->{'Object Name'} = 'オブジェクト名';
     $Self->{Translation}->{'Overview over state transitions for'} = 'ステータスの概要：';
@@ -45,7 +46,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = '変更管理項目を追加';
-    $Self->{Translation}->{'ITSM Change'} = '変更管理';
     $Self->{Translation}->{'Justification'} = '正当化';
     $Self->{Translation}->{'Input invalid.'} = '入力は無効です';
     $Self->{Translation}->{'Requested Date'} = '要求日';
@@ -93,7 +93,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = '%s%sの履歴';
-    $Self->{Translation}->{'History Content'} = '履歴内容';
     $Self->{Translation}->{'Workorder'} = '作業オーダー';
     $Self->{Translation}->{'Createtime'} = '作成日時';
     $Self->{Translation}->{'Show details'} = '詳細を表示';
@@ -148,6 +147,7 @@ sub Data {
     $Self->{Translation}->{'CAB Agent'} = 'CAB担当者';
     $Self->{Translation}->{'e.g.'} = '例: ';
     $Self->{Translation}->{'CAB Customer'} = 'CAB顧客';
+    $Self->{Translation}->{'ITSM Change'} = '変更管理';
     $Self->{Translation}->{'ITSM Workorder Instruction'} = '変更依頼書の指導';
     $Self->{Translation}->{'ITSM Workorder Report'} = '変更依頼書のレポート';
     $Self->{Translation}->{'ITSM Change Priority'} = '変更管理の優先度';
@@ -258,7 +258,7 @@ sub Data {
     $Self->{Translation}->{'State Transition Added!'} = 'ステータス遷移が追加されました！';
 
     # Perl Module: Kernel/Modules/AgentITSMChange.pm
-    $Self->{Translation}->{'Overview: ITSM Changes'} = '一覧: 変更管理';
+    $Self->{Translation}->{'ITSM Changes'} = '変更管理';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
     $Self->{Translation}->{'Ticket with TicketID %s does not exist!'} = 'チケットID %s のチケットは存在しません！';
@@ -314,23 +314,20 @@ sub Data {
     $Self->{Translation}->{'Was not able to update Change CAB for Change %s!'} = '';
     $Self->{Translation}->{'Was not able to update Change %s!'} = '';
 
-    # Perl Module: Kernel/Modules/AgentITSMChangeManager.pm
-    $Self->{Translation}->{'Overview: ChangeManager'} = '変更管理マネージャ：概要';
-
     # Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
-    $Self->{Translation}->{'Overview: My CAB'} = '';
+    $Self->{Translation}->{'My CAB'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
-    $Self->{Translation}->{'Overview: My Changes'} = '担当中変更管理：概要';
+    $Self->{Translation}->{'My Changes'} = '担当する変更管理項目';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
-    $Self->{Translation}->{'Overview: My Workorders'} = '担当中作業オーダー：概要';
+    $Self->{Translation}->{'My Workorders'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
-    $Self->{Translation}->{'Overview: PIR'} = 'PIR（導入後レビュー）：概要';
+    $Self->{Translation}->{'PIR'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
-    $Self->{Translation}->{'Overview: PSA'} = 'PSA（予想可用性）：概要';
+    $Self->{Translation}->{'PSA'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
     $Self->{Translation}->{'WorkOrder "%s" not found in database!'} = '"%s" に該当する作業オーダーがデータベース上に見つかりませんでした！';
@@ -363,7 +360,7 @@ sub Data {
     $Self->{Translation}->{'Was not able to reset Change %s!'} = '変更管理項目 %s はリセットできません！';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
-    $Self->{Translation}->{'Overview: Change Schedule'} = '変更管理スケジュール：概要';
+    $Self->{Translation}->{'Change Schedule'} = '変更管理スケジュール';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
     $Self->{Translation}->{'Change Search'} = '変更管理項目の検索';
@@ -414,9 +411,6 @@ sub Data {
     $Self->{Translation}->{'Was not able to create change!'} = '';
     $Self->{Translation}->{'Was not able to create workorder from template!'} = '';
 
-    # Perl Module: Kernel/Modules/AgentITSMTemplateOverview.pm
-    $Self->{Translation}->{'Overview: Template'} = '';
-
     # Perl Module: Kernel/Modules/AgentITSMWorkOrderAdd.pm
     $Self->{Translation}->{'You need %s permissions on the change!'} = '';
     $Self->{Translation}->{'Was not able to add workorder!'} = '作業依頼書を追加できませんでした！';
@@ -457,9 +451,6 @@ sub Data {
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyCAB.pm
     $Self->{Translation}->{'My CABs'} = '作成済み　CAB';
-
-    # Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
-    $Self->{Translation}->{'My Changes'} = '担当する変更管理項目';
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyWorkOrders.pm
     $Self->{Translation}->{'My Work Orders'} = '';
@@ -567,6 +558,9 @@ sub Data {
     $Self->{Translation}->{'ends with'} = 'で終了';
     $Self->{Translation}->{'set'} = 'セット';
 
+    # JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+    $Self->{Translation}->{'Delete Notification'} = '';
+
     # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '';
@@ -610,7 +604,6 @@ sub Data {
     $Self->{Translation}->{'Change Overview "Small" Limit'} = '';
     $Self->{Translation}->{'Change Overview.'} = '';
     $Self->{Translation}->{'Change Print.'} = '';
-    $Self->{Translation}->{'Change Schedule'} = '変更管理スケジュール';
     $Self->{Translation}->{'Change Schedule.'} = 'スケジュールを変更';
     $Self->{Translation}->{'Change Settings'} = '変更管理の設定';
     $Self->{Translation}->{'Change Zoom'} = '';
@@ -861,7 +854,6 @@ sub Data {
     $Self->{Translation}->{'ITSM Change Notifications'} = '';
     $Self->{Translation}->{'ITSM Change PIR Overview.'} = '変更管理のPIR一覧';
     $Self->{Translation}->{'ITSM Change notification rules'} = '変更管理の通知ルール';
-    $Self->{Translation}->{'ITSM Changes'} = '変更管理';
     $Self->{Translation}->{'ITSM MyCAB Overview.'} = '私の変更管理CABの一覧';
     $Self->{Translation}->{'ITSM MyChanges Overview.'} = '私の変更管理の一覧';
     $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = '私の変更依頼書の一覧';
@@ -913,9 +905,7 @@ sub Data {
         '';
     $Self->{Translation}->{'Other Settings'} = 'その他の設定';
     $Self->{Translation}->{'Overview over all Changes.'} = '';
-    $Self->{Translation}->{'PIR'} = '';
     $Self->{Translation}->{'PIR (Post Implementation Review)'} = '事後レビュー';
-    $Self->{Translation}->{'PSA'} = '';
     $Self->{Translation}->{'Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface.'} =
         '';
     $Self->{Translation}->{'Parameters for the pages (in which the changes are shown) of the small change overview.'} =
@@ -1078,6 +1068,12 @@ sub Data {
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
+    'Cancel',
+    'Delete',
+    'Delete Action',
+    'Delete Condition',
+    'Delete Expression',
+    'Delete Notification',
     'Do you really want to delete this action?',
     'Do you really want to delete this condition?',
     'Do you really want to delete this expression?',

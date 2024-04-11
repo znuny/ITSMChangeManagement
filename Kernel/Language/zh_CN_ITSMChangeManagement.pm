@@ -16,23 +16,24 @@ sub Data {
     my $Self = shift;
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = '风险类别 ↔ 影响 ↔ 优先级';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         '管理"风险类别 ↔ 影响"组合决定的优先级结果。';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = '风险类别 ↔ 影响 ↔ 优先级';
     $Self->{Translation}->{'Priority allocation'} = '优先级分配';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '管理变更通知';
     $Self->{Translation}->{'Add Notification Rule'} = '添加通知规则';
+    $Self->{Translation}->{'Filter for notification rules'} = '';
+    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '管理变更通知';
     $Self->{Translation}->{'Edit Notification Rule'} = '编辑通知规则';
     $Self->{Translation}->{'A notification should have a name!'} = '通知必须有名称！';
     $Self->{Translation}->{'Name is required.'} = '名称是必需的。';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
-    $Self->{Translation}->{'Admin State Machine'} = '管理状态模式转换';
     $Self->{Translation}->{'Select a catalog class!'} = '选择一个目录类！';
     $Self->{Translation}->{'A catalog class is required!'} = '目录类是必需的！';
     $Self->{Translation}->{'Add a state transition'} = '添加一个状态转换';
+    $Self->{Translation}->{'Admin State Machine'} = '管理状态模式转换';
     $Self->{Translation}->{'Catalog Class'} = '目录类';
     $Self->{Translation}->{'Object Name'} = '对象名称';
     $Self->{Translation}->{'Overview over state transitions for'} = '状态转换概况';
@@ -45,7 +46,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = '创建变更';
-    $Self->{Translation}->{'ITSM Change'} = '变更';
     $Self->{Translation}->{'Justification'} = '理由';
     $Self->{Translation}->{'Input invalid.'} = '输入无效。';
     $Self->{Translation}->{'Requested Date'} = '请求日期';
@@ -93,7 +93,6 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = '工单%s%s的历史信息';
-    $Self->{Translation}->{'History Content'} = '历史值';
     $Self->{Translation}->{'Workorder'} = '工作指令';
     $Self->{Translation}->{'Createtime'} = '创建时间';
     $Self->{Translation}->{'Show details'} = '显示详情';
@@ -148,6 +147,7 @@ sub Data {
     $Self->{Translation}->{'CAB Agent'} = 'CAB服务人员成员';
     $Self->{Translation}->{'e.g.'} = '例如：';
     $Self->{Translation}->{'CAB Customer'} = 'CAB客户成员';
+    $Self->{Translation}->{'ITSM Change'} = '变更';
     $Self->{Translation}->{'ITSM Workorder Instruction'} = 'ITSM工作指令说明';
     $Self->{Translation}->{'ITSM Workorder Report'} = 'ITSM工作指令报告';
     $Self->{Translation}->{'ITSM Change Priority'} = 'ITSM变更优先级';
@@ -258,7 +258,7 @@ sub Data {
     $Self->{Translation}->{'State Transition Added!'} = '状态转换已添加！';
 
     # Perl Module: Kernel/Modules/AgentITSMChange.pm
-    $Self->{Translation}->{'Overview: ITSM Changes'} = '概览：变更';
+    $Self->{Translation}->{'ITSM Changes'} = '变更';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
     $Self->{Translation}->{'Ticket with TicketID %s does not exist!'} = 'TicketID为%s的工单不存在！';
@@ -314,23 +314,20 @@ sub Data {
     $Self->{Translation}->{'Was not able to update Change CAB for Change %s!'} = '不能更新变更%s的变更CAB！';
     $Self->{Translation}->{'Was not able to update Change %s!'} = '不能更新变更%s！';
 
-    # Perl Module: Kernel/Modules/AgentITSMChangeManager.pm
-    $Self->{Translation}->{'Overview: ChangeManager'} = '概览：变更经理';
-
     # Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
-    $Self->{Translation}->{'Overview: My CAB'} = '概览：我的CAB';
+    $Self->{Translation}->{'My CAB'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
-    $Self->{Translation}->{'Overview: My Changes'} = '概览：我的变更';
+    $Self->{Translation}->{'My Changes'} = '我的变更';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
-    $Self->{Translation}->{'Overview: My Workorders'} = '概览：我的工作指定';
+    $Self->{Translation}->{'My Workorders'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
-    $Self->{Translation}->{'Overview: PIR'} = '概览：PIR（实施后评审）';
+    $Self->{Translation}->{'PIR'} = '实施后评审';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
-    $Self->{Translation}->{'Overview: PSA'} = '概览：PSA（计划服务可用性）';
+    $Self->{Translation}->{'PSA'} = 'PSA';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
     $Self->{Translation}->{'WorkOrder "%s" not found in database!'} = '数据库中没有找到工作指令"%s"！';
@@ -363,7 +360,7 @@ sub Data {
     $Self->{Translation}->{'Was not able to reset Change %s!'} = '不能重置变更%s！';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
-    $Self->{Translation}->{'Overview: Change Schedule'} = '概览：变更计划';
+    $Self->{Translation}->{'Change Schedule'} = '变更计划';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
     $Self->{Translation}->{'Change Search'} = '变更搜索';
@@ -414,9 +411,6 @@ sub Data {
     $Self->{Translation}->{'Was not able to create change!'} = '不能创建变更！';
     $Self->{Translation}->{'Was not able to create workorder from template!'} = '不能从模板创建工作指令！';
 
-    # Perl Module: Kernel/Modules/AgentITSMTemplateOverview.pm
-    $Self->{Translation}->{'Overview: Template'} = '概览：模板';
-
     # Perl Module: Kernel/Modules/AgentITSMWorkOrderAdd.pm
     $Self->{Translation}->{'You need %s permissions on the change!'} = '你需要有变更的%s权限！';
     $Self->{Translation}->{'Was not able to add workorder!'} = '不能添加工作指令！';
@@ -457,9 +451,6 @@ sub Data {
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyCAB.pm
     $Self->{Translation}->{'My CABs'} = '我的CAB';
-
-    # Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
-    $Self->{Translation}->{'My Changes'} = '我的变更';
 
     # Perl Module: Kernel/Output/HTML/ToolBar/MyWorkOrders.pm
     $Self->{Translation}->{'My Work Orders'} = '我的工作指令';
@@ -567,6 +558,9 @@ sub Data {
     $Self->{Translation}->{'ends with'} = '以...结束';
     $Self->{Translation}->{'set'} = '设置';
 
+    # JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+    $Self->{Translation}->{'Delete Notification'} = '';
+
     # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '你确定要删除这个表达式吗？';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '你确定要删除这个操作吗？';
@@ -610,7 +604,6 @@ sub Data {
     $Self->{Translation}->{'Change Overview "Small" Limit'} = '变更概览简洁模式限制';
     $Self->{Translation}->{'Change Overview.'} = '变更概览。';
     $Self->{Translation}->{'Change Print.'} = '打印变更。';
-    $Self->{Translation}->{'Change Schedule'} = '变更计划';
     $Self->{Translation}->{'Change Schedule.'} = '变更计划表。';
     $Self->{Translation}->{'Change Settings'} = '变更设置';
     $Self->{Translation}->{'Change Zoom'} = '变更详情';
@@ -861,7 +854,6 @@ sub Data {
     $Self->{Translation}->{'ITSM Change Notifications'} = 'ITSM变更通知';
     $Self->{Translation}->{'ITSM Change PIR Overview.'} = '变更PIR（实施后评审）概览。';
     $Self->{Translation}->{'ITSM Change notification rules'} = '变更通知规则';
-    $Self->{Translation}->{'ITSM Changes'} = '变更';
     $Self->{Translation}->{'ITSM MyCAB Overview.'} = '我的CAB概览。';
     $Self->{Translation}->{'ITSM MyChanges Overview.'} = '我的变更概览。';
     $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = '我的工作指令概览。';
@@ -913,9 +905,7 @@ sub Data {
         '如果启用了“Ticket::Acl::Module###200-Ticket::Acl::Module”，只有这些组中的用户有权使用“ITSMChange::AddChangeLinkTicketTypes”中定义的工单类型。';
     $Self->{Translation}->{'Other Settings'} = '其它设置';
     $Self->{Translation}->{'Overview over all Changes.'} = '所有变更的概览。';
-    $Self->{Translation}->{'PIR'} = '实施后评审';
     $Self->{Translation}->{'PIR (Post Implementation Review)'} = 'PIR (实施后评审)';
-    $Self->{Translation}->{'PSA'} = 'PSA';
     $Self->{Translation}->{'Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface.'} =
         '服务人员界面偏好设置视图UserCreateWorkOrderNextMask（创建工作指令后的窗口）对象的参数。';
     $Self->{Translation}->{'Parameters for the pages (in which the changes are shown) of the small change overview.'} =
@@ -1078,6 +1068,12 @@ sub Data {
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (
+    'Cancel',
+    'Delete',
+    'Delete Action',
+    'Delete Condition',
+    'Delete Expression',
+    'Delete Notification',
     'Do you really want to delete this action?',
     'Do you really want to delete this condition?',
     'Do you really want to delete this expression?',

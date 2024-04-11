@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
 "PO-Revision-Date: 2024-04-11 12:31+0000\n"
 "Last-Translator: Jaime Pires <jaime_pires92@hotmail.fr>\n"
-"Language-Team: French <https://translations.znuny.org/projects/znuny/"
-"itsmchangemanagement/fr/>\n"
+"Language-Team: French <https://translations.znuny.org/projects/znuny/itsmchangemanagement/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,7 +106,7 @@ msgstr "Voulez-vous vraiment supprimer la transition d'état"
 msgid "Add Change"
 msgstr "Ajouter un changement"
 
-#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change"
 msgstr "Gestion des changements"
 
@@ -1155,7 +1154,7 @@ msgstr ""
 msgid "My CABs"
 msgstr ""
 
-#. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "My Changes"
 msgstr ""
 
@@ -1663,7 +1662,7 @@ msgstr ""
 msgid "Change Print."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangeSchedule.pm
 msgid "Change Schedule"
 msgstr ""
 
@@ -2291,7 +2290,7 @@ msgstr ""
 msgid "ITSM Change notification rules"
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "ITSM Changes"
 msgstr "Gestion des changements"
 
@@ -2471,7 +2470,7 @@ msgstr "Autres paramètres"
 msgid "Overview over all Changes."
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
 msgstr ""
 
@@ -2479,7 +2478,7 @@ msgstr ""
 msgid "PIR (Post Implementation Review)"
 msgstr ""
 
-#. SysConfig
+#. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
 msgstr ""
 
@@ -2938,3 +2937,20 @@ msgstr ""
 #. SysConfig
 msgid "regularly"
 msgstr ""
+
+#. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
+msgid "Filter for notification rules"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
+msgid "My CAB"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
+msgid "My Workorders"
+msgstr ""
+
+#. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
+msgid "Delete Notification"
+msgstr ""
+
