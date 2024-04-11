@@ -8,14 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
-"PO-Revision-Date: 2019-04-09 12:23+0000\n"
-"Last-Translator: Udo Bretz\n"
-"Language-Team: French (http://www.transifex.com/otrs/OTRS/language/fr/)\n"
+"PO-Revision-Date: 2024-04-11 12:31+0000\n"
+"Last-Translator: Jaime Pires <jaime_pires92@hotmail.fr>\n"
+"Language-Team: French <https://translations.znuny.org/projects/znuny/"
+"itsmchangemanagement/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
@@ -23,7 +25,7 @@ msgstr "Catégorie ↔ Impact ↔ Priorité"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Manage the priority result of combinating Category ↔ Impact."
-msgstr "Gérer la matrice de priorité des changements"
+msgstr "Gérer le résultat de priorité en combinant la Catégorie ↔ Impact."
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Priority allocation"
@@ -99,7 +101,7 @@ msgstr "Éditer une transition d'état pour"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Do you really want to delete the state transition"
-msgstr "Voulez-vous vraiment supprimer cette transition d'état ?"
+msgstr "Voulez-vous vraiment supprimer la transition d'état"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Add Change"
@@ -2936,4 +2938,3 @@ msgstr ""
 #. SysConfig
 msgid "regularly"
 msgstr ""
-
