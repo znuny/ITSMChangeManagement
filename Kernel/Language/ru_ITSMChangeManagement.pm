@@ -170,7 +170,7 @@ sub Data {
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeZoom.tt
     $Self->{Translation}->{'Change Information'} = 'Информация об изменении';
     $Self->{Translation}->{'Planned Effort'} = 'Планируемое усилие';
-    $Self->{Translation}->{'Accounted Time'} = ' Затраченное время';
+    $Self->{Translation}->{'Accounted Time'} = 'Затраченное время';
     $Self->{Translation}->{'Change Initiator(s)'} = 'Инициатор изменения';
     $Self->{Translation}->{'CAB'} = 'CAB';
     $Self->{Translation}->{'Last changed'} = 'Дата последнего изменеия';
