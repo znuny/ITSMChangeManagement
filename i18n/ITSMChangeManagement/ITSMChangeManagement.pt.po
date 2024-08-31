@@ -5,15 +5,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
-"PO-Revision-Date: 2020-02-07 11:51+0000\n"
-"Last-Translator: Joao Ferro <joao.ferro@otrs.com>\n"
-"Language-Team: Portuguese <https://translate.app.otrs.com/projects/otrs-6/itsm-change-management/pt/>\n"
+"PO-Revision-Date: 2024-08-31 02:37+0000\n"
+"Last-Translator: Rui Martins <rui.martins@fccn.pt>\n"
+"Language-Team: Portuguese <https://translations.znuny.org/projects/znuny/"
+"itsmchangemanagement/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.10\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
@@ -97,7 +98,7 @@ msgstr "Editar uma transição de estado para"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Do you really want to delete the state transition"
-msgstr "Você quer mesmo apagar esta transição de estado?"
+msgstr "Tem a certeza de que pretende eliminar a transição de estado?"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
 msgid "Add Change"
@@ -293,7 +294,7 @@ msgstr "gestor da Alteração"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "User invalid."
-msgstr "Utilizador inválido"
+msgstr "Utilizador inválido."
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "ChangeBuilder"
@@ -565,7 +566,7 @@ msgstr "Instrução"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Invalid workorder type."
-msgstr "Tipo de ordem de serviço inválido"
+msgstr "Tipo de ordem de serviço inválido."
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "The planned start time must be before the planned end time!"
@@ -1557,7 +1558,9 @@ msgstr "Ok"
 
 #. SysConfig
 msgid "A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1."
-msgstr "Lista dos agentes que têm permissão para ter Ordens de Serviço.Chave é um nome de login.O conteúdo é 0 ou 1"
+msgstr ""
+"Lista dos agentes que têm permissão para ter Ordens de Serviço. Chave é um "
+"nome de login. O conteúdo é 0 ou 1."
 
 #. SysConfig
 msgid "A list of workorder states, at which the ActualStartTime of a workorder will be set if it was empty at this point."
@@ -1705,7 +1708,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Change search backend router of the agent interface."
-msgstr "Alterar pesquisa apoiada do router do agente de interface"
+msgstr "Alterar o router do backend de pesquisa da interface do agente."
 
 #. SysConfig
 msgid "Change state"
@@ -1825,7 +1828,7 @@ msgstr "Define se o esforço planeado deve ser mostrado."
 
 #. SysConfig
 msgid "Defines if the requested date should be print by customer."
-msgstr "Define se a data solicitada deverá ser impressa por cliente"
+msgstr "Define se a data solicitada deve ser impressa pelo cliente."
 
 #. SysConfig
 msgid "Defines if the requested date should be searched by customer."
@@ -2601,7 +2604,7 @@ msgstr "Privilégios necessários para mover as alterações no tempo."
 
 #. SysConfig
 msgid "Required privileges to print a change."
-msgstr "Privilégios necessários para imprimir uma alteração"
+msgstr "Privilégios necessários para imprimir uma alteração."
 
 #. SysConfig
 msgid "Required privileges to reset changes."
@@ -2950,4 +2953,3 @@ msgstr ""
 #. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
 msgid "Delete Notification"
 msgstr ""
-
