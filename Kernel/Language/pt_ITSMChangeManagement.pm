@@ -42,7 +42,7 @@ sub Data {
     $Self->{Translation}->{'Please select a state!'} = 'Por favor selecione um estado!';
     $Self->{Translation}->{'Please select a next state!'} = 'Por favor, escolha o próximo estado!';
     $Self->{Translation}->{'Edit a state transition for'} = 'Editar uma transição de estado para';
-    $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Você quer mesmo apagar esta transição de estado?';
+    $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Tem a certeza de que pretende eliminar a transição de estado?';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Adicionar Alteração';
@@ -108,7 +108,7 @@ sub Data {
     $Self->{Translation}->{'Edit Involved Persons of %s%s'} = '';
     $Self->{Translation}->{'Involved Persons'} = 'Pessoas Envolvidas';
     $Self->{Translation}->{'ChangeManager'} = 'gestor da Alteração';
-    $Self->{Translation}->{'User invalid.'} = 'Utilizador inválido';
+    $Self->{Translation}->{'User invalid.'} = 'Utilizador inválido.';
     $Self->{Translation}->{'ChangeBuilder'} = 'Construtor da Alteração';
     $Self->{Translation}->{'Change Advisory Board'} = 'Conselho Consultivo de Alteração';
     $Self->{Translation}->{'CAB Template'} = 'Modelo de CAB';
@@ -205,7 +205,7 @@ sub Data {
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
     $Self->{Translation}->{'Add Workorder to %s%s'} = '';
     $Self->{Translation}->{'Instruction'} = 'Instrução';
-    $Self->{Translation}->{'Invalid workorder type.'} = 'Tipo de ordem de serviço inválido';
+    $Self->{Translation}->{'Invalid workorder type.'} = 'Tipo de ordem de serviço inválido.';
     $Self->{Translation}->{'The planned start time must be before the planned end time!'} = 'O tempo de início planeado deve ser anterior ao horário de fim planeado!';
     $Self->{Translation}->{'Invalid format.'} = 'Formato Inválido.';
 
@@ -571,7 +571,7 @@ sub Data {
 
     # SysConfig
     $Self->{Translation}->{'A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1.'} =
-        'Lista dos agentes que têm permissão para ter Ordens de Serviço.Chave é um nome de login.O conteúdo é 0 ou 1';
+        'Lista dos agentes que têm permissão para ter Ordens de Serviço. Chave é um nome de login. O conteúdo é 0 ou 1.';
     $Self->{Translation}->{'A list of workorder states, at which the ActualStartTime of a workorder will be set if it was empty at this point.'} =
         'Lista de estados de Ordem de Serviço, em que a hora de início real de uma Ordem de Serviço será definida se estiver vazia.';
     $Self->{Translation}->{'Actual end time'} = '';
@@ -614,7 +614,7 @@ sub Data {
     $Self->{Translation}->{'Change involved persons of the change.'} = '';
     $Self->{Translation}->{'Change limit per page for Change Overview "Small".'} = '';
     $Self->{Translation}->{'Change number'} = '';
-    $Self->{Translation}->{'Change search backend router of the agent interface.'} = 'Alterar pesquisa apoiada do router do agente de interface';
+    $Self->{Translation}->{'Change search backend router of the agent interface.'} = 'Alterar o router do backend de pesquisa da interface do agente.';
     $Self->{Translation}->{'Change state'} = '';
     $Self->{Translation}->{'Change time'} = '';
     $Self->{Translation}->{'Change title'} = '';
@@ -656,7 +656,7 @@ sub Data {
     $Self->{Translation}->{'Defines if the change state can be set in the change edit screen of the agent interface.'} =
         '';
     $Self->{Translation}->{'Defines if the planned effort should be shown.'} = 'Define se o esforço planeado deve ser mostrado.';
-    $Self->{Translation}->{'Defines if the requested date should be print by customer.'} = 'Define se a data solicitada deverá ser impressa por cliente';
+    $Self->{Translation}->{'Defines if the requested date should be print by customer.'} = 'Define se a data solicitada deve ser impressa pelo cliente.';
     $Self->{Translation}->{'Defines if the requested date should be searched by customer.'} =
         'Define se a data solicitada deverá ser pesquisado pelo cliente..';
     $Self->{Translation}->{'Defines if the requested date should be set by customer.'} = 'Define se a data solicitada deverá ser definido pelo cliente.';
@@ -943,7 +943,7 @@ sub Data {
     $Self->{Translation}->{'Required privileges to edit the involved persons of a change.'} =
         'Privilégios necessários para editar pessoas envolvidas na alteração.';
     $Self->{Translation}->{'Required privileges to move changes in time.'} = 'Privilégios necessários para mover as alterações no tempo.';
-    $Self->{Translation}->{'Required privileges to print a change.'} = 'Privilégios necessários para imprimir uma alteração';
+    $Self->{Translation}->{'Required privileges to print a change.'} = 'Privilégios necessários para imprimir uma alteração.';
     $Self->{Translation}->{'Required privileges to reset changes.'} = 'Privilégios necessários para redefinir mudanças.';
     $Self->{Translation}->{'Required privileges to view a workorder.'} = 'Privilégios necessários para visualizar uma ordem de serviço.';
     $Self->{Translation}->{'Required privileges to view changes.'} = 'Privilégios necessários para visualizar alterações.';
@@ -1067,7 +1067,7 @@ sub Data {
     $Self->{Translation}->{'regularly'} = '';
 
 
-    push @{ $Self->{JavaScriptStrings} // [] }, (
+    push @{ $Self->{JavaScriptStrings} //= [] }, (
     'Cancel',
     'Delete',
     'Delete Action',

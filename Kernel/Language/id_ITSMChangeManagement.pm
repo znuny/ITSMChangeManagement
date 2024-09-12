@@ -1067,7 +1067,7 @@ sub Data {
     $Self->{Translation}->{'regularly'} = 'secara teratur';
 
 
-    push @{ $Self->{JavaScriptStrings} // [] }, (
+    push @{ $Self->{JavaScriptStrings} //= [] }, (
     'Cancel',
     'Delete',
     'Delete Action',

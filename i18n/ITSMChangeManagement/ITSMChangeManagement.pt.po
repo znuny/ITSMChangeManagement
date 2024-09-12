@@ -7,8 +7,7 @@ msgstr ""
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
 "PO-Revision-Date: 2024-08-31 02:37+0000\n"
 "Last-Translator: Rui Martins <rui.martins@fccn.pt>\n"
-"Language-Team: Portuguese <https://translations.znuny.org/projects/znuny/"
-"itsmchangemanagement/pt/>\n"
+"Language-Team: Portuguese <https://translations.znuny.org/projects/znuny/itsmchangemanagement/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1558,9 +1557,7 @@ msgstr "Ok"
 
 #. SysConfig
 msgid "A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1."
-msgstr ""
-"Lista dos agentes que têm permissão para ter Ordens de Serviço. Chave é um "
-"nome de login. O conteúdo é 0 ou 1."
+msgstr "Lista dos agentes que têm permissão para ter Ordens de Serviço. Chave é um nome de login. O conteúdo é 0 ou 1."
 
 #. SysConfig
 msgid "A list of workorder states, at which the ActualStartTime of a workorder will be set if it was empty at this point."
@@ -2953,3 +2950,4 @@ msgstr ""
 #. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
 msgid "Delete Notification"
 msgstr ""
+
