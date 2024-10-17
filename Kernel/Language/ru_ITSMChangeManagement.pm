@@ -17,7 +17,7 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
-        'Управление приоритетом на основе комбинации Категория ↔ Влияние';
+        'Управление приоритетом на основе комбинации Категория ↔ Влияние.';
     $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Категория ↔ Влияние ↔ Приоритет';
     $Self->{Translation}->{'Priority allocation'} = 'Назначение приоритета';
 
@@ -26,8 +26,8 @@ sub Data {
     $Self->{Translation}->{'Filter for notification rules'} = '';
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Управление уведомлениями в ITSM ChangeManagement';
     $Self->{Translation}->{'Edit Notification Rule'} = '';
-    $Self->{Translation}->{'A notification should have a name!'} = 'Уведомление должно иметь имя';
-    $Self->{Translation}->{'Name is required.'} = 'Требуется имя';
+    $Self->{Translation}->{'A notification should have a name!'} = 'Уведомление должно иметь имя!';
+    $Self->{Translation}->{'Name is required.'} = 'Требуется имя.';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
     $Self->{Translation}->{'Select a catalog class!'} = 'Выберите класс каталога!';
@@ -47,7 +47,7 @@ sub Data {
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
     $Self->{Translation}->{'Add Change'} = 'Добавить изменение';
     $Self->{Translation}->{'Justification'} = 'Обоснование';
-    $Self->{Translation}->{'Input invalid.'} = 'Неверные данные';
+    $Self->{Translation}->{'Input invalid.'} = 'Неверные данные.';
     $Self->{Translation}->{'Requested Date'} = 'Запрошенное время';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAddFromTemplate.tt
@@ -68,7 +68,7 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
     $Self->{Translation}->{'Edit Condition'} = 'Редактировать состояние';
-    $Self->{Translation}->{'Need a valid name.'} = 'Требуется правильное имя';
+    $Self->{Translation}->{'Need a valid name.'} = 'Требуется правильное имя.';
     $Self->{Translation}->{'A valid name is needed.'} = 'Требуется правильное имя.';
     $Self->{Translation}->{'Duplicate name:'} = 'Уже используемое имя:';
     $Self->{Translation}->{'This name is already used by another condition.'} = 'Это имя уже сипользуется в другом условии.';
@@ -108,7 +108,7 @@ sub Data {
     $Self->{Translation}->{'Edit Involved Persons of %s%s'} = 'Изменить вовлеченных лиц %s%s';
     $Self->{Translation}->{'Involved Persons'} = 'Вовлеченные сотрудники';
     $Self->{Translation}->{'ChangeManager'} = 'Менеджер изменений';
-    $Self->{Translation}->{'User invalid.'} = 'Неверный исполнитель';
+    $Self->{Translation}->{'User invalid.'} = 'Неверный исполнитель.';
     $Self->{Translation}->{'ChangeBuilder'} = 'Составитель изменения';
     $Self->{Translation}->{'Change Advisory Board'} = 'CAB - Комитет по изменения';
     $Self->{Translation}->{'CAB Template'} = 'Шаблон для CAB';
@@ -144,11 +144,11 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
     $Self->{Translation}->{'(e.g. 10*5155 or 105658*)'} = '(т.е. 10*5155 или 105658*)';
-    $Self->{Translation}->{'CAB Agent'} = 'Агент, член CAB ';
+    $Self->{Translation}->{'CAB Agent'} = 'Агент, член CAB';
     $Self->{Translation}->{'e.g.'} = 'т.е.';
-    $Self->{Translation}->{'CAB Customer'} = 'Клиент, член CAB ';
+    $Self->{Translation}->{'CAB Customer'} = 'Клиент, член CAB';
     $Self->{Translation}->{'ITSM Change'} = 'Изменение';
-    $Self->{Translation}->{'ITSM Workorder Instruction'} = 'Инструкция по задачам ITSM ';
+    $Self->{Translation}->{'ITSM Workorder Instruction'} = 'Инструкция по задачам ITSM';
     $Self->{Translation}->{'ITSM Workorder Report'} = 'Отчет по задачам ITSM';
     $Self->{Translation}->{'ITSM Change Priority'} = 'Изменить приоритет ITSM';
     $Self->{Translation}->{'ITSM Change Impact'} = 'Изменить воздействие ITSM';
@@ -207,7 +207,7 @@ sub Data {
     $Self->{Translation}->{'Instruction'} = 'Инструкция';
     $Self->{Translation}->{'Invalid workorder type.'} = 'Неправильный тип задачи.';
     $Self->{Translation}->{'The planned start time must be before the planned end time!'} = 'Время начала должно предшествовать времени окончания!';
-    $Self->{Translation}->{'Invalid format.'} = 'Неверный формат';
+    $Self->{Translation}->{'Invalid format.'} = 'Неверный формат.';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAddFromTemplate.tt
     $Self->{Translation}->{'Select Workorder Template'} = 'Выбрать шаблон для задачи';
@@ -243,7 +243,7 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderTemplate.tt
     $Self->{Translation}->{'Save Workorder as Template'} = 'Сохранить задачу как шаблон';
-    $Self->{Translation}->{'Delete original workorder (and surrounding change)'} = 'Удалить исходную задачу  (и окружающее изменение)';
+    $Self->{Translation}->{'Delete original workorder (and surrounding change)'} = 'Удалить исходную задачу (и окружающее изменение)';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderZoom.tt
     $Self->{Translation}->{'Workorder Information'} = 'Информация о задаче';
@@ -255,7 +255,7 @@ sub Data {
 
     # Perl Module: Kernel/Modules/AdminITSMStateMachine.pm
     $Self->{Translation}->{'State Transition Updated!'} = 'Переход состояния обновлен!';
-    $Self->{Translation}->{'State Transition Added!'} = 'Добавлен  переход состояния!';
+    $Self->{Translation}->{'State Transition Added!'} = 'Добавлен переход состояния!';
 
     # Perl Module: Kernel/Modules/AgentITSMChange.pm
     $Self->{Translation}->{'ITSM Changes'} = 'Изменения';
@@ -273,7 +273,7 @@ sub Data {
     $Self->{Translation}->{'No ChangeID is given!'} = 'ChangeID не задан!';
     $Self->{Translation}->{'No change found for changeID %s.'} = 'Не найдено изменений для ChangeID %s.';
     $Self->{Translation}->{'The CAB of change "%s" could not be serialized.'} = 'CAB Изменения "%s" не может быть размножено.';
-    $Self->{Translation}->{'Could not add the template.'} = 'Не удалось добавить шаблон. ';
+    $Self->{Translation}->{'Could not add the template.'} = 'Не удалось добавить шаблон.';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeCondition.pm
     $Self->{Translation}->{'Change "%s" not found in database!'} = 'Изменение "%s" не найдено в БД!';
@@ -311,7 +311,7 @@ sub Data {
     $Self->{Translation}->{'HistoryEntry "%s" not found in database!'} = 'HistoryEntry "%s" не найдено в БД!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeInvolvedPersons.pm
-    $Self->{Translation}->{'Was not able to update Change CAB for Change %s!'} = 'Не удалось обновить  CAB Изменения для Изменения %s!';
+    $Self->{Translation}->{'Was not able to update Change CAB for Change %s!'} = 'Не удалось обновить CAB Изменения для Изменения %s!';
     $Self->{Translation}->{'Was not able to update Change %s!'} = 'Не удалось обновить Изменение %s!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
@@ -340,7 +340,7 @@ sub Data {
     $Self->{Translation}->{'WorkOrderTitle'} = 'WorkOrderTitle - Заголовок Задачи';
     $Self->{Translation}->{'unknown workorder title'} = 'Неизвестный заголовок Задачи';
     $Self->{Translation}->{'ChangeState'} = 'Состояние изменения';
-    $Self->{Translation}->{'PlannedEffort'} = 'Планируемые ресурсы???';
+    $Self->{Translation}->{'PlannedEffort'} = 'Планируемые усилия';
     $Self->{Translation}->{'CAB Agents'} = '';
     $Self->{Translation}->{'CAB Customers'} = '';
     $Self->{Translation}->{'RequestedTime'} = 'RequestedTime';
@@ -396,7 +396,7 @@ sub Data {
     $Self->{Translation}->{'Was not able to move time slot for workorder #%s!'} = 'Не удалось переместить временНой слот для Задачи #%s!';
 
     # Perl Module: Kernel/Modules/AgentITSMTemplateDelete.pm
-    $Self->{Translation}->{'You need %s permission!'} = 'Вам необходимо иметь  право %s!';
+    $Self->{Translation}->{'You need %s permission!'} = 'Вам необходимо иметь право %s!';
     $Self->{Translation}->{'No TemplateID is given!'} = 'Не задан TemplateID!';
     $Self->{Translation}->{'Template "%s" not found in database!'} = 'Шаблон "%s" не найден в БД!';
     $Self->{Translation}->{'Was not able to delete the template %s!'} = 'Не удалось удалить шаблон %s!';
@@ -571,7 +571,7 @@ sub Data {
 
     # SysConfig
     $Self->{Translation}->{'A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1.'} =
-        'Список агентов, имеющих права взять задачу в работу. Ключ - логин, Содержание - 0 или 1';
+        'Список агентов, имеющих права взять задачу в работу. Ключ - логин, Содержание - 0 или 1.';
     $Self->{Translation}->{'A list of workorder states, at which the ActualStartTime of a workorder will be set if it was empty at this point.'} =
         'Список состояний задачи в которых фактическое время начала задачи может быть задано, если еще пусто к этому моменту.';
     $Self->{Translation}->{'Actual end time'} = '';
@@ -593,7 +593,7 @@ sub Data {
         'Модуль отображающий количество изменений';
     $Self->{Translation}->{'Agent interface notification module to see the number of workorders.'} =
         'Модуль уведомлений для интерфейса агента для получения количества Задач.';
-    $Self->{Translation}->{'CAB Member Search'} = 'Поиск членов CAB ';
+    $Self->{Translation}->{'CAB Member Search'} = 'Поиск членов CAB';
     $Self->{Translation}->{'Cache time in minutes for the change management toolbars. Default: 3 hours (180 minutes).'} =
         'Время кэширования в минутах для панели управления изменениями. По умолчанию: 3 часа (180 минут).';
     $Self->{Translation}->{'Cache time in minutes for the change management. Default: 5 days (7200 minutes).'} =
@@ -850,11 +850,11 @@ sub Data {
     $Self->{Translation}->{'ITSM Change CAB Templates.'} = 'Шаблоны для ITSM CAB.';
     $Self->{Translation}->{'ITSM Change Condition Edit.'} = 'Редактирование Условий для Изменений ITSM.';
     $Self->{Translation}->{'ITSM Change Condition Overview.'} = 'Обзор Условий для Изменений ITSM.';
-    $Self->{Translation}->{'ITSM Change Manager Overview.'} = 'Обзор Управляющих Изменениями в ITSM ';
+    $Self->{Translation}->{'ITSM Change Manager Overview.'} = 'Обзор Управляющих Изменениями в ITSM';
     $Self->{Translation}->{'ITSM Change Notifications'} = '';
     $Self->{Translation}->{'ITSM Change PIR Overview.'} = 'Обзор ITSM Change PIR';
     $Self->{Translation}->{'ITSM Change notification rules'} = 'Правила Уведомления в Управлении Изменениями';
-    $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'Обзор МоиCAB ';
+    $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'Обзор МоиCAB';
     $Self->{Translation}->{'ITSM MyChanges Overview.'} = 'Обзор МоиИзменения';
     $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = 'Обзор МоиЗадачи.';
     $Self->{Translation}->{'ITSM Template Delete.'} = 'Удаление шаблонов ITSM.';
@@ -907,7 +907,7 @@ sub Data {
     $Self->{Translation}->{'Overview over all Changes.'} = 'Обзор всех Изменений.';
     $Self->{Translation}->{'PIR (Post Implementation Review)'} = 'PIR (Post Implementation Review/Анализ после выполнения)';
     $Self->{Translation}->{'Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface.'} =
-        'Параметры для объекта UserCreateWorkOrderNextMask  в предварительном просмотре в интерфейсе агента';
+        'Параметры для объекта UserCreateWorkOrderNextMask в предварительном просмотре в интерфейсе агента';
     $Self->{Translation}->{'Parameters for the pages (in which the changes are shown) of the small change overview.'} =
         'Параметры для страниц (на которых отображаются изменения) в кратком (small) обзоре изменений.';
     $Self->{Translation}->{'Performs the configured action for each event (as an Invoker) for each configured Webservice.'} =
@@ -976,14 +976,14 @@ sub Data {
     $Self->{Translation}->{'Search Changes'} = 'Поиск изменений';
     $Self->{Translation}->{'Search Changes.'} = 'Поиск изменений.';
     $Self->{Translation}->{'Selects the change number generator module. "AutoIncrement" increments the change number, the SystemID and the counter are used with SystemID.counter format (e.g. 100118, 100119). With "Date", the change numbers will be generated by the current date and a counter; this format looks like Year.Month.Day.counter, e.g. 2010062400001, 2010062400002. With "DateChecksum", the counter will be appended as checksum to the string of date plus the SystemID. The checksum will be rotated on a daily basis. This format looks like Year.Month.Day.SystemID.Counter.CheckSum, e.g. 2010062410000017, 2010062410000026.'} =
-        'Задает способ генерации номеров изменений.  "AutoIncrement" - увеличивает номер на 1, формат - SystemID.counter (например, 100118, 100119).  "Date" - использует текущую дату, SystemID и счетчик, вид: Year.Month.Day.SystemID.counter - 2010062400001, 2010062400002. "DateChecksum" - счетчик дополняется контрольной суммой к строке из даты и SystemID. Формат строится как Year.Month.Day.SystemID.Counter.CheckSum. Контрольная сумма обновляется ежедневно, вид: 2010062410000017, 2010062410000026.';
+        'Задает способ генерации номеров изменений. "AutoIncrement" - увеличивает номер на 1, формат - SystemID.counter (например, 100118, 100119). "Date" - использует текущую дату, SystemID и счетчик, вид: Year.Month.Day.SystemID.counter - 2010062400001, 2010062400002. "DateChecksum" - счетчик дополняется контрольной суммой к строке из даты и SystemID. Формат строится как Year.Month.Day.SystemID.Counter.CheckSum. Контрольная сумма обновляется ежедневно, вид: 2010062410000017, 2010062410000026.';
     $Self->{Translation}->{'Set the agent for the workorder.'} = 'Назначить агента по задаче.';
     $Self->{Translation}->{'Set the default height (in pixels) of inline HTML fields in the change zoom screen and workorder zoom screen of the agent interface.'} =
         '';
     $Self->{Translation}->{'Set the maximum height (in pixels) of inline HTML fields in the change zoom screen and workorder zoom screen of the agent interface.'} =
         '';
     $Self->{Translation}->{'Sets the minimal change counter size (if "AutoIncrement" was selected as ITSMChange::NumberGenerator). Default is 5, this means the counter starts from 10000.'} =
-        'Задает минимальное количество разрядов для счетчика изменений (если выбран тип  "AutoIncrement" для ITSMChange::NumberGenerator). По умолчанию - 5, что означает, что начальное значение счетчика будет 10000.';
+        'Задает минимальное количество разрядов для счетчика изменений (если выбран тип "AutoIncrement" для ITSMChange::NumberGenerator). По умолчанию - 5, что означает, что начальное значение счетчика будет 10000.';
     $Self->{Translation}->{'Sets up the state machine for changes.'} = 'Задает state machine для изменений.';
     $Self->{Translation}->{'Sets up the state machine for workorders.'} = 'Задает state machine для заданий.';
     $Self->{Translation}->{'Shows a checkbox in the workorder edit screen of the agent interface that defines if the the following workorders should also be moved if a workorder is modified and the planned end time has changed.'} =
@@ -1048,7 +1048,7 @@ sub Data {
     $Self->{Translation}->{'The identifier for a workorder, e.g. Workorder#, MyWorkorder#. The default is Workorder#.'} =
         'Индентификатор для задания, например Workorder#, MyWorkorder#. The default is Workorder#.';
     $Self->{Translation}->{'This ACL module restricts the usuage of the ticket types that are defined in the sysconfig option \'ITSMChange::AddChangeLinkTicketTypes\', to users of the groups as defined in "ITSMChange::RestrictTicketTypes::Groups". As this ACL could collide with other ACLs which are also related to the ticket type, this sysconfig option is disabled by default and should only be activated if needed.'} =
-        'Этот ACL модуль ограничивает использование типов заявок заданных в параметре  \'ITSMChange::AddChangeLinkTicketTypes\', для агентов групп, указанных в "ITSMChange::RestrictTicketTypes::Groups". Так как этот ACL может конфликтовать с другими ACL, также связанными с типами заявок, этот параметр отключен по умолчанию и может быть, при необходимости, активирован вручную.';
+        'Этот ACL модуль ограничивает использование типов заявок заданных в параметре \'ITSMChange::AddChangeLinkTicketTypes\', для агентов групп, указанных в "ITSMChange::RestrictTicketTypes::Groups". Так как этот ACL может конфликтовать с другими ACL, также связанными с типами заявок, этот параметр отключен по умолчанию и может быть, при необходимости, активирован вручную.';
     $Self->{Translation}->{'Time Slot'} = 'Диапазон дат';
     $Self->{Translation}->{'Types of tickets, where in the ticket zoom view a link to add a change will be displayed.'} =
         'Типы заявок, в которых подробном просмотре ссылка для добавления изменения будет показана.';
@@ -1056,7 +1056,7 @@ sub Data {
     $Self->{Translation}->{'Workorder Add (from template).'} = 'Добавить Задачу (используя шаблон)';
     $Self->{Translation}->{'Workorder Add.'} = 'Добавление Задачи.';
     $Self->{Translation}->{'Workorder Agent.'} = 'Агент Задачи.';
-    $Self->{Translation}->{'Workorder Delete.'} = 'Удаление  Задачи.';
+    $Self->{Translation}->{'Workorder Delete.'} = 'Удаление Задачи.';
     $Self->{Translation}->{'Workorder Edit.'} = 'Редактирование Задачи.';
     $Self->{Translation}->{'Workorder History Zoom.'} = 'История Задачи подробно.';
     $Self->{Translation}->{'Workorder History.'} = 'История Задачи.';
