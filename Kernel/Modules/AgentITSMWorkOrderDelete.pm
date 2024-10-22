@@ -140,7 +140,7 @@ sub Run {
     ) || [];
 
     # set the dialog type. As default, the dialog will have 2 buttons: Yes and No
-    my $DialogType = 'Confirmation';
+    my $DialogType = 'Delete';
 
     # display list of affected conditions
     if ( @{$AffectedConditionIDs} ) {

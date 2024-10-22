@@ -116,7 +116,7 @@ sub Run {
     # build the returned data structure
     my %Data = (
         HTML       => $Output,
-        DialogType => 'Confirmation',
+        DialogType => 'Delete',
     );
 
     # return JSON-String because of AJAX-Mode
