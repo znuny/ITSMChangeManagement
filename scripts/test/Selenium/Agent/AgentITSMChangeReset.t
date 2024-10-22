@@ -134,11 +134,11 @@ $Selenium->RunTest(
         # Wait for confirm button to show up and confirm reset action.
         $Selenium->WaitFor(
             JavaScript =>
-                "return typeof(\$) === 'function' && \$('#DialogButton1').length;"
+                "return typeof(\$) === 'function' && \$('#DialogButton2').length;"
         );
 
         # Close popup.
-        $Selenium->find_element( "#DialogButton1", 'css' )->click();
+        $Selenium->find_element( "#DialogButton2", 'css' )->click();
 
         # Wait until page has loaded, if necessary.
         $Selenium->WaitFor(

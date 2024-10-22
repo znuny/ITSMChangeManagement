@@ -101,8 +101,8 @@ $Selenium->RunTest(
         $Selenium->find_element( "#DeleteTemplateID$TemplateID", 'css' )->click();
 
         # wait for confirm button to show up and confirm delete action
-        $Selenium->WaitFor( JavaScript => "return \$('#DialogButton1').length;" );
-        $Selenium->find_element( "#DialogButton1", 'css' )->VerifiedClick();
+        $Selenium->WaitFor( JavaScript => "return \$('#DialogButton2').length;" );
+        $Selenium->find_element( "#DialogButton2", 'css' )->VerifiedClick();
 
         # navigate to AgentITSMChangeAddFromTemplate screen
         $Selenium->VerifiedGet(

@@ -109,9 +109,9 @@ $Selenium->RunTest(
             ->click();
 
         $Selenium->WaitForjQueryEventBound(
-            CSSSelector => '#DialogButton1',
+            CSSSelector => '#DialogButton2',
         );
-        $Selenium->find_element( "#DialogButton1", 'css' )->VerifiedClick();
+        $Selenium->find_element( "#DialogButton2", 'css' )->VerifiedClick();
 
         # Navigate to AgentITSMWorkOrderHistory for test created work order.
         $Selenium->VerifiedGet("${ScriptAlias}index.pl?Action=AgentITSMWorkOrderHistory;WorkOrderID=$WorkOrderID");

@@ -98,7 +98,7 @@ $Selenium->RunTest(
         $Selenium->find_element( "#EditContentTemplateID$TemplateID", 'css' )->click();
 
         # wait for dialog window to load, if necessary
-        $Selenium->WaitFor( JavaScript => "return \$('#DialogButton1').length;" );
+        $Selenium->WaitFor( JavaScript => "return \$('#DialogButton2').length;" );
 
         # verify edit content values
         $Self->True(
@@ -125,7 +125,7 @@ $Selenium->RunTest(
         );
 
         # create new change from test template
-        $Selenium->find_element( "#DialogButton1", 'css' )->VerifiedClick();
+        $Selenium->find_element( "#DialogButton2", 'css' )->VerifiedClick();
 
         # get new change ID created from test template
         my $ChangeFromTemplateID = $ChangeID++;

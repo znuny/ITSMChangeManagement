@@ -111,11 +111,11 @@ $Selenium->RunTest(
 
         # wait for server side error
         $Selenium->WaitFor(
-            JavaScript => "return typeof(\$) === 'function' && \$('div.Dialog button#DialogButton1').length"
+            JavaScript => "return typeof(\$) === 'function' && \$('div.Dialog button#DialogButton2').length"
         );
 
         # click ok to dismiss
-        $Selenium->find_element( 'div.Dialog button#DialogButton1', 'css' )->VerifiedClick();
+        $Selenium->find_element( 'div.Dialog button#DialogButton2', 'css' )->VerifiedClick();
 
         # verify that test created change is not present
         $Self->True(

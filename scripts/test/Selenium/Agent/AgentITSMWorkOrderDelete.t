@@ -84,8 +84,8 @@ $Selenium->RunTest(
             ->click();
 
         # wait for confirm button to show up and confirm delete action
-        $Selenium->WaitFor( JavaScript => "return \$('#DialogButton1').length;" );
-        $Selenium->find_element( "#DialogButton1", 'css' )->VerifiedClick();
+        $Selenium->WaitFor( JavaScript => "return \$('#DialogButton2').length;" );
+        $Selenium->find_element( "#DialogButton2", 'css' )->VerifiedClick();
 
         # click on 'History' and switch window
         $Selenium->find_element("//a[contains(\@href, \'Action=AgentITSMChangeHistory;ChangeID=$ChangeID')]")->click();
