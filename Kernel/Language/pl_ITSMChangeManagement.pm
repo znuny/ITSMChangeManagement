@@ -25,7 +25,7 @@ sub Data {
     $Self->{Translation}->{'Add Notification Rule'} = 'Dodaj regułę powiadamiania';
     $Self->{Translation}->{'Filter for notification rules'} = '';
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Zarządzanie powiadomieniami zmian ITSM';
-    $Self->{Translation}->{'Edit Notification Rule'} = '';
+    $Self->{Translation}->{'Edit Notification Rule'} = 'Edytuj regułę powiadamiania';
     $Self->{Translation}->{'A notification should have a name!'} = 'Powiadomiene powinno mieć nazwę!';
     $Self->{Translation}->{'Name is required.'} = 'Imię i nazwisko są wymagane.';
 
@@ -67,29 +67,29 @@ sub Data {
     $Self->{Translation}->{'Add new condition'} = 'Dodaj nowy warunek';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
-    $Self->{Translation}->{'Edit Condition'} = '';
+    $Self->{Translation}->{'Edit Condition'} = 'Edytuj warunek';
     $Self->{Translation}->{'Need a valid name.'} = 'Potrzeba poprawna nazwa.';
-    $Self->{Translation}->{'A valid name is needed.'} = '';
-    $Self->{Translation}->{'Duplicate name:'} = '';
-    $Self->{Translation}->{'This name is already used by another condition.'} = '';
+    $Self->{Translation}->{'A valid name is needed.'} = 'Potrzebna jest poprawna nazwa.';
+    $Self->{Translation}->{'Duplicate name:'} = 'Duplikat nazwy:';
+    $Self->{Translation}->{'This name is already used by another condition.'} = 'Ta nazwa jest już używana dla innego warunku.';
     $Self->{Translation}->{'Matching'} = 'Pasuje';
     $Self->{Translation}->{'Any expression (OR)'} = 'Dowolne wyrażenie (OR)';
     $Self->{Translation}->{'All expressions (AND)'} = 'Wszystkie wyrażenia (AND)';
     $Self->{Translation}->{'Expressions'} = 'Wyrażenia';
     $Self->{Translation}->{'Selector'} = 'Selektor';
     $Self->{Translation}->{'Operator'} = 'Operator';
-    $Self->{Translation}->{'Delete Expression'} = '';
+    $Self->{Translation}->{'Delete Expression'} = 'Usuń wyrażenie';
     $Self->{Translation}->{'No Expressions found.'} = 'Nie znaleziono wyrażeń.';
     $Self->{Translation}->{'Add new expression'} = 'Dodaj nowe wyrażenie';
-    $Self->{Translation}->{'Delete Action'} = '';
+    $Self->{Translation}->{'Delete Action'} = 'Usuń akcję';
     $Self->{Translation}->{'No Actions found.'} = 'Nie znaleziono akcji.';
     $Self->{Translation}->{'Add new action'} = 'Dodaj nową akcję';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeDelete.tt
-    $Self->{Translation}->{'Do you really want to delete this change?'} = '';
+    $Self->{Translation}->{'Do you really want to delete this change?'} = 'Czy na pewno chcesz usunąć tę zmianę?';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeEdit.tt
-    $Self->{Translation}->{'Edit %s%s'} = '';
+    $Self->{Translation}->{'Edit %s%s'} = 'Edycja %s%s';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
     $Self->{Translation}->{'History of %s%s'} = 'Historia %s%s';
@@ -99,13 +99,13 @@ sub Data {
     $Self->{Translation}->{'Show workorder'} = 'Pokaż zadanie';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
-    $Self->{Translation}->{'Detailed history information of %s'} = '';
-    $Self->{Translation}->{'Modified'} = '';
+    $Self->{Translation}->{'Detailed history information of %s'} = 'Szczegółowe informacje o historii %s';
+    $Self->{Translation}->{'Modified'} = 'Zmodyfikowane';
     $Self->{Translation}->{'Old Value'} = 'Stara wartość';
     $Self->{Translation}->{'New Value'} = 'Nowa wartość';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
-    $Self->{Translation}->{'Edit Involved Persons of %s%s'} = '';
+    $Self->{Translation}->{'Edit Involved Persons of %s%s'} = 'Edytuj osoby zaangażowane w %s%s';
     $Self->{Translation}->{'Involved Persons'} = 'Zaangażowane osoby';
     $Self->{Translation}->{'ChangeManager'} = 'Manager zmiany';
     $Self->{Translation}->{'User invalid.'} = 'Niepoprawny użytkownik.';
@@ -124,34 +124,34 @@ sub Data {
     $Self->{Translation}->{'Changes per page'} = 'Zmiany na stronę';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
-    $Self->{Translation}->{'Workorder Title'} = '';
-    $Self->{Translation}->{'Change Title'} = '';
-    $Self->{Translation}->{'Workorder Agent'} = '';
+    $Self->{Translation}->{'Workorder Title'} = 'Tytuł zlecenia';
+    $Self->{Translation}->{'Change Title'} = 'Zmień tytuł';
+    $Self->{Translation}->{'Workorder Agent'} = 'Agent zlecenia';
     $Self->{Translation}->{'Change Builder'} = 'Konstruktor zmiany';
     $Self->{Translation}->{'Change Manager'} = 'Manager zmiany';
-    $Self->{Translation}->{'Workorders'} = 'Zadania';
-    $Self->{Translation}->{'Change State'} = '';
-    $Self->{Translation}->{'Workorder State'} = '';
-    $Self->{Translation}->{'Workorder Type'} = '';
+    $Self->{Translation}->{'Workorders'} = 'Zlecenia';
+    $Self->{Translation}->{'Change State'} = 'Stan zmiany';
+    $Self->{Translation}->{'Workorder State'} = 'Stan zlecenia';
+    $Self->{Translation}->{'Workorder Type'} = 'Type zlecenia';
     $Self->{Translation}->{'Requested Time'} = 'Żądany czas';
-    $Self->{Translation}->{'Planned Start Time'} = '';
-    $Self->{Translation}->{'Planned End Time'} = '';
-    $Self->{Translation}->{'Actual Start Time'} = '';
-    $Self->{Translation}->{'Actual End Time'} = '';
+    $Self->{Translation}->{'Planned Start Time'} = 'Planowany czas rozpoczęcia';
+    $Self->{Translation}->{'Planned End Time'} = 'Planowany czas zakończenia';
+    $Self->{Translation}->{'Actual Start Time'} = 'Bieżący czas rozpoczęcia';
+    $Self->{Translation}->{'Actual End Time'} = 'Bieżący czas zakończenia';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeReset.tt
-    $Self->{Translation}->{'Do you really want to reset this change?'} = '';
+    $Self->{Translation}->{'Do you really want to reset this change?'} = 'Czy naprawdę chcesz wyzerować tę zmianę?';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
-    $Self->{Translation}->{'(e.g. 10*5155 or 105658*)'} = '(np. 10*5155 or 105658*)';
-    $Self->{Translation}->{'CAB Agent'} = '';
+    $Self->{Translation}->{'(e.g. 10*5155 or 105658*)'} = '(np. 10*5155 lub 105658*)';
+    $Self->{Translation}->{'CAB Agent'} = 'Agent CAB';
     $Self->{Translation}->{'e.g.'} = 'np.';
-    $Self->{Translation}->{'CAB Customer'} = '';
+    $Self->{Translation}->{'CAB Customer'} = 'Klient CAB';
     $Self->{Translation}->{'ITSM Change'} = 'Zmiana';
-    $Self->{Translation}->{'ITSM Workorder Instruction'} = '';
-    $Self->{Translation}->{'ITSM Workorder Report'} = '';
-    $Self->{Translation}->{'ITSM Change Priority'} = '';
-    $Self->{Translation}->{'ITSM Change Impact'} = '';
+    $Self->{Translation}->{'ITSM Workorder Instruction'} = 'Instrukcja zlecenia ITSM';
+    $Self->{Translation}->{'ITSM Workorder Report'} = 'Raport zlecenia ITSM';
+    $Self->{Translation}->{'ITSM Change Priority'} = 'Priorytet zmiany ITSM';
+    $Self->{Translation}->{'ITSM Change Impact'} = 'Wpływ zmiany ITSM';
     $Self->{Translation}->{'Change Category'} = 'Kategoria zmiany';
     $Self->{Translation}->{'(before/after)'} = '(przed/po)';
     $Self->{Translation}->{'(between)'} = '(pomiędzy)';
@@ -324,10 +324,10 @@ sub Data {
     $Self->{Translation}->{'My Workorders'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
-    $Self->{Translation}->{'PIR'} = '';
+    $Self->{Translation}->{'PIR'} = 'PIR';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
-    $Self->{Translation}->{'PSA'} = '';
+    $Self->{Translation}->{'PSA'} = 'PSA';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
     $Self->{Translation}->{'WorkOrder "%s" not found in database!'} = '';
@@ -916,8 +916,8 @@ sub Data {
     $Self->{Translation}->{'Planned start time'} = '';
     $Self->{Translation}->{'Print the change.'} = '';
     $Self->{Translation}->{'Print the workorder.'} = '';
-    $Self->{Translation}->{'Projected Service Availability'} = '';
-    $Self->{Translation}->{'Projected Service Availability (PSA)'} = '';
+    $Self->{Translation}->{'Projected Service Availability'} = 'Plan dostępności usług';
+    $Self->{Translation}->{'Projected Service Availability (PSA)'} = 'Plan dostępności usług (PSA)';
     $Self->{Translation}->{'Projected Service Availability (PSA) of changes. Overview of approved changes and their services.'} =
         '';
     $Self->{Translation}->{'Requested time'} = '';
@@ -971,8 +971,8 @@ sub Data {
         '';
     $Self->{Translation}->{'Save change as a template.'} = '';
     $Self->{Translation}->{'Save workorder as a template.'} = '';
-    $Self->{Translation}->{'Schedule'} = '';
-    $Self->{Translation}->{'Screen after creating a workorder'} = 'Ekran po utworzeniu zadania';
+    $Self->{Translation}->{'Schedule'} = 'Harmonogram';
+    $Self->{Translation}->{'Screen after creating a workorder'} = 'Ekran po utworzeniu zlecenia';
     $Self->{Translation}->{'Search Changes'} = 'Wyszukiwanie zmian';
     $Self->{Translation}->{'Search Changes.'} = '';
     $Self->{Translation}->{'Selects the change number generator module. "AutoIncrement" increments the change number, the SystemID and the counter are used with SystemID.counter format (e.g. 100118, 100119). With "Date", the change numbers will be generated by the current date and a counter; this format looks like Year.Month.Day.counter, e.g. 2010062400001, 2010062400002. With "DateChecksum", the counter will be appended as checksum to the string of date plus the SystemID. The checksum will be rotated on a daily basis. This format looks like Year.Month.Day.SystemID.Counter.CheckSum, e.g. 2010062410000017, 2010062410000026.'} =
