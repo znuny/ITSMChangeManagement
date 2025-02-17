@@ -8,15 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
-"PO-Revision-Date: 2023-03-24 12:12+0000\n"
+"PO-Revision-Date: 2025-02-17 20:45+0000\n"
 "Last-Translator: Daniel Lisiecki <lisiecki.daniel@gmail.com>\n"
-"Language-Team: Polish <https://translations.znuny.org/projects/znuny/itsmchangemanagement/pl/>\n"
+"Language-Team: Polish <https://translations.znuny.org/projects/znuny/"
+"itsmchangemanagement/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 4.16.2\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
+"n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
@@ -40,7 +43,7 @@ msgstr "Dodaj regułę powiadamiania"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Edit Notification Rule"
-msgstr ""
+msgstr "Edytuj regułę powiadamiania"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "A notification should have a name!"
@@ -168,7 +171,7 @@ msgstr "Dodaj nowy warunek"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Edit Condition"
-msgstr ""
+msgstr "Edytuj warunek"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Need a valid name."
@@ -176,15 +179,15 @@ msgstr "Potrzeba poprawna nazwa."
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "A valid name is needed."
-msgstr ""
+msgstr "Potrzebna jest poprawna nazwa."
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Duplicate name:"
-msgstr ""
+msgstr "Duplikat nazwy:"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "This name is already used by another condition."
-msgstr ""
+msgstr "Ta nazwa jest już używana dla innego warunku."
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Matching"
@@ -212,7 +215,7 @@ msgstr "Operator"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Delete Expression"
-msgstr ""
+msgstr "Usuń wyrażenie"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "No Expressions found."
@@ -224,7 +227,7 @@ msgstr "Dodaj nowe wyrażenie"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "Delete Action"
-msgstr ""
+msgstr "Usuń akcję"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeConditionEdit.tt
 msgid "No Actions found."
@@ -236,11 +239,11 @@ msgstr "Dodaj nową akcję"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeDelete.tt
 msgid "Do you really want to delete this change?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć tę zmianę?"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeEdit.tt
 msgid "Edit %s%s"
-msgstr ""
+msgstr "Edycja %s%s"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistory.tt
 msgid "History of %s%s"
@@ -268,11 +271,11 @@ msgstr "Pokaż zadanie"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Detailed history information of %s"
-msgstr ""
+msgstr "Szczegółowe informacje o historii %s"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Modified"
-msgstr ""
+msgstr "Zmodyfikowane"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeHistoryZoom.tt
 msgid "Old Value"
@@ -284,7 +287,7 @@ msgstr "Nowa wartość"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Edit Involved Persons of %s%s"
-msgstr ""
+msgstr "Edytuj osoby zaangażowane w %s%s"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeInvolvedPersons.tt
 msgid "Involved Persons"
@@ -344,15 +347,15 @@ msgstr "Zmiany na stronę"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Title"
-msgstr ""
+msgstr "Tytuł zlecenia"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Title"
-msgstr ""
+msgstr "Zmień tytuł"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Agent"
-msgstr ""
+msgstr "Agent zlecenia"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change Builder"
@@ -364,19 +367,19 @@ msgstr "Manager zmiany"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorders"
-msgstr "Zadania"
+msgstr "Zlecenia"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Change State"
-msgstr ""
+msgstr "Stan zmiany"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder State"
-msgstr ""
+msgstr "Stan zlecenia"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Workorder Type"
-msgstr ""
+msgstr "Type zlecenia"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Requested Time"
@@ -384,31 +387,31 @@ msgstr "Żądany czas"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Planned Start Time"
-msgstr ""
+msgstr "Planowany czas rozpoczęcia"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Planned End Time"
-msgstr ""
+msgstr "Planowany czas zakończenia"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Actual Start Time"
-msgstr ""
+msgstr "Bieżący czas rozpoczęcia"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
 msgid "Actual End Time"
-msgstr ""
+msgstr "Bieżący czas zakończenia"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeReset.tt
 msgid "Do you really want to reset this change?"
-msgstr ""
+msgstr "Czy naprawdę chcesz wyzerować tę zmianę?"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(e.g. 10*5155 or 105658*)"
-msgstr "(np. 10*5155 or 105658*)"
+msgstr "(np. 10*5155 lub 105658*)"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "CAB Agent"
-msgstr ""
+msgstr "Agent CAB"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "e.g."
@@ -416,23 +419,23 @@ msgstr "np."
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "CAB Customer"
-msgstr ""
+msgstr "Klient CAB"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Workorder Instruction"
-msgstr ""
+msgstr "Instrukcja zlecenia ITSM"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Workorder Report"
-msgstr ""
+msgstr "Raport zlecenia ITSM"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change Priority"
-msgstr ""
+msgstr "Priorytet zmiany ITSM"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "ITSM Change Impact"
-msgstr ""
+msgstr "Wpływ zmiany ITSM"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "Change Category"
@@ -2472,7 +2475,7 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "PIR"
-msgstr ""
+msgstr "PIR"
 
 #. SysConfig
 msgid "PIR (Post Implementation Review)"
@@ -2480,7 +2483,7 @@ msgstr "PIR (Przegląd Powdrożeniowy)"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePSA.pm
 msgid "PSA"
-msgstr ""
+msgstr "PSA"
 
 #. SysConfig
 msgid "Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface."
@@ -2512,11 +2515,11 @@ msgstr ""
 
 #. SysConfig
 msgid "Projected Service Availability"
-msgstr ""
+msgstr "Plan dostępności usług"
 
 #. SysConfig
 msgid "Projected Service Availability (PSA)"
-msgstr ""
+msgstr "Plan dostępności usług (PSA)"
 
 #. SysConfig
 msgid "Projected Service Availability (PSA) of changes. Overview of approved changes and their services."
@@ -2696,11 +2699,11 @@ msgstr ""
 
 #. SysConfig
 msgid "Schedule"
-msgstr ""
+msgstr "Harmonogram"
 
 #. SysConfig
 msgid "Screen after creating a workorder"
-msgstr "Ekran po utworzeniu zadania"
+msgstr "Ekran po utworzeniu zlecenia"
 
 #. SysConfig
 msgid "Search Changes"
@@ -2953,4 +2956,3 @@ msgstr ""
 #. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
 msgid "Delete Notification"
 msgstr ""
-
