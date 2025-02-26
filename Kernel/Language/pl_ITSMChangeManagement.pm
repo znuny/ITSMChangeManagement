@@ -125,7 +125,7 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeOverviewSmall.tt
     $Self->{Translation}->{'Workorder Title'} = 'Tytuł zlecenia';
-    $Self->{Translation}->{'Change Title'} = 'Zmień tytuł';
+    $Self->{Translation}->{'Change Title'} = 'Tytuł zmiany';
     $Self->{Translation}->{'Workorder Agent'} = 'Agent zlecenia';
     $Self->{Translation}->{'Change Builder'} = 'Konstruktor zmiany';
     $Self->{Translation}->{'Change Manager'} = 'Manager zmiany';
