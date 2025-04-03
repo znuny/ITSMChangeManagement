@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>ITSMChangeManagement</Name>
-    <Version>7.1.3</Version>
+    <Version>7.1.4</Version>
     <Framework>7.1.x</Framework>
     <PackageRequired Version="7.1.1">ITSMCore</PackageRequired>
     <Vendor>Znuny</Vendor>
@@ -11,6 +11,7 @@
     <Description Lang="de">Das OTRS::ITSM Change Management Paket.</Description>
     <Description Lang="es">El paquete OTRS::ITSM Change Management.</Description>
     <Description Lang="hu">Az OTRS::ITSM változásmenedzsment csomag.</Description>
+    <ChangeLog Version="7.1.4" Date="2025-04-03 11:21:29 +0200">Updated translations.</ChangeLog>
     <ChangeLog Version="7.1.3" Date="2025-02-24 10:30:07 +0100">Updated .pm translation files.&#13;
 Translated using Weblate (Polish) &#13;
 Translated using Weblate (Russian) &#13;
