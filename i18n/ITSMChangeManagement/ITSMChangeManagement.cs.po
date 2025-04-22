@@ -5,15 +5,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
-"PO-Revision-Date: 2022-04-27 09:09+0000\n"
-"Last-Translator: YOURWiFi <wifi@yourwifi.cz>\n"
-"Language-Team: Czech <https://translations.znuny.org/projects/znuny/itsmchangemanagement/cs/>\n"
+"PO-Revision-Date: 2025-04-22 03:59+0000\n"
+"Last-Translator: Jiří Gladavský <glady@seznam.cz>\n"
+"Language-Team: Czech <https://translations.znuny.org/projects/znuny-lts/"
+"itsmchangemanagement/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Weblate 4.11.2\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.10.2\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
@@ -29,7 +31,7 @@ msgstr "Alokace priorit"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "ITSM ChangeManagement Notification Management"
-msgstr ""
+msgstr "ITSM Řízení změn Správce upozornění"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Add Notification Rule"
@@ -49,7 +51,7 @@ msgstr "Název je povinný."
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Admin State Machine"
-msgstr ""
+msgstr "Administrace State Machine"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Select a catalog class!"
@@ -93,7 +95,7 @@ msgstr "Vyberte prosím další stav!"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Edit a state transition for"
-msgstr ""
+msgstr "Upravit přechod stavu pro"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
 msgid "Do you really want to delete the state transition"
@@ -1605,7 +1607,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Admin of the state machine."
-msgstr ""
+msgstr "Administrace state machine."
 
 #. SysConfig
 msgid "Agent interface notification module to see the number of change advisory boards."
@@ -2934,4 +2936,3 @@ msgstr ""
 #. SysConfig
 msgid "regularly"
 msgstr ""
-
