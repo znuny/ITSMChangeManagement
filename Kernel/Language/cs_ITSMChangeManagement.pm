@@ -22,14 +22,14 @@ sub Data {
     $Self->{Translation}->{'Priority allocation'} = 'Alokace priorit';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '';
+    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'ITSM Řízení změn Správce upozornění';
     $Self->{Translation}->{'Add Notification Rule'} = 'Přidat notifikační pravidlo';
     $Self->{Translation}->{'Edit Notification Rule'} = 'Upravit notifikační pravidlo';
     $Self->{Translation}->{'A notification should have a name!'} = 'Notifikace by měla mít název!';
     $Self->{Translation}->{'Name is required.'} = 'Název je povinný.';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMStateMachine.tt
-    $Self->{Translation}->{'Admin State Machine'} = '';
+    $Self->{Translation}->{'Admin State Machine'} = 'Administrace State Machine';
     $Self->{Translation}->{'Select a catalog class!'} = 'Vyber třídu katalogu!';
     $Self->{Translation}->{'A catalog class is required!'} = 'Třída katalogu je povinná!';
     $Self->{Translation}->{'Add a state transition'} = 'Přidat přechod stavu';
@@ -40,7 +40,7 @@ sub Data {
     $Self->{Translation}->{'Add a new state transition for'} = 'Přidat nový přechod stavu pro';
     $Self->{Translation}->{'Please select a state!'} = 'Vyberte prosím stav!';
     $Self->{Translation}->{'Please select a next state!'} = 'Vyberte prosím další stav!';
-    $Self->{Translation}->{'Edit a state transition for'} = '';
+    $Self->{Translation}->{'Edit a state transition for'} = 'Upravit přechod stavu pro';
     $Self->{Translation}->{'Do you really want to delete the state transition'} = '';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeAdd.tt
@@ -590,7 +590,7 @@ sub Data {
     $Self->{Translation}->{'Add a workorder to the change.'} = '';
     $Self->{Translation}->{'Add from template'} = 'Přidat z šablony';
     $Self->{Translation}->{'Admin of the CIP matrix.'} = '';
-    $Self->{Translation}->{'Admin of the state machine.'} = '';
+    $Self->{Translation}->{'Admin of the state machine.'} = 'Administrace state machine.';
     $Self->{Translation}->{'Agent interface notification module to see the number of change advisory boards.'} =
         '';
     $Self->{Translation}->{'Agent interface notification module to see the number of changes managed by the user.'} =
@@ -1077,7 +1077,7 @@ sub Data {
     $Self->{Translation}->{'regularly'} = '';
 
 
-    push @{ $Self->{JavaScriptStrings} // [] }, (
+    push @{ $Self->{JavaScriptStrings} //= [] }, (
     'Do you really want to delete this action?',
     'Do you really want to delete this condition?',
     'Do you really want to delete this expression?',
