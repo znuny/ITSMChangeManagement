@@ -34,7 +34,7 @@ sub Data {
     $Self->{Translation}->{'A catalog class is required!'} = 'Eine Katalog-Klasse ist erforderlich!';
     $Self->{Translation}->{'Add a state transition'} = 'Hinzufügen eines Status-Übergangs';
     $Self->{Translation}->{'Admin State Machine'} = 'Admin State Machine';
-    $Self->{Translation}->{'Catalog Class'} = 'Katalog-Klasse';
+    $Self->{Translation}->{'Catalog Class'} = 'Katalogklasse';
     $Self->{Translation}->{'Object Name'} = 'Objekt-Name';
     $Self->{Translation}->{'Overview over state transitions for'} = 'Übersicht über Status-Übergänge für';
     $Self->{Translation}->{'Delete this state transition'} = 'Diesen Status-Übergang löschen';
