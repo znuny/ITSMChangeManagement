@@ -6,15 +6,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
-"PO-Revision-Date: 2020-05-27 14:18+0000\n"
-"Last-Translator: Luigi Gregori <luigi@famgregori.it>\n"
-"Language-Team: Italian <https://translate.app.otrs.com/projects/otrs-6/itsm-change-management/it/>\n"
+"PO-Revision-Date: 2025-05-11 12:45+0000\n"
+"Last-Translator: Roy Kaldung <rk@znuny.com>\n"
+"Language-Team: Italian <https://translations.znuny.org/projects/znuny/"
+"itsmchangemanagement/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
@@ -974,7 +975,7 @@ msgstr "Cambia priorità"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "Change Impact"
-msgstr ""
+msgstr "Cambia Impatto"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "Created By"
@@ -2975,4 +2976,3 @@ msgstr ""
 #. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
 msgid "Delete Notification"
 msgstr ""
-
