@@ -374,7 +374,7 @@ sub Data {
     $Self->{Translation}->{'WorkOrder Instruction'} = 'Istruzioni sull\'ordine di lavoro';
     $Self->{Translation}->{'WorkOrder Report'} = 'Rapporto sull\'ordine di lavoro.';
     $Self->{Translation}->{'Change Priority'} = 'Cambia priorità';
-    $Self->{Translation}->{'Change Impact'} = '';
+    $Self->{Translation}->{'Change Impact'} = 'Cambia Impatto';
     $Self->{Translation}->{'Created By'} = '';
     $Self->{Translation}->{'WorkOrder State'} = '';
     $Self->{Translation}->{'WorkOrder Type'} = '';
