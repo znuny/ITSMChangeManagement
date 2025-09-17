@@ -16,13 +16,13 @@ sub Data {
     my $Self = shift;
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = '';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Κατηγορία↔Αντίκτυπος↔Προτεραιότητα';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         '';
-    $Self->{Translation}->{'Priority allocation'} = '';
+    $Self->{Translation}->{'Priority allocation'} = 'Κατανομή Προτεραιοτήτων';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
-    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '';
+    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Διαχείριση Ειδοποιήσεων ITSM ChangeManagement';
     $Self->{Translation}->{'Add Notification Rule'} = '';
     $Self->{Translation}->{'Edit Notification Rule'} = '';
     $Self->{Translation}->{'A notification should have a name!'} = '';
@@ -173,8 +173,8 @@ sub Data {
     $Self->{Translation}->{'Accounted Time'} = '';
     $Self->{Translation}->{'Change Initiator(s)'} = '';
     $Self->{Translation}->{'CAB'} = '';
-    $Self->{Translation}->{'Last changed'} = '';
-    $Self->{Translation}->{'Last changed by'} = '';
+    $Self->{Translation}->{'Last changed'} = 'Τελευταία αλλαγή';
+    $Self->{Translation}->{'Last changed by'} = 'Τελευταία αλλαγή από';
     $Self->{Translation}->{'To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS).'} =
         '';
     $Self->{Translation}->{'Download Attachment'} = '';
