@@ -4382,7 +4382,7 @@ for my $OrderByColumn (@OrderByColumns) {
     }
     else {
         @SortedChanges = sort {
-            $a->{$OrderByColumn} <=> $b->{$OrderByColumn}
+            $a->{$OrderByColumn}  <=> $b->{$OrderByColumn}
                 || $b->{ChangeID} <=> $a->{ChangeID}
         } @OrderBySearchTestChanges;
     }
@@ -4416,7 +4416,7 @@ for my $OrderByColumn (@OrderByColumns) {
     }
     else {
         @SortedChangesDown = sort {
-            $b->{$OrderByColumn} <=> $a->{$OrderByColumn}
+            $b->{$OrderByColumn}  <=> $a->{$OrderByColumn}
                 || $b->{ChangeID} <=> $a->{ChangeID}
         } @OrderBySearchTestChanges;
     }
@@ -4525,8 +4525,8 @@ for my $ChangeIDForSecondOrderByTests (@OrderBySearchTestChangeIDs) {
 # create an extra block as we use "local"
 {
     my @SortedChanges = sort {
-        $a->{CreateTime} <=> $b->{CreateTime}       # createtime is sorted ascending
-            || $a->{ChangeID} <=> $b->{ChangeID}    # changeid is sorted ascending
+        $a->{CreateTime} <=> $b->{CreateTime}         # createtime is sorted ascending
+            || $a->{ChangeID} <=> $b->{ChangeID}      # changeid is sorted ascending
     } @ChangesForSecondOrderByTests;
     my @SortedIDs = map { $_->{ChangeID} } @SortedChanges;
 
@@ -4537,7 +4537,7 @@ for my $ChangeIDForSecondOrderByTests (@OrderBySearchTestChangeIDs) {
     my $SearchResult = $ChangeObject->ChangeSearch(
         ChangeTitle      => 'OrderByChange - Title - ' . $UniqueSignature,
         OrderBy          => [ 'CreateTime', 'ChangeID' ],
-        OrderByDirection => [ 'Up', 'Up' ],
+        OrderByDirection => [ 'Up',         'Up' ],
         UserID           => 1,
     );
 

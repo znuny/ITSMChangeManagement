@@ -13,7 +13,7 @@ use strict;
 use warnings;
 
 use Kernel::System::VariableCheck qw(:all);
-use Kernel::Language qw(Translatable);
+use Kernel::Language              qw(Translatable);
 
 our $ObjectManagerDisabled = 1;
 
@@ -481,13 +481,13 @@ sub _Edit {
                 Name => 'NotificationLanguage',
                 Data => {
                     %Param,
-                    Subject => $Param{Message}->{$Type}->{$LanguageID}->{Subject} || '',
-                    Body    => $Param{Message}->{$Type}->{$LanguageID}->{Body}    || '',
-                    Type    => $Type,
+                    Subject            => $Param{Message}->{$Type}->{$LanguageID}->{Subject} || '',
+                    Body               => $Param{Message}->{$Type}->{$LanguageID}->{Body}    || '',
+                    Type               => $Type,
                     LanguageID         => $LanguageID,
                     Language           => $DefaultUsedLanguages{$LanguageID},
                     SubjectServerError => $Param{ $Type . '_' . $LanguageID . '_SubjectServerError' } || '',
-                    BodyServerError    => $Param{ $Type . '_' . $LanguageID . '_BodyServerError' } || '',
+                    BodyServerError    => $Param{ $Type . '_' . $LanguageID . '_BodyServerError' }    || '',
                 },
             );
 

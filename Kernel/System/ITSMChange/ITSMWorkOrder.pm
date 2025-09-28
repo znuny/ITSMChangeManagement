@@ -251,7 +251,7 @@ sub WorkOrderAdd {
             . 'VALUES (?, ?, ?, ?, current_timestamp, ?, current_timestamp, ?)',
         Bind => [
             \$Param{ChangeID}, \$WorkOrderNumber, \$WorkOrderStateID, \$WorkOrderTypeID,
-            \$Param{UserID}, \$Param{UserID},
+            \$Param{UserID},   \$Param{UserID},
         ],
     );
 
@@ -1385,7 +1385,7 @@ sub WorkOrderSearch {
                 if ( !$ValidateSuccess ) {
                     $Kernel::OM->Get('Kernel::System::Log')->Log(
                         Priority => 'error',
-                        Message =>
+                        Message  =>
                             "Search not executed due to invalid value '"
                             . $Text
                             . "' on field '"
@@ -3335,7 +3335,7 @@ sub _CheckTimestamps {
             if ( $StartTime >= $EndTime ) {
                 $Kernel::OM->Get('Kernel::System::Log')->Log(
                     Priority => 'error',
-                    Message =>
+                    Message  =>
                         "The $TypeLc start time '$StartTime' must be before the $TypeLc end time '$EndTime'!",
                 );
                 return;

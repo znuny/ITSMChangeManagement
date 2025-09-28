@@ -71,7 +71,7 @@ sub Run {
         if ( !$Success ) {
             $Kernel::OM->Get('Kernel::System::Log')->Log(
                 Priority => 'error',
-                Message =>
+                Message  =>
                     "Could not add attribute '$Param{Data}->{NewData}->{Name}' to condition attribute table!",
             );
         }
@@ -96,7 +96,7 @@ sub Run {
         if ( !$Success ) {
             $Kernel::OM->Get('Kernel::System::Log')->Log(
                 Priority => 'error',
-                Message =>
+                Message  =>
                     "Could not update attribute name from '$Param{Data}->{OldData}->{Name}' to '$Param{Data}->{NewData}->{Name}'!",
             );
         }

@@ -125,7 +125,7 @@ sub TemplateAdd {
     if ($TemplateID) {
         $Kernel::OM->Get('Kernel::System::Log')->Log(
             Priority => 'error',
-            Message =>
+            Message  =>
                 "A template with the name '$Param{Name}' and the type '$Param{TemplateTypeID}' already exists!",
         );
         return;
@@ -147,8 +147,8 @@ sub TemplateAdd {
             . 'create_time, create_by, change_time, change_by) '
             . 'VALUES (?, ?, ?, ?, ?, current_timestamp, ?, current_timestamp, ?)',
         Bind => [
-            \$Param{Name}, \$Param{Comment}, \$Param{Content}, \$Param{TemplateTypeID},
-            \$Param{ValidID}, \$Param{UserID}, \$Param{UserID},
+            \$Param{Name},    \$Param{Comment}, \$Param{Content}, \$Param{TemplateTypeID},
+            \$Param{ValidID}, \$Param{UserID},  \$Param{UserID},
         ],
     );
 

@@ -93,7 +93,7 @@ sub ActionAdd {
             . ' action_value) '
             . 'VALUES (?, ?, ?, ?, ?, ?, ?)',
         Bind => [
-            \$Param{ConditionID}, \$ActionNumber, \$Param{ObjectID},
+            \$Param{ConditionID}, \$ActionNumber,      \$Param{ObjectID},
             \$Param{AttributeID}, \$Param{OperatorID}, \$Param{Selector},
             \$Param{ActionValue},
         ],
@@ -111,7 +111,7 @@ sub ActionAdd {
                 . 'AND attribute_id = ? AND operator_id = ? AND selector = ? '
                 . 'AND action_value IS NULL',
             Bind => [
-                \$Param{ConditionID}, \$ActionNumber, \$Param{ObjectID},
+                \$Param{ConditionID}, \$ActionNumber,      \$Param{ObjectID},
                 \$Param{AttributeID}, \$Param{OperatorID}, \$Param{Selector},
             ],
             Limit => 1,
@@ -126,7 +126,7 @@ sub ActionAdd {
                 . 'AND attribute_id = ? AND operator_id = ? AND selector = ? '
                 . 'AND action_value = ?',
             Bind => [
-                \$Param{ConditionID}, \$ActionNumber, \$Param{ObjectID},
+                \$Param{ConditionID}, \$ActionNumber,      \$Param{ObjectID},
                 \$Param{AttributeID}, \$Param{OperatorID}, \$Param{Selector},
                 \$Param{ActionValue},
             ],

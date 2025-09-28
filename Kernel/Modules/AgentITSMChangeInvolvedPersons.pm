@@ -12,7 +12,7 @@ package Kernel::Modules::AgentITSMChangeInvolvedPersons;
 use strict;
 use warnings;
 
-use List::Util qw();
+use List::Util       qw();
 use Kernel::Language qw(Translatable);
 
 our $ObjectManagerDisabled = 1;

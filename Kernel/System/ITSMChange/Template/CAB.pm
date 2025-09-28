@@ -165,7 +165,7 @@ sub DeSerialize {
     return if !$Kernel::OM->Get('Kernel::System::ITSMChange')->ChangeCABUpdate(
         ChangeID     => $Param{ChangeID},
         CABCustomers => [ @{ $Param{Data}->{CABCustomers} }, @{ $Change->{CABCustomers} } ],
-        CABAgents    => [ @{ $Param{Data}->{CABAgents} }, @{ $Change->{CABAgents} } ],
+        CABAgents    => [ @{ $Param{Data}->{CABAgents} },    @{ $Change->{CABAgents} } ],
         UserID       => $Param{UserID},
     );
 
