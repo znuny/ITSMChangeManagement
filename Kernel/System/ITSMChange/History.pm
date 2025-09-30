@@ -1158,9 +1158,9 @@ sub HistoryStringsList {
             Translatable('Workorder (ID=%s) reached actual start time.'),
         'WorkOrderHistory::WorkOrderActualStartTimeReachedWithWorkOrderID' =>
             Translatable('Workorder (ID=%s) reached actual start time.'),
-        'WorkOrderHistory::WorkOrderAdd'                => Translatable('New Workorder (ID=%s)'),
-        'WorkOrderHistory::WorkOrderAddWithWorkOrderID' => Translatable('New Workorder (ID=%s)'),
-        'WorkOrderHistory::WorkOrderAttachmentAdd'      => Translatable('New Attachment for WorkOrder: %s'),
+        'WorkOrderHistory::WorkOrderAdd'                          => Translatable('New Workorder (ID=%s)'),
+        'WorkOrderHistory::WorkOrderAddWithWorkOrderID'           => Translatable('New Workorder (ID=%s)'),
+        'WorkOrderHistory::WorkOrderAttachmentAdd'                => Translatable('New Attachment for WorkOrder: %s'),
         'WorkOrderHistory::WorkOrderAttachmentAddWithWorkOrderID' =>
             Translatable('(ID=%s) New Attachment for WorkOrder: %s'),
         'WorkOrderHistory::WorkOrderAttachmentDelete' => Translatable('Deleted Attachment from WorkOrder: %s'),

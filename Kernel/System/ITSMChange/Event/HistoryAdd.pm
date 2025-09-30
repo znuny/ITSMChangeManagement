@@ -240,7 +240,7 @@ sub Run {
 
         my $ContentNew = join '%%',
             $Param{Data}->{SourceObject} || $Param{Data}->{TargetObject},
-            $Param{Data}->{SourceKey} || $Param{Data}->{TargetKey};
+            $Param{Data}->{SourceKey}    || $Param{Data}->{TargetKey};
 
         # tell history that a link was added
         push @HistoryAddData, {

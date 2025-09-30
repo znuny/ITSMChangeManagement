@@ -12,7 +12,7 @@ package Kernel::Modules::AgentITSMChangeSearch;
 use strict;
 use warnings;
 
-use Kernel::Language qw(Translatable);
+use Kernel::Language              qw(Translatable);
 use Kernel::System::VariableCheck qw(:all);
 
 our $ObjectManagerDisabled = 1;
@@ -1304,7 +1304,7 @@ sub _MaskForm {
                 DynamicFieldConfig   => $DynamicFieldConfig,
                 Profile              => \%GetParam,
                 PossibleValuesFilter => $PossibleValues,
-                DefaultValue =>
+                DefaultValue         =>
                     $Self->{Config}->{Defaults}->{DynamicField}
                     ->{ $DynamicFieldConfig->{Name} },
                 LayoutObject => $LayoutObject,

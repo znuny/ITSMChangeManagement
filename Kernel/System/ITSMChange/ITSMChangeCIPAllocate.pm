@@ -164,7 +164,7 @@ sub AllocateUpdate {
                     . 'create_time, create_by, change_time, change_by) VALUES '
                     . '(?, ?, ?, current_timestamp, ?, current_timestamp, ?)',
                 Bind => [
-                    \$CategoryID, \$ImpactID, \$PriorityID,
+                    \$CategoryID,    \$ImpactID, \$PriorityID,
                     \$Param{UserID}, \$Param{UserID},
                 ],
             );

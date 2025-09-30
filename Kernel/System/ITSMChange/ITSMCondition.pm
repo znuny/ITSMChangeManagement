@@ -156,8 +156,8 @@ sub ConditionAdd {
             . 'create_time, create_by, change_time, change_by) '
             . 'VALUES (?, ?, ?, ?, ?, current_timestamp, ?, current_timestamp, ?)',
         Bind => [
-            \$Param{ChangeID}, \$Param{Name}, \$Param{ExpressionConjunction},
-            \$Param{Comment}, \$Param{ValidID}, \$Param{UserID}, \$Param{UserID},
+            \$Param{ChangeID}, \$Param{Name},    \$Param{ExpressionConjunction},
+            \$Param{Comment},  \$Param{ValidID}, \$Param{UserID}, \$Param{UserID},
         ],
     );
 
