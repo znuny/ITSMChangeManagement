@@ -68,30 +68,29 @@ $Selenium->RunTest(
 
             # navigate to AgentITSMChange screen
             $Selenium->VerifiedGet("${ScriptAlias}index.pl?Action=AgentITSMChange;SortBy=ChangeNumber;OrderBy=Down");
+            $Selenium->WaitFor( JavaScript => 'return typeof($) === "function";' );
 
+            my $FilterValue = $ChangeState;
             if ( $ChangeState eq 'pending approval' ) {
-
-                # click on appropriate filter
-                $Selenium->find_element("//a[contains(\@href, \'Filter=pending%20approval' )]")->VerifiedClick();
-
+                $FilterValue = 'pending%20approval';
             }
             elsif ( $ChangeState eq 'in progress' ) {
-
-                # click on appropriate filter
-                $Selenium->find_element("//a[contains(\@href, \'Filter=in%20progress' )]")->VerifiedClick();
-
+                $FilterValue = 'in%20progress';
             }
             elsif ( $ChangeState eq 'pending pir' ) {
-
-                # click on appropriate filter
-                $Selenium->find_element("//a[contains(\@href, \'Filter=pending%20pir' )]")->VerifiedClick();
-
+                $FilterValue = 'pending%20pir';
             }
-            else {
 
-                # click on appropriate filter
-                $Selenium->find_element("//a[contains(\@href, \'Filter=$ChangeState' )]")->VerifiedClick();
-            }
+            $Selenium->WaitFor( JavaScript => 'return typeof($) === "function";' );
+            $Selenium->execute_script(
+                "if (typeof(\$) === 'function') {"
+                    . " \$('.modMessages .message').remove();"
+                    . " \$('.MessageBox').remove();"
+                    . "}"
+            );
+
+            # click on appropriate filter
+            $Selenium->find_element("//a[contains(\@href, \'Filter=$FilterValue' )]")->VerifiedClick();
 
             # check screen
             $Selenium->find_element( "table",             'css' );
