@@ -171,11 +171,8 @@ sub CodeReinstall {
         UserID     => 1,
     );
 
-    # set default CIP matrix
+    # set default CIP matrix (this is only done if no matrix exists)
     $Self->_CIPDefaultMatrixSet();
-
-    # set default StateMachine settings
-    $Self->_StateMachineDefaultSet();
 
     return 1;
 }
