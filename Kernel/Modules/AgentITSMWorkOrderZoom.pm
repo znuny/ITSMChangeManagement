@@ -12,7 +12,7 @@ package Kernel::Modules::AgentITSMWorkOrderZoom;
 use strict;
 use warnings;
 
-use Kernel::Language qw(Translatable);
+use Kernel::Language              qw(Translatable);
 use Kernel::System::VariableCheck qw(:all);
 
 our $ObjectManagerDisabled = 1;
@@ -179,8 +179,8 @@ sub Run {
     elsif ( $Self->{Subaction} eq 'DownloadAttachment' ) {
 
         # get data for attachment
-        my $Filename = $ParamObject->GetParam( Param => 'Filename' );
-        my $Type     = $ParamObject->GetParam( Param => 'Type' );
+        my $Filename       = $ParamObject->GetParam( Param => 'Filename' );
+        my $Type           = $ParamObject->GetParam( Param => 'Type' );
         my $AttachmentData = $WorkOrderObject->WorkOrderAttachmentGet(
             WorkOrderID    => $WorkOrderID,
             Filename       => $Filename,

@@ -156,8 +156,8 @@ sub Run {
     }
 
     # get filter and view params
-    $Self->{Filter} = $ParamObject->GetParam( Param => 'Filter' ) || 'All';
-    $Self->{View}   = $ParamObject->GetParam( Param => 'View' )   || '';
+    $Self->{Filter}    = $ParamObject->GetParam( Param => 'Filter' ) || 'All';
+    $Self->{View}      = $ParamObject->GetParam( Param => 'View' )   || '';
     $Self->{StartHit}  = int( $ParamObject->GetParam( Param => 'StartHit' ) || 1 );
     $Self->{PageShown} = $Self->{UserShowTickets} || 1;
 

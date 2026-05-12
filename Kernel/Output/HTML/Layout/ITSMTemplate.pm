@@ -13,7 +13,7 @@ use strict;
 use warnings;
 
 use Kernel::Language qw(Translatable);
-use POSIX qw(ceil);
+use POSIX            qw(ceil);
 
 our $ObjectManagerDisabled = 1;
 

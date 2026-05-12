@@ -12,8 +12,8 @@ package Kernel::Modules::AgentITSMChangePrint;
 use strict;
 use warnings;
 
-use List::Util qw(max);
-use Kernel::Language qw(Translatable);
+use List::Util                    qw(max);
+use Kernel::Language              qw(Translatable);
 use Kernel::System::VariableCheck qw(:all);
 
 our $ObjectManagerDisabled = 1;
@@ -209,7 +209,7 @@ sub Run {
             $Output .= $Self->_OutputLongText(
                 PrintChange    => $PrintChange,
                 PrintWorkOrder => $PrintWorkOrder,
-                Title =>
+                Title          =>
                     $LayoutObject->{LanguageObject}->Translate($Attribute),
                 LongText => $Change->{ $Attribute . 'Plain' },
             );
@@ -369,7 +369,7 @@ sub Run {
             $Output .= $Self->_OutputLongText(
                 PrintChange    => 0,
                 PrintWorkOrder => 1,
-                Title =>
+                Title          =>
                     $LayoutObject->{LanguageObject}->Translate($Attribute),
                 LongText => $WorkOrder->{ $Attribute . 'Plain' },
             );

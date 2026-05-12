@@ -224,8 +224,8 @@ sub ChangeAdd {
             . 'create_time, create_by, change_time, change_by) '
             . 'VALUES (?, ?, ?, ?, ?, ?, current_timestamp, ?, current_timestamp, ?)',
         Bind => [
-            \$ChangeNumber, \$ChangeStateID, \$ChangeBuilderID,
-            \$CategoryID,   \$ImpactID,      \$PriorityID,
+            \$ChangeNumber,  \$ChangeStateID, \$ChangeBuilderID,
+            \$CategoryID,    \$ImpactID,      \$PriorityID,
             \$Param{UserID}, \$Param{UserID},
         ],
     );
@@ -1013,7 +1013,7 @@ sub ChangeCABGet {
 
             $Kernel::OM->Get('Kernel::System::Log')->Log(
                 Priority => 'error',
-                Message =>
+                Message  =>
                     "CAB table entry with ID $ErrorCABID contains UserID and CustomerUserID! "
                     . 'Only one at a time is allowed!',
             );
@@ -1831,7 +1831,7 @@ sub ChangeSearch {
                 if ( !$ValidateSuccess ) {
                     $Kernel::OM->Get('Kernel::System::Log')->Log(
                         Priority => 'error',
-                        Message =>
+                        Message  =>
                             "Search not executed due to invalid value '"
                             . $Text
                             . "' on field '"

@@ -865,20 +865,20 @@ sub _ITSMChangeGetWorkOrderGraph {
             "%.1f",
             ( $Time{"${TimeType}StartTime"} - $Param{StartTime} ) / $Param{Ticks}
         );
-        $StartPadding = ( $StartPadding <= 0 )   ? 0    : $StartPadding;
-        $StartPadding = ( $StartPadding >= 100 ) ? 99.9 : $StartPadding;
+        $StartPadding                    = ( $StartPadding <= 0 )   ? 0    : $StartPadding;
+        $StartPadding                    = ( $StartPadding >= 100 ) ? 99.9 : $StartPadding;
         $TickValue{"${TimeType}Padding"} = $StartPadding;
 
         # get values for trailing span
         my $EndTrailing = sprintf( "%.1f", ( $Param{EndTime} - $Time{"${TimeType}EndTime"} ) / $Param{Ticks} );
-        $EndTrailing = ( $EndTrailing <= 0 )   ? 0    : $EndTrailing;
-        $EndTrailing = ( $EndTrailing >= 100 ) ? 99.9 : $EndTrailing;
+        $EndTrailing                      = ( $EndTrailing <= 0 )   ? 0    : $EndTrailing;
+        $EndTrailing                      = ( $EndTrailing >= 100 ) ? 99.9 : $EndTrailing;
         $TickValue{"${TimeType}Trailing"} = $EndTrailing;
 
         # get values for display span
         my $TimeTicks = 100 - ( $TickValue{"${TimeType}Padding"} + $TickValue{"${TimeType}Trailing"} );
-        $TimeTicks = ( $TimeTicks <= 0 )   ? 0.1  : $TimeTicks;
-        $TimeTicks = ( $TimeTicks >= 100 ) ? 99.9 : $TimeTicks;
+        $TimeTicks                     = ( $TimeTicks <= 0 )   ? 0.1  : $TimeTicks;
+        $TimeTicks                     = ( $TimeTicks >= 100 ) ? 99.9 : $TimeTicks;
         $TickValue{"${TimeType}Ticks"} = sprintf( "%.1f", $TimeTicks );
     }
 

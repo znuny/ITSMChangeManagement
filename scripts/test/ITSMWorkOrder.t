@@ -641,10 +641,10 @@ for my $Test (@ChangeTests) {
 
             # dump the attribute from ChangeGet() and the reference attribute
             ## no critic
-            my $ChangeAttribute = Data::Dumper::Dumper( $ChangeData->{$RequestedAttribute} );    ## no critic
+            my $ChangeAttribute    = Data::Dumper::Dumper( $ChangeData->{$RequestedAttribute} );                  ## no critic
             my $ReferenceAttribute = Data::Dumper::Dumper( $ReferenceData->{ChangeGet}->{$RequestedAttribute} )
-                ;                                                                                ## no critic
-                                                                                                 # use critic
+                ;    ## no critic
+                     # use critic
 
             $Self->Is(
                 $ChangeAttribute,
@@ -665,7 +665,7 @@ continue {
 # ------------------------------------------------------------ #
 my (
     $WorkOrderAddTestID, $OrderByTestID, $StringSearchTestID,
-    $TimeSearchTestID, $PermissionTestID
+    $TimeSearchTestID,   $PermissionTestID
 ) = sort keys %TestedChangeID;
 
 # tests with only WorkOrderAdd();
@@ -850,7 +850,7 @@ my @WorkOrderTests = (
                 ChangeID         => $WorkOrderAddTestID,
                 WorkOrderTypeID  => $WorkOrderTypeName2ID{pir},
                 WorkOrderStateID => $WorkOrderStateName2ID{closed},
-                WorkOrderTitle =>
+                WorkOrderTitle   =>
                     'WorkOrderAdd with WorkOrderTypeID and WorkOrderStateID - Title - '
                     . $UniqueSignature,
                 Instruction =>
@@ -865,7 +865,7 @@ my @WorkOrderTests = (
                 ChangeID         => $WorkOrderAddTestID,
                 WorkOrderTypeID  => $WorkOrderTypeName2ID{pir},
                 WorkOrderStateID => $WorkOrderStateName2ID{closed},
-                WorkOrderTitle =>
+                WorkOrderTitle   =>
                     'WorkOrderAdd with WorkOrderTypeID and WorkOrderStateID - Title - '
                     . $UniqueSignature,
                 Instruction =>
@@ -2142,9 +2142,9 @@ for my $Test (@WorkOrderTests) {
 
             # dump the attribute from WorkOrderGet() and the reference attribute
             ## no critic
-            my $WorkOrderAttribute = Data::Dumper::Dumper( $WorkOrderData->{$RequestedAttribute} );    ## no critic
+            my $WorkOrderAttribute = Data::Dumper::Dumper( $WorkOrderData->{$RequestedAttribute} );                  ## no critic
             my $ReferenceAttribute = Data::Dumper::Dumper( $ReferenceData->{WorkOrderGet}->{$RequestedAttribute} )
-                ;                                                                                      ## no critic
+                ;                                                                                                    ## no critic
             ## use critic
 
             $Self->Is(
@@ -3070,7 +3070,7 @@ for my $Change (@ChangesForSortTest) {
     );
 
     # store ChangeID
-    push @ChangeIDsForSortTest, $ChangeID;
+    push @ChangeIDsForSortTest,     $ChangeID;
     push @{ $IDsToDelete{Change} }, $ChangeID;
 
     # add the workorders for the change
@@ -3137,7 +3137,7 @@ for my $OrderByColumn (qw(PlannedStartTime PlannedEndTime ActualStartTime Actual
     my $SearchResult = $ChangeObject->ChangeSearch(
         ChangeTitle      => $ChangesTitle,
         OrderBy          => [ $OrderByColumn, 'ChangeID' ],
-        OrderByDirection => [ 'Down', 'Up' ],
+        OrderByDirection => [ 'Down',         'Up' ],
         UserID           => 1,
     );
 
@@ -3175,7 +3175,7 @@ for my $OrderByColumn (qw(PlannedStartTime PlannedEndTime ActualStartTime Actual
     my $SearchResultUp = $ChangeObject->ChangeSearch(
         ChangeTitle      => $ChangesTitle,
         OrderBy          => [ $OrderByColumn, 'ChangeID' ],
-        OrderByDirection => [ 'Up', 'Down' ],
+        OrderByDirection => [ 'Up',           'Down' ],
         UserID           => 1,
     );
 
@@ -3619,7 +3619,7 @@ for my $TSTest (@TimeSearchTests) {
             "Test $TestCount: |- WorkOrderAdd",
         );
 
-        push @TSTWorkOrderIDs, $WorkOrderID;
+        push @TSTWorkOrderIDs,             $WorkOrderID;
         push @{ $IDsToDelete{WorkOrder} }, $WorkOrderID;
     }
 
@@ -4148,7 +4148,7 @@ for my $WOCTGTest (@WOCTGTests) {
             (
                 ref $Time eq 'HASH'
                     && %{$Time}
-            )
+                )
                 || 0,
             "Test $TestCount: |- WorkOrderChangeTimeGet() - HashRef with content",
         );

@@ -81,11 +81,11 @@ my %ChangeStateID2Name = reverse %Name2ChangeStateID;
 # default ChangeState Transitions
 my %DefaultChangeStateTransitions = (
     0                  => ['requested'],
-    'requested'        => [ 'rejected', 'retracted', 'pending approval', 'in progress' ],
-    'pending approval' => [ 'rejected', 'retracted', 'approved' ],
-    'approved'         => [ 'retracted', 'in progress' ],
+    'requested'        => [ 'rejected',    'retracted', 'pending approval', 'in progress' ],
+    'pending approval' => [ 'rejected',    'retracted', 'approved' ],
+    'approved'         => [ 'retracted',   'in progress' ],
     'in progress'      => [ 'pending pir', 'retracted', 'failed', 'successful', 'canceled' ],
-    'pending pir'      => [ 'failed', 'successful' ],
+    'pending pir'      => [ 'failed',      'successful' ],
     'rejected'         => [0],
     'retracted'        => [0],
     'failed'           => [0],
@@ -113,10 +113,10 @@ my %WorkOrderStateID2Name = reverse %Name2WorkOrderStateID;
 # default WorkOrderState Transitions
 my %DefaultWorkOrderStateTransitions = (
     0             => ['created'],
-    'created'     => [ 'accepted', 'canceled' ],
-    'accepted'    => [ 'ready', 'canceled' ],
+    'created'     => [ 'accepted',    'canceled' ],
+    'accepted'    => [ 'ready',       'canceled' ],
     'ready'       => [ 'in progress', 'canceled' ],
-    'in progress' => [ 'closed', 'canceled' ],
+    'in progress' => [ 'closed',      'canceled' ],
     'canceled'    => [0],
     'closed'      => [0],
 );
