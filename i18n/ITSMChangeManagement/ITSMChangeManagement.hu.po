@@ -6,15 +6,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2020-01-24 11:46+0000\n"
-"PO-Revision-Date: 2020-09-21 14:13+0000\n"
-"Last-Translator: Balázs Úr <balazs.ur@otrs.com>\n"
-"Language-Team: Hungarian <https://translate.otrs.com/projects/otrs-6/itsm-change-management/hu/>\n"
+"PO-Revision-Date: 2026-07-09 10:32+0000\n"
+"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"Language-Team: Hungarian <https://translations.znuny.org/projects/znuny/"
+"itsmchangemanagement/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
 msgid "Category ↔ Impact ↔ Priority"
@@ -434,7 +435,7 @@ msgstr "ITSM változás hatás"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "Change Category"
-msgstr "Változáskategória"
+msgstr "Kategória módosítása"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMChangeSearch.tt
 msgid "(before/after)"
@@ -554,7 +555,7 @@ msgstr "Módosította"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMTemplateOverviewSmall.tt
 msgid "Change Time"
-msgstr "Változás ideje"
+msgstr "Változtatás ideje"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
 msgid "Add Workorder to %s%s"
@@ -2995,17 +2996,16 @@ msgstr "rendszeresen"
 
 #. TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
 msgid "Filter for notification rules"
-msgstr ""
+msgstr "Szűrő az értesítési szabályokhoz"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
 msgid "My CAB"
-msgstr ""
+msgstr "Saját CAB"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
 msgid "My Workorders"
-msgstr ""
+msgstr "Saját munkamegrendelések"
 
 #. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
 msgid "Delete Notification"
-msgstr ""
-
+msgstr "Értesítés törlése"
