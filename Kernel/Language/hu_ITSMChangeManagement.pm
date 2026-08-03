@@ -23,7 +23,7 @@ sub Data {
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
     $Self->{Translation}->{'Add Notification Rule'} = 'Értesítési szabály hozzáadása';
-    $Self->{Translation}->{'Filter for notification rules'} = '';
+    $Self->{Translation}->{'Filter for notification rules'} = 'Szűrő az értesítési szabályokhoz';
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'ITSM változásmenedzsment értesítés kezelés';
     $Self->{Translation}->{'Edit Notification Rule'} = 'Értesítési szabály szerkesztése';
     $Self->{Translation}->{'A notification should have a name!'} = 'Az értesítésnek rendelkeznie kell egy névvel!';
@@ -152,7 +152,7 @@ sub Data {
     $Self->{Translation}->{'ITSM Workorder Report'} = 'ITSM munkamegrendelés jelentés';
     $Self->{Translation}->{'ITSM Change Priority'} = 'ITSM változás prioritás';
     $Self->{Translation}->{'ITSM Change Impact'} = 'ITSM változás hatás';
-    $Self->{Translation}->{'Change Category'} = 'Változáskategória';
+    $Self->{Translation}->{'Change Category'} = 'Kategória módosítása';
     $Self->{Translation}->{'(before/after)'} = '(előtt/után)';
     $Self->{Translation}->{'(between)'} = '(között)';
 
@@ -200,7 +200,7 @@ sub Data {
     $Self->{Translation}->{'Edit Content'} = 'Tartalom szerkesztése';
     $Self->{Translation}->{'Create by'} = 'Létrehozta';
     $Self->{Translation}->{'Change by'} = 'Módosította';
-    $Self->{Translation}->{'Change Time'} = 'Változás ideje';
+    $Self->{Translation}->{'Change Time'} = 'Változtatás ideje';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AgentITSMWorkOrderAdd.tt
     $Self->{Translation}->{'Add Workorder to %s%s'} = 'Munkamegrendelés hozzáadása ehhez: %s%s';
@@ -315,13 +315,13 @@ sub Data {
     $Self->{Translation}->{'Was not able to update Change %s!'} = 'Nem sikerült a(z) %s változás frissítése!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
-    $Self->{Translation}->{'My CAB'} = '';
+    $Self->{Translation}->{'My CAB'} = 'Saját CAB';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
     $Self->{Translation}->{'My Changes'} = 'Saját változások';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
-    $Self->{Translation}->{'My Workorders'} = '';
+    $Self->{Translation}->{'My Workorders'} = 'Saját munkamegrendelések';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
     $Self->{Translation}->{'PIR'} = 'PIR';
@@ -559,7 +559,7 @@ sub Data {
     $Self->{Translation}->{'set'} = 'beállítva';
 
     # JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
-    $Self->{Translation}->{'Delete Notification'} = '';
+    $Self->{Translation}->{'Delete Notification'} = 'Értesítés törlése';
 
     # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = 'Valóban törölni szeretné ezt a kifejezést?';

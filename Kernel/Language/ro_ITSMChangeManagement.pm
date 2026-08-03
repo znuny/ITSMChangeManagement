@@ -18,7 +18,7 @@ sub Data {
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeCIPAllocate.tt
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         '';
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = '';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Categorie ↔ Impact ↔ Prioritate';
     $Self->{Translation}->{'Priority allocation'} = 'Alocare prioritate';
 
     # TT Template: Kernel/Output/HTML/Templates/Standard/AdminITSMChangeNotification.tt
