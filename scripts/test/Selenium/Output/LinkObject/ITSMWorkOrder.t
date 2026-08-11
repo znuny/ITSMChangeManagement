@@ -154,20 +154,10 @@ $Selenium->RunTest(
         $Selenium->execute_script('$("button[title=\'Delete links\']").click();');
 
         $Selenium->WaitFor(
-            JavaScript =>
-                "return typeof(\$) === 'function' && (\$('.MessageBox.Info p').length || \$('.modMessages .alertTypeNotice .alertContent').length);"
-        );
-        my $NotificationText = $Selenium->execute_script(
-            "var text = '';"
-                . "if (\$('.MessageBox.Info p').length) {"
-                . "  text = \$('.MessageBox.Info p').text();"
-                . "} else if (\$('.modMessages .alertTypeNotice .alertContent').length) {"
-                . "  text = \$('.modMessages .alertTypeNotice .alertContent').first().text();"
-                . "}"
-                . "return text.trim();"
+            JavaScript => "return typeof(\$) === 'function' && \$('.modAlert .alertContent').length;"
         );
         $Self->Is(
-            $NotificationText,
+            $Selenium->execute_script("return \$('.modAlert .alertContent').first().text().trim();"),
             "1 Link(s) deleted successfully.",
             "Check if link is deleted successfully",
         );
