@@ -604,7 +604,7 @@ sub Data {
     $Self->{Translation}->{'Change Overview "Small" Limit'} = 'Change-Übersicht Limit für Ansicht "Klein"';
     $Self->{Translation}->{'Change Overview.'} = 'Change-Übersicht.';
     $Self->{Translation}->{'Change Print.'} = 'Change-Ausdruck.';
-    $Self->{Translation}->{'Change Schedule.'} = '';
+    $Self->{Translation}->{'Change Schedule.'} = 'Change-Zeitplan.';
     $Self->{Translation}->{'Change Settings'} = 'Change-Einstellungen';
     $Self->{Translation}->{'Change Zoom'} = 'Change-Detailansicht';
     $Self->{Translation}->{'Change Zoom.'} = 'Change-Detailansicht.';
@@ -1009,7 +1009,7 @@ sub Data {
     $Self->{Translation}->{'Shows a link in the menu to access the history of a change in the its zoom view of the agent interface.'} =
         'Zeigt in der Change Zoom Ansicht des Agenten-Interfaces einen Menu Link zum Zugriff auf die Historie.';
     $Self->{Translation}->{'Shows a link in the menu to access the history of a workorder in the its zoom view of the agent interface.'} =
-        '';
+        'Zeigt in der Arbeitsauftrag-Detailansicht des Agenten-Interfaces einen Menu Link zum Zugriff auf die Historie.';
     $Self->{Translation}->{'Shows a link in the menu to add a workorder in the change zoom view of the agent interface.'} =
         'Zeigt im Menü der Change-Detailansicht im Agenten-Interface einen Link zum Hinzufügen eines Arbeitsauftrags.';
     $Self->{Translation}->{'Shows a link in the menu to delete a change in its zoom view of the agent interface.'} =
