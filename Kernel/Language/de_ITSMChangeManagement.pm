@@ -315,13 +315,13 @@ sub Data {
     $Self->{Translation}->{'Was not able to update Change %s!'} = 'Konnte Change %s nicht aktualisieren!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
-    $Self->{Translation}->{'My CAB'} = '';
+    $Self->{Translation}->{'My CAB'} = 'Mein CAB';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
     $Self->{Translation}->{'My Changes'} = 'Meine Changes';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
-    $Self->{Translation}->{'My Workorders'} = '';
+    $Self->{Translation}->{'My Workorders'} = 'Meine Arbeitsaufträge';
 
     # Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
     $Self->{Translation}->{'PIR'} = 'PIR';
@@ -559,7 +559,7 @@ sub Data {
     $Self->{Translation}->{'set'} = 'setze';
 
     # JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
-    $Self->{Translation}->{'Delete Notification'} = '';
+    $Self->{Translation}->{'Delete Notification'} = 'Benachrichtigung löschen';
 
     # JS File: var/httpd/htdocs/js/ITSM.Agent.ChangeManagement.Condition.js
     $Self->{Translation}->{'Do you really want to delete this expression?'} = 'Wollen Sie diesen logischen Ausdruck wirklich löschen?';
@@ -1003,7 +1003,7 @@ sub Data {
     $Self->{Translation}->{'Shows a link in the menu that allows moving the time slot of a change in its zoom view of the agent interface.'} =
         'Zeigt in der Change-Detailansicht des Agenten-Interface einen Menü-Link zum Ändern des Zeitfensters.';
     $Self->{Translation}->{'Shows a link in the menu that allows taking a workorder in the its zoom view of the agent interface.'} =
-        '';
+        'Zeigt in der Arbeitsauftrag-Detailansicht im Agenten-Interface einen Menü-Link, der es erlaubt, einen Arbeitsauftrag zu übernehmen.';
     $Self->{Translation}->{'Shows a link in the menu to access the conditions of a change in the its zoom view of the agent interface.'} =
         'Zeigt in der Change Zoom Ansicht des Agenten-Interfaces einen Menu Link zum Zugriff auf die Bedingungen.';
     $Self->{Translation}->{'Shows a link in the menu to access the history of a change in the its zoom view of the agent interface.'} =
@@ -1019,7 +1019,7 @@ sub Data {
     $Self->{Translation}->{'Shows a link in the menu to edit a change in the its zoom view of the agent interface.'} =
         'Zeigt in der Change Zoom Ansicht des Agenten-Interfaces einen Menu Link zum Bearbeiten.';
     $Self->{Translation}->{'Shows a link in the menu to edit a workorder in the its zoom view of the agent interface.'} =
-        '';
+        'Zeigt im Menü der Arbeitsauftrag-Detailansicht im Agenten-Interface einen Link zum Bearbeiten eines Arbeitsauftrags.';
     $Self->{Translation}->{'Shows a link in the menu to go back in the change zoom view of the agent interface.'} =
         'Zeigt in der Change-Detailansicht des Agenten-Interface einen Menü-Link zum Zurückgehen.';
     $Self->{Translation}->{'Shows a link in the menu to go back in the workorder zoom view of the agent interface.'} =
@@ -1027,7 +1027,7 @@ sub Data {
     $Self->{Translation}->{'Shows a link in the menu to print a change in the its zoom view of the agent interface.'} =
         'Zeigt in der "Change Zoom" Ansicht der Agenten-Oberfläche einen  Menu Link der es erlaubt den Change auszudrucken.';
     $Self->{Translation}->{'Shows a link in the menu to print a workorder in the its zoom view of the agent interface.'} =
-        '';
+        'Zeigt im Menü der Arbeitsauftrag-Detailansicht im Agenten-Interface einen Link zum Ausdrucken eines Arbeitsauftrags.';
     $Self->{Translation}->{'Shows a link in the menu to reset a change and its workorders in its zoom view of the agent interface.'} =
         'Zeigt in der Change-Detailansicht des Agenten-Interface einen Menü-Link, der es erlaubt den Change und seine Arbeitsaufträge zurückzusetzen.';
     $Self->{Translation}->{'Shows a link in the menu to show the involved persons in a change, in the zoom view of the change in the agent interface.'} =

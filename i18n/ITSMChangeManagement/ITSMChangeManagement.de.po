@@ -2777,9 +2777,8 @@ msgid "Shows a link in the menu that allows moving the time slot of a change in 
 msgstr "Zeigt in der Change-Detailansicht des Agenten-Interface einen Menü-Link zum Ändern des Zeitfensters."
 
 #. SysConfig
-#, fuzzy
 msgid "Shows a link in the menu that allows taking a workorder in the its zoom view of the agent interface."
-msgstr ""
+msgstr "Zeigt in der Arbeitsauftrag-Detailansicht im Agenten-Interface einen Menü-Link, der es erlaubt, einen Arbeitsauftrag zu übernehmen."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the conditions of a change in the its zoom view of the agent interface."
@@ -2811,7 +2810,7 @@ msgstr "Zeigt in der Change Zoom Ansicht des Agenten-Interfaces einen Menu Link 
 
 #. SysConfig
 msgid "Shows a link in the menu to edit a workorder in the its zoom view of the agent interface."
-msgstr ""
+msgstr "Zeigt im Menü der Arbeitsauftrag-Detailansicht im Agenten-Interface einen Link zum Bearbeiten eines Arbeitsauftrags."
 
 #. SysConfig
 msgid "Shows a link in the menu to go back in the change zoom view of the agent interface."
@@ -2827,7 +2826,7 @@ msgstr "Zeigt in der \"Change Zoom\" Ansicht der Agenten-Oberfläche einen  Menu
 
 #. SysConfig
 msgid "Shows a link in the menu to print a workorder in the its zoom view of the agent interface."
-msgstr ""
+msgstr "Zeigt im Menü der Arbeitsauftrag-Detailansicht im Agenten-Interface einen Link zum Ausdrucken eines Arbeitsauftrags."
 
 #. SysConfig
 msgid "Shows a link in the menu to reset a change and its workorders in its zoom view of the agent interface."
@@ -3008,13 +3007,13 @@ msgstr "Filter für Benachrichtigungs-Regeln"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
 msgid "My CAB"
-msgstr ""
+msgstr "Mein CAB"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
 msgid "My Workorders"
-msgstr ""
+msgstr "Meine Arbeitsaufträge"
 
 #. JS File: var/httpd/htdocs/js/ITSM.Admin.ChangeManagement.ChangeNotification.js
 msgid "Delete Notification"
-msgstr ""
+msgstr "Benachrichtigung löschen"
 
