@@ -361,7 +361,6 @@ ITSM.Agent.ChangeManagement.Search = (function (TargetNS) {
                         }
                         else {
                            $('#SearchForm').submit();
-                           ShowWaitingDialog();
                         }
                     }
                     else { // Print and CSV should open in a new window, no waiting dialog
@@ -375,6 +374,16 @@ ITSM.Agent.ChangeManagement.Search = (function (TargetNS) {
                         }
                     }
                     return false;
+                });
+
+                Core.Form.Validate.Init();
+
+                Core.Form.Validate.SetSubmitFunction($('#SearchForm'), function (Form) {
+                    Form.submit();
+
+                    if ($('#SearchForm #ResultForm').val() === 'Normal') {
+                        ShowWaitingDialog();
+                    }
                 });
 
                 // load profile

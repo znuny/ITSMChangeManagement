@@ -1662,17 +1662,20 @@ sub _MaskForm {
         $TimeSelectionData{TimeStart} = $LayoutObject->BuildDateSelection(
             %Param,
             %TimePeriod,
-            Prefix   => $Prefix . 'TimeStart',
-            Format   => 'DateInputFormat',
-            Validate => 1,
-            DiffTime => -( ( 60 * 60 * 24 ) * 30 ),
+            Prefix                   => $Prefix . 'TimeStart',
+            Format                   => 'DateInputFormat',
+            Validate                 => 1,
+            DiffTime                 => -( ( 60 * 60 * 24 ) * 30 ),
+            ValidateDateBeforePrefix => $Prefix . 'TimeStop',
         );
 
         $TimeSelectionData{TimeStop} = $LayoutObject->BuildDateSelection(
             %Param,
             %TimePeriod,
-            Prefix => $Prefix . 'TimeStop',
-            Format => 'DateInputFormat',
+            Prefix                  => $Prefix . 'TimeStop',
+            Format                  => 'DateInputFormat',
+            Validate                => 1,
+            ValidateDateAfterPrefix => $Prefix . 'TimeStart',
         );
 
         # show time field

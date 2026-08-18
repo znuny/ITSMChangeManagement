@@ -9,7 +9,7 @@
 
 [% RenderBlockStart("SearchAJAX") %]
 <div class="InnerContent main-search-component">
-    <form class="search-ticket" action="[% Env("CGIHandle") %]" method="post" id="SearchForm">
+    <form class="Validate search-ticket" action="[% Env("CGIHandle") %]" method="post" id="SearchForm">
         <input type="hidden" name="Action" value="[% Env("Action") %]" id="SearchAction"/>
         <input type="hidden" name="Subaction" value="Search"/>
         <input type="hidden" name="EmptySearch" value="[% Data.EmptySearch | html %]" id="EmptySearch"/>
