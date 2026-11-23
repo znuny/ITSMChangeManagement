@@ -87,13 +87,24 @@ $Selenium->RunTest(
         # Wait until page has loaded, if necessary.
         $Selenium->WaitFor( JavaScript => 'return typeof($) === "function" && $("#SubmitSearch").length;' );
 
+        # Explicitly select Ticket as link target (same as ITSMWorkOrder test).
+        $Selenium->execute_script(
+            "\$('#TargetIdentifier').val('Ticket').trigger('redraw.InputField').trigger('change');"
+        );
+        sleep 2;
+        $Selenium->WaitFor(
+            JavaScript => "return typeof(\$) === 'function' && \$('input[name*=TicketNumber]').length;"
+        );
+
         # Select test created ticket to link with test created change.
         $Selenium->find_element("//input[\@name='SEARCH::TicketNumber']")->send_keys($TicketNumber);
 
         sleep(2);
 
         $Selenium->find_element("//button[\@value='Search'][\@type='submit']")->click();
-        $Selenium->WaitFor( JavaScript => "return \$('#LinkTargetKeys').length;" );
+        $Selenium->WaitFor(
+            JavaScript => "return typeof(\$) === 'function' && \$('input#LinkTargetKeys').length;"
+        );
         sleep 1;
 
         $Selenium->find_element( "#LinkTargetKeys", 'css' )->click();

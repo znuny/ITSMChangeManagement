@@ -115,7 +115,9 @@ $Selenium->RunTest(
 
         $Selenium->find_element("//input[\@name='SEARCH::TicketNumber']")->send_keys($TicketNumber);
         $Selenium->find_element("//button[\@value='Search'][\@type='submit']")->click();
-        $Selenium->WaitFor( JavaScript => "return \$('input#LinkTargetKeys').length;" );
+        $Selenium->WaitFor(
+            JavaScript => "return typeof(\$) === 'function' && \$('input#LinkTargetKeys').length;"
+        );
         sleep 1;
 
         $Selenium->find_element( "#LinkTargetKeys", 'css' )->click();
